@@ -9,7 +9,7 @@ source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 
 # Preguntas más frecuentes {#faq}
 
-## ID de organización IMS {#ims-org-id}
+## ID de organización de IMS {#ims-org-id}
 
 **¿Qué es un ID de organización de IMS?**
 
@@ -20,7 +20,7 @@ Para obtener más información, consulte la documentación [de](https://marketin
 
 **¿Dónde puedo encontrar mi ID de organización de IMS?**
 
-One way is to navigate to [Adobe Experience Cloud Home](https://exc-login.experiencecloud.adobe.com/exc-content/login.html?prefixtenantid=amc) &gt; **[!UICONTROL Administration]**. You will find your IMS Org ID at the bottom of Administration **[!UICONTROL Quick Access]** section. Puede encontrar información más detallada en la [documentación de Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+One way is to navigate to [Adobe Experience Cloud Home](https://exc-login.experiencecloud.adobe.com/exc-content/login.html?prefixtenantid=amc) > **[!UICONTROL Administration]**. You will find your IMS Org ID at the bottom of Administration**[!UICONTROL Quick Access]** section. Puede encontrar información más detallada en la [documentación de Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
 La otra manera es iniciar **Admin Console**. El ID de organización de IMS estará visible en la dirección URL, debería tener un aspecto similar al siguiente: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
@@ -44,7 +44,7 @@ Puede tener más de un ID de organización de IMS si tiene acceso a varias soluc
 
 Para comprobar si la instancia está alojada en AWS, siga estos pasos:
 
-1. Recupere la dirección URL de inicio de sesión. Es la dirección URL que utiliza para iniciar sesión en la instancia de Campaign. La mayoría de las veces termina con ".campaign.adobe.com".
+1. Recupere la dirección URL de inicio de sesión. Es la dirección URL que utiliza para iniciar sesión en la instancia de Campaign. La mayoría de las veces termina con &quot;.campaign.adobe.com&quot;.
 1. Abra el terminal y, a continuación, ejecute una operación **nslookup** en la dirección URL de inicio de sesión.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
@@ -69,7 +69,7 @@ Para comprobar si la instancia está alojada en AWS, siga estos pasos:
 
    `doe-macOS% nslookup 12.34.567.89`
 
-1. Compruebe el valor "name" en el resultado devuelto. Si contiene "amazonaws.com", significa que su instancia está alojada en AWS.
+1. Compruebe el valor &quot;name&quot; en el resultado devuelto. Si contiene &quot;amazonaws.com&quot;, significa que su instancia está alojada en AWS.
 
    ```
    doe-macOS% nslookup 12.34.567.89
