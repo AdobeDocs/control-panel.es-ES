@@ -19,18 +19,18 @@ Con las próximas versiones de Campaña, habrá más temas y tarjetas disponible
 
 ## Registros de trabajos {#job-logs}
 
-The **[!UICONTROL Job Logs]** button in the upper-right corner lets you audit all the changes that have been made by users of your organization.
+The **[!UICONTROL Job Logs]**button in the upper-right corner lets you audit all the changes that have been made by users of your organization.
 
 ![](assets/control_panel_interface2.png)
 
 Haga clic en un elemento de la lista para obtener más detalles.
 
-The **[!UICONTROL Open]** button allows you to access directly the Control Panel tab where the change has been made.
+The **[!UICONTROL Open]**button allows you to access directly the Control Panel tab where the change has been made.
 
 ![](assets/control_panel_logdetails2.png)
 
 ## Recursos de ayuda {#help-resources}
 
-La **[!UICONTROL Help Resources]** sección proporciona documentación útil para ayudarle en el uso del Panel de control y los productos de Campaña. No dudes en explorarlas.
+La **[!UICONTROL Help Resources]**sección proporciona documentación útil para ayudarle en el uso del Panel de control y los productos de Campaña. No dudes en explorarlas.
 
 ![](assets/helpresources2.png)
