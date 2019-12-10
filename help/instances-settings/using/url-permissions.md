@@ -37,7 +37,7 @@ Una vez que se agrega una URL, se hace referencia a ella en el archivo de config
 
 Para agregar una dirección URL a la que se pueda conectar su instancia, siga estos pasos:
 
-1. Abra la **[!UICONTROL Instances Settings]** tarjeta para acceder a la **[!UICONTROL URL Permissions]** ficha.
+1. Abra la **[!UICONTROL Instances Settings]**tarjeta para acceder a la**[!UICONTROL URL Permissions]** ficha.
 
    >[!NOTE]
    >
@@ -45,7 +45,7 @@ Para agregar una dirección URL a la que se pueda conectar su instancia, siga es
    >
    >La ficha Permisos <b><span class="uicontrol">de</span></b> URL muestra todas las direcciones URL externas a las que se puede conectar su instancia. Esta lista no incluye las direcciones URL necesarias para que Campaign funcione (por ejemplo, conexiones entre elementos de infraestructura).
 
-1. Seleccione en el panel izquierdo la instancia que desee y haga clic en el **[!UICONTROL Add new URL]** botón.
+1. Seleccione en el panel izquierdo la instancia que desee y haga clic en el **[!UICONTROL Add new URL]**botón.
 
    ![](assets/add_url1.png)
 
@@ -53,7 +53,7 @@ Para agregar una dirección URL a la que se pueda conectar su instancia, siga es
    >
    >Todas las instancias de campaña se muestran en la lista del panel izquierdo.
    >
-   >Como la administración de permisos de URL está dedicada únicamente a instancias de Campaign Classic, se muestra el mensaje "Instancia no aplicable" si selecciona una instancia de Campaign Standard.
+   >Como la administración de permisos de URL está dedicada únicamente a instancias de Campaign Classic, se muestra el mensaje &quot;Instancia no aplicable&quot; si selecciona una instancia de Campaign Standard.
 
 1. Escriba la dirección URL para autorizar, con su protocolo asociado (http, https o sftp).
 
@@ -67,11 +67,11 @@ Para agregar una dirección URL a la que se pueda conectar su instancia, siga es
 
    >[!NOTE]
    >
-   >La variable "/.*" caracteres se agregan automáticamente al final de la dirección URL que introduzca después de validarla, para cubrir todas las subpáginas de la página introducida.
+   >La variable &quot;/.*&quot; caracteres se agregan automáticamente al final de la dirección URL que introduzca después de validarla, para cubrir todas las subpáginas de la página introducida.
 
    ![](assets/add_url_listnew.png)
 
-Puede eliminar una dirección URL en cualquier momento seleccionándola y haciendo clic en el **[!UICONTROL Delete URL]** botón.
+Puede eliminar una dirección URL en cualquier momento seleccionándola y haciendo clic en el **[!UICONTROL Delete URL]**botón.
 
 Tenga en cuenta que, si elimina una dirección URL, su instancia no podrá volver a llamarla.
 
