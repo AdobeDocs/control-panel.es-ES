@@ -21,19 +21,19 @@ Antes de iniciar sesión en el servidor, asegúrese de que:
 
 Para conectarse al servidor SFTP, siga estos pasos:
 
-1. Launch the Control Panel, then select the **[!UICONTROL Key Management]** tab from the **[!UICONTROL SFTP]** card.
+1. Inicie el Panel de control y, a continuación, seleccione la **[!UICONTROL Key Management]**ficha de la**[!UICONTROL SFTP]** tarjeta.
 
    ![](assets/fingerprintNEW2.png)
 
-1. Inicie la aplicación cliente SFTP y, a continuación, copie y pegue la dirección del servidor desde el Panel de control, seguido de "campaign.adobe.com" y rellene el nombre de usuario.
+1. Inicie la aplicación cliente SFTP y, a continuación, copie y pegue la dirección del servidor desde el Panel de control, seguido de &quot;campaign.adobe.com&quot; y rellene el nombre de usuario.
 
    ![](assets/connect1.png)
 
-1. En el **[!UICONTROL SSH Private Key]** campo, seleccione el archivo de clave privada almacenado en el equipo. Corresponde a un archivo de texto con el mismo nombre que la clave pública, sin la extensión ".pub" (por ejemplo, "habilitar").
+1. En el **[!UICONTROL SSH Private Key]**campo, seleccione el archivo de clave privada almacenado en el equipo. Corresponde a un archivo de texto con el mismo nombre que la clave pública, sin la extensión &quot;.pub&quot; (por ejemplo, &quot;habilitar&quot;).
 
    ![](assets/connect2.png)
 
-   El **[!UICONTROL Password]** campo se rellena automáticamente con la clave privada del archivo.
+   El **[!UICONTROL Password]**campo se rellena automáticamente con la clave privada del archivo.
 
    ![](assets/connect3.png)
 
@@ -47,6 +47,6 @@ Para conectarse al servidor SFTP, siga estos pasos:
    >
    >`ssh-keygen -lf <path of the privatekey>`
 
-1. Una vez rellenada toda la información, haga clic en **[!UICONTROL Connect]** para iniciar sesión en el servidor SFTP.
+1. Una vez rellenada toda la información, haga clic en **[!UICONTROL Connect]**para iniciar sesión en el servidor SFTP.
 
    ![](assets/sftpconnected.png)
