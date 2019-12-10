@@ -35,7 +35,7 @@ Asegúrese de seguir las recomendaciones y limitaciones que se indican a continu
 
 Para incluir direcciones IP en la lista blanca, siga estos pasos:
 
-1. Abra la ficha **[!UICONTROL Instances Settings card]** para acceder a la lista de direcciones permitidas IP y haga clic en **[!UICONTROL Add new IP Range]**.
+1. Abra la ficha **[!UICONTROL Instances Settings card]**para acceder a la lista de direcciones permitidas IP y haga clic en**[!UICONTROL Add new IP Range]**.
 
    >[!NOTE]
    >
@@ -51,7 +51,7 @@ Para incluir direcciones IP en la lista blanca, siga estos pasos:
    * **[!UICONTROL IP Range]**:: Intervalo IP que desea incluir en la lista blanca, en formato CIDR. Tenga en cuenta que un intervalo IP no puede superponerse a un intervalo de la lista blanca existente. En ese caso, primero elimine el rango que contiene la IP superpuesta.
    >[!NOTE]
    >
-   >CIDR (Enrutamiento entre dominios sin clase) es el formato admitido al agregar intervalos de IP con la interfaz del Panel de control. La sintaxis consiste en una dirección IP, seguida de un carácter '/' y un número decimal. El formato y su sintaxis se detallan en [este artículo](https://whatismyipaddress.com/cidr).
+   >CIDR (Enrutamiento entre dominios sin clase) es el formato admitido al agregar intervalos de IP con la interfaz del Panel de control. La sintaxis consiste en una dirección IP, seguida de un carácter &#39;/&#39; y un número decimal. El formato y su sintaxis se detallan en [este artículo](https://whatismyipaddress.com/cidr).
    >
    >Puede buscar en Internet herramientas gratuitas en línea que le ayudarán a convertir la gama de IP que tiene en mano al formato CIDR.
 
@@ -66,11 +66,11 @@ Para incluir direcciones IP en la lista blanca, siga estos pasos:
    * **[!UICONTROL External API connection]**:: Se permitirá que las API externas con las direcciones IP especificadas se conecten a la instancia de Marketing y/o Centro de mensajes (RT). Tenga en cuenta que la conexión a la consola de instancias de RT no está habilitada.
    ![](assets/ip_whitelist_acesstype.png)
 
-1. Haga clic en el botón **.[!UICONTROL Save]** El intervalo de IP se agrega a la lista de direcciones IP permitidas.
+1. Haga clic en el botón **[!UICONTROL Save]**. El intervalo de IP se agrega a la lista de direcciones IP permitidas.
 
    ![](assets/ip_whitelist_added.png)
 
-Para eliminar los rangos de IP permitidos, selecciónelos y haga clic en el **[!UICONTROL Delete IP range]** botón .
+Para eliminar los rangos de IP permitidos, selecciónelos y haga clic en el **[!UICONTROL Delete IP range]**botón .
 
 **Temas relacionados:**
 * [Lista blanca de IP (vídeo de tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
