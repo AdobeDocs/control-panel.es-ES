@@ -41,7 +41,7 @@ En casos muy excepcionales, la autenticación basada en contraseña está habili
 >
 >Los pasos a continuación son un ejemplo de la creación de claves SSH solamente. Siga las directrices de su organización con respecto a las claves SSH. El ejemplo siguiente es sólo un ejemplo de cómo se puede hacer esto y sirve como punto de referencia útil para comunicar los requisitos a su equipo o grupo de red interno.
 
-1. Vaya a la **[!UICONTROL Key Management]** ficha y, a continuación, haga clic en el **[!UICONTROL Add public key]** botón.
+1. Vaya a la **[!UICONTROL Key Management]**ficha y, a continuación, haga clic en el**[!UICONTROL Add public key]** botón.
 
    ![](assets/key0.png)
 
@@ -67,21 +67,21 @@ En casos muy excepcionales, la autenticación basada en contraseña está habili
    1. Introduzca este comando: `ssh-keygen -t rsa -C <your_email@example.com>`.
    1. Proporcione un nombre a la clave cuando se le solicite. Si el directorio .ssh no existe, el sistema creará uno para usted.
    1. Introduzca y vuelva a introducir una frase de contraseña cuando se le solicite. También se puede dejar en blanco.
-   1. El sistema crea un par de claves "name" y "name.pub". Busque el archivo "name.pub" y ábralo. Debe tener una cadena alfanumérica que termine con la dirección de correo electrónico especificada.
+   1. El sistema crea un par de claves &quot;name&quot; y &quot;name.pub&quot;. Busque el archivo &quot;name.pub&quot; y ábralo. Debe tener una cadena alfanumérica que termine con la dirección de correo electrónico especificada.
    **Windows:**
 
-   Es posible que deba instalar una herramienta de terceros que le ayude a generar pares de clave pública/privada con el mismo formato "name.pub".
+   Es posible que deba instalar una herramienta de terceros que le ayude a generar pares de clave pública/privada con el mismo formato &quot;name.pub&quot;.
 
-1. Abra el archivo .pub y, a continuación, copie y pegue toda la cadena empezando por "ssh...". en el Panel de control.
+1. Abra el archivo .pub y, a continuación, copie y pegue toda la cadena empezando por &quot;ssh...&quot;. en el Panel de control.
 
    ![](assets/publickey.png)
 
-1. Haga clic en el **[!UICONTROL Save]** botón para crear la clave. El Panel de control guarda la clave pública y su huella digital asociada, cifrada con el formato SHA256.
+1. Haga clic en el **[!UICONTROL Save]**botón para crear la clave. El Panel de control guarda la clave pública y su huella digital asociada, cifrada con el formato SHA256.
 
 Puede utilizar las huellas digitales para que coincidan con las claves privadas guardadas en el equipo con las claves públicas correspondientes guardadas en el Panel de control.
 
 ![](assets/fingerprintNEW2.png)
 
-El "**...**" permite eliminar una clave existente o copiar su huella digital asociada en el portapapeles.
+El &quot;**...**&quot; permite eliminar una clave existente o copiar su huella digital asociada en el portapapeles.
 
 ![](assets/key_options.png)
