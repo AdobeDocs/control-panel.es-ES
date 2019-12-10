@@ -15,7 +15,7 @@ Los servidores SFTP están protegidos. Para poder acceder a ellos con el fin de 
 
 CIDR (Enrutamiento entre dominios sin clase) es el formato admitido al agregar intervalos de IP con la interfaz del Panel de control.
 
-La sintaxis consiste en una dirección IP, seguida de un carácter '/' y un número decimal. El formato y su sintaxis se detallan en [este artículo](https://whatismyipaddress.com/cidr).
+La sintaxis consiste en una dirección IP, seguida de un carácter &#39;/&#39; y un número decimal. El formato y su sintaxis se detallan en [este artículo](https://whatismyipaddress.com/cidr).
 
 Puede buscar en Internet herramientas gratuitas en línea que le ayudarán a convertir la gama de IP que tiene en mano al formato CIDR.
 
@@ -23,8 +23,8 @@ Puede buscar en Internet herramientas gratuitas en línea que le ayudarán a con
 
 Asegúrese de seguir las recomendaciones y limitaciones que se indican a continuación al incluir direcciones IP en la lista blanca en el Panel de control.
 
-* **Lista blanca de intervalos** IP en lugar de direcciones IP únicas. Para incluir una sola dirección IP en la lista blanca, añada un '/32' para indicar que el rango solo incluye una sola dirección IP.
-* **No incluya rangos** muy anchos en la lista de direcciones permitidas, por ejemplo, &gt; 265 direcciones IP. El Panel de control rechazará cualquier rango de formato CIDR que esté entre /0 y /23.
+* **Lista blanca de intervalos** IP en lugar de direcciones IP únicas. Para incluir una sola dirección IP en la lista blanca, añada un &#39;/32&#39; para indicar que el rango solo incluye una sola dirección IP.
+* **No incluya rangos** muy anchos en la lista de direcciones permitidas, por ejemplo, > 265 direcciones IP. El Panel de control rechazará cualquier rango de formato CIDR que esté entre /0 y /23.
 * Solo se pueden incluir en la lista blanca las direcciones **IP** públicas.
 * Asegúrese de eliminar **regularmente las direcciones** IP en la lista blanca que ya no necesite.
 
@@ -32,8 +32,8 @@ Asegúrese de seguir las recomendaciones y limitaciones que se indican a continu
 
 Para incluir un intervalo IP en la lista blanca, siga estos pasos:
 
-1. Open the **[!UICONTROL SFTP]** card, then select the **[!UICONTROL IP Whistelisting]** tab.
-1. Se muestra la lista de direcciones IP permitidas para cada instancia. Seleccione la instancia que desee en la lista de la izquierda y haga clic en el **[!UICONTROL Add new IP range]** botón.
+1. Abra la **[!UICONTROL SFTP]**tarjeta y seleccione la**[!UICONTROL IP Whistelisting]** ficha.
+1. Se muestra la lista de direcciones IP permitidas para cada instancia. Seleccione la instancia que desee en la lista de la izquierda y haga clic en el **[!UICONTROL Add new IP range]**botón.
 
    ![](assets/control_panel_add_range.png)
 
@@ -54,9 +54,9 @@ Para incluir un intervalo IP en la lista blanca, siga estos pasos:
 
    ![](assets/control_panel_add_range3.png)
 
-1. Haga clic en el botón **.[!UICONTROL Save]** La adición a la lista blanca de IP se mostrará como PENDIENTE hasta que la solicitud se procese por completo. Esto sólo debería tardar unos segundos.
+1. Haga clic en el botón **[!UICONTROL Save]**. La adición a la lista blanca de IP se mostrará como PENDIENTE hasta que la solicitud se procese por completo. Esto sólo debería tardar unos segundos.
 
-Para eliminar los rangos de IP permitidos, selecciónelos y haga clic en el **[!UICONTROL Delete IP range]** botón .
+Para eliminar los rangos de IP permitidos, selecciónelos y haga clic en el **[!UICONTROL Delete IP range]**botón .
 
 ![](assets/control_panel_delete_range2.png)
 
@@ -66,7 +66,7 @@ Para eliminar los rangos de IP permitidos, selecciónelos y haga clic en el **[!
 
 ## Control de cambios {#monitoring-changes}
 
-La **[!UICONTROL Job Logs]** página principal del Panel de control permite supervisar todos los cambios realizados en las direcciones IP permitidas.
+La **[!UICONTROL Job Logs]**página principal del Panel de control permite supervisar todos los cambios realizados en las direcciones IP permitidas.
 
 Para obtener más información sobre la interfaz del Panel de control, consulte [esta sección](../../discover/using/discovering-the-interface.md).
 
