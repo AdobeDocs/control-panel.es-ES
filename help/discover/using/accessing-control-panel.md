@@ -35,10 +35,10 @@ También se puede acceder al Panel de control desde el selector de **soluciones*
 >
 >Para las instancias de **Campaign Classic** , el acceso desde dentro del producto está disponible desde la versión de Campaign Classic 19.1 y posteriores.
 
-1. Abra el producto de Campaign Standard y seleccione el **[!UICONTROL Administration]** menú en el **[!UICONTROL Navigation]** panel.
+1. Abra el producto de Campaign Standard y seleccione el **[!UICONTROL Administration]**menú en el**[!UICONTROL Navigation]** panel.
 
    ![](assets/control_panel_access3.png)
 
-1. Click the **[!UICONTROL Control Panel]** icon.
+1. Haga clic en el **[!UICONTROL Control Panel]**icono.
 
    ![](assets/control_panel_access4new.png)
