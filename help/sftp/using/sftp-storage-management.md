@@ -20,11 +20,11 @@ Es esencial que supervise regularmente el espacio disponible para cada uno de lo
 
 ## Acceso a la información de capacidad de almacenamiento {#accessing-storage-capacity-information}
 
-La **[!UICONTROL Top utilized SFTP disk capacity]** sección del encabezado incluye los tres servidores más utilizados y conectados a las instancias a las que tiene acceso de administrador. Esta información está disponible en todas las fichas de la tarjeta SFTP.
+La **[!UICONTROL Top utilized SFTP disk capacity]**sección del encabezado incluye los tres servidores más utilizados y conectados a las instancias a las que tiene acceso de administrador. Esta información está disponible en todas las fichas de la tarjeta SFTP.
 
 ![](assets/control_panel_topspaceNEW.png)
 
-La información sobre el espacio utilizado por todas las instancias a las que tiene acceso está disponible en la **[!UICONTROL Storage]** ficha de la tarjeta SFTP. Se actualiza en cada actualización de página.
+La información sobre el espacio utilizado por todas las instancias a las que tiene acceso está disponible en la **[!UICONTROL Storage]**ficha de la tarjeta SFTP. Se actualiza en cada actualización de página.
 
 ![](assets/control_panel_spaceNEW.png)
 
