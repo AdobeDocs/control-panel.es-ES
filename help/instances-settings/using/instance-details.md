@@ -32,7 +32,7 @@ La funcionalidad Detalles de instancia permite ver la arquitectura plana de la i
 
 Para obtener información sobre los servidores conectados a las instancias, siga estos pasos:
 
-1. Abra la **[!UICONTROL Instances Settings]** tarjeta para acceder a la **[!UICONTROL Instance Details]** ficha.
+1. Abra la **[!UICONTROL Instances Settings]**tarjeta para acceder a la**[!UICONTROL Instance Details]** ficha.
 
    >[!NOTE]
    >
@@ -42,7 +42,7 @@ Para obtener información sobre los servidores conectados a las instancias, siga
 
    >[!NOTE]
    >
-   >Todas las instancias de campaña se muestran en la lista del panel izquierdo. Como la función Detalles de instancia está dedicada únicamente a instancias de Campaign Classic, se muestra el mensaje "Instancia no aplicable" si selecciona una instancia de Campaign Standard.
+   >Todas las instancias de campaña se muestran en la lista del panel izquierdo. Como la función Detalles de instancia está dedicada únicamente a instancias de Campaign Classic, se muestra el mensaje &quot;Instancia no aplicable&quot; si selecciona una instancia de Campaign Standard.
 
 1. Se muestran los servidores conectados a la instancia.
 
@@ -52,7 +52,7 @@ La información disponible es:
 
 * **[!UICONTROL Type]**:: tipo del servidor. Los valores posibles son MKT (Marketing), MID (fuentes intermedias) y RT (mensajes del centro de mensajes / mensajes en tiempo real).
 * **[!UICONTROL Name]**:: el nombre del servidor.
-* **[!UICONTROL Build:]** la versión de compilación instalada en el servidor.
+* **[!UICONTROL Build:]**la versión de compilación instalada en el servidor.
 * **[!UICONTROL Upgrade info]**:: esta columna le informa si se requiere alguna actualización para el servidor.
    * Verde: su servidor está actualizado, no se requiere ninguna actualización.
    * Amarillo: debe considerar la posibilidad de actualizar. Le faltan las funciones y correcciones más recientes.
@@ -66,4 +66,4 @@ Si es necesario actualizar uno de los servidores, consulte [esta documentación]
 
 Su propia instancia puede tener un aspecto muy diferente y es posible que no tenga todos los tipos de servidores, o que tenga varios del mismo servidor. No tener un tipo de servidor u otro no significa que no pueda enviar un mensaje en tiempo real ni realizar otros tipos de actividades. Puede solicitar capacidad adicional del servidor, se aplicarán tarifas adicionales.
 
-Póngase en contacto con el Servicio de atención al cliente si cree que algunos servidores no se muestran en la página "Detalles de la instancia". Asegúrese de anotar la URL de instancia específica en el mensaje.
+Póngase en contacto con el Servicio de atención al cliente si cree que algunos servidores no se muestran en la página &quot;Detalles de la instancia&quot;. Asegúrese de anotar la URL de instancia específica en el mensaje.
