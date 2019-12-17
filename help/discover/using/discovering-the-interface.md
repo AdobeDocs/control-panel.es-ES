@@ -2,7 +2,7 @@
 title: Descubrimiento de la interfaz del Panel de control
 description: Más información sobre la interfaz del Panel de control
 translation-type: tm+mt
-source-git-commit: ac7d673028d823516c48a1d6874e05086d672647
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -27,10 +27,10 @@ Haga clic en un elemento de la lista para obtener más detalles.
 
 The **[!UICONTROL Open]**button allows you to access directly the Control Panel tab where the change has been made.
 
-![](assets/control_panel_logdetails2.png)
+![](assets/control_panel_logdetails.png)
 
 ## Recursos de ayuda {#help-resources}
 
 La **[!UICONTROL Help Resources]**sección proporciona documentación útil para ayudarle en el uso del Panel de control y los productos de Campaña. No dudes en explorarlas.
 
-![](assets/helpresources2.png)
+![](assets/helpresources.png)
