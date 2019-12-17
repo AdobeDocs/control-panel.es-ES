@@ -2,7 +2,7 @@
 title: Lista blanca de IP
 description: Obtenga más información sobre la lista de direcciones permitidas IP en el Panel de control, por ejemplo, el acceso
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -55,7 +55,7 @@ Para incluir direcciones IP en la lista blanca, siga estos pasos:
    >
    >Puede buscar en Internet herramientas gratuitas en línea que le ayudarán a convertir la gama de IP que tiene en mano al formato CIDR.
 
-   * **!UICONTROL Label]**:: Etiqueta que se mostrará en la lista de direcciones IP permitidas.
+   * **[!UICONTROL Label]**:: Etiqueta que se mostrará en la lista de direcciones IP permitidas.
    * **[!UICONTROL Name]**:: El nombre debe ser único para el tipo de acceso, la instancia (en caso de conexión API externa) y la dirección IP.
 
 
