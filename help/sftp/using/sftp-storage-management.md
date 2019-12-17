@@ -2,7 +2,7 @@
 title: Administración de almacenamiento SFTP
 description: Obtenga información sobre cómo supervisar y administrar el almacenamiento del servidor SFTP
 translation-type: tm+mt
-source-git-commit: 111c8fd461f6f1c567288acd7a83aee5ef7fce97
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -15,18 +15,18 @@ Es esencial que supervise regularmente el espacio disponible para cada uno de lo
 
 **Temas relacionados:**
 
-* [Vídeo del tutorial de Campaign Standard](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/managing-sftp-servers.html)
+* [Vídeo del tutorial de Campaign Standard](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/monitoring-server-capacity-whitelisting-adding-ssh-key.html)
 * [Vídeo del tutorial de Campaign Classic](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/managing-sftp-servers.html)
 
 ## Acceso a la información de capacidad de almacenamiento {#accessing-storage-capacity-information}
 
 La **[!UICONTROL Top utilized SFTP disk capacity]**sección del encabezado incluye los tres servidores más utilizados y conectados a las instancias a las que tiene acceso de administrador. Esta información está disponible en todas las fichas de la tarjeta SFTP.
 
-![](assets/control_panel_topspaceNEW.png)
+![](assets/control_panel_topspace.png)
 
 La información sobre el espacio utilizado por todas las instancias a las que tiene acceso está disponible en la **[!UICONTROL Storage]**ficha de la tarjeta SFTP. Se actualiza en cada actualización de página.
 
-![](assets/control_panel_spaceNEW.png)
+![](assets/control_panel_space.png)
 
 Para cada caso, una alerta visual le permite saber cuándo su almacenamiento supera su capacidad:
 
