@@ -2,7 +2,7 @@
 title: Acceso al Panel de control
 description: Obtenga información sobre cómo acceder al Panel de control
 translation-type: tm+mt
-source-git-commit: ac7d673028d823516c48a1d6874e05086d672647
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -17,17 +17,17 @@ Solo es accesible para usuarios **administradores** . Para obtener más informac
 
 Para acceder al Panel de control desde Experience Cloud Platform, vaya a la [página de inicio de Experience Cloud Platform](https://amc.experiencecloud.adobe.com/) y, a continuación, haga clic en el vínculo específico en la sección **Acceso rápido**.
 
-![](assets/quickaccess.png)
+![](assets/do-not-localize/quickaccess.png)
 
 También se puede acceder al Panel de control desde el selector de **soluciones** de la plataforma de Experience Cloud:
 
 1. Vaya a [Adobe Experience Cloud](https://amc.experiencecloud.adobe.com/)y, a continuación, seleccione **Campaign** en el selector de soluciones.
 
-   ![](assets/control_panel_access1.png)
+   ![](assets/do-not-localize/control_panel_access1.png)
 
 1. Se muestra la lista de instancias de Campaign. Haga clic en la tarjeta **Panel** de control para iniciarla.
 
-   ![](assets/control_panel_access2NEW.png)
+   ![](assets/do-not-localize/control_panel_access2.png)
 
 ## Acceso desde el producto {#access-product}
 
@@ -41,4 +41,4 @@ También se puede acceder al Panel de control desde el selector de **soluciones*
 
 1. Haga clic en el **[!UICONTROL Control Panel]**icono.
 
-   ![](assets/control_panel_access4new.png)
+   ![](assets/control_panel_access4.png)
