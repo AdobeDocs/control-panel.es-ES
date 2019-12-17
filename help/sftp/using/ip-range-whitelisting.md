@@ -2,7 +2,7 @@
 title: Lista blanca del rango de IP
 description: Obtenga información sobre cómo incluir en la lista blanca los rangos IP para el acceso a los servidores SFTP
 translation-type: tm+mt
-source-git-commit: e080a86cc598581b75cffd622b2109e10355130a
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -70,4 +70,4 @@ La **[!UICONTROL Job Logs]**página principal del Panel de control permite super
 
 Para obtener más información sobre la interfaz del Panel de control, consulte [esta sección](../../discover/using/discovering-the-interface.md).
 
-![](assets/control_panel_ip_logNEW.png)
+![](assets/control_panel_ip_log.png)
