@@ -2,7 +2,7 @@
 title: Administración de claves
 description: Obtenga información sobre cómo administrar las claves para conectarse a los servidores SFTP
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -80,7 +80,7 @@ En casos muy excepcionales, la autenticación basada en contraseña está habili
 
 Puede utilizar las huellas digitales para que coincidan con las claves privadas guardadas en el equipo con las claves públicas correspondientes guardadas en el Panel de control.
 
-![](assets/fingerprintNEW2.png)
+![](assets/fingerprint_compare.png)
 
 El &quot;**...**&quot; permite eliminar una clave existente o copiar su huella digital asociada en el portapapeles.
 
