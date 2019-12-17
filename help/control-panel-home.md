@@ -1,14 +1,14 @@
 ---
 title: Documentación del producto
 translation-type: tm+mt
-source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
 
 # Centro de ayuda {#control-panel-documentation}
 
-![](assets/banner.png)
+![](assets/do-not-localize/banner.png)
 
 ## Acerca del Panel de control {#about-control-panel}
 
@@ -28,22 +28,22 @@ Ventajas principales:
 <table>
 <tr>
     <td>
-        <a href="discover/using/accessing-control-panel.md"><img alt="condiciones" src="assets/discover.png"/></a>
+        <a href="discover/using/accessing-control-panel.md"><img alt="condiciones" src="assets/do-not-localize/discover.png"/></a>
         <div><a href="discover/using/accessing-control-panel.md"><strong>Panel de control de Discover</strong></a></div>
         <em>Obtenga más información sobre el Panel de control y cómo acceder a él.</em>
     </td>
     <td>
-        <a href="sftp/using/about-sftp-management.md"><img alt="condiciones" src="assets/sftp.png"/></a>
+        <a href="sftp/using/about-sftp-management.md"><img alt="condiciones" src="assets/do-not-localize/sftp.png"/></a>
         <div><a href="sftp/using/about-sftp-management.md"><strong>Monitorear los servidores SFTP</strong></a></div>
         <em>Obtenga información sobre cómo administrar los servidores SFTP.</em>
     </td>
     <td>
-        <a href="subdomains-certificates/using/about-ssl-certificates.md"><img alt="condiciones" src="assets/subdomains.png"/></a>
-        <div><a href="subdomains-certificates/using/about-ssl-certificates.md"><strong>Monitoreo de los subdominios</strong></a></div>
+        <a href="subdomains-certificates/using/subdomains-branding.md"><img alt="condiciones" src="assets/do-not-localize/subdomains.png"/></a>
+        <div><a href="subdomains-certificates/using/subdomains-branding.md"><strong>Monitoreo de los subdominios</strong></a></div>
         <em>Obtenga información sobre cómo supervisar los subdominios y sus certificados.</em>
     </td>
     <td>
-        <a href="instances-settings/using/ip-whitelisting-instance-access.md"><img alt="condiciones" src="assets/instance_settings.png"/></a>
+        <a href="instances-settings/using/ip-whitelisting-instance-access.md"><img alt="condiciones" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="instances-settings/using/ip-whitelisting-instance-access.md"><strong>Administrar la configuración de la instancia</strong></a></div>
         <br/><em>Obtenga información sobre cómo administrar la configuración de instancias (solo Campaign Classic)</em>
     </td>
