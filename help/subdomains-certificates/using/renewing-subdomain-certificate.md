@@ -2,14 +2,14 @@
 title: Renovación del certificado SSL de un subdominio
 description: Obtenga información sobre cómo renovar los certificados SSL de los subdominios
 translation-type: tm+mt
-source-git-commit: 5573fc7c098128b6672c2aaf0f6fc74b80849576
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
 
 # Renovación del certificado SSL de un subdominio {#renewing-subdomains-ssl-certificates}
 
-## Acerca del proceso de renovación de certificados {#about-certificate-renewal-process}
+## Acerca de la renovación de certificados {#about-certificate-renewal-process}
 
 El proceso de renovación de certificados SSL incluye 3 pasos, que se realizan directamente desde el Panel de control:
 
@@ -17,7 +17,7 @@ El proceso de renovación de certificados SSL incluye 3 pasos, que se realizan d
 1. **Compra del certificado** SSL Una vez generado el CSR, puede descargarlo y utilizarlo para adquirir el certificado SSL de la entidad emisora de certificados que apruebe su empresa.
 1. **Instalación del certificado** SSL Una vez adquirido el certificado SSL, puede instalarlo en el subdominio deseado.
 
-### Generación de una solicitud de firma de certificado (CSR) {#generating-csr}
+## Generación de una solicitud de firma de certificado (CSR) {#generating-csr}
 
 Para generar una solicitud de firma de certificado (CSR), siga estos pasos:
 
@@ -52,7 +52,11 @@ Para generar una solicitud de firma de certificado (CSR), siga estos pasos:
 
 1. El archivo .csr correspondiente a su selección se genera y descarga automáticamente. Ahora puede utilizarla para adquirir el certificado SSL de la entidad emisora de certificados que apruebe su empresa.
 
-## Instalación de un certificado SSL {#installing-ssl-certificate}
+## Compra de un certificado con el CSR {#purchasing-certificate}
+
+Después de obtener un CSR de solicitud de firma de certificado del Panel de control, compre un certificado SSL de una autoridad de certificación aprobada por su organización.
+
+## Instalación del certificado SSL {#installing-ssl-certificate}
 
 Una vez adquirido un certificado SSL, siga estos pasos para instalarlo en su instancia.
 
