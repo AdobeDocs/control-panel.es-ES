@@ -2,7 +2,7 @@
 title: Supervisión de los certificados SSL de los subdominios
 description: Obtenga información sobre cómo supervisar los certificados SSL de los subdominios
 translation-type: tm+mt
-source-git-commit: cde5b58c1cf65d23b68c5fa6b1a484fc6db40325
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -17,31 +17,6 @@ Adobe Campaign recomienda proteger los subdominios que alojan las páginas de at
 
 **Los certificados SSL se proporcionan para un período de tiempo** específico (1 año, 60 días, etc.). Una vez que caduca un certificado, puede experimentar problemas al acceder a las páginas de aterrizaje o al usar recursos del subdominio. Para evitarlo, el Panel de control le permite supervisar los certificados SSL de los subdominios, así como iniciar el proceso de renovación.
 
-Más detalles sobre la delegación de subdominios están disponibles [aquí](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+![](assets/no_certificate.png)
 
-La **[!UICONTROL Subdomains and Certificates]**tarjeta le permite ver cuáles de los subdominios y subdominios asociados albergan sus páginas de aterrizaje y recursos con certificados SSL instalados en ellos.
-
-También puede ver fácilmente qué subdominios tienen certificados caducados y renovarlos si es necesario.
-
->[!NOTE]
->
->Adobe recomienda renovar un certificado SSL de los subdominios asociados **cuando esté cerca de la fecha de expiración**. La renovación de certificados puede llevar unos días en función de su organización, por ello, le recomendamos que asigne el tiempo adecuado para este proceso.
-<!-- note to remove? immediate, no more delay? -->
-
-La lista de subdominios de cada una de las instancias es accesible directamente al seleccionar la **[!UICONTROL Subdomains & Certificates]**tarjeta.
-
-Los subdominios se organizan según la fecha de caducidad más próxima del certificado SSL, con información visual sobre la caducidad, en días:
-
-* **Verde**: el subdominio no tiene un certificado que caduque en los próximos 60 días.
-* **Naranja**: uno o varios subdominios tienen un certificado que caducará en los próximos 60 días.
-* **Rojo**: uno o varios subdominios tienen un certificado que caducará en los próximos 30 días.
-
-![](assets/visual_alert2.png)
-
-To get more details on a subdomain&#39;s certificates, click the **[!UICONTROL Certificate Details]**button.
-
-![](assets/certificate_details4.png)
-
-La lista de todos los subdominios relacionados se mostrará en sus certificados. Generalmente incluye subdominios de páginas de aterrizaje, páginas de recursos, etc.
-
-![](assets/monitoring_subdomains_details2.png)
+Si uno de los certificados SSL de un subdominio está a punto de caducar, puede renovarlo correctamente desde el Panel de control. Para obtener más información sobre esto, consulte esta sección: [Renovación del certificado](../../subdomains-certificates/using/renewing-subdomain-certificate.md)SSL de un subdominio.
