@@ -2,18 +2,18 @@
 title: Administración de permisos del Panel de control
 description: Obtenga información sobre cómo administrar los permisos del Panel de control
 translation-type: tm+mt
-source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
 
-# Administración de permisos en el Panel de control {#managing-permissions-control-panel}
+# Administración de permisos al Panel de control {#managing-permissions-control-panel}
 
 El Panel de control está disponible para todos los usuarios administradores de una instancia de Campaign. Siga los pasos a continuación para asignar usuarios al grupo Administradores y otorgarles acceso al Panel de control.
 
 1. Vaya a [Adobe Experience Cloud](https://amc.experiencecloud.adobe.com/exc-content/login.html)y, a continuación, seleccione la **[!UICONTROL Administration]**ficha.
 
-   ![](assets/control_panel_add_user1.png)
+   ![](assets/do-not-localize/control_panel_add_user1.png)
 
    >[!NOTE]
    >
@@ -21,11 +21,11 @@ El Panel de control está disponible para todos los usuarios administradores de 
 
 1. Inicie la **Consola** de administración haciendo clic en los vínculos disponibles.
 
-   ![](assets/control_panel_admin1.png)
+   ![](assets/do-not-localize/control_panel_admin1.png)
 
 1. Seleccione el producto de campaña deseado.
 
-   ![](assets/control_panel_add_user3.png)
+   ![](assets/do-not-localize/control_panel_add_user3.png)
 
    >[!NOTE]
    >
@@ -33,7 +33,7 @@ El Panel de control está disponible para todos los usuarios administradores de 
 
 1. Se muestra la lista de instancias del producto de la campaña. Seleccione la instancia a la que desee agregar un usuario administrador.
 
-   ![](assets/control_panel_add_user4.png)
+   ![](assets/do-not-localize/control_panel_add_user4.png)
 
    >[!NOTE]
    >
@@ -41,7 +41,7 @@ El Panel de control está disponible para todos los usuarios administradores de 
 
 1. Se muestra la lista de perfiles de producto de la instancia seleccionada. Haga clic en el perfil del **[!UICONTROL Administrators]**producto para acceder a la lista de usuarios administradores.
 
-   ![](assets/control_panel_add_user_5.png)
+   ![](assets/do-not-localize/control_panel_add_user_5.png)
 
    >[!NOTE]
    >
@@ -49,4 +49,4 @@ El Panel de control está disponible para todos los usuarios administradores de 
 
 1. Se muestra la lista de usuarios administradores. Haga clic en el **[!UICONTROL Add User]**botón para agregar el usuario deseado.
 
-   ![](assets/control_panel_add_user_6.png)
+   ![](assets/do-not-localize/control_panel_add_user_6.png)
