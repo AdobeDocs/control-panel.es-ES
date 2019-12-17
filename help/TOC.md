@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -24,8 +24,13 @@ source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
    + [Inicio de sesión en el servidor SFTP](sftp/using/logging-into-sftp-server.md)
    + [Preguntas frecuentes](sftp/using/common-questions.md)
 + Subdominios y certificados {#subdomains-and-certificates}
-   + [Acerca de los certificados SSL](subdomains-certificates/using/about-ssl-certificates.md)
-   + [Administración de los certificados SSL de los subdominios](subdomains-certificates/using/managing-ssl-certificates.md)
+   + Administración de subdominios {#managing-subdomains}
+      + [Marca de subdominios](subdomains-certificates/using/subdomains-branding.md)
+      + [Supervisión de subdominios](subdomains-certificates/using/monitoring-subdomains.md)
+      + [Configuración de un nuevo subdominio](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + Administración de certificados SSL {administración-certificados}
+      + [Supervisión de certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
+      + [Renovación de certificados SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
 + Configuración de instancias (Campaign Classic) {#instances-settings}
    + [Lista blanca de IP para acceso de instancia](instances-settings/using/ip-whitelisting-instance-access.md)
    + [Permisos de URL](instances-settings/using/url-permissions.md)
