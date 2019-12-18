@@ -28,7 +28,7 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
       + [Marca de subdominios](subdomains-certificates/using/subdomains-branding.md)
       + [Supervisión de subdominios](subdomains-certificates/using/monitoring-subdomains.md)
       + [Configuración de un nuevo subdominio](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + Administración de certificados SSL {administración-certificados}
+   + Administración de certificados SSL {#managing-ceritficates}
       + [Supervisión de certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Renovación de certificados SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
 + Configuración de instancias (Campaign Classic) {#instances-settings}
