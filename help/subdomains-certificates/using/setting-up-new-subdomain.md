@@ -2,12 +2,16 @@
 title: Configuración de un nuevo subdominio
 description: Obtenga información sobre cómo configurar un nuevo subdominio para las instancias de campaña
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 ---
 
 
 # Configuración de un nuevo subdominio {#setting-up-subdomain}
+
+>[!NOTE]
+>
+>La delegación de subdominios del Panel de control se encuentra actualmente en fase beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
 
 ## Delegación de subdominios completa {#full-subdomain-delegation}
 
@@ -15,25 +19,29 @@ El Panel de control permite delegar completamente un subdominio a Adobe Campaign
 
 1. En la **[!UICONTROL Subdomains & Certificates]**tarjeta, seleccione la instancia de producción que desee y haga clic en**[!UICONTROL Setup new subdomain]**.
 
+   ![](assets/subdomain1.png)
+
    >[!NOTE]
    >
    >La delegación de subdominios solo está disponible para instancias **de producción** .
 
-   ![](assets/subdomain1.png)
-
 1. Haga clic en **[!UICONTROL Next]**para confirmar el método de delegación completo.
+
+   ![](assets/subdomain3.png)
 
    >[!NOTE]
    >
    >[El Panel de control no admite actualmente CNAME](#use-cnames) ni métodos personalizados.
 
-   ![](assets/subdomain3.png)
+1. Cree los subdominios y servidores de nombres deseados en la solución de hospedaje utilizada por su organización. Para ello, copie y pegue la información del servidor de nombres de Adobe que se muestra en el asistente. Para obtener más información sobre cómo crear un subdominio en una solución de alojamiento, consulte el vídeo [del](https://video.tv.adobe.com/v/30175?captions=spa)tutorial.
 
-1. Cree los subdominios y servidores de nombres deseados en la solución de hospedaje utilizada por su organización. Para ello, copie y pegue la información del servidor de nombres de Adobe que se muestra en el asistente.
-
-   Para obtener más información sobre cómo crear un subdominio en una solución de alojamiento, consulte este vídeo de tutorial.
+   >[!CAUTION]
+   >
+   >Al configurar servidores de nombres, asegúrese de que **nunca delega su subdominio raíz a Adobe**. De lo contrario, el dominio solo podrá trabajar con Adobe. Cualquier otro uso será imposible, como por ejemplo enviar correos electrónicos internos a los empleados de la organización.
 
    ![](assets/subdomain4.png)
+
+   Tenga en cuenta que si no tiene ningún subdominio configurado, el subdominio que está configurando se considerará el subdominio **** principal. Las bandejas de entrada (remitente, error, direcciones de respuesta) permanecerán iguales para todos los subdominios configurados posteriormente en este subdominio.
 
    Una vez creado el subdominio con la información correspondiente del servidor de nombres de Adobe, haga clic en **[!UICONTROL Next]**.
 
@@ -63,14 +71,30 @@ El Panel de control permite delegar completamente un subdominio a Adobe Campaign
 
    ![](assets/subdomain7.png)
 
-Al final del proceso, los subdominios estarán configurados para funcionar con la instancia de Adobe Campaign y se crearán los elementos siguientes:
+   >[!NOTE]
+   >
+   >En algunos casos, la delegación pasa por ahí, pero es posible que el subdominio no se haya verificado correctamente. El subdominio irá directamente a la **[!UICONTROL Verified subdomains]**lista con el**[!UICONTROL Unverified]** estado y un registro de trabajo que proporciona información sobre el error. Póngase en contacto con el Servicio de atención al cliente si tiene problemas para resolver el problema.
+   >
+   >Tenga en cuenta que mientras se ejecuta la delegación de subdominios, otras solicitudes a través del Panel de control se pondrán en cola y se realizarán solamente después de que finalice la Delegación de subdominios, para evitar cualquier problema de rendimiento.
+
+Al final del proceso, los subdominios se configurarán para que funcionen con la instancia de Adobe Campaign y se crearán los elementos siguientes:
 
 * **El subdominio** con los siguientes registros **** DNS: SOA, MX, CNAME(s), DKIM, SPF, TXT,
 * **Subdominios** adicionales para el espejo de host, el recurso, las páginas de seguimiento y el dominio,
 * **Bandeja de entrada**: Remitente, Error, Responder.
 
+Para obtener más información sobre el subdominio, haga clic en el **[!UICONTROL Subdomain Details]**botón .
+
+![](assets/subdomain_details_general.png)
+
+![](assets/subdomains_details_senderinfo.png)
+
+>[!NOTE]
+>
+>Además de la etapa de procesamiento, Adobe notificará al equipo de entregabilidad el nuevo subdominio para que audite el subdominio que se ha creado. El proceso de auditoría puede tardar hasta 3 días después de delegarse el subdominio.
+>
+>Las comprobaciones que se realizan incluyen bucles de comentarios y pruebas de bucles de quejas de spam. Por lo tanto, no recomendamos el uso del subdominio antes de que se haya completado la auditoría, ya que podría provocar una mala reputación de subdominio.
+
 ## Uso de CNAME {#use-cnames}
 
-Adobe no recomienda el uso de CNAME para la delegación de subdominios y no es compatible con el Panel de control.
-
-Para utilizar este método, póngase en contacto con el servicio de atención al cliente de Adobe.
+Adobe no recomienda el uso de CNAME para la delegación de subdominios y no es compatible con el Panel de control. Para utilizar este método, póngase en contacto con el Servicio de atención al cliente de Adobe.
