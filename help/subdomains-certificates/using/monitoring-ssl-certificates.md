@@ -2,7 +2,7 @@
 title: Supervisión de los certificados SSL de los subdominios
 description: Obtenga información sobre cómo supervisar los certificados SSL de los subdominios
 translation-type: tm+mt
-source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
+source-git-commit: 001064877594a10733c054f925f254545f93145d
 
 ---
 
