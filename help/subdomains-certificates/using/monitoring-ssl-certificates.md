@@ -2,7 +2,7 @@
 title: Supervisión de los certificados SSL de los subdominios
 description: Obtenga información sobre cómo supervisar los certificados SSL de los subdominios
 translation-type: tm+mt
-source-git-commit: 001064877594a10733c054f925f254545f93145d
+source-git-commit: 7726a8ef8863d2e2d57e5be7ade7de636a7d2ea1
 
 ---
 
@@ -45,4 +45,4 @@ Si uno de los certificados SSL de su subdominio está a punto de caducar, puede 
 
 >[!NOTE]
 >
->La renovación de certificados del Panel de control pronto estará disponible en versión beta. Mientras tanto, consulte [esta página](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html) para obtener más información sobre cómo supervisar los certificados dentro del Panel de control.
+>La renovación de certificados del Panel de control estará disponible en versión beta a finales de enero.
