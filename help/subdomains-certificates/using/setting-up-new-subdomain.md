@@ -2,7 +2,7 @@
 title: Configuración de un nuevo subdominio
 description: Obtenga información sobre cómo configurar un nuevo subdominio para las instancias de campaña
 translation-type: tm+mt
-source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
+source-git-commit: 766ff590d83929eeddb69113904643517c1475ad
 
 ---
 
@@ -15,7 +15,12 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 ## Delegación de subdominios completa {#full-subdomain-delegation}
 
-El Panel de control permite delegar completamente un subdominio a Adobe Campaign. Para ello, siga estos pasos:
+El Panel de control permite delegar completamente un subdominio a Adobe Campaign. Para realizar esto, siga los pasos a continuación.
+
+>[!NOTE]
+>
+>Si no tiene ningún subdominio configurado para Adobe, el primer subdominio que configurará se considerará un subdominio ****principal.
+>Se creará un registro **DNS** inverso y se establecerá como subdominio de envío predeterminado para las bandejas de entrada (remitente, respuesta, direcciones de correo electrónico de error).
 
 1. En la **[!UICONTROL Subdomains & Certificates]**tarjeta, seleccione la instancia de producción que desee y haga clic en**[!UICONTROL Setup new subdomain]**.
 
@@ -41,8 +46,6 @@ El Panel de control permite delegar completamente un subdominio a Adobe Campaign
 
    ![](assets/subdomain4.png)
 
-   Tenga en cuenta que si no tiene ningún subdominio configurado, el subdominio que está configurando se considerará el subdominio **** principal. Las bandejas de entrada (remitente, error, direcciones de respuesta) permanecerán iguales para todos los subdominios configurados posteriormente en este subdominio.
-
    Una vez creado el subdominio con la información correspondiente del servidor de nombres de Adobe, haga clic en **[!UICONTROL Next]**.
 
 1. Seleccione el caso de uso que desee para el subdominio:
@@ -65,7 +68,7 @@ El Panel de control permite delegar completamente un subdominio a Adobe Campaign
 
    ![](assets/subdomain6.png)
 
-1. Una vez enviado el subdominio, el Panel de control comprobará que señala correctamente los registros NS de Adobe y que el registro de inicio de autoridad (SOA) no existe para este subdominio.
+1. Una vez enviado el subdominio, el Panel de control comprobará que señala correctamente a los registros NS de Adobe y que el registro de inicio de autoridad (SOA) no existe para este subdominio.
 
 1. Si las comprobaciones son correctas, el Panel de control empezará a configurar el subdominio con registros DNS, direcciones URL adicionales, bandejas de entrada, etc. Para obtener más detalles sobre el progreso de la configuración, haga clic en el **[!UICONTROL Process details]**botón .
 
@@ -80,8 +83,13 @@ El Panel de control permite delegar completamente un subdominio a Adobe Campaign
 Al final del proceso, los subdominios se configurarán para que funcionen con la instancia de Adobe Campaign y se crearán los elementos siguientes:
 
 * **El subdominio** con los siguientes registros **** DNS: SOA, MX, CNAME(s), DKIM, SPF, TXT,
-* **Subdominios** adicionales para el espejo de host, el recurso, las páginas de seguimiento y el dominio,
+* **Subdominios** adicionales a réplica de host, recurso, páginas de seguimiento y clave de dominio,
 * **Bandeja de entrada**: Remitente, Error, Responder.
+
+>[!NOTE]
+>
+>De forma predeterminada, la bandeja de entrada &quot;Responder&quot; del Panel de control está configurada para borrar correos electrónicos y no se puede revisar. Si desea supervisar la bandeja de entrada &quot;Responder a&quot; para sus campañas de marketing, no utilice esta dirección.
+
 
 Para obtener más información sobre el subdominio, haga clic en el **[!UICONTROL Subdomain Details]**botón .
 
@@ -93,7 +101,7 @@ Para obtener más información sobre el subdominio, haga clic en el **[!UICONTRO
 >
 >Además de la etapa de procesamiento, Adobe notificará al equipo de entregabilidad el nuevo subdominio para que audite el subdominio que se ha creado. El proceso de auditoría puede tardar hasta 3 días después de delegarse el subdominio.
 >
->Las comprobaciones que se realizan incluyen bucles de comentarios y pruebas de bucles de quejas de spam. Por lo tanto, no recomendamos el uso del subdominio antes de que se haya completado la auditoría, ya que podría provocar una mala reputación de subdominio.
+>Las comprobaciones que se realizan incluyen bucles de comentarios y pruebas de bucles de quejas de spam. Por lo tanto, no recomendamos el uso del subdominio antes de que se haya completado la auditoría, ya que podría resultar en una mala reputación de subdominio.
 
 ## Uso de CNAME {#use-cnames}
 
