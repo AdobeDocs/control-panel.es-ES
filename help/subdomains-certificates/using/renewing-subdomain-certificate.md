@@ -2,7 +2,7 @@
 title: Renovación del certificado SSL de un subdominio
 description: Obtenga información sobre cómo renovar los certificados SSL de los subdominios
 translation-type: tm+mt
-source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
+source-git-commit: 2c5a4f4f48e975bd9c9de4a86d2691cfddf58354
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 >[!NOTE]
 >
->La delegación de subdominios del Panel de control se encuentra actualmente en fase beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
+>La renovación de certificados del Panel de control estará disponible en versión beta a finales de enero.
 
 ## Acerca de la renovación de certificados {#about-certificate-renewal-process}
 
@@ -41,7 +41,7 @@ Para generar una solicitud de firma de certificado (CSR), siga estos pasos:
 
    Asegúrese de completar la información solicitada de forma completa y precisa; de lo contrario, es posible que el certificado no se renueve (póngase en contacto con el equipo interno, los equipos de seguridad y TI si es necesario) y haga clic en **[!UICONTROL Next]**.
 
-   * **[!UICONTROL Organization]**:: nombre de la organización oficial.
+   * **[!UICONTROL Organization]**:: nombre oficial de la organización.
    * **[!UICONTROL Organization Unit]**:: unidad vinculada al subdominio (ejemplo: Marketing, TI).
    * **[!UICONTROL Instance]**(precargada): Dirección URL de la instancia de Campaign asociada al subdominio.
    ![](assets/renewal3.png)
