@@ -2,7 +2,7 @@
 title: Supervisión de los certificados SSL de los subdominios
 description: Obtenga información sobre cómo supervisar los certificados SSL de los subdominios
 translation-type: tm+mt
-source-git-commit: 7726a8ef8863d2e2d57e5be7ade7de636a7d2ea1
+source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
 
@@ -43,6 +43,6 @@ La **[!UICONTROL Sender info]**ficha proporciona información sobre las bandejas
 
 Si uno de los certificados SSL de su subdominio está a punto de caducar, puede renovarlo directamente desde el Panel de control. Para obtener más información sobre esto, consulte esta sección: [Renovación del certificado](../../subdomains-certificates/using/renewing-subdomain-certificate.md)SSL de un subdominio.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->La renovación de certificados del Panel de control estará disponible en versión beta a finales de enero.
+>La renovación de certificados del Panel de Control estará disponible en versión beta a finales de enero, y estará sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
