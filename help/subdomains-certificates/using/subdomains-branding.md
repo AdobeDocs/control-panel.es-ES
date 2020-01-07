@@ -2,16 +2,16 @@
 title: Marca de subdominios
 description: Más información sobre la marca de subdominios
 translation-type: tm+mt
-source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
+source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
 
 
 # Marca de subdominios {#subdomains-branding}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->La delegación de subdominios del Panel de control se encuentra actualmente en fase beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
+>La delegación de subdominios del Panel de control estará disponible en versión beta a finales de enero, y estará sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
 
 ## ¿Por qué configurar subdominios? {#why-setting-up-subdomains}
 
@@ -40,3 +40,5 @@ En el cuadro que figura a continuación se ofrece un resumen del funcionamiento 
 | **CNAME, método personalizado** | Cree el registro de subdominio y espacio de nombres. A continuación, Adobe proporcionará los registros que se van a colocar en los servidores DNS y configurará los valores correspondientes en los servidores DNS de Adobe Campaign.<br/><br/>En esta configuración, tanto usted como Adobe comparten la responsabilidad de mantener DNS. | Alto |
 
 En [esta documentación](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)encontrará información adicional sobre la delegación de dominios.
+
+Si tiene alguna pregunta acerca de los métodos de delegación de subdominios, póngase en contacto con el equipo de entrega de Adobe o póngase en contacto con el servicio de atención al cliente para solicitar consultoría sobre la entrega.
