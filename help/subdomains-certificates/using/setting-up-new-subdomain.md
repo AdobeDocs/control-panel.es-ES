@@ -2,16 +2,18 @@
 title: Configuración de un nuevo subdominio
 description: Obtenga información sobre cómo configurar un nuevo subdominio para las instancias de campaña
 translation-type: tm+mt
-source-git-commit: 766ff590d83929eeddb69113904643517c1475ad
+source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
 
 
 # Configuración de un nuevo subdominio {#setting-up-subdomain}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->La delegación de subdominios del Panel de control se encuentra actualmente en fase beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
+>La delegación de subdominios del Panel de control estará disponible en versión beta a finales de enero, y estará sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
+
+Si tiene alguna pregunta acerca de los métodos de delegación de subdominios, póngase en contacto con el equipo de entrega de Adobe o póngase en contacto con el servicio de atención al cliente para solicitar consultoría sobre la entrega.
 
 ## Delegación de subdominios completa {#full-subdomain-delegation}
 
@@ -19,8 +21,9 @@ El Panel de control permite delegar completamente un subdominio a Adobe Campaign
 
 >[!NOTE]
 >
->Si no tiene ningún subdominio configurado para Adobe, el primer subdominio que configurará se considerará un subdominio ****principal.
->Se creará un registro **DNS** inverso y se establecerá como subdominio de envío predeterminado para las bandejas de entrada (remitente, respuesta, direcciones de correo electrónico de error).
+>Si la instancia seleccionada no tiene subdominios configurados previamente, el primer subdominio delegado en Adobe se convertirá en el subdominio **** principal para esa instancia, no podrá cambiarlo en el futuro.
+>
+>Se crearán registros DNS inversos para otros subdominios que utilicen el subdominio principal. Las direcciones de respuesta y devolución para otros subdominios se generarán desde el subdominio principal.
 
 1. En la **[!UICONTROL Subdomains & Certificates]**tarjeta, seleccione la instancia de producción que desee y haga clic en**[!UICONTROL Setup new subdomain]**.
 
@@ -105,4 +108,4 @@ Para obtener más información sobre el subdominio, haga clic en el **[!UICONTRO
 
 ## Uso de CNAME {#use-cnames}
 
-Adobe no recomienda el uso de CNAME para la delegación de subdominios y no es compatible con el Panel de control. Para utilizar este método, póngase en contacto con el Servicio de atención al cliente de Adobe.
+El uso de CNAME para delegación de subdominios no es compatible con el Panel de control. Para utilizar este método, póngase en contacto con el Servicio de atención al cliente de Adobe.
