@@ -2,7 +2,7 @@
 title: Administración de claves
 description: Obtenga información sobre cómo administrar las claves para conectarse a los servidores SFTP
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 46b78a83b1d613dc41983204ef9d9d371fb32156
 
 ---
 
@@ -41,7 +41,7 @@ En casos muy excepcionales, la autenticación basada en contraseña está habili
 >
 >Los pasos a continuación son un ejemplo de la creación de claves SSH solamente. Siga las directrices de su organización con respecto a las claves SSH. El ejemplo siguiente es sólo un ejemplo de cómo se puede hacer esto y sirve como punto de referencia útil para comunicar los requisitos a su equipo o grupo de red interno.
 
-1. Vaya a la **[!UICONTROL Key Management]**ficha y, a continuación, haga clic en el**[!UICONTROL Add public key]** botón.
+1. Vaya a la **[!UICONTROL Key Management]**ficha y, a continuación, haga clic en el**[!UICONTROL Add new public key]** botón.
 
    ![](assets/key0.png)
 
