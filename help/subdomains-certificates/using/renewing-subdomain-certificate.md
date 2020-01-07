@@ -2,16 +2,16 @@
 title: Renovación del certificado SSL de un subdominio
 description: Obtenga información sobre cómo renovar los certificados SSL de los subdominios
 translation-type: tm+mt
-source-git-commit: 2c5a4f4f48e975bd9c9de4a86d2691cfddf58354
+source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
 
 
 # Renovación del certificado SSL de un subdominio {#renewing-subdomains-ssl-certificates}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->La renovación de certificados del Panel de control estará disponible en versión beta a finales de enero.
+>La delegación de subdominios del Panel de control estará disponible en versión beta a finales de enero, y estará sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
 
 ## Acerca de la renovación de certificados {#about-certificate-renewal-process}
 
