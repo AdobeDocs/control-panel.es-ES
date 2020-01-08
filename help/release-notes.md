@@ -1,7 +1,7 @@
 ---
 title: Versiones del Panel de control
 translation-type: tm+mt
-source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
+source-git-commit: 5a2c66df101516a33c194851263d309ad6f29971
 
 ---
 
@@ -18,7 +18,15 @@ Aquí encontrará información sobre las últimas versiones del Panel de control
 
 *22 de enero de 2020*
 
-por definir
+Hemos agregado nuevas funciones para que los usuarios administradores deleguen subdominios y renueven certificados SSL desde el Panel de control.
+
+Para obtener más información, consulte estas páginas:
+* [Configuración de un nuevo subdominio](subdomains-certificates/using/setting-up-new-subdomain.md)
+* [Renovación del certificado SSL de un subdominio](subdomains-certificates/using/renewing-subdomain-certificate.md)
+
+>[!IMPORTANT]
+>
+>Estas funciones estarán disponibles en versión beta y sujetas a frecuentes actualizaciones y modificaciones sin previo aviso.
 
 ## Septiembre de 2019 {#september-2019}
 
