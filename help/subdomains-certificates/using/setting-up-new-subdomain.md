@@ -2,7 +2,7 @@
 title: Configuración de un nuevo subdominio
 description: Obtenga información sobre cómo configurar un nuevo subdominio para las instancias de campaña
 translation-type: tm+mt
-source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 >
 >La delegación de subdominios del Panel de control estará disponible en versión beta a finales de enero, y estará sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
 
-Si tiene alguna pregunta acerca de los métodos de delegación de subdominios, póngase en contacto con el equipo de entrega de Adobe o póngase en contacto con el servicio de atención al cliente para solicitar consultoría sobre la entrega.
+Si tiene alguna pregunta acerca de los métodos de delegación de subdominios, póngase en contacto con el equipo de entrega de Adobe o póngase en contacto con el Servicio de atención al cliente para solicitar la consultoría de entrega.
 
 ## Delegación de subdominios completa {#full-subdomain-delegation}
 
@@ -109,3 +109,9 @@ Para obtener más información sobre el subdominio, haga clic en el **[!UICONTRO
 ## Uso de CNAME {#use-cnames}
 
 El uso de CNAME para delegación de subdominios no es compatible con el Panel de control. Para utilizar este método, póngase en contacto con el Servicio de atención al cliente de Adobe.
+
+**Temas relacionados:**
+
+* [Delegación de subdominios (vídeo de tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [Marca de subdominios](../../subdomains-certificates/using/subdomains-branding.md)
+* [Supervisión de subdominios](../../subdomains-certificates/using/monitoring-subdomains.md)
