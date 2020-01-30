@@ -2,7 +2,7 @@
 title: Preguntas más frecuentes sobre el Panel de control
 description: Cuestiones comunes relacionadas con el Panel de control
 translation-type: tm+mt
-source-git-commit: b728dfe0289e44188adfa6e71aac2e9fc0abc1d2
+source-git-commit: 9bd57cd6d4430cf2cae8575547f8e332f94940c1
 
 ---
 
@@ -41,7 +41,7 @@ Puede tener más de un ID de organización de IMS si tiene acceso a varias soluc
 
 Para comprobar si la instancia está alojada en AWS, siga estos pasos:
 
-1. Recupere la dirección URL de inicio de sesión. Es la dirección URL que utiliza para iniciar sesión en la instancia de Campaign. La mayoría de las veces termina con &quot;.campaign.adobe.com&quot;.
+1. Recupere la dirección URL de inicio de sesión. Es la dirección URL que utiliza para iniciar sesión en la instancia de Campaign. La mayoría de las veces termina con &quot;.campaign.adobe.com&quot; o&quot;.neolane.net&quot;.
 1. Abra el terminal y, a continuación, ejecute una **[!DNL nslookup]**operación en la dirección URL de inicio de sesión.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
