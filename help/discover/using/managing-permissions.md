@@ -2,7 +2,7 @@
 title: Administración de permisos del Panel de control
 description: Obtenga información sobre cómo administrar los permisos del Panel de control
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 El Panel de control está disponible para todos los usuarios administradores de una instancia de Campaign. Siga los pasos a continuación para asignar usuarios al grupo Administradores y otorgarles acceso al Panel de control.
 
-1. Vaya a [Adobe Experience Cloud](https://amc.experiencecloud.adobe.com/exc-content/login.html)y, a continuación, seleccione la **[!UICONTROL Administration]**ficha.
+1. Vaya a [Adobe Experience Cloud](https://experiencecloud.adobe.com/)y, a continuación, seleccione la **[!UICONTROL Administration]**ficha.
 
    ![](assets/do-not-localize/control_panel_add_user1.png)
 
