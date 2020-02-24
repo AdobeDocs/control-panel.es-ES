@@ -2,7 +2,7 @@
 title: Supervisión de los certificados SSL de los subdominios
 description: Obtenga información sobre cómo supervisar los certificados SSL de los subdominios
 translation-type: tm+mt
-source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
+source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign recomienda proteger los subdominios que alojan las páginas de at
 
 ## Supervisión de certificados SSL {#monitoring-certificates}
 
-El estado de los certificados SSL de los subdominios está disponible directamente en la lista de subdominios al seleccionar la **[!UICONTROL Subdomains & Certificates]**tarjeta.
+El estado de los certificados SSL de los subdominios está disponible directamente en la lista de subdominios al seleccionar la **[!UICONTROL Subdomains & Certificates]** tarjeta.
 
 Los subdominios se organizan según la fecha de caducidad más próxima del certificado SSL, con información visual sobre la caducidad, en días:
 
@@ -34,10 +34,10 @@ Los subdominios se organizan según la fecha de caducidad más próxima del cert
 
 ![](assets/subdomains_list.png)
 
-Para obtener más información sobre un subdominio, haga clic en el **[!UICONTROL Subdomain Details]**botón .
+Para obtener más información sobre un subdominio, haga clic en el **[!UICONTROL Subdomain Details]** botón .
 Se muestra la lista de todos los subdominios relacionados. Generalmente incluye subdominios de páginas de aterrizaje, páginas de recursos, etc.
 
-La **[!UICONTROL Sender info]**ficha proporciona información sobre las bandejas de entrada configuradas (Remitente, Responder a, Correo electrónico de error).
+La **[!UICONTROL Sender info]** ficha proporciona información sobre las bandejas de entrada configuradas (Remitente, Responder a, Correo electrónico de error).
 
 ![](assets/subdomain_details.png)
 
@@ -45,7 +45,7 @@ Si uno de los certificados SSL de su subdominio está a punto de caducar, puede 
 
 >[!IMPORTANT]
 >
->La renovación de certificados del Panel de Control estará disponible en versión beta a finales de enero, y estará sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
+>La renovación de certificados del Panel de control está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
 
 **Temas relacionados:**
 
