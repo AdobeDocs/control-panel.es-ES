@@ -2,12 +2,18 @@
 title: Permisos de URL
 description: Obtenga información sobre cómo administrar los permisos de URL en el Panel de control
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Permisos de URL {#url-permissions}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesettings_urlpermissions&quot;
+>title=&quot;Acerca de los permisos de URL&quot;
+>abstract=&quot;Administre las direcciones URL con las que se pueden conectar las instancias de Adobe Campaign&quot;.
+>extra-url=&quot;https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4&quot; text=&quot;Ver vídeo de demostración&quot;
 
 >[!CAUTION]
 >
@@ -35,9 +41,14 @@ Una vez que se agrega una URL, se hace referencia a ella en el archivo de config
 
 ## Administración de permisos de URL {#managing-url-permissions}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesettings_url_add&quot;
+>title=&quot;Agregar nueva dirección URL&quot;
+>abstract=&quot;Agregue direcciones URL para permitir conexiones con la instancia de Campaign&quot;.
+
 Para agregar una dirección URL a la que se pueda conectar su instancia, siga estos pasos:
 
-1. Abra la **[!UICONTROL Instances Settings]**tarjeta para acceder a la**[!UICONTROL URL Permissions]** ficha.
+1. Abra la **[!UICONTROL Instances Settings]** tarjeta para acceder a la **[!UICONTROL URL Permissions]** ficha.
 
    >[!NOTE]
    >
@@ -45,7 +56,7 @@ Para agregar una dirección URL a la que se pueda conectar su instancia, siga es
    >
    >La ficha Permisos <b><span class="uicontrol">de</span></b> URL muestra todas las direcciones URL externas a las que se puede conectar su instancia. Esta lista no incluye las direcciones URL necesarias para que Campaign funcione (por ejemplo, conexiones entre elementos de infraestructura).
 
-1. Seleccione en el panel izquierdo la instancia que desee y haga clic en el **[!UICONTROL Add new URL]**botón.
+1. Seleccione en el panel izquierdo la instancia que desee y haga clic en el **[!UICONTROL Add new URL]** botón.
 
    ![](assets/add_url1.png)
 
@@ -71,7 +82,7 @@ Para agregar una dirección URL a la que se pueda conectar su instancia, siga es
 
    ![](assets/add_url_listnew.png)
 
-Puede eliminar una dirección URL en cualquier momento seleccionándola y haciendo clic en el **[!UICONTROL Delete URL]**botón.
+Puede eliminar una dirección URL en cualquier momento seleccionándola y haciendo clic en el **[!UICONTROL Delete URL]** botón.
 
 Tenga en cuenta que, si elimina una dirección URL, su instancia no podrá volver a llamarla.
 
