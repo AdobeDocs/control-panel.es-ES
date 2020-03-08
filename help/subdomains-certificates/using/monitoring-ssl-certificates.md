@@ -2,7 +2,7 @@
 title: Supervisión de los certificados SSL de los subdominios
 description: Obtenga información sobre cómo supervisar los certificados SSL de los subdominios
 translation-type: tm+mt
-source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
@@ -22,6 +22,11 @@ Adobe Campaign recomienda proteger los subdominios que alojan las páginas de at
 ![](assets/no_certificate.png)
 
 ## Supervisión de certificados SSL {#monitoring-certificates}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_subdomain_details&quot;
+>title=&quot;Detalles de subdominio&quot;
+>abstract=&quot;Recuperar información de sus subdominios&quot;.
 
 El estado de los certificados SSL de los subdominios está disponible directamente en la lista de subdominios al seleccionar la **[!UICONTROL Subdomains & Certificates]** tarjeta.
 
