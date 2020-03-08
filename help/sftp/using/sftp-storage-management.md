@@ -2,12 +2,18 @@
 title: Administración de almacenamiento SFTP
 description: Obtenga información sobre cómo supervisar y administrar el almacenamiento del servidor SFTP
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Administración de almacenamiento SFTP {#sftp-storage-management}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_storage&quot;
+>title=&quot;Acerca de la capacidad de almacenamiento&quot;
+>abstract=&quot;En esta ficha, puede ver la capacidad de almacenamiento y la información de utilización de sus servidores SFTP. Aquí solo se muestran los servidores SFTP a los que tiene acceso. Póngase en contacto con el administrador para solicitar acceso a otros servidores SFTP.&quot;
+>extra-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4&quot; text=&quot;Ver vídeo de demostración&quot;
 
 Es posible que tenga una capacidad de almacenamiento diferente aprovisionada en el servidor SFTP, según las condiciones contractuales.
 
@@ -20,11 +26,11 @@ Es esencial que supervise regularmente el espacio disponible para cada uno de lo
 
 ## Acceso a la información de capacidad de almacenamiento {#accessing-storage-capacity-information}
 
-La **[!UICONTROL Top utilized SFTP disk capacity]**sección del encabezado incluye los tres servidores más utilizados y conectados a las instancias a las que tiene acceso de administrador. Esta información está disponible en todas las fichas de la tarjeta SFTP.
+La **[!UICONTROL Top utilized SFTP disk capacity]** sección del encabezado incluye los tres servidores más utilizados y conectados a las instancias a las que tiene acceso de administrador. Esta información está disponible en todas las fichas de la tarjeta SFTP.
 
 ![](assets/control_panel_topspace.png)
 
-La información sobre el espacio utilizado por todas las instancias a las que tiene acceso está disponible en la **[!UICONTROL Storage]**ficha de la tarjeta SFTP. Se actualiza en cada actualización de página.
+La información sobre el espacio utilizado por todas las instancias a las que tiene acceso está disponible en la **[!UICONTROL Storage]** ficha de la tarjeta SFTP. Se actualiza en cada actualización de página.
 
 ![](assets/control_panel_space.png)
 
