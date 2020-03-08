@@ -2,12 +2,18 @@
 title: Lista blanca de IP
 description: Obtenga más información sobre la lista de direcciones permitidas IP en el Panel de control, por ejemplo, el acceso
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Lista blanca de IP {#ip-whitelisting}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesettings_iprange&quot;
+>title=&quot;Acerca de la lista blanca de IP&quot;
+>abstract=&quot;Administre la lista blanca de IP para acceder a sus instancias&quot;.
+>extra-url=&quot;https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4&quot; text=&quot;Ver vídeo de demostración&quot;
 
 >[!CAUTION]
 >
@@ -33,9 +39,14 @@ Asegúrese de seguir las recomendaciones y limitaciones que se indican a continu
 
 ## Lista blanca de direcciones IP para el acceso a instancias {#whistelisting-ip-addresses}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesettings_iprange_add&quot;
+>title=&quot;Add New Ip Range&quot;
+>abstract=&quot;Defina el rango de IP que desea incluir en la lista de direcciones permitidas para conectarse a su instancia.&quot;
+
 Para incluir direcciones IP en la lista blanca, siga estos pasos:
 
-1. Abra la ficha **[!UICONTROL Instances Settings card]**para acceder a la lista de direcciones permitidas IP y haga clic en**[!UICONTROL Add new IP Range]**.
+1. Abra la ficha **[!UICONTROL Instances Settings card]** para acceder a la lista de direcciones permitidas IP y haga clic en **[!UICONTROL Add new IP Range]**.
 
    >[!NOTE]
    >
@@ -70,7 +81,7 @@ Para incluir direcciones IP en la lista blanca, siga estos pasos:
 
    ![](assets/ip_whitelist_added.png)
 
-Para eliminar los rangos de IP permitidos, selecciónelos y haga clic en el **[!UICONTROL Delete IP range]**botón .
+Para eliminar los rangos de IP permitidos, selecciónelos y haga clic en el **[!UICONTROL Delete IP range]** botón .
 
 **Temas relacionados:**
 * [Lista blanca de IP (vídeo de tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
