@@ -2,12 +2,19 @@
 title: Detalles de instancia
 description: Obtenga información sobre cómo supervisar los detalles de su instancia en el Panel de control
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Detalles de instancia {#instance-details}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesettings_instancedetails&quot;
+>title=&quot;Acerca de los detalles de la instancia&quot;
+>abstract=&quot;Vea los detalles de las instancias de Adobe Campaign: tipos, nombres, información de compilación y posibles recomendaciones de actualización&quot;.
+>adicional-url=&quot;https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html&quot; text=&quot;Notas de la versión de Campaign Classic&quot;
+>adicional-url=&quot;https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html&quot; text=&quot;Notas de la versión de Campaign Standard&quot;
 
 >[!CAUTION]
 >
@@ -32,7 +39,7 @@ La funcionalidad Detalles de instancia permite ver la arquitectura plana de la i
 
 Para obtener información sobre los servidores conectados a las instancias, siga estos pasos:
 
-1. Abra la **[!UICONTROL Instances Settings]**tarjeta para acceder a la**[!UICONTROL Instance Details]** ficha.
+1. Abra la **[!UICONTROL Instances Settings]** tarjeta para acceder a la **[!UICONTROL Instance Details]** ficha.
 
    >[!NOTE]
    >
@@ -52,7 +59,7 @@ La información disponible es:
 
 * **[!UICONTROL Type]**:: tipo del servidor. Los valores posibles son MKT (Marketing), MID (fuentes intermedias) y RT (mensajes del centro de mensajes / mensajes en tiempo real).
 * **[!UICONTROL Name]**:: el nombre del servidor.
-* **[!UICONTROL Build:]**la versión de compilación instalada en el servidor.
+* **[!UICONTROL Build:]** la versión de compilación instalada en el servidor.
 * **[!UICONTROL Upgrade info]**:: esta columna le informa si se requiere alguna actualización para el servidor.
    * Verde: su servidor está actualizado, no se requiere ninguna actualización.
    * Amarillo: debe considerar la posibilidad de actualizar. Le faltan las funciones y correcciones más recientes.
