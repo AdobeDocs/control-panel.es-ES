@@ -2,12 +2,18 @@
 title: Lista blanca del rango de IP
 description: Obtenga información sobre cómo incluir en la lista blanca los rangos IP para el acceso a los servidores SFTP
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Lista blanca del rango de IP {#ip-range-whitelisting}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_ip_whitelist&quot;
+>title=&quot;Acerca de la lista blanca de IP&quot;
+>abstract=&quot;En esta ficha, puede incluir rangos IP en la lista blanca para establecer una conexión con los servidores SFTP. Aquí solo se muestran los servidores SFTP a los que tiene acceso. Póngase en contacto con el administrador para solicitar acceso a otros servidores SFTP.&quot;
+>extra-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98&quot; text=&quot;Ver vídeo de demostración&quot;
 
 Los servidores SFTP están protegidos. Para poder acceder a ellos con el fin de ver archivos o escribir nuevos, debe incluir en la lista blanca la dirección IP pública del sistema o cliente que accede a los servidores.
 
@@ -30,10 +36,15 @@ Asegúrese de seguir las recomendaciones y limitaciones que se indican a continu
 
 ## Lista blanca de direcciones IP {#whitelisting-ip-addresses}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_sftp_iprange_add&quot;
+>title=&quot;Add New Ip Range&quot;
+>abstract=&quot;Defina los rangos IP que desea incluir en la lista de direcciones permitidas para conectarse a los servidores SFTP&quot;.
+
 Para incluir un intervalo IP en la lista blanca, siga estos pasos:
 
-1. Abra la **[!UICONTROL SFTP]**tarjeta y seleccione la**[!UICONTROL IP Whistelisting]** ficha.
-1. Se muestra la lista de direcciones IP permitidas para cada instancia. Seleccione la instancia que desee en la lista de la izquierda y haga clic en el **[!UICONTROL Add new IP range]**botón.
+1. Abra la **[!UICONTROL SFTP]** tarjeta y seleccione la **[!UICONTROL IP Whistelisting]** ficha.
+1. Se muestra la lista de direcciones IP permitidas para cada instancia. Seleccione la instancia que desee en la lista de la izquierda y haga clic en el **[!UICONTROL Add new IP range]** botón.
 
    ![](assets/control_panel_add_range.png)
 
@@ -56,7 +67,7 @@ Para incluir un intervalo IP en la lista blanca, siga estos pasos:
 
 1. Haga clic en el botón **[!UICONTROL Save]**. La adición a la lista blanca de IP se mostrará como PENDIENTE hasta que la solicitud se procese por completo. Esto sólo debería tardar unos segundos.
 
-Para eliminar los rangos de IP permitidos, selecciónelos y haga clic en el **[!UICONTROL Delete IP range]**botón .
+Para eliminar los rangos de IP permitidos, selecciónelos y haga clic en el **[!UICONTROL Delete IP range]** botón .
 
 ![](assets/control_panel_delete_range2.png)
 
@@ -66,7 +77,7 @@ Para eliminar los rangos de IP permitidos, selecciónelos y haga clic en el **[!
 
 ## Control de cambios {#monitoring-changes}
 
-La **[!UICONTROL Job Logs]**página principal del Panel de control permite supervisar todos los cambios realizados en las direcciones IP permitidas.
+La **[!UICONTROL Job Logs]** página principal del Panel de control permite supervisar todos los cambios realizados en las direcciones IP permitidas.
 
 Para obtener más información sobre la interfaz del Panel de control, consulte [esta sección](../../discover/using/discovering-the-interface.md).
 
