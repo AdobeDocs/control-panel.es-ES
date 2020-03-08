@@ -2,12 +2,18 @@
 title: Marca de subdominios
 description: Más información sobre la marca de subdominios
 translation-type: tm+mt
-source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Marca de subdominios {#subdomains-branding}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_certificate_management&quot;
+>title=&quot;Acerca de los subdominios y los certificados SSL&quot;
+>abstract=&quot;Supervisar los subdominios y los certificados SSL asociados&quot;.
+>adicional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;Cómo supervisar los certificados SSL de sus subdominios&quot;
 
 >[!IMPORTANT]
 >
