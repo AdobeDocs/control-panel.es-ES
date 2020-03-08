@@ -2,12 +2,18 @@
 title: Administración de claves
 description: Obtenga información sobre cómo administrar las claves para conectarse a los servidores SFTP
 translation-type: tm+mt
-source-git-commit: 46b78a83b1d613dc41983204ef9d9d371fb32156
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Administración de claves {#key-management}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_key_management&quot;
+>title=&quot;Acerca de la administración de claves&quot;
+>abstract=&quot;En esta ficha puede administrar sus claves públicas&quot;.
+>extra-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166&quot; text=&quot;Ver vídeo de demostración&quot;
 
 Adobe recomienda que todos los clientes establezcan una conexión con sus servidores SFTP **con un par de claves públicas y privadas**.
 
@@ -37,11 +43,16 @@ En casos muy excepcionales, la autenticación basada en contraseña está habili
 
 ## Instalación de la clave SSH {#installing-ssh-key}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_sftp_publickey_add&quot;
+>title=&quot;Agregar nueva clave pública&quot;
+>abstract=&quot;Agregue una nueva clave pública para una instancia.&quot;
+
 >[!CAUTION]
 >
 >Los pasos a continuación son un ejemplo de la creación de claves SSH solamente. Siga las directrices de su organización con respecto a las claves SSH. El ejemplo siguiente es sólo un ejemplo de cómo se puede hacer esto y sirve como punto de referencia útil para comunicar los requisitos a su equipo o grupo de red interno.
 
-1. Vaya a la **[!UICONTROL Key Management]**ficha y, a continuación, haga clic en el**[!UICONTROL Add new public key]** botón.
+1. Vaya a la **[!UICONTROL Key Management]** ficha y, a continuación, haga clic en el **[!UICONTROL Add new public key]** botón.
 
    ![](assets/key0.png)
 
@@ -76,7 +87,7 @@ En casos muy excepcionales, la autenticación basada en contraseña está habili
 
    ![](assets/publickey.png)
 
-1. Haga clic en el **[!UICONTROL Save]**botón para crear la clave. El Panel de control guarda la clave pública y su huella digital asociada, cifrada con el formato SHA256.
+1. Haga clic en el **[!UICONTROL Save]** botón para crear la clave. El Panel de control guarda la clave pública y su huella digital asociada, cifrada con el formato SHA256.
 
 Puede utilizar las huellas digitales para que coincidan con las claves privadas guardadas en el equipo con las claves públicas correspondientes guardadas en el Panel de control.
 
