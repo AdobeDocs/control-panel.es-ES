@@ -1,7 +1,7 @@
 ---
 title: Versiones del Panel de control
 translation-type: tm+mt
-source-git-commit: 5a2c66df101516a33c194851263d309ad6f29971
+source-git-commit: 5c35db25719830d196cc87ba0142c348bd8cdd92
 
 ---
 
@@ -13,6 +13,16 @@ Aquí encontrará información sobre las últimas versiones del Panel de control
 >[!NOTE]
 >
 >Tenga en cuenta que el Panel de control solo está disponible para clientes alojados en AWS. No se requiere ninguna actualización para acceder al Panel de control. Asegúrese de que es un usuario administrador para acceder a él.
+
+## April 2020 {#april-2020}
+
+Las nuevas funciones se lanzarán en el Panel de control de campañas en abril:
+
+**Administración** de registros TXT de Google Agregue el registro de verificación de sitios TXT de Google a todos los subdominios utilizados para enviar correos electrónicos a direcciones GMAIL a través del Panel de control de campañas.
+
+**El Panel de control de la** campaña de monitoreo del espacio de la base de datos estará equipado con capacidades de monitoreo de la base de datos, lo que le permitirá ver el uso del espacio de la base de datos a pedido y a lo largo del tiempo.
+
+**El Panel de control de** campañas de alertas por correo electrónico estará equipado con capacidades de alerta por correo electrónico en tiempo real, lo que le permitirá iniciar sesión en el Panel de control y registrarse para recibir alertas cuando el sistema esté en riesgo de deterioro del rendimiento, o bien se requiere una acción para garantizar un alto rendimiento en el futuro.
 
 ## January 2020 {#january-2020}
 
@@ -45,6 +55,6 @@ Además, los administradores ahora pueden borrar las claves SSH que se añadiero
 
 ## Julio de 2019 {#july-2019}
 
-Hemos agregado nuevas funciones para habilitar a los usuarios administradores a fin de que puedan controlar mejor la configuración de la instancia de Campaign Classic. Las nuevas funcionalidades del Panel de control incluyen la posibilidad de añadir las URL a las que se conecta Adobe Campaign para las transferencias de datos o archivos.
+Hemos agregado nuevas funciones para permitir a los usuarios administradores tomar el bueno control de la configuración de instancia de Campaign Classic. Las nuevas funcionalidades del Panel de control incluyen la posibilidad de añadir las URL a las que se conecta Adobe Campaign para las transferencias de datos o archivos.
 
 Para obtener más información, consulte la [documentación detallada](instances-settings/using/url-permissions.md).
