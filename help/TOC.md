@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 87a9a587e7728ff9b76cedb9bb5990dfe1ac1c78
+source-git-commit: 3719f10ecd962b8398c89f0649153628ca73c518
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 87a9a587e7728ff9b76cedb9bb5990dfe1ac1c78
    + [Descubrimiento de la interfaz del Panel de control](discover/using/discovering-the-interface.md)
 + Administración de SFTP {#sftp-management}
    + [Acerca de la administración SFTP](sftp/using/about-sftp-management.md)
-   + [Administración de almacenamiento SFTP](sftp/using/sftp-storage-management.md)
+   + [Administración de almacenamientos SFTP](sftp/using/sftp-storage-management.md)
    + [Lista blanca del rango de IP](sftp/using/ip-range-whitelisting.md)
    + [Administración de claves](sftp/using/key-management.md)
    + [Inicio de sesión en el servidor SFTP](sftp/using/logging-into-sftp-server.md)
