@@ -2,7 +2,7 @@
 title: Detalles de instancia
 description: Obtenga información sobre cómo supervisar los detalles de su instancia en el Panel de control
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -12,28 +12,28 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >[!CONTEXTUALHELP]
 >id=&quot;cp_instancesettings_instancedetails&quot;
 >title=&quot;Acerca de los detalles de la instancia&quot;
->abstract=&quot;Vea los detalles de las instancias de Adobe Campaign: tipos, nombres, información de compilación y posibles recomendaciones de actualización&quot;.
->adicional-url=&quot;https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html&quot; text=&quot;Notas de la versión de Campaign Classic&quot;
->adicional-url=&quot;https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html&quot; text=&quot;Notas de la versión de Campaign Standard&quot;
+>abstract=&quot;Vista los detalles de las instancias de Adobe Campaign: tipos, nombres, información de compilación y posibles recomendaciones de actualización&quot;.
+>extra-url=&quot;https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html&quot; text=&quot;notas de la versión del Campaign Classic&quot;
+>extra-url=&quot;https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html&quot; text=&quot;notas de la versión del Campaign Standard&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Esta función solo está disponible para instancias de Campaign Classic.
 
 ## Acerca de los detalles de instancia {#about-instance-details}
 
-La arquitectura de instancia de Adobe Campaign Classic puede contener varios servidores para permitir la flexibilidad de las actividades de marketing. Por ejemplo, puede tener servidores de fuentes de marketing, tiempo real (o centro de mensajes) y medios que admitan su instancia.
+La arquitectura de instancias de Adobe Campaign Classic puede contener varios servidores para permitir la flexibilidad de las actividades de marketing. Por ejemplo, puede tener servidores de fuentes de marketing, tiempo real (o centro de mensajes) y medios que admitan su instancia.
 
-La funcionalidad Detalles de instancia permite ver la arquitectura plana de la instancia. Además de la información del servidor, también le permite saber si la compilación de la instancia está actualizada o no, así como recomendar actualizaciones cuando sea necesario.
+La funcionalidad Detalles de instancia permite la vista de la arquitectura plana de la instancia. Además de la información del servidor, también le permite saber si la compilación de la instancia está actualizada o no, así como recomendar actualizaciones cuando sea necesario.
 
 >[!NOTE]
 >
->Recomendamos que las instancias se actualicen al menos una vez al año para evitar la degradación del rendimiento y poder aprovechar las funciones y correcciones más recientes que ofrece Adobe Campaign Classic.
+>Recomendamos que las instancias se actualicen al menos una vez al año para evitar la degradación del rendimiento y poder aprovechar las nuevas funciones y correcciones que Adobe Campaign Classic tiene para la oferta.
 
 **Temas relacionados:**
 
 * [Realización de una actualización de compilación](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)
-* [Actualización de Adobe Campaign](https://docs.campaign.adobe.com/doc/AC/en/PRO_Updating_Adobe_Campaign_Introduction.html)
+* [Actualizando Adobe Campaign](https://docs.campaign.adobe.com/doc/AC/en/PRO_Updating_Adobe_Campaign_Introduction.html)
 
 ## Recuperación de información sobre las instancias {#retrieving-information-about-instances}
 
@@ -49,7 +49,7 @@ Para obtener información sobre los servidores conectados a las instancias, siga
 
    >[!NOTE]
    >
-   >Todas las instancias de campaña se muestran en la lista del panel izquierdo. Como la función Detalles de instancia está dedicada únicamente a instancias de Campaign Classic, se muestra el mensaje &quot;Instancia no aplicable&quot; si selecciona una instancia de Campaign Standard.
+   >Todas las instancias de Campaña se muestran en la lista del panel izquierdo. Como la función Detalles de instancia está dedicada únicamente a instancias de Campaign Classic, se muestra el mensaje &quot;Instancia no aplicable&quot; si selecciona una instancia de Campaign Standard.
 
 1. Se muestran los servidores conectados a la instancia.
 
