@@ -2,7 +2,7 @@
 title: Administración de claves
 description: Obtenga información sobre cómo administrar las claves para conectarse a los servidores SFTP
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -35,7 +35,7 @@ Asegúrese de utilizar siempre la misma autenticación para conectarse al servid
 
 En casos muy excepcionales, la autenticación basada en contraseña está habilitada en algunos servidores SFTP. Adobe recomienda utilizar la autenticación basada en claves, ya que este método es más eficaz y seguro. Puede solicitar cambiar a la autenticación basada en claves poniéndose en contacto con el Servicio de atención al cliente.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Si la contraseña caduca, incluso si hay claves instaladas en el sistema, no podrá iniciar sesión en sus cuentas de SFTP.
 
@@ -45,10 +45,10 @@ En casos muy excepcionales, la autenticación basada en contraseña está habili
 
 >[!CONTEXTUALHELP]
 >id=&quot;cp_sftp_publickey_add&quot;
->title=&quot;Agregar nueva clave pública&quot;
->abstract=&quot;Agregue una nueva clave pública para una instancia.&quot;
+>title=&quot;Añadir nueva clave pública&quot;
+>abstract=&quot;Añada una nueva clave pública para una instancia.&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Los pasos a continuación son un ejemplo de la creación de claves SSH solamente. Siga las directrices de su organización con respecto a las claves SSH. El ejemplo siguiente es sólo un ejemplo de cómo se puede hacer esto y sirve como punto de referencia útil para comunicar los requisitos a su equipo o grupo de red interno.
 
