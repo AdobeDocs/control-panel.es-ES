@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 3719f10ecd962b8398c89f0649153628ca73c518
+source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
 
 ---
 
@@ -31,8 +31,13 @@ source-git-commit: 3719f10ecd962b8398c89f0649153628ca73c518
    + [Configuración de un nuevo subdominio](subdomains-certificates/using/setting-up-new-subdomain.md)
    + [Supervisión de certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
    + [Renovación de certificados SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
+   + [Administración de registros TXT](subdomains-certificates/using/managing-txt-records.md)
++ Monitoreo del rendimiento {#performance-monitoring}
+   + [Acerca del monitoreo del rendimiento](performance-monitoring/using/about-performance-monitoring.md)
+   + [Supervisión de bases de datos](performance-monitoring/using/database-monitoring.md)
+   + [Alertas por correo electrónico](performance-monitoring/using/email-alerting.md)
 + Configuración de instancias (Campaign Classic) {#instances-settings}
    + [Lista blanca de IP para acceso de instancia](instances-settings/using/ip-whitelisting-instance-access.md)
    + [Permisos de URL](instances-settings/using/url-permissions.md)
    + [Detalles de instancia](instances-settings/using/instance-details.md)
-+ [Preguntas más frecuentes](faq.md)
++ [Preguntas frecuentes](faq.md)
