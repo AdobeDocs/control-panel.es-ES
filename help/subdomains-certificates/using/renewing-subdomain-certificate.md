@@ -2,7 +2,7 @@
 title: Renovación del certificado SSL de un subdominio
 description: Obtenga información sobre cómo renovar los certificados SSL de los subdominios
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: f08b0e68cf0a208b1385052510c06ca1eb679e63
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 >[!CONTEXTUALHELP]
 >id=&quot;cp_add_ssl_certificate&quot;
->title=&quot;Agregar certificado SSL&quot;
+>title=&quot;Añadir certificado SSL&quot;
 >abstract=&quot;Para agregar un certificado SSL, debe generar un CSR, adquirir el certificado SSL para los subdominios e instalar el paquete de certificados&quot;.
 >adicional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr&quot; text=&quot;Generación de una solicitud de firma de certificado (CSR)&quot;
 >adicional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate&quot; text=&quot;How to install a SSL certificate&quot;&quot;
@@ -25,7 +25,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 El proceso de renovación de certificados SSL incluye 3 pasos:
 
 1. **Generación de la solicitud de firma certificada (CSR) El Servicio de atención al cliente de** Adobe genera un CSR para usted. Deberá proporcionar la información necesaria para generar el CSR (como Nombre común, Nombre de organización y dirección, etc.).
-1. **Compra del certificado** SSL Una vez generado el CSR, puede descargarlo y utilizarlo para adquirir el certificado SSL de la entidad emisora de certificados que apruebe su empresa.
+1. **Compra del certificado** SSL Una vez generado el CSR, puede descargarlo y utilizarlo para adquirir el certificado SSL de la entidad emisora de certificados que apruebe su compañía.
 1. **Instalación del certificado** SSL Una vez adquirido el certificado SSL, puede instalarlo en el subdominio deseado.
 
 >[!NOTE]
@@ -62,7 +62,7 @@ Para generar una solicitud de firma de certificado (CSR), siga estos pasos:
 
    * **[!UICONTROL Organization]**:: nombre oficial de la organización.
    * **[!UICONTROL Organization Unit]**:: unidad vinculada al subdominio (ejemplo: Marketing, TI).
-   * **[!UICONTROL Instance]** (precargada): Dirección URL de la instancia de Campaign asociada al subdominio.
+   * **[!UICONTROL Instance]** (precargada): Dirección URL de la instancia de Campaña asociada al subdominio.
    ![](assets/renewal3.png)
 
 1. Seleccione los subdominios que desea incluir en el CSR y, a continuación, haga clic en **[!UICONTROL OK]**.
@@ -77,7 +77,7 @@ Para generar una solicitud de firma de certificado (CSR), siga estos pasos:
 
    ![](assets/renewal6.png)
 
-1. El archivo .csr correspondiente a su selección se genera y descarga automáticamente. Ahora puede utilizarla para adquirir el certificado SSL de la entidad emisora de certificados que apruebe su empresa.
+1. El archivo .csr correspondiente a su selección se genera y descarga automáticamente. Ahora puede utilizarla para adquirir el certificado SSL de la entidad emisora de certificados que apruebe su compañía.
 
    >[!NOTE]
    >
@@ -125,10 +125,14 @@ Para instalar el certificado, siga estos pasos:
 
    ![](assets/install2.png)
 
+>[!NOTE]
+>
+>El certificado se instalará en todos los dominios o subdominios incluidos en el CSR. No se tendrá en cuenta ningún dominio o subdominio adicional presente en el certificado.
+
 Una vez instalado el certificado SSL, la fecha de caducidad y el icono de estado del certificado se actualizan en consecuencia.
 
 **Temas relacionados:**
 
-* [Adición de certificados SSL (vídeo de tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [Añadir certificados SSL (vídeo de tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [Marca de subdominios](../../subdomains-certificates/using/subdomains-branding.md)
 * [Supervisión de subdominios](../../subdomains-certificates/using/monitoring-subdomains.md)
