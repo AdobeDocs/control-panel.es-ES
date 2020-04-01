@@ -2,7 +2,7 @@
 title: Permisos de URL
 description: Obtenga información sobre cómo administrar los permisos de URL en el Panel de control
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -15,36 +15,36 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >abstract=&quot;Administre las direcciones URL con las que se pueden conectar las instancias de Adobe Campaign&quot;.
 >extra-url=&quot;https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4&quot; text=&quot;Ver vídeo de demostración&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Esta función solo está disponible para instancias de Campaign Classic.
 
 ## Acerca de los permisos de URL {#about-url-permissions}
 
-Lista predeterminada de direcciones URL a las que pueden llamar los códigos JavaScript (flujos de trabajo, etc.) las instancias de Campaign Classic están limitadas. Son direcciones URL que permiten que las instancias funcionen correctamente.
+La lista predeterminada de las direcciones URL a las que pueden llamar los códigos JavaScript (flujos de trabajo, etc.) las instancias de su Campaign Classic están limitadas. Son direcciones URL que permiten que las instancias funcionen correctamente.
 
-De forma predeterminada, las instancias no pueden conectarse a direcciones URL externas. El Panel de control le permite agregar algunas direcciones URL externas a la lista de direcciones URL autorizadas, para que la instancia pueda conectarse a ellas. Esto le permite conectar las instancias de Campaign a sistemas externos como, por ejemplo, servidores SFTP o sitios web para habilitar la transferencia de datos o archivos.
+De forma predeterminada, las instancias no pueden conectarse a direcciones URL externas. El Panel de control permite agregar algunas direcciones URL externas a la lista de direcciones URL autorizadas, para que la instancia pueda conectarse a ellas. Esto le permite conectar las instancias de Campaña a sistemas externos como, por ejemplo, servidores SFTP o sitios web para habilitar la transferencia de datos o archivos.
 
 Una vez que se agrega una URL, se hace referencia a ella en el archivo de configuración de la instancia (serverConf.xml).
 
 **Temas relacionados:**
 
-* [Configuración del servidor de campañas](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
+* [Configuración del servidor de Campaña](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
 * [Protección de conexión saliente](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
-* [Adición de permisos de URL (vídeo de tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html)
+* [Añadir permisos de URL (vídeo de tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html)
 
 ## Prácticas recomendadas {#best-practices}
 
-* No conecte la instancia de Campaign a sitios web o servidores a los que no tenga intención de conectarse.
-* Elimine las direcciones URL con las que ya no esté trabajando. Sin embargo, tenga en cuenta que, si otra sección de su empresa sigue conectándose a la dirección URL que eliminó, nadie podrá volver a utilizarla.
+* No conecte la instancia de Campaña a los sitios web o servidores a los que no tiene intención de conectarse.
+* Elimine las direcciones URL con las que ya no esté trabajando. Sin embargo, tenga en cuenta que, si otra sección de la compañía sigue conectándose a la dirección URL que eliminó, nadie podrá volver a utilizarla.
 * El Panel de control admite los protocolos **http**, **https** y **sftp** . La introducción de direcciones URL o protocolos no válidos producirá errores.
 
 ## Administración de permisos de URL {#managing-url-permissions}
 
 >[!CONTEXTUALHELP]
 >id=&quot;cp_instancesettings_url_add&quot;
->title=&quot;Agregar nueva dirección URL&quot;
->abstract=&quot;Agregue direcciones URL para permitir conexiones con la instancia de Campaign&quot;.
+>title=&quot;Añadir nueva dirección URL&quot;
+>abstract=&quot;Añada las direcciones URL para permitir conexiones con la instancia de Campaña&quot;.
 
 Para agregar una dirección URL a la que se pueda conectar su instancia, siga estos pasos:
 
@@ -54,7 +54,7 @@ Para agregar una dirección URL a la que se pueda conectar su instancia, siga es
    >
    >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control, significa que el identificador de organización de IMS no está asociado a ninguna instancia de Adobe Campaign Classic
    >
-   >La ficha Permisos <b><span class="uicontrol">de</span></b> URL muestra todas las direcciones URL externas a las que se puede conectar su instancia. Esta lista no incluye las direcciones URL necesarias para que Campaign funcione (por ejemplo, conexiones entre elementos de infraestructura).
+   >La ficha Permisos <b><span class="uicontrol">de</span></b> URL lista todas las direcciones URL externas a las que se puede conectar la instancia. Esta lista no incluye las direcciones URL que son necesarias para que funcione la Campaña (por ejemplo, conexiones entre elementos de infraestructura).
 
 1. Seleccione en el panel izquierdo la instancia que desee y haga clic en el **[!UICONTROL Add new URL]** botón.
 
@@ -62,7 +62,7 @@ Para agregar una dirección URL a la que se pueda conectar su instancia, siga es
 
    >[!NOTE]
    >
-   >Todas las instancias de campaña se muestran en la lista del panel izquierdo.
+   >Todas las instancias de Campaña se muestran en la lista del panel izquierdo.
    >
    >Como la administración de permisos de URL está dedicada únicamente a instancias de Campaign Classic, se muestra el mensaje &quot;Instancia no aplicable&quot; si selecciona una instancia de Campaign Standard.
 
