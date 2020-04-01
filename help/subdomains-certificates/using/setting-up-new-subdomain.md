@@ -2,7 +2,7 @@
 title: Configuración de un nuevo subdominio
 description: Obtenga información sobre cómo configurar un nuevo subdominio para las instancias de campaña
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: 9bcf83c85628a59671cd5580144d86bee88e35de
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >[!CONTEXTUALHELP]
 >id=&quot;cp_subdomain_management&quot;
 >title=&quot;Configurar nuevos subdominios y administrar certificados&quot;
->abstract=&quot;Debe configurar un nuevo subdominio y administrar los certificados SSL de sus subdominios para empezar a enviar correos electrónicos o publicar páginas de aterrizaje con Adobe Campaign.&quot;
+>abstract=&quot;Debe configurar un nuevo subdominio y administrar los certificados SSL de los subdominios para que el inicio envíe correos electrónicos o publique páginas de aterrizaje con Adobe Campaign&quot;.
 >adicional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;Cómo supervisar los certificados SSL de sus subdominios&quot;
 
 >[!IMPORTANT]
@@ -47,9 +47,11 @@ El Panel de control permite delegar completamente un subdominio a Adobe Campaign
 
 1. Cree los subdominios y servidores de nombres deseados en la solución de hospedaje utilizada por su organización. Para ello, copie y pegue la información del servidor de nombres de Adobe que se muestra en el asistente. Para obtener más información sobre cómo crear un subdominio en una solución de alojamiento, consulte el vídeo [del](https://video.tv.adobe.com/v/30175?captions=spa)tutorial.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Al configurar servidores de nombres, asegúrese de que **nunca delega su subdominio raíz a Adobe**. De lo contrario, el dominio solo podrá trabajar con Adobe. Cualquier otro uso será imposible, como por ejemplo enviar correos electrónicos internos a los empleados de la organización.
+   >
+   >Además, **no cree un archivo** de zona independiente para este nuevo subdominio.
 
    ![](assets/subdomain4.png)
 
@@ -58,26 +60,28 @@ El Panel de control permite delegar completamente un subdominio a Adobe Campaign
 1. Seleccione el caso de uso que desee para el subdominio:
 
    * **Comunicaciones** de marketing: comunicaciones destinadas a fines comerciales. Ejemplo: campaña de correo electrónico de ventas.
-   * **Comunicaciones** transaccionales y operativas: las comunicaciones transaccionales contienen información destinada a completar un proceso que el destinatario ha iniciado con usted. Ejemplo: confirmación de compra, correo electrónico de restablecimiento de contraseña. Las comunicaciones de organización se refieren al intercambio de información, ideas y opiniones dentro y fuera de la organización, sin fines comerciales.
+   * **Comunicaciones** transaccionales y operativas: las comunicaciones transaccionales contienen información destinada a completar un proceso que el destinatario ha iniciado con usted. Ejemplo: confirmación de compra, correo electrónico de restablecimiento de contraseña. Las comunicaciones de organización se refieren al intercambio de información, ideas y vistas dentro y fuera de la organización, sin fines comerciales.
+   ![](assets/subdomain5.png)
+
+   **Desglosar los subdominios según los casos de uso es una práctica recomendada para la entrega**. Al hacerlo, la reputación de cada subdominio está aislada y protegida. Por ejemplo: si el subdominio para comunicaciones de marketing termina siendo en la lista negra por Proveedores de servicio de Internet, el subdominio de comunicaciones transaccionales no se verá afectado y podrá enviar comunicaciones.
+
+   **Puede delegar un subdominio para los casos** de uso de mercadotecnia y transaccional:
+
+   * En los casos de uso de Marketing, los subdominios se configurarán en instancias de **MID** (fuentes medias).
+   * En los casos de uso transaccional, los subdominios se configurarán en TODAS las instancias de **RT** (centro de mensajes / mensajería en tiempo real) para garantizar la conectividad. Por lo tanto, los subdominios funcionarán con todas las instancias de RT.
    >[!NOTE]
    >
-   >Desglosar los subdominios según los casos de uso es una práctica recomendada para la entrega. Al hacerlo, la reputación de cada subdominio está aislada y protegida.
-   >
-   >Por ejemplo, si los proveedores de servicios de Internet acaban bloqueando el subdominio de comunicaciones de marketing, el subdominio de comunicaciones de transacción no se verá afectado y podrá seguir enviando comunicaciones.
-
-   ![](assets/subdomain5.png)
+   >Si utiliza Campaign Classic, el Panel de control le permite ver qué instancias de RT/MID están conectadas a la instancia de Marketing con la que está trabajando. Para obtener más información, consulte [esta sección](../../instances-settings/using/instance-details.md).
 
 1. Escriba el subdominio que creó en la solución de alojamiento y haga clic en **[!UICONTROL Submit]**.
 
-   >[!NOTE]
-   >
-   > Asegúrese de completar el nombre **** completo del subdominio que desea delegar. Por ejemplo, para delegar el subdominio &quot;usoffer.email.weretail.com&quot;, escriba &quot;usoffer.email.weretail.com&quot;.
+   Asegúrese de completar el nombre **** completo del subdominio que desea delegar. Por ejemplo, para delegar el subdominio &quot;usoffer.email.weretail.com&quot;, escriba &quot;usoffer.email.weretail.com&quot;.
 
    ![](assets/subdomain6.png)
 
-1. Una vez enviado el subdominio, el Panel de control comprobará que señala correctamente a los registros NS de Adobe y que el registro de inicio de autoridad (SOA) no existe para este subdominio.
+1. Una vez enviado el subdominio, el Panel de control comprobará que señala correctamente a los registros NS de Adobe y que el registro de Inicio de autoridad (SOA) no existe para este subdominio.
 
-1. Si las comprobaciones son correctas, el Panel de control empezará a configurar el subdominio con registros DNS, direcciones URL adicionales, bandejas de entrada, etc. Para obtener más detalles sobre el progreso de la configuración, haga clic en el **[!UICONTROL Process details]** botón .
+1. Si las comprobaciones son correctas, el Panel de control establecerá el inicio del subdominio con registros DNS, direcciones URL adicionales, bandejas de entrada, etc. Para obtener más detalles sobre el progreso de la configuración, haga clic en el **[!UICONTROL Process details]** botón .
 
    ![](assets/subdomain7.png)
 
@@ -112,7 +116,7 @@ Para obtener más información sobre el subdominio, haga clic en el **[!UICONTRO
 
 ## Uso de CNAME {#use-cnames}
 
-El uso de CNAME para delegación de subdominios no es compatible con el Panel de control. Para utilizar este método, póngase en contacto con el Servicio de atención al cliente de Adobe.
+El uso de CNAME para la delegación de subdominios no es compatible con el Panel de control. Para utilizar este método, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 **Temas relacionados:**
 
