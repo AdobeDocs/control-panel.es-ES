@@ -2,7 +2,7 @@
 title: Lista blanca de IP
 description: Obtenga más información sobre la lista de direcciones permitidas IP en el Panel de control, por ejemplo, el acceso
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >abstract=&quot;Administre la lista blanca de IP para acceder a sus instancias&quot;.
 >extra-url=&quot;https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4&quot; text=&quot;Ver vídeo de demostración&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Esta función solo está disponible para instancias de Campaign Classic.
 
@@ -27,7 +27,7 @@ Si su dirección IP no se ha admitido en la lista de direcciones permitidas, no 
 
 El Panel de control permite configurar nuevas conexiones a las instancias mediante la lista blanca de intervalos de direcciones IP. Para ello, siga los pasos que se describen a continuación.
 
-Una vez que las direcciones IP estén en la lista de direcciones permitidas, puede crear y vincular operadores de campaña a ellos para que los usuarios puedan acceder a la instancia.
+Una vez que las direcciones IP estén en la lista de direcciones permitidas, puede crear y vincular operadores de Campaña a ellos para que los usuarios puedan acceder a la instancia.
 
 ## Prácticas recomendadas {#best-practices}
 
@@ -35,13 +35,13 @@ Asegúrese de seguir las recomendaciones y limitaciones que se indican a continu
 
 * **No habilite el acceso IP a todos los tipos** de acceso si no desea que la dirección IP se conecte a los servidores RT o a la zona de seguridad de AEM.
 * **Si habilitó temporalmente el acceso a su instancia para una dirección** IP, asegúrese de eliminar las direcciones IP de las direcciones IP permitidas una vez que ya no necesite conectarse a su instancia.
-* **No recomendamos que se incluyan en la lista blanca las direcciones IP de los lugares** públicos (aeropuertos, hoteles, etc.). Utilice la dirección VPN de su empresa para mantener su instancia segura en todo momento.
+* **No recomendamos que se incluyan en la lista blanca las direcciones IP de los lugares** públicos (aeropuertos, hoteles, etc.). Utilice su dirección VPN de compañía para mantener la seguridad de su instancia en todo momento.
 
 ## Lista blanca de direcciones IP para el acceso a instancias {#whistelisting-ip-addresses}
 
 >[!CONTEXTUALHELP]
 >id=&quot;cp_instancesettings_iprange_add&quot;
->title=&quot;Add New Ip Range&quot;
+>title=&quot;Añadir Nuevo Intervalo Ip&quot;
 >abstract=&quot;Defina el rango de IP que desea incluir en la lista de direcciones permitidas para conectarse a su instancia.&quot;
 
 Para incluir direcciones IP en la lista blanca, siga estos pasos:
@@ -72,12 +72,12 @@ Para incluir direcciones IP en la lista blanca, siga estos pasos:
 
 1. Especifique el tipo de acceso que desea conceder a las direcciones IP:
 
-   * **[!UICONTROL Campaign Console Access]**:: Se permitirá que las direcciones IP se conecten a la consola de Campaign Classic. Tenga en cuenta que el acceso a la consola solo está habilitado para instancias de Marketing. No se permite el acceso a las instancias de MID y RT y, por tanto, no se habilita.
+   * **[!UICONTROL Campaign Console Access]**:: Se permitirá que las direcciones IP se conecten a la Consola de Campaign Classic. Tenga en cuenta que el acceso a la consola solo está habilitado para instancias de Marketing. No se permite el acceso a las instancias de MID y RT y, por tanto, no se habilita.
    * **[!UICONTROL AEM connection]**:: Se permitirá que las direcciones IP de AEM especificadas se conecten a la instancia de Marketing.
    * **[!UICONTROL External API connection]**:: Se permitirá que las API externas con las direcciones IP especificadas se conecten a la instancia de Marketing y/o Centro de mensajes (RT). Tenga en cuenta que la conexión a la consola de instancias de RT no está habilitada.
    ![](assets/ip_whitelist_acesstype.png)
 
-1. Haga clic en el botón **[!UICONTROL Save]**. El intervalo de IP se agrega a la lista de direcciones IP permitidas.
+1. Haga clic en el botón **[!UICONTROL Save]**. El intervalo de IP se agrega a la lista de direcciones IP en la lista de direcciones permitidas.
 
    ![](assets/ip_whitelist_added.png)
 
