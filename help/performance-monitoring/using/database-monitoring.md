@@ -2,7 +2,7 @@
 title: Supervisión de bases de datos
 description: Obtenga información sobre cómo supervisar la base de datos de Campañas en el Panel de control
 translation-type: tm+mt
-source-git-commit: f995e0dc51fd95d00fdcaa2eb347b2aedfdef60d
+source-git-commit: 296cbcfa8588b05c03452afdb5bdbad8da1595d0
 
 ---
 
@@ -21,11 +21,13 @@ El desbordamiento de una base de datos de instancia puede provocar varios proble
 
 >[!NOTE]
 >
->Tenga en cuenta que puede haber algunas discrepancias entre la capacidad de espacio de la base de datos actual y la cantidad especificada en el contrato durante distintos períodos de tiempo para garantizar un rendimiento más alto.
+>Es posible que la cantidad de espacio en la base de datos proporcionada en el Panel de control no refleje la cantidad de espacio en la base de datos especificada en el contrato. La mayoría de las veces, se le proporciona temporalmente espacio de base de datos mayor para garantizar el rendimiento del sistema.
 
 ## Monitoreo del uso de la base de datos {#monitoring-instances-database}
 
-1. Abra la **[!UICONTROL Health Monitoring]** tarjeta y seleccione la **[!UICONTROL Databases]** ficha.
+El Panel de control permite supervisar el uso de la base de datos para cada una de las instancias de Campaña. Para realizar esto, siga los pasos a continuación.
+
+1. Abra la **[!UICONTROL Performance Monitoring]** tarjeta y seleccione la **[!UICONTROL Databases]** ficha.
 
 1. Seleccione la instancia que desee en el **[!UICONTROL Instance List]**.
 
@@ -38,6 +40,10 @@ El desbordamiento de una base de datos de instancia puede provocar varios proble
    Al pasar el ratón sobre el gráfico, podrá obtener información detallada sobre el período de tiempo seleccionado.
 
    ![](assets/databases_dashboard_detail.png)
+
+>[!NOTE]
+>
+>También puede recibir notificaciones cuando una de sus bases de datos alcance su capacidad. Para ello, suscríbase a las alertas de [correo electrónico](../../performance-monitoring/using/email-alerting.md)
 
 ## Prevención de la sobrecarga de la base de datos {#preventing-database-overload}
 
@@ -52,7 +58,7 @@ La sección siguiente proporciona recursos útiles de documentación de Campaña
 
 **Mantenimiento de la base de datos**
 
-* Flujo de trabajo técnico de limpieza de bases de datos ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflowshtml#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
+* Flujo de trabajo técnico de limpieza de bases de datos ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [Guía](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) de mantenimiento de la base de datos (Campaign Classic)
 * [Solución de problemas](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html) del rendimiento de la base de datos (Campaign Classic)
 * [Opciones](https://docs.adobe.com/help/en/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) relacionadas con la base de datos (Campaign Classic)
