@@ -1,25 +1,36 @@
 ---
 title: Alertas por correo electrónico
-description: Obtenga información sobre xxxx en el Panel de control
+description: Obtenga información sobre cómo recibir notificaciones por correo electrónico en caso de problemas con las instancias de Campaña
 translation-type: tm+mt
-source-git-commit: cff541a89363e3410e604a9ef620482e826c53db
+source-git-commit: 819d9257775e244c5a84e214a86f324830e0ad74
 
 ---
 
 
 # Alertas por correo electrónico {#email-alerting}
 
+## Acerca de las alertas de correo electrónico {#about-email-alerts}
+
 Con el fin de proporcionar buena flexibilidad a su trabajo, el Panel de control está equipado con funcionalidad de alerta por correo electrónico en tiempo real.
 
-Después de suscribirse a las alertas por correo electrónico, el Panel de control le notificará los problemas del sistema y le recomendará las acciones que debe realizar.
+Para suscribirse a estas alertas, siga estos pasos:
 
->[!NOTE]
->
->Las alertas por correo electrónico se envían a todos los usuarios que se hayan registrado en **todas las instancias** de las que sean administradores.
+1. Haga clic en el **[!UICONTROL Alerting notifications]** botón disponible en cualquier ubicación del Panel de control y, a continuación, haga clic en **[!UICONTROL Subscribe]**.
 
-La lista de las notificaciones es la siguiente:
+![](assets/subscribing.png)
 
-* xxxx
-* xxxx
-* xxxx
-* xxxx
+1. Se envía un correo electrónico para confirmar la suscripción.
+
+![](assets/email_subscription.png)
+
+Después de suscribirse, el Panel de control notificará los problemas del sistema y recomendará las acciones que deben realizarse.
+
+Las alertas por correo electrónico se envían a todos los usuarios que se hayan registrado en **todas las instancias** de las que sean administradores.
+
+La lista de las alertas es la siguiente:
+
+* **Uso** del almacenamiento SFTP: Uno de sus servidores SFTP ha alcanzado el 80 % o más de su capacidad. Consulte Administración [de almacenamientos SFTP](../../sftp/using/sftp-storage-management.md).
+
+* **Uso** de la base de datos: Una de las bases de datos de instancias ha alcanzado el 80 % o más de su capacidad. Consulte Supervisión [de bases de datos](../../performance-monitoring/using/database-monitoring.md).
+
+* **Caducidad** del certificado SSL: Uno de los certificados SSL de los subdominios ha caducado o va a caducar en 60 días o menos. Consulte [Supervisión de los certificados](../../subdomains-certificates/using/monitoring-ssl-certificates.md)SSL de los subdominios.
