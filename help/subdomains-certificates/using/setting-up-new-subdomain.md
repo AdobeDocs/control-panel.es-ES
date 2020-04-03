@@ -2,7 +2,7 @@
 title: Configuración de un nuevo subdominio
 description: Obtenga información sobre cómo configurar un nuevo subdominio para las instancias de campaña
 translation-type: tm+mt
-source-git-commit: 9bcf83c85628a59671cd5580144d86bee88e35de
+source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
 
 ---
 
@@ -101,12 +101,13 @@ Al final del proceso, los subdominios se configurarán para que funcionen con la
 >
 >De forma predeterminada, la bandeja de entrada &quot;Responder&quot; del Panel de control está configurada para borrar correos electrónicos y no se puede revisar. Si desea supervisar la bandeja de entrada &quot;Responder a&quot; para sus campañas de marketing, no utilice esta dirección.
 
+Puede obtener más información sobre el subdominio haciendo clic en los botones **[!UICONTROL Subdomain details]** y **[!UICONTROL Sender info]** .
 
-Para obtener más información sobre el subdominio, haga clic en el **[!UICONTROL Subdomain Details]** botón .
+![](assets/detail_buttons.png)
 
-![](assets/subdomain_details_general.png)
+![](assets/subdomain_details.png)
 
-![](assets/subdomains_details_senderinfo.png)
+![](assets/sender_info.png)
 
 >[!IMPORTANT]
 >
@@ -116,7 +117,7 @@ Para obtener más información sobre el subdominio, haga clic en el **[!UICONTRO
 
 ## Uso de CNAME {#use-cnames}
 
-El uso de CNAME para la delegación de subdominios no es compatible con el Panel de control. Para utilizar este método, póngase en contacto con el Servicio de atención al cliente de Adobe.
+El uso de CNAME para delegación de subdominios no es compatible con el Panel de control. Para utilizar este método, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 **Temas relacionados:**
 
