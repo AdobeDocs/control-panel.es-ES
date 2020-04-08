@@ -2,7 +2,7 @@
 title: Alertas por correo electrónico
 description: Obtenga información sobre cómo recibir notificaciones por correo electrónico en caso de problemas con las instancias de Campaña
 translation-type: tm+mt
-source-git-commit: 819d9257775e244c5a84e214a86f324830e0ad74
+source-git-commit: e79ad202a1d3c3eb8c9944a352cb7d614953bcd4
 
 ---
 
@@ -17,15 +17,16 @@ Para suscribirse a estas alertas, siga estos pasos:
 
 1. Haga clic en el **[!UICONTROL Alerting notifications]** botón disponible en cualquier ubicación del Panel de control y, a continuación, haga clic en **[!UICONTROL Subscribe]**.
 
-![](assets/subscribing.png)
+   ![](assets/subscribing.png)
 
 1. Se envía un correo electrónico para confirmar la suscripción.
 
-![](assets/email_subscription.png)
+   ![](assets/email_subscription.png)
 
-Después de suscribirse, el Panel de control notificará los problemas del sistema y recomendará las acciones que deben realizarse.
+1. Después de suscribirse, el Panel de control notificará los problemas del sistema y recomendará las acciones que deben realizarse. Las alertas por correo electrónico se envían a todos los usuarios que se hayan registrado en **todas las instancias** de las que sean administradores.
 
-Las alertas por correo electrónico se envían a todos los usuarios que se hayan registrado en **todas las instancias** de las que sean administradores.
+   ![](assets/alert_sample.png)
+
 
 La lista de las alertas es la siguiente:
 
@@ -34,3 +35,4 @@ La lista de las alertas es la siguiente:
 * **Uso** de la base de datos: Una de las bases de datos de instancias ha alcanzado el 80 % o más de su capacidad. Consulte Supervisión [de bases de datos](../../performance-monitoring/using/database-monitoring.md).
 
 * **Caducidad** del certificado SSL: Uno de los certificados SSL de los subdominios ha caducado o va a caducar en 60 días o menos. Consulte [Supervisión de los certificados](../../subdomains-certificates/using/monitoring-ssl-certificates.md)SSL de los subdominios.
+
