@@ -2,7 +2,7 @@
 title: Supervisión de bases de datos
 description: Obtenga información sobre cómo supervisar la base de datos de Campañas en el Panel de control
 translation-type: tm+mt
-source-git-commit: 296cbcfa8588b05c03452afdb5bdbad8da1595d0
+source-git-commit: 1facd377fd1276b6bf87b52c69ff599f2ecf0228
 
 ---
 
@@ -35,7 +35,11 @@ El Panel de control permite supervisar el uso de la base de datos para cada una 
 
    ![](assets/databases_dashboard.png)
 
-   El área inferior proporciona una representación gráfica de la utilización de la base de datos en los últimos 7 días. Puede cambiar el período de tiempo mostrado mediante los filtros disponibles en la esquina superior derecha.
+   El área inferior proporciona una representación gráfica de la utilización mínima, media y máxima de la base de datos en los últimos 7 días, así como el umbral de utilización de la base de datos del 90%, representado por una curva de puntos roja.
+
+   Puede cambiar el período de tiempo mostrado mediante los filtros disponibles en la esquina superior derecha.
+
+   Para mejorar la legibilidad, también puede resaltar una o varias curvas en el gráfico. Para ello, selecciónelos en la **[!UICONTROL Aggregation Type]** leyenda.
 
    Al pasar el ratón sobre el gráfico, podrá obtener información detallada sobre el período de tiempo seleccionado.
 
@@ -43,7 +47,7 @@ El Panel de control permite supervisar el uso de la base de datos para cada una 
 
 >[!NOTE]
 >
->También puede recibir notificaciones cuando una de sus bases de datos alcance su capacidad. Para ello, suscríbase a las alertas de [correo electrónico](../../performance-monitoring/using/email-alerting.md)
+>Además de este panel, puede recibir notificaciones cuando una de sus bases de datos alcance su capacidad. Para ello, suscríbase a las alertas de [correo electrónico](../../performance-monitoring/using/email-alerting.md)
 
 ## Prevención de la sobrecarga de la base de datos {#preventing-database-overload}
 
