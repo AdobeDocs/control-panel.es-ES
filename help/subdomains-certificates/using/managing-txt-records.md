@@ -2,7 +2,7 @@
 title: Administración de registros TXT
 description: Obtenga información sobre cómo administrar registros TXT para la verificación de la propiedad del dominio.
 translation-type: tm+mt
-source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
+source-git-commit: 5a70141e0198946928723b34c9097c5cf8a24f97
 
 ---
 
@@ -28,8 +28,8 @@ Actualmente, Gmail es uno de los proveedores de direcciones de correo electróni
 
 Recursos adicionales:
 
-* [Vídeo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)de tutorial de Campaign Standard.
-* [Vídeo de tutorial de Campaign Classic](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)
+* [Vídeo de tutorial de Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)
+* [Vídeo de tutorial de Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/google-txt-record-management.html)
 
 ## Añadir un registro TXT de Google para un subdominio {#adding-a-google-txt-record}
 
