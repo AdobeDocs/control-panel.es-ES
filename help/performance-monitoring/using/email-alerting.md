@@ -2,16 +2,12 @@
 title: Alertas por correo electrónico
 description: Obtenga información sobre cómo recibir notificaciones por correo electrónico en caso de problemas con las instancias de Campaña
 translation-type: tm+mt
-source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
+source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
 
 
 # Alertas por correo electrónico {#email-alerting}
-
->[!IMPORTANT]
->
->Las alertas por correo electrónico del Panel de control estarán disponibles a finales de abril.
 
 ## Acerca de las alertas de correo electrónico {#about-email-alerts}
 
