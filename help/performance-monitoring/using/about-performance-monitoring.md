@@ -2,12 +2,16 @@
 title: Acerca del monitoreo del rendimiento
 description: Obtenga información sobre cómo supervisar el rendimiento de las instancias en el Panel de control
 translation-type: tm+mt
-source-git-commit: 34dc95481fa7f2db162dbfc19a462782ee825739
+source-git-commit: 135d8101c1dc3f902844de08e7382a2eb8b548ee
 
 ---
 
 
 # Acerca del monitoreo del rendimiento {#about-performance-monitoring}
+
+>[!IMPORTANT]
+>
+>La supervisión del desempeño por parte del Panel de Control estará disponible a finales de abril.
 
 El Panel de control proporciona varias funcionalidades que le ayudan a monitorear sus instancias y a garantizar un rendimiento óptimo.
 
