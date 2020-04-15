@@ -2,12 +2,16 @@
 title: Supervisión de bases de datos
 description: Obtenga información sobre cómo supervisar la base de datos de Campañas en el Panel de control
 translation-type: tm+mt
-source-git-commit: 1facd377fd1276b6bf87b52c69ff599f2ecf0228
+source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
 
 ---
 
 
 # Supervisión de bases de datos {#database-monitoring}
+
+>[!IMPORTANT]
+>
+>La vigilancia de la base de datos del Panel de Control estará disponible a finales de abril.
 
 ## Acerca de las bases de datos de instancias {#about-instances-databases}
 
