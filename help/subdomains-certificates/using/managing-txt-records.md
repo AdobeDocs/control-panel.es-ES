@@ -2,7 +2,10 @@
 title: Administración de registros TXT
 description: Obtenga información sobre cómo administrar registros TXT para la verificación de la propiedad del dominio.
 translation-type: tm+mt
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+source-git-commit: 7c2dd60c70b5f9c0b2567df289582b972a7f76b8
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 0%
 
 ---
 
@@ -52,5 +55,3 @@ Para eliminar un registro, selecciónelo en la lista de registros y haga clic en
 >[!NOTE]
 >
 >El único registro que puede eliminar de la lista de registros DNS es el que agregó anteriormente (en nuestro caso, el registro TXT de Google).
-
-
