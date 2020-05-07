@@ -2,17 +2,17 @@
 title: Gestión de claves GPG
 description: Aprenda a administrar claves GPG para cifrar y descifrar datos dentro de Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 385f1c19b43d30e34d55ae655018e61aa1d2dc04
+source-git-commit: d44c0557904f0e6f6688c12687fbf84e42553d6b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1028'
+ht-degree: 3%
 
 ---
 
 
 # Gestión de claves GPG {#gpg-keys-management}
 
-## Acerca del cifrado GPG {about-gpg-encoding}
+## Acerca del cifrado GPG {#about-gpg-encryption}
 
 El cifrado GPG le permite proteger sus datos mediante un sistema de pares de claves público-privadas que siguen la especificación [OpenPGP](https://www.openpgp.org/about/standard/) .
 
