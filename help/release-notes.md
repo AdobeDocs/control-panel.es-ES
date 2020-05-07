@@ -1,7 +1,10 @@
 ---
 title: Versiones del Panel de control
 translation-type: tm+mt
-source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
+source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 34%
 
 ---
 
@@ -12,9 +15,9 @@ Aquí encontrará información sobre las últimas versiones del Panel de control
 
 >[!NOTE]
 >
->Tenga en cuenta que el Panel de control solo está disponible para clientes alojados en AWS. No se requiere ninguna actualización para acceder al Panel de control. Asegúrese de que es un usuario administrador para acceder a él.
+>Tenga en cuenta que el Panel de control está disponible para clientes alojados en AWS solamente, excepto para entornos híbridos que aún no son compatibles. . No se requiere ninguna actualización para acceder al Panel de control. Asegúrese de que es un usuario administrador para acceder a él.
 
-## April 2020 {#april-2020}
+## de abril de 2020 {#april-2020}
 
 **La administración** de registros TXT de GoogleAñade el registro de verificación del sitio TXT de Google a todos los subdominios utilizados para enviar correos electrónicos a las direcciones de Gmail a través del Panel de control de Campaña.
 
