@@ -2,7 +2,10 @@
 title: Acceso al Panel de control
 description: Obtenga información sobre cómo acceder al Panel de control
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+workflow-type: tm+mt
+source-wordcount: '274'
+ht-degree: 8%
 
 ---
 
@@ -10,12 +13,12 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 # Características principales {#key-features}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_overview&quot;
->title=&quot;Acerca del Panel de control&quot;
->abstract=&quot;La página de inicio del Panel de control le permite acceder a todas las acciones que se pueden realizar en las instancias de su campaña.&quot;
->extra-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/discovering-the-interface.html&quot; text=&quot;Descubriendo la interfaz&quot;
+>id="cp_overview"
+>title="Acerca del Panel de control"
+>abstract="La página de inicio del Panel de control le permite acceder a todas las acciones que se pueden realizar en las instancias de Campaña."
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Descubrimiento de la interfaz"
 
-El Panel de control le ayuda a aumentar la eficacia de su trabajo como administrador de productos de Adobe Campaign Standard y/o Classic, permitiéndole administrar la configuración y rastrear los usos de cada una de sus instancias. Su intuitiva interfaz le permite monitorear fácilmente el uso de los activos clave, así como también realizar tareas administrativas como la lista de direcciones IP permitidas, la supervisión del almacenamiento SFTP, la administración de claves, etc.
+El Panel de control le ayuda a aumentar la eficacia de su trabajo como administrador de productos de Adobe Campaign Standard y/o Classic, permitiéndole administrar la configuración y rastrear los usos de cada una de sus instancias. Su intuitiva interfaz le permite monitorear fácilmente el uso de los recursos clave, así como realizar tareas administrativas como la lista de direcciones IP permitidas, la supervisión de almacenamientos SFTP, la administración de claves, etc.
 
 Ventajas principales:
 
@@ -24,9 +27,9 @@ Ventajas principales:
 * Mejore la seguridad controlando la configuración de acceso según las necesidades.
 
 >[!NOTE]
->El Panel de control solo está disponible para los usuarios administradores y para todos los clientes alojados en AWS. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](../../discover/using/managing-permissions.md). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta sección](../../faq.md).
+>El Panel de control solo está disponible para los usuarios administradores y para todos los clientes alojados en AWS, excepto para los entornos híbridos que aún no son compatibles. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](../../discover/using/managing-permissions.md). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta sección](../../faq.md).
 >
->Tenga en cuenta que no es necesario actualizar a la última compilación de campaña para acceder al Panel de control.
+>Tenga en cuenta que no es necesario actualizar a la última compilación de Campaña para acceder al Panel de control.
 
 <table>
 <tr>
