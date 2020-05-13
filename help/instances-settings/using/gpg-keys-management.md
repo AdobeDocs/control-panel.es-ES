@@ -2,7 +2,7 @@
 title: Gestión de claves GPG
 description: Aprenda a administrar claves GPG para cifrar y descifrar datos dentro de Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: d44c0557904f0e6f6688c12687fbf84e42553d6b
+source-git-commit: 2c0bd8f3583423b3b2f981390a32416e8bbcbc4a
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 3%
@@ -69,9 +69,9 @@ Para ello, debe generar un par de claves GPG a partir de una herramienta de cifr
 
    >[!NOTE]
    >
-   >El software libre de código abierto para generar claves está disponible. Sin embargo, asegúrese de seguir las directrices de su organización y utilizar la utilidad PGP recomendada por su organización de TI/seguridad.
+   >El software libre de código abierto para generar claves está disponible. Sin embargo, asegúrese de seguir las directrices de su organización y utilizar la utilidad GPG recomendada por su organización de TI/seguridad.
 
-1. Una vez instalada la utilidad, ejecute el comando siguiente en Mac Terminal o Windows Machine.
+1. Una vez instalada la utilidad, ejecute el comando siguiente, en Mac Terminal o en el comando de Windows.
 
    `gpg --full-generate-key`
 
@@ -111,7 +111,7 @@ Una vez instalada la clave pública, esta se muestra en la lista. Puede usar el 
 
 La clave está disponible para su uso en flujos de trabajo de Adobe Campaign. Puede utilizarla para cifrar datos al utilizar actividades de extracción de datos.
 
-Para obtener más información sobre esto, consulte las documentaciones de Adobe Campaign:
+Para obtener más información sobre esto, consulte la documentación de Adobe Campaign:
 
 | Campaign Classic | Campaign Standard |
 ---------|----------
@@ -145,9 +145,9 @@ Puede usar el **...** para descargar la clave pública o copiar su huella digita
 
 ![](assets/gpg_generate_list.png)
 
-La clave pública está disponible para compartirse con cualquier sistema externo. Adobe Campaign podrá utilizar la clave privada en las actividades de carga de datos para descifrar los datos cifrados con la clave pública.
+La clave pública está disponible para compartirse con cualquier sistema externo. Adobe Campaign podrá utilizar la clave privada en las actividades de carga de datos para descifrar los datos que se han cifrado con la clave pública.
 
-Para obtener más información sobre esto, consulte las documentaciones de Adobe Campaign:
+Para obtener más información sobre esto, consulte la documentación de Adobe Campaign:
 
 | Campaign Classic | Campaign Standard |
 ---------|----------
