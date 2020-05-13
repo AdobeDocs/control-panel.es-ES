@@ -2,7 +2,7 @@
 title: Gestión de claves GPG
 description: Aprenda a administrar claves GPG para cifrar y descifrar datos dentro de Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 2c0bd8f3583423b3b2f981390a32416e8bbcbc4a
+source-git-commit: 59b91342b6bec1f78fce87b973d9f2d32cd5c698
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 3%
@@ -65,7 +65,7 @@ El Panel de control le permite cifrar datos procedentes de la instancia de Adobe
 
 Para ello, debe generar un par de claves GPG a partir de una herramienta de cifrado PGP y luego instalar la clave pública en el Panel de control. Luego podrá cifrar los datos antes de enviarlos desde su instancia. Para ello, siga estos pasos:
 
-1. Genere un par de claves públicas y privadas utilizando una herramienta de cifrado GPG siguiendo la especificación [OpenPGP](https://www.openpgp.org/about/standard/). Para ello, instale una utilidad GPG o un software GNuPG.
+1. Genere un par de claves públicas y privadas utilizando una herramienta de cifrado GPG siguiendo la especificación [OpenPGP](https://www.openpgp.org/about/standard/). Para ello, instale una utilidad GPG o un software GNuGP.
 
    >[!NOTE]
    >
@@ -85,7 +85,7 @@ Para ello, debe generar un par de claves GPG a partir de una herramienta de cifr
    * **frase de contraseña**
    ![](assets/gpg_command.png)
 
-1. Una vez confirmada, la secuencia de comandos generará una clave que puede exportar a un archivo o pegar directamente en el Panel de control. Para exportar el archivo, ejecute este comando seguido de la huella dactilar de la clave que ha generado.
+1. Una vez confirmada, la secuencia de comandos generará una clave que puede exportar a un archivo o pegar directamente en el Panel de control. Para exportar el archivo, ejecute este comando seguido de la huella digital de la clave que ha generado.
 
    `gpg -a --export <fingerprint>`
 
