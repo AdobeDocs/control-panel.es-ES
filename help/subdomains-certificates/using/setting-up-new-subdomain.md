@@ -2,10 +2,10 @@
 title: Configuración de un nuevo subdominio
 description: Obtenga información sobre cómo configurar un nuevo subdominio para las instancias de campaña
 translation-type: tm+mt
-source-git-commit: b27c6c8db765bc61b4e2afcadf446b28b15d3a93
+source-git-commit: 47b4c6abd7b41a63d881b658849ac985c72656f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '932'
+ht-degree: 1%
 
 ---
 
@@ -84,29 +84,25 @@ El Panel de control permite delegar completamente un subdominio a Adobe Campaign
 
 1. Una vez enviado el subdominio, el Panel de control comprobará que señala correctamente a los registros NS de Adobe y que el registro de Inicio de autoridad (SOA) no existe para este subdominio.
 
-   >[!NOTE]
-   >
-   >Tenga en cuenta que mientras se ejecuta la delegación de subdominios, otras solicitudes a través del Panel de control se pondrán en cola y se realizarán solamente después de que finalice la Delegación de subdominios, para evitar cualquier problema de rendimiento.
-
-1. Si las comprobaciones son correctas, el Panel de control establecerá el inicio del subdominio con registros DNS, direcciones URL adicionales, bandejas de entrada, etc.
-
-   Finalmente, se notificará al equipo de Entregabilidad sobre el nuevo subdominio para auditarlo. El proceso de auditoría puede tardar entre 3 y 10 días hábiles después de delegar el subdominio. Las comprobaciones que se realizan incluyen bucles de comentarios y pruebas de bucles de quejas de spam. Por lo tanto, no recomendamos el uso del subdominio antes de que se haya completado la auditoría, ya que podría resultar en una mala reputación de subdominio.
-
-   Para obtener más detalles sobre el progreso de la configuración, haga clic en el **[!UICONTROL Process details]** botón .
+1. Si las comprobaciones son correctas, el Panel de control establecerá el inicio del subdominio con registros DNS, direcciones URL adicionales, bandejas de entrada, etc. Para obtener más detalles sobre el progreso de la configuración, haga clic en el **[!UICONTROL Process details]** botón .
 
    ![](assets/subdomain7.png)
 
    >[!NOTE]
    >
-   >En algunos casos, la delegación pasa por ahí, pero es posible que el subdominio no se haya verificado correctamente. El subdominio permanecerá en la **[!UICONTROL Processing]** lista con un registro de trabajo que proporciona información sobre el error. Póngase en contacto con el Servicio de atención al cliente si tiene problemas para resolver el problema.
+   >En algunos casos, la delegación pasa por ahí, pero es posible que el subdominio no se haya verificado correctamente. El subdominio irá directamente a la **[!UICONTROL Verified subdomains]** lista con el **[!UICONTROL Unverified]** estado y un registro de trabajo que proporciona información sobre el error. Póngase en contacto con el Servicio de atención al cliente si tiene problemas para resolver el problema.
+   >
+   >Tenga en cuenta que mientras se ejecuta la delegación de subdominios, otras solicitudes a través del Panel de control se pondrán en cola y se realizarán solamente después de que finalice la Delegación de subdominios, para evitar cualquier problema de rendimiento.
 
 Al final del proceso, los subdominios se configurarán para que funcionen con la instancia de Adobe Campaign y se crearán los elementos siguientes:
 
-* **El subdominio con los siguientes registros** DNS: SOA, MX, CNAME(s), DKIM, SPF, TXT,
+* **El subdominio** con los siguientes registros **** DNS: SOA, MX, CNAME(s), DKIM, SPF, TXT,
 * **Subdominios** adicionales a réplica de host, recurso, páginas de seguimiento y clave de dominio,
 * **Bandeja de entrada**: Remitente, Error, Responder.
 
-   De forma predeterminada, la bandeja de entrada &quot;Responder&quot; del Panel de control está configurada para borrar correos electrónicos y no se puede revisar. Si desea supervisar la bandeja de entrada &quot;Responder a&quot; para sus campañas de marketing, no utilice esta dirección.
+>[!NOTE]
+>
+>De forma predeterminada, la bandeja de entrada &quot;Responder&quot; del Panel de control está configurada para borrar correos electrónicos y no se puede revisar. Si desea supervisar la bandeja de entrada &quot;Responder a&quot; para sus campañas de marketing, no utilice esta dirección.
 
 Puede obtener más información sobre el subdominio haciendo clic en los botones **[!UICONTROL Subdomain details]** y **[!UICONTROL Sender info]** .
 
@@ -115,6 +111,12 @@ Puede obtener más información sobre el subdominio haciendo clic en los botones
 ![](assets/subdomain_details.png)
 
 ![](assets/sender_info.png)
+
+>[!IMPORTANT]
+>
+>Después de la etapa de procesamiento, debe comprobar con el Servicio de atención al cliente de Adobe que se ha archivado una solicitud de auditoría para que el equipo de entregabilidad audite el nuevo subdominio que se ha creado. El proceso de auditoría puede tardar hasta 3 10 días hábiles después de delegarse el subdominio.
+>
+>Las comprobaciones que se realizan incluyen bucles de comentarios y pruebas de bucles de quejas de spam. Por lo tanto, no recomendamos el uso del subdominio antes de que se haya completado la auditoría, ya que podría resultar en una mala reputación de subdominio.
 
 ## Uso de CNAME {#use-cnames}
 
