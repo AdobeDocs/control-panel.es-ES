@@ -2,7 +2,7 @@
 title: Gestión de claves GPG
 description: Aprenda a administrar claves GPG para cifrar y descifrar datos dentro de Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 110e77e00fcc0ea893fa91c3b2d3d8788216a8dd
+source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 3%
@@ -83,7 +83,7 @@ Para ello, debe generar un par de claves GPG a partir de una herramienta de cifr
    * **comentario**: la adición de una etiqueta al campo de comentarios permite identificar la clave fácilmente en la lista de claves del Panel de control.
    * **caducidad**: Fecha o &quot;0&quot; sin fecha de caducidad.
    * **frase de contraseña**
-   ![](assets/gpg_command.png)
+   ![](assets/do-not-localize/gpg_command.png)
 
 1. Una vez confirmada, la secuencia de comandos generará una clave que puede exportar a un archivo o pegar directamente en el Panel de control. Para exportar el archivo, ejecute este comando seguido de la huella digital de la clave que ha generado.
 
