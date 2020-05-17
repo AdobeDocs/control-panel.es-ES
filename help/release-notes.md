@@ -1,7 +1,7 @@
 ---
 title: Versiones del Panel de control
 translation-type: tm+mt
-source-git-commit: 88fd5b8853864ed25a3c6f2dfb5da718d0fc8d11
+source-git-commit: 032a4bd28b7f246771b3f246768fca083afe487b
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 31%
@@ -21,25 +21,25 @@ Aquí encontrará información sobre las últimas versiones del Panel de control
 
 **Gestión de claves GPG**
 
-Instale y/o genere claves GPG en una instancia de marketing, para cifrar los datos enviados desde la Campaña y descifrar los datos entrantes. [Más información](../..//instances-settings/using/gpg-keys-management.md)
+Instale y/o genere claves GPG en una instancia de marketing, para cifrar los datos enviados desde la Campaña y descifrar los datos entrantes. [Más información](instances-settings/using/gpg-keys-management.md)
 
 **Administración de certificados para subdominios CNAME**
 
-El Panel de control ahora le permite renovar los certificados SSL de sus subdominios delegados con el método CNAME. [Más información](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
+El Panel de control ahora le permite renovar los certificados SSL de sus subdominios delegados con el método CNAME. [Más información](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## de abril de 2020 {#april-2020}
 
 **Administración de registros TXT de Google**
 
-Añada el registro de verificación del sitio TXT de Google a todos los subdominios utilizados para enviar correos electrónicos a las direcciones de Gmail a través del Panel de control de Campañas. [Más información](../../subdomains-certificates/using/managing-txt-records.md)
+Añada el registro de verificación del sitio TXT de Google a todos los subdominios utilizados para enviar correos electrónicos a las direcciones de Gmail a través del Panel de control de Campañas. [Más información](subdomains-certificates/using/managing-txt-records.md)
 
 **Supervisión del espacio de la base de datos**
 
-El Panel de control de Campaña está equipado con capacidades de monitoreo de bases de datos, lo que le permite realizar vistas en el uso del espacio de la base de datos a pedido y con el paso del tiempo. [Más información](../../performance-monitoring/using/database-monitoring.md)
+El Panel de control de Campaña está equipado con capacidades de monitoreo de bases de datos, lo que le permite realizar vistas en el uso del espacio de la base de datos a pedido y con el paso del tiempo. [Más información](performance-monitoring/using/database-monitoring.md)
 
 **Alertas por correo electrónico**
 
-El Panel de control de Campaña está equipado con funciones de alerta por correo electrónico en tiempo real, que le permiten iniciar sesión en el Panel de control y registrarse para recibir alertas cuando el sistema está en riesgo de deterioro del rendimiento, o bien se requiere una acción para garantizar un alto rendimiento en el futuro. [Más información](../../performance-monitoring/using/email-alerting.md)
+El Panel de control de Campaña está equipado con funciones de alerta por correo electrónico en tiempo real, que le permiten iniciar sesión en el Panel de control y registrarse para recibir alertas cuando el sistema está en riesgo de deterioro del rendimiento, o bien se requiere una acción para garantizar un alto rendimiento en el futuro. [Más información](performance-monitoring/using/email-alerting.md)
 
 ## Enero de 2020 {#january-2020}
 
