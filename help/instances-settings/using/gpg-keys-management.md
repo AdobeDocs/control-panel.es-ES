@@ -2,9 +2,9 @@
 title: Gestión de claves GPG
 description: Aprenda a administrar claves GPG para cifrar y descifrar datos dentro de Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+source-git-commit: a160b542a6f00a605a80605be2ab3b934f26ba72
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1034'
 ht-degree: 3%
 
 ---
@@ -26,39 +26,6 @@ Esto le permite:
 
 * **Descifrar datos** entrantes: Adobe Campaign recibe datos cifrados desde un sistema externo mediante una clave pública descargada del Panel de control. Adobe Campaign descifra los datos mediante una clave privada generada desde el Panel de control.
 
-## Control de claves GPG
-
-Para acceder a las claves GPG instaladas y generadas para sus instancias, abra la **[!UICONTROL Instance settings]** tarjeta y seleccione la **[!UICONTROL GPG keys]** ficha.
-
-![](assets/gpg_list.png)
-
-La lista muestra todas las claves GPG de cifrado y descifrado que se han instalado y generado para las instancias con información detallada sobre cada clave:
-
-* **[!UICONTROL Name]**:: Nombre que se ha definido al instalar o generar la clave.
-* **[!UICONTROL Use case]**:: Esta columna especifica el caso de uso de la clave:
-
-   ![](assets/gpg_icon_encrypt.png):: La clave se ha instalado para el cifrado de datos.
-
-   ![](assets/gpg_icon_decrypt.png):: La clave se ha generado para permitir el descifrado de datos.
-
-* **[!UICONTROL Fingerprint]**:: la huella digital de la llave.
-* **[!UICONTROL Expires]**:: Fecha de caducidad de la clave. Tenga en cuenta que el Panel de control proporcionará indicaciones visuales a medida que la clave se acerca a su fecha de caducidad:
-
-   * Urgente (rojo) se muestra 30 días antes.
-   * La advertencia (amarilla) se muestra 60 días antes.
-   * Una vez que caduque una clave, se mostrará una pancarta roja &quot;Caducada&quot;.
-   >[!NOTE]
-   >
-   >Tenga en cuenta que el Panel de control no enviará ninguna notificación por correo electrónico.
-
-Como práctica recomendada, le recomendamos que elimine cualquier clave que ya no necesite. To do this, click the **...** button then select **[!UICONTROL Delete Key].**.
-
-![](assets/gpg_delete.png)
-
->[!IMPORTANT]
->
->Antes de quitar una clave, asegúrese de que no se utiliza en ningún flujo de trabajo de Adobe Campaign para evitar que falle.
-
 ## Cifrar datos {#encrypting-data}
 
 El Panel de control le permite cifrar datos procedentes de la instancia de Adobe Campaign.
@@ -71,7 +38,7 @@ Para ello, debe generar un par de claves GPG a partir de una herramienta de cifr
    >
    >El software libre de código abierto para generar claves está disponible. Sin embargo, asegúrese de seguir las directrices de su organización y utilizar la utilidad GPG recomendada por su organización de TI/seguridad.
 
-1. Una vez instalada la utilidad, ejecute el comando siguiente, en Mac Terminal o en el comando de Windows.
+1. Una vez instalada la utilidad, ejecute el comando siguiente, en el comando de Mac Terminal o Windows.
 
    `gpg --full-generate-key`
 
@@ -89,7 +56,7 @@ Para ello, debe generar un par de claves GPG a partir de una herramienta de cifr
 
    `gpg -a --export <fingerprint>`
 
-1. Para instalar la clave pública en el Panel de control, acceda a la **[!UICONTROL GPG Keys]** ficha y seleccione la instancia que desee.
+1. Para instalar la clave pública en el Panel de control, abra la **[!UICONTROL Instance settings]** tarjeta y, a continuación, seleccione la **[!UICONTROL GPG keys]** ficha y la instancia que desee.
 
 1. Haga clic en el botón **[!UICONTROL Install Key]**.
 
@@ -134,7 +101,7 @@ Para ello, debe generar un par de claves GPG directamente desde el Panel de cont
 
 Para generar un par de claves en el Panel de control, siga estos pasos:
 
-1. Acceda a la **[!UICONTROL GPG Keys]** ficha y, a continuación, seleccione la instancia de Adobe Campaign que desee.
+1. Abra la **[!UICONTROL Instance settings]** tarjeta y, a continuación, seleccione la **[!UICONTROL GPG keys]** ficha y la instancia de Adobe Campaign que desee.
 
 1. Haga clic en el botón **[!UICONTROL Generate Key]**.
 
@@ -163,3 +130,36 @@ Para obtener más información sobre esto, consulte la documentación de Adobe C
 
 * [Administración de datos cifrados](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
 * [Cargar actividad de archivo](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/load-file.html)
+
+## Control de claves GPG
+
+Para acceder a las claves GPG instaladas y generadas para sus instancias, abra la **[!UICONTROL Instance settings]** tarjeta y seleccione la **[!UICONTROL GPG keys]** ficha.
+
+![](assets/gpg_list.png)
+
+La lista muestra todas las claves GPG de cifrado y descifrado que se han instalado y generado para las instancias con información detallada sobre cada clave:
+
+* **[!UICONTROL Name]**:: Nombre que se ha definido al instalar o generar la clave.
+* **[!UICONTROL Use case]**:: Esta columna especifica el caso de uso de la clave:
+
+   ![](assets/gpg_icon_encrypt.png):: La clave se ha instalado para el cifrado de datos.
+
+   ![](assets/gpg_icon_decrypt.png):: La clave se ha generado para permitir el descifrado de datos.
+
+* **[!UICONTROL Fingerprint]**:: la huella digital de la llave.
+* **[!UICONTROL Expires]**:: Fecha de caducidad de la clave. Tenga en cuenta que el Panel de control proporcionará indicaciones visuales a medida que la clave se acerca a su fecha de caducidad:
+
+   * Urgente (rojo) se muestra 30 días antes.
+   * La advertencia (amarilla) se muestra 60 días antes.
+   * Una vez que caduque una clave, se mostrará una pancarta roja &quot;Caducada&quot;.
+   >[!NOTE]
+   >
+   >Tenga en cuenta que el Panel de control no enviará ninguna notificación por correo electrónico.
+
+Como práctica recomendada, le recomendamos que elimine cualquier clave que ya no necesite. To do this, click the **...** button then select **[!UICONTROL Delete Key].**.
+
+![](assets/gpg_delete.png)
+
+>[!IMPORTANT]
+>
+>Antes de quitar una clave, asegúrese de que no se utiliza en ningún flujo de trabajo de Adobe Campaign para evitar que falle.
