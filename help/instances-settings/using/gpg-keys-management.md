@@ -2,7 +2,7 @@
 title: Gestión de claves GPG
 description: Aprenda a administrar claves GPG para cifrar y descifrar datos dentro de Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: a160b542a6f00a605a80605be2ab3b934f26ba72
+source-git-commit: f0e9c7df9b6213f7a6fe81e3cf2e3f9d3355817c
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 3%
