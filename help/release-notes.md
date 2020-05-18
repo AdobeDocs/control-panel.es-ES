@@ -1,10 +1,10 @@
 ---
 title: Versiones del Panel de control
 translation-type: tm+mt
-source-git-commit: 032a4bd28b7f246771b3f246768fca083afe487b
+source-git-commit: 49d84c42446ed1fc996b9d57005565b15ca24e77
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 31%
+source-wordcount: '423'
+ht-degree: 29%
 
 ---
 
@@ -21,7 +21,7 @@ Aquí encontrará información sobre las últimas versiones del Panel de control
 
 **Gestión de claves GPG**
 
-Instale y/o genere claves GPG en una instancia de marketing, para cifrar los datos enviados desde la Campaña y descifrar los datos entrantes. [Más información](instances-settings/using/gpg-keys-management.md)
+El Panel de control ahora le permite generar un par de claves GPG para que pueda descifrar fácilmente los datos que llegan a la Campaña desde el exterior. Además, hemos agregado una función para que pueda instalar una clave GPG pública para cifrar los datos que salen de la Campaña. [Más información](instances-settings/using/gpg-keys-management.md)
 
 **Administración de certificados para subdominios CNAME**
 
