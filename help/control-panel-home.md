@@ -1,10 +1,10 @@
 ---
 title: Documentación del producto
 translation-type: tm+mt
-source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 37%
+source-wordcount: '96'
+ht-degree: 47%
 
 ---
 
@@ -14,10 +14,6 @@ ht-degree: 37%
 ![](assets/do-not-localize/banner.png)
 
 ## Novedades
-
-* [Gestión de claves GPG](instances-settings/using/gpg-keys-management.md)
-
-   Instale y/o genere claves GPG en una instancia de marketing, para cifrar los datos enviados desde la Campaña y descifrar los datos entrantes.
 
 * [Administración de certificados para subdominios](subdomains-certificates/using/renewing-subdomain-certificate.md)CNAME)
 
