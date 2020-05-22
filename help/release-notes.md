@@ -1,10 +1,10 @@
 ---
 title: Versiones del Panel de control
 translation-type: tm+mt
-source-git-commit: 49d84c42446ed1fc996b9d57005565b15ca24e77
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 29%
+source-wordcount: '373'
+ht-degree: 33%
 
 ---
 
@@ -18,10 +18,6 @@ Aquí encontrará información sobre las últimas versiones del Panel de control
 >Tenga en cuenta que el Panel de control está disponible para clientes alojados en AWS solamente, excepto para entornos híbridos que aún no son compatibles. No se requiere ninguna actualización para acceder al Panel de control. Asegúrese de que es un usuario administrador para acceder a él.
 
 ## Mayo de 2020 (#may-2020)
-
-**Gestión de claves GPG**
-
-El Panel de control ahora le permite generar un par de claves GPG para que pueda descifrar fácilmente los datos que llegan a la Campaña desde el exterior. Además, hemos agregado una función para que pueda instalar una clave GPG pública para cifrar los datos que salen de la Campaña. [Más información](instances-settings/using/gpg-keys-management.md)
 
 **Administración de certificados para subdominios CNAME**
 
