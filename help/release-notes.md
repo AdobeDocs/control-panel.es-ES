@@ -1,9 +1,9 @@
 ---
 title: Versiones del Panel de control
 translation-type: tm+mt
-source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
+source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '372'
 ht-degree: 33%
 
 ---
@@ -17,7 +17,7 @@ Aquí encontrará información sobre las últimas versiones del Panel de control
 >
 >Tenga en cuenta que el Panel de control está disponible para clientes alojados en AWS solamente, excepto para entornos híbridos que aún no son compatibles. No se requiere ninguna actualización para acceder al Panel de control. Asegúrese de que es un usuario administrador para acceder a él.
 
-## Mayo de 2020 (#may-2020)
+## Mayo 2020 {#may-2020}
 
 **Administración de certificados para subdominios CNAME**
 
