@@ -4,10 +4,10 @@ sub-product: panel de control
 audience: end-user
 user-guide-title: Ayuda del Panel de control
 translation-type: tm+mt
-source-git-commit: 22f84071d825004b8a8aaf32cc9c1579476ee1de
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '94'
+ht-degree: 7%
 
 ---
 
@@ -43,5 +43,4 @@ ht-degree: 0%
    + [Lista blanca de IP para acceso de instancia](instances-settings/using/ip-whitelisting-instance-access.md)
    + [Permisos de URL](instances-settings/using/url-permissions.md)
    + [Detalles de instancia](instances-settings/using/instance-details.md)
-   + [Administración de claves GPG](instances-settings/using/gpg-keys-management.md)
 + [Preguntas frecuentes](faq.md)
