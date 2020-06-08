@@ -1,11 +1,11 @@
 ---
-title: Preguntas más frecuentes sobre el Panel de control
-description: Cuestiones comunes relacionadas con el Panel de control
-translation-type: tm+mt
+title: Preguntas frecuentes sobre el Panel de control de Campaign
+description: Preguntas frecuentes relacionadas con el Panel de control de Campaign
+translation-type: ht
 source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
@@ -18,25 +18,25 @@ ht-degree: 5%
 
 Se trata de un ID exclusivo que se le proporciona a su instancia cuando inicia sesión por primera vez en Adobe Experience Cloud. Debe tener el formato siguiente: xxx@AdobeOrg.
 
-Para obtener más información, consulte la documentación [de](https://marketing.adobe.com/resources/help/es_ES/mcloud/organizations.html)Adobe Experience Cloud.
+Para obtener más información, consulte la [documentación d Adobe Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcloud/organizations.html).
 
 **¿Dónde puedo encontrar mi ID de organización de IMS?**
 
-One way is to navigate to [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. You will find your IMS Org ID at the bottom of Administration **[!UICONTROL Quick Access]** section. Puede encontrar información más detallada en la [documentación de Adobe Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcloud/organizations.html).
+Una forma es ir a la [Página de inicio de Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** . Encontrará su ID de organización de IMS en la parte inferior de la sección **[!UICONTROL Quick Access]** de Administración. Puede encontrar información más detallada en la [documentación de Adobe Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcloud/organizations.html).
 
-La otra forma es iniciar **Admin Console**. El ID de organización de IMS estará visible en la dirección URL, debería tener un aspecto similar al siguiente: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
+La otra forma es iniciar **Admin Console**. El ID de organización de IMS estará visible en la dirección URL y debe tener un aspecto similar al siguiente: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
-**¿Por qué necesito saber mi identificador de organización de IMS?**
+**¿Por qué necesito saber mi ID de organización de IMS?**
 
-Para que pueda administrar la configuración de su instancia, queremos asegurarnos de que obtiene la información adecuada para la instancia correcta en caso de que utilice varias instancias para su compañía.
+Para administrar la configuración de su instancia, queremos asegurarnos de que obtiene la información adecuada de la instancia correcta en caso de que utilice varias instancias para su compañía.
 
 **¿Qué sucede si tengo varios ID de organización de IMS?**
 
-Puede tener más de un ID de organización de IMS si tiene acceso a varias soluciones de Adobe. En este caso, el identificador de organización de IMS correcto que debe utilizar es el que ve debajo de la instancia de Adobe Campaign.
+Puede tener más de un ID de organización de IMS si tiene acceso a varias soluciones de Adobe. En este caso, el ID de organización de IMS correcto que debe utilizar es el que ve debajo de la instancia de Adobe Campaign.
 
 >[!NOTE]
 >
->Si tiene el mismo ID de organización de IMS para Adobe Campaign y Adobe Analytics, esto es bueno. Tener un ID de organización de IMS entre Analytics y Campaña es un requisito si planea integrar las soluciones para aprovechar los casos de uso complejos, como el abandono del carro de compras (para AA + AC).
+>Si tiene el mismo ID de organización de IMS para Adobe Campaign y Adobe Analytics, no hay problema. Tener un ID de organización de IMS para Analytics y Campaign es un requisito si tiene pensado integrar las soluciones con el fin de aprovechar los casos de uso complejos, como el abandono del carro de compras (AA + AC).
 >
 >Si tiene diferentes ID de organización de IMS para Adobe Campaign y Adobe Analytics, póngase en contacto con el Servicio de atención al cliente para alinearlos.
 
@@ -44,8 +44,8 @@ Puede tener más de un ID de organización de IMS si tiene acceso a varias soluc
 
 Para comprobar si la instancia está alojada en AWS, siga estos pasos:
 
-1. Recupere la dirección URL de inicio de sesión. Es la dirección URL que utiliza para iniciar sesión en la instancia de Campaña, y termina principalmente con &quot;.campaña.adobe.com&quot; o&quot;.neolane.net&quot;.
-1. Abra el terminal y, a continuación, ejecute una **[!DNL nslookup]** operación en la dirección URL de inicio de sesión.
+1. Recupere la dirección URL de inicio de sesión. Es la dirección URL que utiliza para iniciar sesión en la instancia de Campaign y termina principalmente con &quot;.campaña.adobe.com&quot; o&quot;.neolane.net&quot;.
+1. Abra el terminal y, a continuación, ejecute una operación **[!DNL nslookup]** en la dirección URL de inicio de sesión.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
 
@@ -86,30 +86,30 @@ Para comprobar si la instancia está alojada en AWS, siga estos pasos:
 
 ## Panel de control {#control-panel}
 
-**¿Qué es el Panel de control?**
+**¿Qué es el Panel de control de Campaign?**
 
-El Panel de control permite a los administradores de productos administrar directamente diversas configuraciones y monitorear la capacidad de los servidores SFTP conectados a Adobe Campaign.
+El Panel de control de Campaign permite a los administradores de productos administrar directamente diversas configuraciones y supervisar la capacidad de los servidores SFTP conectados a Adobe Campaign.
 
-**¿Cuáles son algunas de las capacidades actuales del Panel de control?**
+**¿Cuáles son algunas de las capacidades actuales del Panel de control de Campaign?**
 
-El Panel de control le permite realizar el seguimiento de las direcciones IP de almacenamiento, listas de direcciones permitidas y administrar las claves SSH de sus servidores SFTP por su cuenta en función de sus necesidades y otras acciones.
+El Panel de control de Campaign le permite realizar el seguimiento del almacenamiento y las direcciones IP de listas blancas, y administrar las claves SSH de sus servidores SFTP por su cuenta en función de sus necesidades y otras acciones.
 
-Para obtener más información, consulte la documentación de acciones admitidas por el Panel de control.
+Para obtener más información, consulte la documentación de acciones admitidas por el Panel de control de Campaign.
 
-**¿Es el Panel de control solo para Adobe Campaign?**
+**¿El Panel de control de Campaign solo sirve para Adobe Campaign?**
 
-Sí, sólo podrá administrar la configuración de Adobe Campaign en el Panel de control.
+Sí, solo podrá administrar la configuración de Adobe Campaign en el Panel de control de Campaign.
 
-**¿Puedo utilizar el Panel de control?**
+**¿Puedo utilizar el Panel de control de Campaign?**
 
-El Panel de control solo está abierto a los administradores de productos de nuestros clientes actuales que tienen Adobe Campaign alojado en AWS. Tenga en cuenta que aún no se admiten entornos híbridos.
+El Panel de control de Campaign solo está abierto a los administradores de productos de nuestros clientes actuales que tienen Adobe Campaign alojado en AWS. Tenga en cuenta que aún no se admiten entornos híbridos.
 
 Si no es administrador, pero desea acceder a él, póngase en contacto con el administrador del producto para que le ayude a agregarlo como administrador.
 
-**¿Cómo puedo acceder al Panel de control?**
+**¿Cómo puedo acceder al Panel de control de Campaign?**
 
-Siga las instrucciones detalladas que se encuentran en la documentación de Acceso al Panel de control.
+Siga las instrucciones detalladas que se encuentran en la documentación de Acceso al Panel de control de Campaign.
 
-**¿Existe una tarifa adicional para utilizar el Panel de control?**
+**¿Se cobra una tarifa adicional para utilizar el Panel de control de Campaign?**
 
 No, no hay costo adicional si usted es cliente actual de Adobe Campaign.
