@@ -1,9 +1,9 @@
 ---
 title: Administración de claves
 description: Obtenga información sobre cómo administrar claves para conectarse a servidores SFTP
-translation-type: ht
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 197b3fc6726ccd12f59f85d021a5abf56535386c
+workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ En casos muy excepcionales, la autenticación basada en contraseña está habili
    **Linux y Mac:**
 
    Utilice el terminal para generar un par de claves pública y privada:
-   1. Introduzca este comando: `ssh-keygen -t rsa -C <your_email@example.com>`.
+   1. Introduzca este comando: `ssh-keygen -m pem -t rsa -b 2048 -C "your_email@example.com"`.
    1. Proporcione un nombre a la clave cuando se le solicite. Si el directorio .ssh no existe, el sistema creará uno.
    1. Introduzca y vuelva a introducir una contraseña cuando se le solicite. No obstante, lo puede dejar en blanco.
    1. El sistema crea un par de claves &quot;name&quot; y &quot;name.pub&quot;. Busque el archivo &quot;name.pub&quot; y ábralo. Debe tener una cadena alfanumérica que termina con la dirección de correo electrónico especificada.
