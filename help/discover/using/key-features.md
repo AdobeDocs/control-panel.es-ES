@@ -1,11 +1,11 @@
 ---
 title: Acceso al Panel de control de Campaign
 description: Obtenga información sobre cómo acceder al Panel de control de Campaign
-translation-type: ht
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3752494c9de9de3ccb4d8dc29853d2c20df89062
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 95%
 
 ---
 
@@ -51,7 +51,12 @@ Ventajas principales:
     <td>
         <a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><img alt="condiciones" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><strong>Administración de la configuración de la instancia</strong></a></div>
-        <br/><em>Obtenga información sobre cómo administrar la configuración de instancias (solo Campaign Classic)</em>
+        <br/><em>Obtenga información sobre cómo administrar la configuración de instancias (solo Campaign Classic).</em>
+    </td>
+    <td>
+        <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="condiciones" src="assets/do-not-localize/monitoring-performance.png"/></a>
+        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Monitoreo del rendimiento</strong></a></div>
+        <br/><em>Obtenga información sobre cómo supervisar la utilización de recursos clave en las instancias.</em>
     </td>
 </tr>
 </table>
