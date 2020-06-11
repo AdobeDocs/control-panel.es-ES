@@ -2,13 +2,15 @@
 title: Supervisión de bases de datos
 description: Obtenga información sobre cómo supervisar la base de datos de Campañas en el Panel de control
 translation-type: tm+mt
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 6%
 
 ---
 
 
 # Supervisión de bases de datos {#database-monitoring}
-
 
 ## Acerca de las bases de datos de instancias {#about-instances-databases}
 
@@ -28,7 +30,7 @@ El desbordamiento de una base de datos de instancia puede provocar varios proble
 
 El Panel de control permite supervisar el uso de la base de datos para cada una de las instancias de Campaña. Para realizar esto, siga los pasos a continuación.
 
-1. Abra la **[!UICONTROL Performance Monitoring]** tarjeta y seleccione la **[!UICONTROL Databases]** ficha.
+1. Abra la tarjeta **[!UICONTROL Performance Monitoring]** y seleccione la pestaña **[!UICONTROL Databases]**.
 
 1. Seleccione la instancia que desee en el **[!UICONTROL Instance List]**.
 
@@ -58,7 +60,7 @@ La sección siguiente proporciona recursos útiles de documentación de Campaña
 
 **Supervisión de Flujos de trabajo**
 
-* [Prácticas recomendadas](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html) de Flujos de trabajo (Campaign Standard)
+* [Prácticas recomendadas](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html) de Flujos de trabajo (Campaign Standard)
 * [Supervisión de la ejecución](https://docs.adobe.com/help/en/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html) del flujo de trabajo (Campaign Classic)
 
 **Mantenimiento de la base de datos**
