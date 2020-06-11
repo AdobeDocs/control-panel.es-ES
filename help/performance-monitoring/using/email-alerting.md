@@ -2,14 +2,15 @@
 title: Alertas por correo electrónico
 description: Obtenga información sobre cómo recibir notificaciones por correo electrónico en caso de problemas con las instancias de Campaña
 translation-type: tm+mt
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+source-git-commit: e2ee8badd9fffdfadabbe6c659aef8504ee62e9d
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 2%
 
 ---
 
 
 # Alertas por correo electrónico {#email-alerting}
-
-## Acerca de las alertas de correo electrónico {#about-email-alerts}
 
 Con el fin de proporcionar buena flexibilidad a su trabajo, el Panel de control está equipado con funcionalidad de alerta por correo electrónico en tiempo real.
 
@@ -30,9 +31,9 @@ Para suscribirse a estas alertas, siga estos pasos:
 
 La lista de las alertas es la siguiente:
 
-* **Uso** del almacenamiento SFTP: Uno de sus servidores SFTP ha alcanzado el 80 % o más de su capacidad. Consulte Administración [de almacenamientos SFTP](../../sftp/using/sftp-storage-management.md).
+* **Uso** del almacenamiento SFTP: Uno de sus servidores SFTP ha alcanzado el 80 % o más de su capacidad. See [SFTP storage management](../../sftp/using/sftp-storage-management.md).
 
 * **Uso** de la base de datos: Una de las bases de datos de instancias ha alcanzado el 80 % o más de su capacidad. Consulte Supervisión [de bases de datos](../../performance-monitoring/using/database-monitoring.md).
 
-* **Caducidad** del certificado SSL: Uno de los certificados SSL de los subdominios ha caducado o va a caducar en 60 días o menos. Consulte [Supervisión de los certificados](../../subdomains-certificates/using/monitoring-ssl-certificates.md)SSL de los subdominios.
+* **Caducidad** del certificado SSL: Uno de los certificados SSL de los subdominios ha caducado o va a caducar en 60 días o menos. See [Monitoring subdomains&#39; SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
