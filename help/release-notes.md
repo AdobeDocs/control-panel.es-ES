@@ -1,10 +1,10 @@
 ---
 title: Versiones del Panel de control
 translation-type: tm+mt
-source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
+source-git-commit: fce9635ff6086ba6826bddc4a5af9dbfe310e3e1
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 100%
+source-wordcount: '453'
+ht-degree: 82%
 
 ---
 
@@ -16,6 +16,18 @@ Aquí encontrará información sobre las últimas versiones del Panel de control
 >[!NOTE]
 >
 >Tenga en cuenta que el Panel de control está disponible para clientes alojados en AWS solamente, excepto para entornos híbridos que aún no son compatibles. No se requiere ninguna actualización para acceder al Panel de control. Asegúrese de que es un usuario administrador para acceder a él.
+
+## June 2020 {#june-2020}
+
+**Monitoreo de perfiles activos**
+
+El Panel de control ahora le permite monitorear el número de perfiles activos que utilizan las instancias y que se contabilizan con fines de facturación. [Más información](performance-monitoring/using/active-profiles-monitoring.md)
+
+>[!IMPORTANT]
+>
+>La supervisión de perfiles activos por parte del Panel de control está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
+>
+>La función está disponible para los clientes alojados en AWS desde la compilación Campaign Standard 10368 y la compilación Campaign Classic 8931. Si está utilizando una compilación anterior, debe actualizar para utilizar esta función.
 
 ## Mayo 2020 {#may-2020}
 
