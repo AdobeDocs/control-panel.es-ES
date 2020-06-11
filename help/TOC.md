@@ -4,10 +4,10 @@ sub-product: panel de control de Campaign
 audience: end-user
 user-guide-title: Ayuda del Panel de control de Campaign
 translation-type: tm+mt
-source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
+source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 100%
+source-wordcount: '97'
+ht-degree: 96%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 100%
 + Supervisión del rendimiento {#performance-monitoring}
    + [Acerca de la supervisión del rendimiento](performance-monitoring/using/about-performance-monitoring.md)
    + [Supervisión de bases de datos](performance-monitoring/using/database-monitoring.md)
+   + [Monitoreo de perfiles activos](performance-monitoring/using/active-profiles-monitoring.md)
    + [Alertas por correo electrónico](performance-monitoring/using/email-alerting.md)
 + Configuración de instancias (Campaign Classic) {#instances-settings}
    + [Lista blanca de IP para acceso a instancias](instances-settings/using/ip-whitelisting-instance-access.md)
