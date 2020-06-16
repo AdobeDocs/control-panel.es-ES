@@ -1,11 +1,11 @@
 ---
 title: Permisos de URL
 description: Obtenga información sobre cómo administrar los permisos de URL en el Panel de control de Campaign
-translation-type: ht
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
-workflow-type: ht
-source-wordcount: '590'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8d2fb9c03fb628dda78bf5e915bbb69bda5ef64d
+workflow-type: tm+mt
+source-wordcount: '607'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Esta función solo está disponible para instancias de Campaign Classic.
+>Esta función solo está disponible para instancias de Campaign Classic, desde la compilación 8850. Si está utilizando una compilación anterior, debe actualizar para utilizar esta función.
 
 ## Acerca de los permisos de URL {#about-url-permissions}
 
