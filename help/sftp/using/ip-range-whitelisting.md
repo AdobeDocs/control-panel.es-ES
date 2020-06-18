@@ -1,24 +1,24 @@
 ---
-title: Lista blanca de rangos de IP
-description: Obtenga información sobre cómo incluir en la lista blanca los rangos de IP para el acceso a los servidores SFTP
-translation-type: ht
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
-workflow-type: ht
-source-wordcount: '521'
-ht-degree: 100%
+title: El rango IP permite el listado
+description: Obtenga información sobre cómo agregar intervalos de IP a la lista de permitidos para el acceso a los servidores SFTP
+translation-type: tm+mt
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+workflow-type: tm+mt
+source-wordcount: '601'
+ht-degree: 40%
 
 ---
 
 
-# Lista blanca de rangos de IP {#ip-range-whitelisting}
+# El rango IP permite el listado {#ip-range-whitelisting}
 
 >[!CONTEXTUALHELP]
 >id="cp_ip_whitelist"
->title="Acerca de las listas blancas de IP"
->abstract="En esta pestaña, puede incluir rangos de IP en la lista blanca para establecer una conexión con los servidores SFTP. Aquí solo se muestran los servidores SFTP a los que tiene acceso. Póngase en contacto con el administrador para solicitar acceso a otros servidores SFTP."
+>title="Acerca del listado de permitidas por IP"
+>abstract="En esta ficha, puede agregar intervalos de IP a la lista de permitidos para establecer una conexión con los servidores SFTP. Aquí solo se muestran los servidores SFTP a los que tiene acceso. Póngase en contacto con el administrador para solicitar acceso a otros servidores SFTP."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98" text="Ver vídeo de demostración"
 
-Los servidores SFTP están protegidos. Para poder acceder a ellos con el fin de ver archivos o escribir nuevos archivos, debe incluir en la lista blanca la dirección IP pública del sistema o cliente que accede a los servidores.
+Los servidores SFTP están protegidos. Para poder acceder a ellos con el fin de vista de archivos o de escribir nuevos archivos, debe agregar la dirección IP pública del sistema o cliente que accede a los servidores a la lista de permitidos.
 
 ## Acerca del formato CIDR {#about-cidr-format}
 
@@ -30,28 +30,28 @@ Puede buscar en Internet herramientas gratuitas en línea que le ayudarán a con
 
 ## Prácticas recomendadas {#best-practices}
 
-Asegúrese de seguir las recomendaciones y limitaciones que se indican a continuación al incluir direcciones IP en la lista blanca en el Panel de control de Campaign.
+Asegúrese de seguir las recomendaciones y limitaciones siguientes al agregar direcciones IP a la lista de permitidas en el Panel de control.
 
-* **Lista blanca de rangos de IP**, en lugar de direcciones IP únicas. Para incluir una sola dirección IP en la lista blanca, añada /32 para indicar que el rango solo incluye una sola dirección IP.
-* **No incluya rangos muy anchos en la lista blanca** como, por ejemplo, > 265 direcciones IP. El Panel de control de Campaign rechazará cualquier rango de formato CIDR que esté entre /0 y /23.
-* Solo se pueden incluir en la lista blanca las **direcciones IP públicas**.
-* Asegúrese de **eliminar frecuentemente las direcciones IP de la lista blanca** que ya no necesite.
+* **Añada intervalos de IP a la lista** de permitidos en lugar de a direcciones IP únicas. Para agregar una sola dirección IP a la lista de permitidos, anexe un &#39;/32&#39; a la misma para indicar que el rango solo incluye una sola dirección IP.
+* **No agregue rangos muy anchos a la lista** de permitidos, por ejemplo, incluyendo > 265 direcciones IP. El Panel de control de Campaign rechazará cualquier rango de formato CIDR que esté entre /0 y /23.
+* Solo se pueden agregar direcciones **IP** públicas a la lista de permitidos.
+* Asegúrese de eliminar **regularmente las direcciones** IP que ya no necesite en la lista de permitidos.
 
-## Lista blanca de direcciones IP {#whitelisting-ip-addresses}
+## Añadir direcciones IP a la lista de permitidos {#whitelisting-ip-addresses}
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_add"
 >title="Adición de un nuevo rango de IP"
->abstract="Defina los rangos IP que desea incluir en la lista blanca para conectarse a los servidores SFTP."
+>abstract="Defina los intervalos de IP que desee agregar a la lista de permitidos para conectarse a los servidores SFTP."
 
-Para incluir un rango IP en la lista blanca, siga estos pasos:
+Para agregar un intervalo IP a la lista de permitidos, siga estos pasos:
 
 1. Abra la tarjeta **[!UICONTROL SFTP]** y seleccione la pestaña **[!UICONTROL IP Whistelisting]**.
-1. Se muestra la lista de direcciones IP en la lista blanca para cada instancia. Seleccione la instancia que desee en la lista del lado izquierdo y haga clic en el botón **[!UICONTROL Add new IP range]**.
+1. Se muestra la lista de las direcciones IP en la lista de permitidos para cada instancia. Seleccione la instancia que desee en la lista del lado izquierdo y haga clic en el botón **[!UICONTROL Add new IP range]**.
 
    ![](assets/control_panel_add_range.png)
 
-1. Defina el rango IP que desea incluir en la lista blanca, en formato CIDR, y luego defina la etiqueta que se mostrará en la lista.
+1. Defina el rango IP que desea agregar a la lista de permitidos, en formato CIDR, luego defina la etiqueta que se mostrará en la lista.
 
    >[!NOTE]
    >
@@ -62,25 +62,25 @@ Para incluir un rango IP en la lista blanca, siga estos pasos:
 
    >[!IMPORTANT]
    >
-   >un rango IP no puede superponerse a un intervalo de la lista blanca existente. En ese caso, primero elimine el rango que contiene la IP superpuesta.
+   >Un intervalo IP no puede superponerse a un intervalo existente en la lista de permitidos. En ese caso, primero elimine el rango que contiene la IP superpuesta.
    >
-   >Es posible incluir un rango en la lista blanca para varias instancias. Para ello, pulse la tecla de la flecha hacia abajo o escriba las primeras letras de la instancia deseada y selecciónela en la lista de sugerencias.
+   >Es posible agregar un rango en la lista de permitidos para varias instancias. Para ello, pulse la tecla de la flecha hacia abajo o escriba las primeras letras de la instancia deseada y selecciónela en la lista de sugerencias.
 
    ![](assets/control_panel_add_range3.png)
 
-1. Haga clic en el botón **[!UICONTROL Save]**. La incorporación a la lista blanca de IP se mostrará como PENDIENTE hasta que la solicitud se procese por completo. Esto solo debería tardar unos segundos.
+1. Haga clic en el botón **[!UICONTROL Save]**. La adición de IP a la lista de permitidos se mostrará como PENDIENTE hasta que la solicitud se procese por completo. Esto solo debería tardar unos segundos.
 
-Para eliminar los rangos de IP en la lista blanca, selecciónelos y haga clic en el botón **[!UICONTROL Delete IP range]**.
+Para eliminar intervalos IP de la lista de permitidos, selecciónelos y haga clic en el **[!UICONTROL Delete IP range]** botón .
 
 ![](assets/control_panel_delete_range2.png)
 
 >[!NOTE]
 >
->Actualmente no es posible editar un rango de la lista blanca. Para modificar un rango de IP, elimínelo y luego cree uno que se ajuste a sus necesidades.
+>Actualmente no es posible editar un rango en la lista de permitidos. Para modificar un rango de IP, elimínelo y luego cree uno que se ajuste a sus necesidades.
 
 ## Control de cambios {#monitoring-changes}
 
-**[!UICONTROL Job Logs]**, en la página de inicio del Panel de control de Campaign, permite supervisar todos los cambios realizados en las direcciones IP permitidas.
+The **[!UICONTROL Job Logs]** in the Control Panel home page let you monitor all changes that have been made to IP addresses on the allow list.
 
 Para obtener más información sobre la interfaz del Panel de control de Campaign, consulte [esta sección](../../discover/using/discovering-the-interface.md).
 
