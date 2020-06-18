@@ -2,10 +2,10 @@
 title: Permisos de URL
 description: Obtenga información sobre cómo administrar los permisos de URL en el Panel de control de Campaign
 translation-type: tm+mt
-source-git-commit: 8d2fb9c03fb628dda78bf5e915bbb69bda5ef64d
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 95%
+source-wordcount: '608'
+ht-degree: 92%
 
 ---
 
@@ -93,4 +93,4 @@ Tenga en cuenta que, si elimina una dirección URL, su instancia no podrá volve
 
 **He agregado una dirección URL nueva, pero mi instancia sigue sin poder conectarse a ella. ¿Por qué?**
 
-En algunos casos, las direcciones URL que intenta conectar requieren una lista blanca, una entrada de contraseña u otra forma de autenticación. El Panel de control de Campaign no administra la autenticación adicional.
+En algunos casos, las direcciones URL que intenta conectar requieren que se permita el listado, la entrada de contraseña u otra forma de autenticación. El Panel de control de Campaign no administra la autenticación adicional.
