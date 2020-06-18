@@ -1,10 +1,10 @@
 ---
 title: Versiones del Panel de control
 translation-type: tm+mt
-source-git-commit: fce9635ff6086ba6826bddc4a5af9dbfe310e3e1
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 82%
+source-wordcount: '459'
+ht-degree: 77%
 
 ---
 
@@ -67,7 +67,7 @@ Para obtener más información, consulte estas páginas:
 
 *16 de septiembre de 2019*
 
-Hemos agregado nuevas funciones para los usuarios administradores a la lista blanca de direcciones IP para conectarse a instancias de Campaign Classic.
+Hemos agregado nuevas funciones para que los usuarios administradores agreguen direcciones IP a la lista de permitidos para conectarse a instancias de Campaign Classic.
 Además, los usuarios administradores ahora pueden ver la lista de instancias de Campaign Classic y los requisitos para las actualizaciones de versiones.
 
 Para obtener más información, consulte la [documentación especializada](instances-settings/using/ip-whitelisting-instance-access.md).
