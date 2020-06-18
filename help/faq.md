@@ -1,11 +1,11 @@
 ---
 title: Preguntas frecuentes sobre el Panel de control de Campaign
 description: Preguntas frecuentes relacionadas con el Panel de control de Campaign
-translation-type: ht
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
-workflow-type: ht
-source-wordcount: '625'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 95%
 
 ---
 
@@ -92,7 +92,7 @@ El Panel de control de Campaign permite a los administradores de productos admin
 
 **¿Cuáles son algunas de las capacidades actuales del Panel de control de Campaign?**
 
-El Panel de control de Campaign le permite realizar el seguimiento del almacenamiento y las direcciones IP de listas blancas, y administrar las claves SSH de sus servidores SFTP por su cuenta en función de sus necesidades y otras acciones.
+El Panel de control le permite realizar un seguimiento del almacenamiento, agregar direcciones IP a la lista de permitidos y administrar las claves SSH para sus servidores SFTP por su cuenta en función de sus necesidades y otras acciones.
 
 Para obtener más información, consulte la documentación de acciones admitidas por el Panel de control de Campaign.
 
