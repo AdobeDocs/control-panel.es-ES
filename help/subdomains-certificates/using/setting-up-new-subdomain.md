@@ -1,11 +1,11 @@
 ---
 title: Configuración de un nuevo subdominio
 description: Obtenga información sobre cómo configurar un nuevo subdominio para las instancias de Campaign
-translation-type: ht
-source-git-commit: 47b4c6abd7b41a63d881b658849ac985c72656f8
-workflow-type: ht
-source-wordcount: '932'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+workflow-type: tm+mt
+source-wordcount: '936'
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,7 @@ El Panel de control de Campaign permite delegar completamente un subdominio a Ad
    * **Comunicaciones transaccionales y operativas**: las comunicaciones transaccionales contienen información destinada a completar un proceso que el destinatario ha iniciado con usted. Ejemplo: confirmación de compra, correo electrónico de restablecimiento de contraseña. Las comunicaciones de organización se refieren al intercambio de información, ideas y vistas dentro y fuera de la organización, sin fines comerciales.
    ![](assets/subdomain5.png)
 
-   **Desglose de los subdominios según los casos de uso es una práctica recomendada para la entrega**. Al hacerlo, la reputación de cada subdominio está aislada y protegida. Por ejemplo: si el subdominio para comunicaciones de marketing termina en la lista negra de proveedores de servicio de Internet, el subdominio de comunicaciones transaccionales no se verá afectado y podrá enviar comunicaciones.
+   **Desglose de los subdominios según los casos de uso es una práctica recomendada para la entrega**. Al hacerlo, la reputación de cada subdominio está aislada y protegida. Por ejemplo, si los Proveedores de servicio de Internet acaban agregando el subdominio para comunicaciones de marketing a la lista de bloques, el subdominio de comunicaciones transaccionales no se verá afectado y podrá seguir enviando comunicaciones.
 
    **Puede delegar un subdominio para los casos de uso de marketing y transaccional**:
 
