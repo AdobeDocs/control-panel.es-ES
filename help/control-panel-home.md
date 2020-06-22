@@ -1,10 +1,10 @@
 ---
 title: Documentación del producto
 translation-type: tm+mt
-source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
+source-git-commit: 99fbe1670d470172a2103e2b60b36b5b56c6a53d
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 51%
+source-wordcount: '112'
+ht-degree: 66%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 51%
 
 ## Novedades
 
-* Tanto los términos &quot;lista blanca&quot; como &quot;lista negra&quot; se han eliminado de la documentación de Adobe Campaign. Algunas incidencias de estos términos pueden seguir existiendo en la interfaz de usuario del producto, nombres de opciones y código interno, pero se reemplazarán en próximas versiones de Campaña con &quot;bloqueo&quot; y &quot;lista de permitidos&quot;.
+* Tanto los términos &quot;lista blanca&quot; como &quot;lista negra&quot; se han eliminado de la documentación de Adobe Campaign. [Más información](release-notes.md)
 
-* [Monitoreo](performance-monitoring/using/active-profiles-monitoring.md)de perfiles activos: El Panel de control ahora le permite monitorear el número de perfiles activos que utilizan las instancias y que se contabilizan con fines de facturación.
+* **Monitoreo** de perfiles activos: El Panel de control ahora le permite monitorear el número de perfiles activos que utilizan las instancias y que se contabilizan con fines de facturación. [Más información](performance-monitoring/using/active-profiles-monitoring.md)
 
 ## Recursos adicionales {#additional-resources}
 
