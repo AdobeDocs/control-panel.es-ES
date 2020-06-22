@@ -1,10 +1,10 @@
 ---
 title: Versiones del Panel de control
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 77%
+source-wordcount: '503'
+ht-degree: 70%
 
 ---
 
@@ -18,6 +18,10 @@ Aquí encontrará información sobre las últimas versiones del Panel de control
 >Tenga en cuenta que el Panel de control está disponible para clientes alojados en AWS solamente, excepto para entornos híbridos que aún no son compatibles. No se requiere ninguna actualización para acceder al Panel de control. Asegúrese de que es un usuario administrador para acceder a él.
 
 ## June 2020 {#june-2020}
+
+**Eliminación de &#39;lista blanca&#39;/&#39;lista negra&#39;**
+
+Tanto los términos &quot;lista blanca&quot; como &quot;lista negra&quot; se han eliminado de la documentación de Adobe Campaign. Algunas incidencias de estos términos pueden seguir existiendo en la interfaz de usuario del producto, nombres de opciones y código interno, pero se reemplazarán en próximas versiones de Campaña con &quot;bloqueo&quot; y &quot;lista de permitidos&quot;.
 
 **Monitoreo de perfiles activos**
 
