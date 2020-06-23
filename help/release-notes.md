@@ -1,9 +1,9 @@
 ---
 title: Versiones del Panel de control
 translation-type: tm+mt
-source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '577'
 ht-degree: 70%
 
 ---
@@ -18,6 +18,14 @@ Aquí encontrará información sobre las últimas versiones del Panel de control
 >Tenga en cuenta que el Panel de control está disponible para clientes alojados en AWS solamente, excepto para entornos híbridos que aún no son compatibles. No se requiere ninguna actualización para acceder al Panel de control. Asegúrese de que es un usuario administrador para acceder a él.
 
 ## June 2020 {#june-2020}
+
+**Auditoría de la capacidad de entrega de subdominios**
+
+Después de delegar un nuevo subdominio, el Panel de control le permite realizar un seguimiento de la auditoría realizada por el equipo de entregabilidad. [Más información](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+**Administración de claves GPG**
+
+El Panel de control ya le permite generar un par de claves GPG para que pueda descifrar fácilmente los datos que llegan a Campaign desde el exterior. Además, hemos agregado una función para que pueda instalar una clave GPG pública con el fin de cifrar los datos que salen de Campaign. [Más información](instances-settings/using/gpg-keys-management.md)
 
 **Eliminación de &#39;lista blanca&#39;/&#39;lista negra&#39;**
 
