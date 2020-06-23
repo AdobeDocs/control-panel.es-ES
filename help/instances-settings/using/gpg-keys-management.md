@@ -2,7 +2,7 @@
 title: Administración de claves GPG
 description: Aprenda a administrar claves GPG para cifrar y descifrar datos dentro de Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 9be8d018421d1384ef1731b0425dead43072d2bf
+source-git-commit: 6a28859565cf9385ac33886355d43e1d1a825e0e
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 3%
@@ -82,13 +82,13 @@ Para obtener más información sobre esto, consulte la documentación de Adobe C
 
 **Campaign Classic:**
 
-* [Comprimir o encriptar un archivo](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workfow-data.html#zipping-or-encrypting-a-file)
+* [Comprimir o encriptar un archivo](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
 * [Caso de uso: Importación de datos cifrados con una clave generada por el Panel de control](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workfow-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
-* [Administración de datos cifrados](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/managing-encrypted-data.md)
-* [Caso de uso: Importación de datos cifrados con una clave generada por el Panel de control](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/managing-encrypted-data.md#use-case-gpg-encrypt)
+* [Administración de datos cifrados](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Caso de uso: Codificación y exportación de datos mediante una clave instalada en el Panel de control](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 ## Descifrar datos {#decrypting-data}
 
@@ -128,8 +128,8 @@ Para obtener más información sobre esto, consulte la documentación de Adobe C
 
 **Campaign Standard:**
 
-* [Administración de datos cifrados](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
-* [Caso de uso: Importación de datos cifrados con una clave generada por el Panel de control](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/managing-encrypted-data.md#use-case-gpg-decrypt)
+* [Administración de datos cifrados](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Caso de uso: Importación de datos cifrados con una clave generada por el Panel de control](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## Control de claves GPG
 
