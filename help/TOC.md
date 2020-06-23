@@ -4,10 +4,10 @@ sub-product: panel de control de Campaign
 audience: end-user
 user-guide-title: Ayuda del Panel de control de Campaign
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 5445ac36b81af3b23bc64788f010f497ec9d049c
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 86%
+source-wordcount: '100'
+ht-degree: 85%
 
 ---
 
@@ -40,8 +40,9 @@ ht-degree: 86%
    + [Supervisión de bases de datos](performance-monitoring/using/database-monitoring.md)
    + [Monitoreo de perfiles activos](performance-monitoring/using/active-profiles-monitoring.md)
    + [Alertas por correo electrónico](performance-monitoring/using/email-alerting.md)
-+ Configuración de instancias (Campaign Classic) {#instances-settings}
++ Instances settings {#instances-settings}
    + [IP permite el acceso a la lista de instancias](instances-settings/using/ip-whitelisting-instance-access.md)
    + [Permisos de URL](instances-settings/using/url-permissions.md)
    + [Detalles de instancias](instances-settings/using/instance-details.md)
+   + [Administración de claves GPG](instances-settings/using/gpg-keys-management.md)
 + [Preguntas frecuentes](faq.md)
