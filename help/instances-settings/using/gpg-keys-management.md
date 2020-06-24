@@ -2,10 +2,10 @@
 title: Administración de claves GPG
 description: Aprenda a administrar claves GPG para cifrar y descifrar datos dentro de Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 18c9c946301fab81f617e3cba1f72989645d552e
+source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 3%
+source-wordcount: '1110'
+ht-degree: 4%
 
 ---
 
@@ -25,6 +25,12 @@ Esto le permite:
 * **Cifrar datos** enviados: Adobe Campaign envía los datos después de cifrarlos con la clave pública instalada.
 
 * **Descifrar datos** entrantes: Adobe Campaign recibe datos cifrados desde un sistema externo mediante una clave pública descargada del Panel de control. Adobe Campaign descifra los datos mediante una clave privada generada desde el Panel de control.
+
+**Temas relacionados:**
+
+* [Tutorial en vídeo de Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
+* [Tutorial en vídeo de Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
+
 
 ## Cifrar datos {#encrypting-data}
 
