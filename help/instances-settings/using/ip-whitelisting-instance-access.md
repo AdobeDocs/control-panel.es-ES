@@ -2,10 +2,10 @@
 title: Lista de IP permitidas
 description: Obtenga información sobre cómo agregar direcciones IP a la lista de permitidos del Panel de control para obtener acceso a instancias
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 50%
+ht-degree: 49%
 
 ---
 
@@ -87,5 +87,5 @@ Para agregar direcciones IP a la lista de permitidos, siga estos pasos:
 Para eliminar intervalos IP de la lista de permitidos, selecciónelos y haga clic en el **[!UICONTROL Delete IP range]** botón .
 
 **Temas relacionados:**
-* [Lista de IP permitidas (vídeo de tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
+* [Lista de IP permitidas (vídeo de tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
 * [Vinculación de una zona de seguridad a un operador](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
