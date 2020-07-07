@@ -1,10 +1,10 @@
 ---
 title: Versiones del Panel de control
 translation-type: tm+mt
-source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
+source-git-commit: 7625d291486772c6f68924a70c57e85c3aee9606
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 68%
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,7 @@ Aquí encontrará información sobre las últimas versiones del Panel de control
 >
 >Tenga en cuenta que el Panel de control está disponible para clientes alojados en AWS solamente, excepto para entornos híbridos que aún no son compatibles. No se requiere ninguna actualización para acceder al Panel de control. Asegúrese de que es un usuario administrador para acceder a él.
 
-## June 2020 {#june-2020}
+## Junio de 2020 {#june-2020}
 
 **Auditoría de la capacidad de entrega de subdominios**
 
@@ -31,7 +31,7 @@ El Panel de control ya le permite generar un par de claves GPG para que pueda de
 
 **Eliminación de &#39;lista blanca&#39;/&#39;lista negra&#39;**
 
-Tanto los términos &quot;lista blanca&quot; como &quot;lista negra&quot; se han eliminado de la documentación de Adobe Campaign. Algunas incidencias de estos términos pueden seguir existiendo en la interfaz de usuario del producto, nombres de opciones y código interno, pero se reemplazarán en próximas versiones de Campaña con &quot;bloqueo&quot; y &quot;lista de permitidos&quot;.
+Tanto los términos &quot;lista blanca&quot; como &quot;lista negra&quot; se han eliminado de la documentación de Adobe Campaign. Algunas incidencias de estos términos pueden seguir existiendo en la interfaz de usuario del producto, los nombres de las opciones y el código interno, pero se reemplazarán en próximas versiones de Campaign con &quot;lista de bloqueados&quot; y &quot;lista de permitidos&quot;.
 
 **Monitoreo de perfiles activos**
 
@@ -84,7 +84,7 @@ Para obtener más información, consulte estas páginas:
 Hemos agregado nuevas funciones para que los usuarios administradores agreguen direcciones IP a la lista de permitidos para conectarse a instancias de Campaign Classic.
 Además, los usuarios administradores ahora pueden ver la lista de instancias de Campaign Classic y los requisitos para las actualizaciones de versiones.
 
-Para obtener más información, consulte la [documentación especializada](instances-settings/using/ip-whitelisting-instance-access.md).
+Para obtener más información, consulte la [documentación especializada](instances-settings/using/ip-allow-listing-instance-access.md).
 
 ## Agosto de 2019 {#august-2019}
 
