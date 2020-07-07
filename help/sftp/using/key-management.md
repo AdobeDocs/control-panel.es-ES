@@ -2,7 +2,7 @@
 title: Administración de claves
 description: Obtenga información sobre cómo administrar claves para conectarse a servidores SFTP
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 067921a32d0b99107fc148609f78ac664da717dd
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 94%
@@ -22,7 +22,7 @@ Adobe recomienda que todos los clientes establezcan una conexión con sus servid
 
 A continuación, se describen los pasos para generar una clave SSH pública y añadirla para acceder al servidor SFTP, así como las recomendaciones relativas a la autenticación.
 
-Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. Para obtener más información, consulte [esta sección](../../instances-settings/using/ip-whitelisting-instance-access.md).
+Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. Para obtener más información, consulte [esta sección](../../instances-settings/using/ip-allow-listing-instance-access.md).
 
 >[!NOTE]
 >
@@ -41,8 +41,6 @@ En casos muy excepcionales, la autenticación basada en contraseña está habili
 >[!IMPORTANT]
 >
 >Si la contraseña caduca, incluso si hay claves instaladas en el sistema, no podrá iniciar sesión en sus cuentas de SFTP.
-
-![](assets/control_panel_passwordexpires.png)
 
 ## Instalación de la clave SSH {#installing-ssh-key}
 
