@@ -1,11 +1,11 @@
 ---
 title: Detalles de instancias
 description: Obtenga información sobre cómo supervisar los detalles de su instancia en el Panel de control de Campaign
-translation-type: ht
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
+workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ Para obtener información sobre los servidores conectados a las instancias, siga
 
    >[!NOTE]
    >
-   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control de Campaign, el ID de organización de IMS no está asociado a ninguna instancia de Adobe Campaign Classic
+   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control, significa que el identificador de organización de IMS no está asociado a ninguna instancia de Adobe Campaign Classic
 
 1. Seleccione en el panel izquierdo la instancia de Campaign Classic que desee.
 
