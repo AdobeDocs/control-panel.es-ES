@@ -2,10 +2,10 @@
 title: Administración de claves GPG
 description: Aprenda a administrar claves GPG para cifrar y descifrar datos dentro de Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
+source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 4%
+source-wordcount: '1112'
+ht-degree: 3%
 
 ---
 
@@ -28,9 +28,8 @@ Esto le permite:
 
 **Temas relacionados:**
 
-* [Tutorial en vídeo de Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
-* [Tutorial en vídeo de Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
-
+* [Vídeos de tutoriales de Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+* [Vídeos de tutoriales de Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 ## Cifrar datos {#encrypting-data}
 
@@ -56,6 +55,7 @@ Para ello, debe generar un par de claves GPG a partir de una herramienta de cifr
    * **comentario**: agregar una etiqueta al campo de comentarios le ayudará a identificar fácilmente la clave que utilizar para cifrar sus datos.
    * **caducidad**: Fecha o &quot;0&quot; sin fecha de caducidad.
    * **frase de contraseña**
+
    ![](assets/do-not-localize/gpg_command.png)
 
 1. Una vez confirmada, la secuencia de comandos generará una clave con su huella digital asociada, que puede exportar a un archivo o pegar directamente en el Panel de control. Para exportar el archivo, ejecute este comando seguido de la huella digital de la clave que ha generado.
@@ -158,6 +158,7 @@ La lista muestra todas las claves GPG de cifrado y descifrado que se han instala
    * Urgente (rojo) se muestra 30 días antes.
    * La advertencia (amarilla) se muestra 60 días antes.
    * Una vez que caduque una clave, se mostrará una pancarta roja &quot;Caducada&quot;.
+
    >[!NOTE]
    >
    >Tenga en cuenta que el Panel de control no enviará ninguna notificación por correo electrónico.
