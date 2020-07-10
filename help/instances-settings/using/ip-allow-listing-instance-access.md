@@ -2,10 +2,10 @@
 title: Lista de IP permitidas
 description: Obtenga información sobre cómo agregar direcciones IP a la lista de permitidos en el Panel de control para obtener acceso a instancias
 translation-type: tm+mt
-source-git-commit: abe22509e3389874e0b3586a99a1ad2d49681ed8
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 49%
+ht-degree: 45%
 
 ---
 
@@ -53,7 +53,7 @@ Para agregar direcciones IP a la lista de permitidos, siga estos pasos:
 
    >[!NOTE]
    >
-   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control de Campaign, el ID de organización de IMS no está asociado a ninguna instancia de Adobe Campaign Classic
+   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control, significa que el identificador de organización de IMS no está asociado a ninguna instancia de Adobe Campaign Classic
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -63,6 +63,7 @@ Para agregar direcciones IP a la lista de permitidos, siga estos pasos:
 
    * **[!UICONTROL Instance(s)]**: instancias en las que las direcciones IP podrán conectarse. Se pueden manipular varias instancias al mismo tiempo. Por ejemplo, la lista de permitidas por IP se puede realizar tanto en las instancias de Producción como de Etapa a través del mismo paso.
    * **[!UICONTROL IP Range]**:: Intervalo de IP que desea agregar a la lista de permitidos, en formato CIDR. Tenga en cuenta que un intervalo IP no puede superponerse a un intervalo existente en la lista de permitidos. En ese caso, primero elimine el rango que contiene la IP superpuesta.
+
    >[!NOTE]
    >
    >CIDR (enrutamiento entre dominios sin clase) es el formato admitido al agregar intervalos de IP con la interfaz del Panel de control. La sintaxis consiste en una dirección IP, seguida de / y un número decimal. El formato y su sintaxis se detallan en [este artículo](https://whatismyipaddress.com/cidr).
@@ -78,6 +79,7 @@ Para agregar direcciones IP a la lista de permitidos, siga estos pasos:
    * **[!UICONTROL Campaign Console Access]**: se permitirá que las direcciones IP se conecten a la Consola de Campaign Classic. Tenga en cuenta que el acceso a la consola solo está habilitado para instancias de Marketing. No se permite el acceso a las instancias de MID y RT y, por tanto, no se habilita.
    * **[!UICONTROL AEM connection]**: se permitirá que las direcciones IP de AEM especificadas se conecten a la instancia de Marketing.
    * **[!UICONTROL External API connection]**: se permitirá que las API externas con las direcciones IP especificadas se conecten a la instancia de Marketing y/o Centro de mensajes (RT). Tenga en cuenta que la conexión a la consola de instancias de RT no está habilitada.
+
    ![](assets/ip_whitelist_acesstype.png)
 
 1. Haga clic en el botón **[!UICONTROL Save]**. El intervalo IP se agrega a la lista de permitidos.
