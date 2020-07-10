@@ -2,7 +2,7 @@
 title: El rango IP permite el listado
 description: Obtenga información sobre cómo agregar intervalos de IP a la lista de permitidos para el acceso a los servidores SFTP
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: d96c044e83d37f020b5fd6ea55199c1223b9fa39
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 40%
@@ -46,7 +46,7 @@ Asegúrese de seguir las recomendaciones y limitaciones siguientes al agregar di
 
 Para agregar un intervalo de IP a la lista de permitidos, siga estos pasos:
 
-1. Abra la tarjeta **[!UICONTROL SFTP]** y seleccione la pestaña **[!UICONTROL IP Whistelisting]**.
+1. Abra la tarjeta **[!UICONTROL SFTP]** y seleccione la pestaña **[!UICONTROL IP Allow Listing]**.
 1. La lista de las direcciones IP en la lista de permitidos se muestra para cada instancia. Seleccione la instancia que desee en la lista del lado izquierdo y haga clic en el botón **[!UICONTROL Add new IP range]**.
 
    ![](assets/control_panel_add_range.png)
