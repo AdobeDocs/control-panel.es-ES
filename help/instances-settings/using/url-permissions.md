@@ -2,10 +2,10 @@
 title: Permisos de URL
 description: Obtenga información sobre cómo administrar los permisos de URL en el Panel de control de Campaign
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
@@ -55,7 +55,7 @@ Para añadir una dirección URL a la que se pueda conectar su instancia, siga es
 
    >[!NOTE]
    >
-   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control, el ID de organización de IMS no está asociado a ninguna instancia de Adobe Campaign Classic
+   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control, significa que el identificador de organización de IMS no está asociado a ninguna instancia de Adobe Campaign Classic
    >
    >La pestaña <b><span class="uicontrol">Permisos de URL</span></b> lista todas las direcciones URL externas a las que se puede conectar la instancia. Esta lista no incluye las direcciones URL que son necesarias para que funcione Campaign (por ejemplo, conexiones entre elementos de infraestructura).
 
