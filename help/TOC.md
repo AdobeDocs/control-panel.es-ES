@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 85%
 + Administración SFTP {#sftp-management}
    + [Acerca de la administración SFTP](sftp/using/about-sftp-management.md)
    + [Administración de almacenamiento SFTP](sftp/using/sftp-storage-management.md)
-   + [El rango IP permite el listado](sftp/using/ip-range-allow-listing.md)
+   + [Adición de rangos de IP a la lista de permitidos](sftp/using/ip-range-allow-listing.md)
    + [Administración de claves](sftp/using/key-management.md)
    + [Inicio de sesión en el servidor SFTP](sftp/using/logging-into-sftp-server.md)
    + [Preguntas frecuentes](sftp/using/common-questions.md)
@@ -38,10 +38,10 @@ ht-degree: 85%
 + Supervisión del rendimiento {#performance-monitoring}
    + [Acerca de la supervisión del rendimiento](performance-monitoring/using/about-performance-monitoring.md)
    + [Supervisión de bases de datos](performance-monitoring/using/database-monitoring.md)
-   + [Monitoreo de perfiles activos](performance-monitoring/using/active-profiles-monitoring.md)
+   + [Supervisión de perfiles activos](performance-monitoring/using/active-profiles-monitoring.md)
    + [Alertas por correo electrónico](performance-monitoring/using/email-alerting.md)
-+ Instances settings {#instances-settings}
-   + [IP permite el acceso a la lista de instancias](instances-settings/using/ip-allow-listing-instance-access.md)
++ Configuración de instancias {#instances-settings}
+   + [Listado de IP permitidas para acceso a instancias](instances-settings/using/ip-allow-listing-instance-access.md)
    + [Permisos de URL](instances-settings/using/url-permissions.md)
    + [Detalles de instancias](instances-settings/using/instance-details.md)
    + [Administración de claves GPG](instances-settings/using/gpg-keys-management.md)
