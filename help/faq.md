@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 66%
+ht-degree: 71%
 
 ---
 
@@ -84,7 +84,7 @@ Para comprobar si la instancia está alojada en AWS, siga estos pasos:
 >
 >Si desea realizar la migración a AWS, póngase en inicio con el administrador de éxito del cliente.
 
-## Panel de control {#control-panel}
+## Panel de control de Campaign{#control-panel}
 
 **¿Qué es el Panel de control de Campaign?**
 
@@ -92,7 +92,7 @@ El Panel de control de Campaign permite a los administradores de productos admin
 
 **¿Cuáles son algunas de las capacidades actuales del Panel de control de Campaign?**
 
-El Panel de control le permite rastrear almacenamientos, agregar direcciones IP a la lista de permitidos y administrar las claves SSH para sus servidores SFTP por su cuenta en función de sus necesidades y otras acciones.
+El Panel de control de Campaign le permite hacer el seguimiento del almacenamiento y las direcciones IP de lista de permitidos, y administrar las claves SSH de sus servidores SFTP por su cuenta en función de sus necesidades y otras acciones.
 
 Para obtener más información, consulte la documentación de acciones admitidas por el Panel de control de Campaign.
 
