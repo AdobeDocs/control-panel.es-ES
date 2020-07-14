@@ -1,11 +1,11 @@
 ---
 title: Promoción de subdominios
 description: Más información sobre la promoción de subdominios
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 80b35e82116b064a7b141d957ab79ecfc9a99026
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Veamos el ejemplo del dominio &quot;mybrand.com&quot;, que se utiliza para envia
 * subdominio &quot;info.mybrand.com&quot; para comunicaciones transaccionales (confirmación de compras, restablecimiento de contraseña, etc.),
 * Subdominio &quot;marketing.mybrand.com&quot; para correos electrónicos de prospección.
 
-Al hacerlo, ayudará a preservar la reputación de su dominio y otros subdominios. Por ejemplo, si los subdominios &quot;marketing.mybrand.com&quot; terminan siendo agregados a la lista de bloques por Proveedores de servicio de Internet debido a una mala entrega, esto impediría que todo el dominio &quot;mybrand.com&quot; y el subdominio &quot;info.mybrand.com&quot; se agreguen a la lista de bloques.
+Al hacerlo, ayudará a preservar la reputación de su dominio y otros subdominios. Por ejemplo: si los subdominios &quot;marketing.mybrand.com&quot; terminan en la lista de bloqueados de los proveedores de servicios de Internet debido a la mala capacidad de entrega, esto impedirá que todo el dominio &quot;mybrand.com&quot; y el subdominio &quot;info.mybrand.com&quot; terminen en la lista de bloqueados.
 
 ## Métodos de delegación de subdominios {#subdomain-delegation-methods}
 
