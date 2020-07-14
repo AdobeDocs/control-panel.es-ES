@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 87%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->Esta función solo está disponible para instancias de Campaign Classic, desde la compilación 8850. Si está utilizando una compilación anterior, debe actualizar para utilizar esta función.
+>Esta función solo está disponible para instancias de Campaign Classic desde la versión 8850. Si está utilizando una versión anterior, debe actualizarla para usar esta función.
 
 ## Acerca de los permisos de URL {#about-url-permissions}
 
@@ -93,4 +93,4 @@ Tenga en cuenta que, si elimina una dirección URL, su instancia no podrá volve
 
 **He agregado una dirección URL nueva, pero mi instancia sigue sin poder conectarse a ella. ¿Por qué?**
 
-En algunos casos, las direcciones URL que intenta conectar requieren que se permita el listado, la entrada de contraseña u otra forma de autenticación. El Panel de control de Campaign no administra la autenticación adicional.
+En algunos casos, las direcciones URL que intenta conectar requieren una lista de permitidos, una entrada de contraseña u otra forma de autenticación. El Panel de control de Campaign no administra la autenticación adicional.
