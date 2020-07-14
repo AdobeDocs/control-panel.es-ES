@@ -4,7 +4,7 @@ translation-type: tm+mt
 source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 72%
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,9 @@ Aquí encontrará información sobre las últimas versiones del Panel de control
 
 ## Junio de 2020 {#june-2020}
 
-**Auditoría de la capacidad de entrega de subdominios**
+**Auditoría de entrega de subdominios**
 
-Después de delegar un nuevo subdominio, el Panel de control le permite realizar un seguimiento de la auditoría realizada por el equipo de entregabilidad. [Más información](subdomains-certificates/using/setting-up-new-subdomain.md)
+Después de delegar un nuevo subdominio, el Panel de control le permite realizar un seguimiento de la auditoría realizada por el equipo de entrega. [Más información](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 **Administración de claves GPG**
 
@@ -29,15 +29,15 @@ El Panel de control ya le permite generar un par de claves GPG para que pueda de
 * [Vídeos de tutoriales de Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
 * [Vídeos de tutoriales de Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
-**Monitoreo de perfiles activos**
+**Supervisión de perfiles activos**
 
-El Panel de control ahora le permite monitorear el número de perfiles activos que utilizan las instancias y que se contabilizan con fines de facturación. [Más información](performance-monitoring/using/active-profiles-monitoring.md)
+El Panel de control de Campaign ahora le permite monitorizar el número de perfiles activos que utilizan las instancias y que se contabilizan con fines de facturación. [Más información](performance-monitoring/using/active-profiles-monitoring.md)
 
 >[!IMPORTANT]
 >
->La supervisión de perfiles activos por parte del Panel de control está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
+>La monitorización de perfiles activos desde el Panel de control de Campaign está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
 >
->La función está disponible para los clientes alojados en AWS desde la compilación Campaign Standard 10368 y la compilación Campaign Classic 8931. Si está utilizando una compilación anterior, debe actualizar para utilizar esta función.
+>La función está disponible para los clientes alojados en AWS desde la versión 10368 de Campaign Standard y 8931 de Campaign Classic. Si está utilizando una versión anterior, debe actualizarla para usar esta función.
 
 ## Mayo 2020 {#may-2020}
 
@@ -77,7 +77,7 @@ Para obtener más información, consulte estas páginas:
 
 *16 de septiembre de 2019*
 
-Hemos agregado nuevas funciones para que los usuarios administradores agreguen direcciones IP a la lista de permitidos para conectarse a instancias de Campaign Classic.
+Hemos agregado nuevas funcionalidades para que los usuarios administradores agreguen direcciones IP a la lista de permitidos para conectarse a instancias de Campaign Classic.
 Además, los usuarios administradores ahora pueden ver la lista de instancias de Campaign Classic y los requisitos para las actualizaciones de versiones.
 
 Para obtener más información, consulte la [documentación especializada](instances-settings/using/ip-allow-listing-instance-access.md).
