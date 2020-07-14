@@ -1,11 +1,11 @@
 ---
 title: Configuración de un nuevo subdominio
 description: Obtenga información sobre cómo configurar un nuevo subdominio para las instancias de Campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5b7e8126789690662e72e72c885700b971362004
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '995'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 81%
 
 >[!IMPORTANT]
 >
->La delegación de subdominios del Panel de control está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
+>La delegación de subdominios del Panel de control de Campaign está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
 
 ## Delegación completa de subdominios {#full-subdomain-delegation}
 
@@ -38,7 +38,7 @@ El Panel de control de Campaign permite delegar completamente un subdominio a Ad
 
 1. Haga clic en **[!UICONTROL Next]** para confirmar el método de delegación completo.
 
-   Note that [CNAME](#use-cnames) and custom methods are currently not supported by the Control Panel.
+   Tenga en cuenta que el Panel de control de Campaign no admite actualmente [CNAME](#use-cnames) ni métodos personalizados.
 
    ![](assets/subdomain3.png)
 
@@ -60,7 +60,7 @@ El Panel de control de Campaign permite delegar completamente un subdominio a Ad
    * **Comunicaciones transaccionales y operativas**: las comunicaciones transaccionales contienen información destinada a completar un proceso que el destinatario ha iniciado con usted. Ejemplo: confirmación de compra, correo electrónico de restablecimiento de contraseña. Las comunicaciones de organización se refieren al intercambio de información, ideas y vistas dentro y fuera de la organización, sin fines comerciales.
    ![](assets/subdomain5.png)
 
-   **Desglose de los subdominios según los casos de uso es una práctica recomendada para la entrega**. Al hacerlo, la reputación de cada subdominio está aislada y protegida. Por ejemplo, si los Proveedores de servicio de Internet acaban agregando el subdominio para comunicaciones de marketing a la lista de bloques, el subdominio de comunicaciones transaccionales no se verá afectado y podrá seguir enviando comunicaciones.
+   **Desglose de los subdominios según los casos de uso es una práctica recomendada para la entrega**. Al hacerlo, la reputación de cada subdominio está aislada y protegida. Por ejemplo: si el subdominio para comunicaciones de marketing termina en la lista de bloqueados de los proveedores de servicios de Internet, el subdominio de comunicaciones transaccionales no se verá afectado y podrá enviar comunicaciones.
 
    **Puede delegar un subdominio para los casos de uso de marketing y transaccional**:
 
@@ -68,7 +68,7 @@ El Panel de control de Campaign permite delegar completamente un subdominio a Ad
    * En los casos de uso transaccional, los subdominios se configurarán en TODAS las instancias de **RT** (centro de mensajes/mensajería en tiempo real) para garantizar la conectividad. Por lo tanto, los subdominios funcionarán con todas las instancias de RT.
    >[!NOTE]
    >
-   >Si utiliza Campaign Classic, el Panel de control de Campaign le permite ver qué instancias de RT/MID están conectadas a la instancia de Marketing con la que está trabajando. For more on this, refer to the [Instance Details](../../instances-settings/using/instance-details.md) section.
+   >Si utiliza Campaign Classic, el Panel de control de Campaign le permite ver qué instancias de RT/MID están conectadas a la instancia de Marketing con la que está trabajando. Para obtener más información, consulte la sección [Detalles de instancias](../../instances-settings/using/instance-details.md).
 
 1. Escriba el subdominio que creó en la solución de alojamiento y haga clic en **[!UICONTROL Submit]**.
 
@@ -86,7 +86,7 @@ El Panel de control de Campaign permite delegar completamente un subdominio a Ad
 
    ![](assets/subdomain7.png)
 
-   Al final, se notificará al equipo **de** entrega sobre el nuevo subdominio para auditarlo. El proceso de auditoría puede tardar hasta 10 días hábiles después de delegarse el subdominio. Las comprobaciones que se realizan incluyen bucles de comentarios y pruebas de bucles por quejas de spam. Por lo tanto, no recomendamos el uso del subdominio antes de que se haya completado la auditoría, ya que podría causar una mala reputación de subdominio.
+   Al final, se notificará al **equipo de entrega** del nuevo subdominio para auditarlo. El proceso de auditoría puede tardar hasta 10 días hábiles después de delegarse el subdominio. Las comprobaciones que se realizan incluyen bucles de comentarios y pruebas de bucles por quejas de spam. Por lo tanto, no recomendamos el uso del subdominio antes de que se haya completado la auditoría, ya que podría causar una mala reputación de subdominio.
 
    Para obtener más detalles sobre el progreso de la configuración, haga clic en el botón **[!UICONTROL Process details]**.
 
@@ -94,9 +94,9 @@ El Panel de control de Campaign permite delegar completamente un subdominio a Ad
 
    **Resolución de problemas:**
 
-   * En algunos casos, la delegación pasa por ahí, pero es posible que el subdominio no se haya verificado correctamente. El subdominio permanecerá en la **[!UICONTROL Configured]** lista con un registro de trabajo que proporciona información sobre el error. Póngase en contacto con el Servicio de atención al cliente si tiene problemas..
-   * Si el subdominio se muestra como &quot;No verificado&quot; después de configurarse, inicie una nueva verificación de subdominio (**...** / **[!UICONTROL Verify subdomain]**). Si aún muestra el mismo estado, la razón podría ser que se realiza alguna personalización en el esquema de destinatarios, que no se puede comprobar mediante procesos estándar. Intente enviar una campaña con ese subdominio.
-   * Si la configuración del subdominio está tardando demasiado (más de 10 días laborables) en el paso de auditoría de la entrega, póngase en contacto con el Servicio de atención al cliente.
+   * En algunos casos, la delegación pasa por ahí, pero es posible que el subdominio no se haya verificado correctamente. El subdominio permanecerá en la lista **[!UICONTROL Configured]** con un registro de trabajos que proporciona información sobre el error. Póngase en contacto con el Servicio de atención al cliente si tiene problemas.
+   * Si el subdominio se muestra como &quot;Unverified&quot; después de configurarse, inicie una nueva verificación de subdominio (**...**/**[!UICONTROL Verify subdomain]**). Si aún muestra el mismo estado, la razón podría ser que hay alguna personalización en el esquema de destinatarios, que no se puede comprobar mediante procesos estándar. Intente enviar una campaña con ese subdominio.
+   * Si la configuración del subdominio está tardando demasiado (más de 10 días hábiles) en el paso de auditoría de la entrega, póngase en contacto con Atención al cliente.
 
 Al final del proceso, los subdominios se configurarán para que funcionen con la instancia de Adobe Campaign y se crearán los elementos siguientes:
 
