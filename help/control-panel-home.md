@@ -1,10 +1,10 @@
 ---
 title: Documentación del producto
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 81%
 
 ## Novedades
 
-* **Auditoría de la capacidad de entrega de subdominios**
+* **Auditoría de entrega de subdominios**
 
-   Después de delegar un nuevo subdominio, el Panel de control le permite realizar un seguimiento de la auditoría realizada por el equipo de entregabilidad. [Más información](subdomains-certificates/using/setting-up-new-subdomain.md)
+   Después de delegar un nuevo subdominio, el Panel de control le permite realizar un seguimiento de la auditoría realizada por el equipo de entrega. [Más información](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 * **Administración de claves GPG**
 
