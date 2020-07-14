@@ -1,11 +1,11 @@
 ---
 title: Administración de almacenamiento SFTP
 description: Obtenga información sobre cómo supervisar y administrar el almacenamiento del servidor SFTP
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
