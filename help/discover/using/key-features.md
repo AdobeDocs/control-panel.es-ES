@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 84%
 >abstract="La página de inicio del Panel de control le permite acceder a todas las acciones que se pueden realizar en las instancias de Campaign."
 >additional-url="https://docs.adobe.com/content/help/es-ES/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Descubrimiento de la interfaz"
 
-El Panel de control de Campaign le ayuda a aumentar la eficacia de su trabajo como administrador de productos de Adobe Campaign Classic y/o Standard, lo que le permite administrar la configuración y rastrear los usos de cada una de sus instancias. Su intuitiva interfaz le permite monitorear fácilmente el uso de los recursos clave, así como realizar tareas administrativas como la adición de direcciones IP a la lista de permitidos, la supervisión de almacenamientos SFTP, la administración de claves, etc.
+El Panel de control de Campaign le ayuda a aumentar la eficacia de su trabajo como administrador de productos de Adobe Campaign Classic y/o Standard, lo que le permite administrar la configuración y rastrear los usos de cada una de sus instancias. Su intuitiva interfaz le permite supervisar fácilmente el uso de recursos clave, así como realizar tareas administrativas como adición direcciones IP a listas de permitidos, supervisión de almacenamiento SFTP, administración de claves, etc.
 
 Ventajas principales:
 
@@ -55,8 +55,8 @@ Ventajas principales:
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="condiciones" src="assets/do-not-localize/monitoring-performance.png"/></a>
-        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Monitoreo del rendimiento</strong></a></div>
-        <br/><em>Obtenga información sobre cómo supervisar la utilización de recursos clave en las instancias.</em>
+        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Monitorización del rendimiento</strong></a></div>
+        <br/><em>Obtenga información sobre cómo monitorizar la utilización de recursos clave en las instancias.</em>
     </td>
 </tr>
 </table>
