@@ -46,7 +46,7 @@ Para obtener información sobre los servidores conectados a las instancias, siga
 
    >[!NOTE]
    >
-   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control, significa que el identificador de organización de IMS no está asociado a ninguna instancia de Adobe Campaign Classic
+   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control de Campaign, significa que el identificador de organización de IMS no está asociado a ninguna instancia de Adobe Campaign Classic
 
 1. Seleccione en el panel izquierdo la instancia de Campaign Classic que desee.
 
