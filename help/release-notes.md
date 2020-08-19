@@ -1,17 +1,17 @@
 ---
 title: Versiones del Panel de control
 translation-type: tm+mt
-source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
+source-git-commit: 6607bb44a3a40607a653c37bfb19ae0d9fc6f5a9
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 94%
+source-wordcount: '564'
+ht-degree: 92%
 
 ---
 
 
 # Versiones del Panel de control {#control-panel-releases}
 
-Aquí encontrará información sobre las últimas versiones del Panel de control de Campaign.
+Aquí encontrará información sobre las últimas versiones de Panel de control de Campaign.
 
 >[!NOTE]
 >
