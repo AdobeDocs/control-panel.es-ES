@@ -1,11 +1,11 @@
 ---
 title: Administración de claves GPG
-description: Aprenda a administrar claves GPG para cifrar y descifrar datos dentro de Adobe Campaign.
+description: Obtenga información sobre cómo administrar claves GPG para cifrar y descifrar datos en Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
+source-git-commit: 1fe1bf8cd90218c54076988780b53819e9fad304
 workflow-type: tm+mt
 source-wordcount: '1112'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
@@ -18,13 +18,13 @@ El cifrado GPG le permite proteger sus datos mediante un sistema de pares de cla
 
 Una vez implementados, los datos entrantes se pueden descifrar y los datos salientes se pueden cifrar antes de que se produzca la transferencia para garantizar que nadie tenga acceso a ellos sin un par de claves coincidentes válido.
 
-Para implementar el cifrado GPG con Campaña, un usuario administrador debe instalar y/o generar las claves GPG en una instancia de marketing directamente desde el Panel de control.
+Para implementar el cifrado GPG con Campaign, un usuario administrador debe instalar y/o generar claves GPG en una instancia de marketing directamente desde el Panel de control de Campaign.
 
 Esto le permite:
 
 * **Cifrar datos** enviados: Adobe Campaign envía los datos después de cifrarlos con la clave pública instalada.
 
-* **Descifrar datos** entrantes: Adobe Campaign recibe datos cifrados desde un sistema externo mediante una clave pública descargada del Panel de control. Adobe Campaign descifra los datos mediante una clave privada generada desde el Panel de control.
+* **Descifrar datos** entrantes: Adobe Campaign recibe datos cifrados desde un sistema externo mediante una clave pública descargada del Panel de control de Campaign. Adobe Campaign descifra los datos mediante una clave privada generada a partir del Panel de control de Campaign.
 
 **Temas relacionados:**
 
@@ -33,9 +33,9 @@ Esto le permite:
 
 ## Cifrar datos {#encrypting-data}
 
-El Panel de control le permite cifrar datos procedentes de la instancia de Adobe Campaign.
+El panel de control de Campaign le permite cifrar datos procedentes de la instancia de Adobe Campaign.
 
-Para ello, debe generar un par de claves GPG a partir de una herramienta de cifrado PGP y luego instalar la clave pública en el Panel de control. Luego podrá cifrar los datos antes de enviarlos desde su instancia. Para ello, siga estos pasos:
+Para ello, debe generar un par de claves GPG a partir de una herramienta de cifrado PGP y luego instalar la clave pública en Panel de control de Campaign. Luego podrá cifrar los datos antes de enviarlos desde su instancia. Para ello, siga estos pasos:
 
 1. Genere un par de claves pública y privada utilizando una herramienta de cifrado PGP siguiendo la especificación [OpenPGP](https://www.openpgp.org/about/standard/). Para ello, instale una utilidad GPG o un software GNuGP.
 
@@ -58,11 +58,11 @@ Para ello, debe generar un par de claves GPG a partir de una herramienta de cifr
 
    ![](assets/do-not-localize/gpg_command.png)
 
-1. Una vez confirmada, la secuencia de comandos generará una clave con su huella digital asociada, que puede exportar a un archivo o pegar directamente en el Panel de control. Para exportar el archivo, ejecute este comando seguido de la huella digital de la clave que ha generado.
+1. Una vez confirmada, la secuencia de comandos generará una clave con su huella digital asociada, que puede exportar a un archivo o pegar directamente en el Panel de control de Campaign. Para exportar el archivo, ejecute este comando seguido de la huella digital de la clave que ha generado.
 
    `gpg -a --export <fingerprint>`
 
-1. Para instalar la clave pública en el Panel de control, abra la **[!UICONTROL Instance settings]** tarjeta y, a continuación, seleccione la **[!UICONTROL GPG keys]** ficha y la instancia que desee.
+1. Para instalar la clave pública en Panel de control de Campaign, abra la **[!UICONTROL Instance settings]** tarjeta y, a continuación, seleccione la **[!UICONTROL GPG keys]** ficha y la instancia que desee.
 
 1. Haga clic en el botón **[!UICONTROL Install Key]**.
 
@@ -89,23 +89,23 @@ Para obtener más información sobre esto, consulte la documentación de Adobe C
 **Campaign Classic:**
 
 * [Comprimir o encriptar un archivo](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
-* [Caso de uso: Codificación y exportación de datos mediante una clave instalada en el Panel de control](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
+* [Caso de uso: codificación y exportación de datos con una clave instalada en el Panel de control de Campaign](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
 * [Administración de datos cifrados](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Caso de uso: Codificación y exportación de datos mediante una clave instalada en el Panel de control](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
+* [Caso de uso: codificación y exportación de datos con una clave instalada en el Panel de control de Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
-## Descifrar datos {#decrypting-data}
+## Descifrado de datos {#decrypting-data}
 
-El Panel de control permite descifrar datos externos que llegan a las instancias de Adobe Campaign.
+Panel de control de Campaign le permite descifrar datos externos que llegan a las instancias de Adobe Campaign.
 
-Para ello, debe generar un par de claves GPG directamente desde el Panel de control.
+Para ello, debe generar un par de claves GPG directamente desde el Panel de control de Campaign.
 
-* La clave **** pública se compartirá con el sistema externo, que la utilizará para cifrar los datos que se enviarán a la Campaña.
-* La clave **** privada será utilizada por Campaña para descifrar los datos cifrados entrantes.
+* The **public key** will be shared with the external system, which will use it to encrypt the data to send to Campaign.
+* The **private key** will be used by Campaign to decrypt the incoming encrypted data.
 
-Para generar un par de claves en el Panel de control, siga estos pasos:
+Para generar un par de claves en Panel de control de Campaign, siga estos pasos:
 
 1. Abra la **[!UICONTROL Instance settings]** tarjeta y, a continuación, seleccione la **[!UICONTROL GPG keys]** ficha y la instancia de Adobe Campaign que desee.
 
@@ -113,7 +113,7 @@ Para generar un par de claves en el Panel de control, siga estos pasos:
 
    ![](assets/gpg_generate.png)
 
-1. Especifique el nombre de la clave y haga clic en **!UICONTROL Generate Key]**. Este nombre le ayudará a identificar la clave que se utilizará para el descifrado en Flujos de trabajo de la campaña
+1. Especifique el nombre de la clave y haga clic en **[!UICONTROL Generate Key]**. Este nombre le ayudará a identificar la clave que se utilizará para el descifrado en Flujos de trabajo de la campaña
 
    ![](assets/gpg_generate_name.png)
 
@@ -123,19 +123,19 @@ Puede usar el **...** para descargar la clave pública o copiar su huella digita
 
 ![](assets/gpg_generate_list.png)
 
-La clave pública está disponible para compartirse con cualquier sistema externo. Adobe Campaign podrá utilizar la clave privada en las actividades de carga de datos para descifrar los datos que se han cifrado con la clave pública.
+La clave pública está disponible para compartirse con cualquier sistema externo. Adobe Campaign podrá utilizar la clave privada en actividades de carga de datos para descifrar los datos que se han cifrado con la clave pública.
 
 Para obtener más información sobre esto, consulte la documentación de Adobe Campaign:
 
 **Campaign Classic:**
 
 * [Descompresión o desencriptado de un archivo antes de procesarlo](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
-* [Caso de uso: Importación de datos cifrados con una clave generada por el Panel de control](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#use-case-gpg-decrypt)
+* [Caso de uso: importación de datos cifrados con una clave generada por el Panel de control de Campaign](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#use-case-gpg-decrypt)
 
 **Campaign Standard:**
 
 * [Administración de datos cifrados](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Caso de uso: Importación de datos cifrados con una clave generada por el Panel de control](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
+* [Caso de uso: importación de datos cifrados con una clave generada por el Panel de control de Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## Control de claves GPG
 
@@ -153,7 +153,7 @@ La lista muestra todas las claves GPG de cifrado y descifrado que se han instala
    ![](assets/gpg_icon_decrypt.png):: La clave se ha generado para permitir el descifrado de datos.
 
 * **[!UICONTROL Fingerprint]**:: la huella digital de la llave.
-* **[!UICONTROL Expires]**:: Fecha de caducidad de la clave. Tenga en cuenta que el Panel de control proporcionará indicaciones visuales a medida que la clave se acerca a su fecha de caducidad:
+* **[!UICONTROL Expires]**:: Fecha de caducidad de la clave. Tenga en cuenta que el Panel de control de Campaign proporcionará indicaciones visuales a medida que la clave se acerca a su fecha de caducidad:
 
    * Urgente (rojo) se muestra 30 días antes.
    * La advertencia (amarilla) se muestra 60 días antes.
@@ -161,7 +161,7 @@ La lista muestra todas las claves GPG de cifrado y descifrado que se han instala
 
    >[!NOTE]
    >
-   >Tenga en cuenta que el Panel de control no enviará ninguna notificación por correo electrónico.
+   >Tenga en cuenta que el Panel de control de Campaign no enviará ninguna notificación por correo electrónico.
 
 Como práctica recomendada, le recomendamos que elimine cualquier clave que ya no necesite. To do this, click the **...** button then select **[!UICONTROL Delete Key].**.
 
