@@ -2,17 +2,17 @@
 product: adobe campaign
 sub-product: panel de control de Campaign
 audience: end-user
-user-guide-title: Ayuda del Panel de control de Campaign
+user-guide-title: Guía de Panel de control de Campaign
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: 060bda7df761b0da491fe3c443656ec36d4e6fb0
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 
-# Ayuda del Panel de control de Campaign{#using}
+# Guía de Panel de control de Campaign {#using}
 
 + [Documentación del producto](control-panel-home.md)
 + [Notas de la versión](release-notes.md)
