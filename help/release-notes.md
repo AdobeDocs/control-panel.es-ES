@@ -1,10 +1,10 @@
 ---
 title: Versiones del Panel de control
 translation-type: tm+mt
-source-git-commit: 6607bb44a3a40607a653c37bfb19ae0d9fc6f5a9
+source-git-commit: 1c7e5a830ff9a6b6a726cfbe30ca2ad264f1d8c6
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 92%
+source-wordcount: '619'
+ht-degree: 79%
 
 ---
 
@@ -16,6 +16,16 @@ Aquí encontrará información sobre las últimas versiones de Panel de control 
 >[!NOTE]
 >
 >Tenga en cuenta que el Panel de control está disponible para clientes alojados en AWS solamente, excepto para entornos híbridos que aún no son compatibles. No se requiere ninguna actualización para acceder al Panel de control. Asegúrese de que es un usuario administrador para acceder a él.
+
+## Octubre de 2020 {#october-2020}
+
+**Configuración de subdominio mediante CNAME**
+
+Panel de control de Campaign ahora le permite configurar un subdominio para trabajar con Adobe mediante CNAME directamente desde la interfaz. [Más información](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+**Mejoras en la supervisión de bases de datos**
+
+La **[!UICONTROL Database monitoring]** ficha se ha mejorado con métricas adicionales, lo que le permite obtener información detallada sobre los recursos que consumen espacio en la base de datos. [Más información](performance-monitoring/using/database-monitoring.md)
 
 ## Junio de 2020 {#june-2020}
 
@@ -43,7 +53,7 @@ El Panel de control de Campaign ahora le permite monitorizar el número de perfi
 
 **Administración de certificados para subdominios CNAME**
 
-El Panel de control ya le permite renovar los certificados SSL de sus subdominios delegados con el método CNAME. [Más información](subdomains-certificates/using/renewing-subdomain-certificate.md)
+Panel de control de Campaign ahora permite renovar los certificados SSL de los subdominios que se han configurado con el método CNAME. [Más información](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## de abril de 2020 {#april-2020}
 
@@ -63,7 +73,7 @@ El Panel de control de Campaign está equipado con funciones de alerta por corre
 
 *22 de enero de 2020*
 
-Hemos añadido nuevas funciones para que los usuarios administradores deleguen subdominios y renueven certificados SSL desde el Panel de control de Campaign.
+Hemos agregado nuevas funciones para que los usuarios administradores configuren subdominios y renueven certificados SSL desde Panel de control de Campaign.
 
 Para obtener más información, consulte estas páginas:
 * [Configuración de un nuevo subdominio](subdomains-certificates/using/setting-up-new-subdomain.md)
