@@ -1,11 +1,11 @@
 ---
 title: Renovación del certificado SSL de un subdominio
 description: Obtenga información sobre cómo renovar los certificados SSL de los subdominios
-translation-type: ht
-source-git-commit: bc29433167d4699ad9b840381abd0d5bbff8c630
-workflow-type: ht
-source-wordcount: '840'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+workflow-type: tm+mt
+source-wordcount: '842'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->La delegación de subdominios del Panel de control de Campaign está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
+>La configuración de subdominios del Panel de control de Campaign está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
 
 ## Acerca de la renovación de certificados {#about-certificate-renewal-process}
 
@@ -65,6 +65,7 @@ Para generar una solicitud de firma de certificado (CSR), siga estos pasos:
    * **[!UICONTROL Organization]**: nombre oficial de la organización.
    * **[!UICONTROL Organization Unit]**: unidad vinculada al subdominio (ejemplo: Marketing, TI).
    * **[!UICONTROL Instance]** (precargada): dirección URL de la instancia de Campaign asociada al subdominio.
+
    ![](assets/renewal3.png)
 
 1. Seleccione los subdominios que desea incluir en la CSR y, a continuación, haga clic en **[!UICONTROL OK]**.
@@ -100,7 +101,7 @@ Después de obtener una CSR (solicitud de firma de certificado) de Panel de cont
 Una vez adquirido un certificado SSL, puede instalarlo en su instancia. Antes de continuar, asegúrese de conocer los requisitos previos siguientes:
 
 * La solicitud de firma de certificado (CSR) debe haberse generado desde el Panel de control de Campaign. De lo contrario, no podrá instalar el certificado desde el Panel de control de Campaign.
-* La solicitud de firma de certificado (CSR) debe coincidir con el subdominio delegado a Adobe. Por ejemplo, no puede contener más subdominios que el que se ha delegado.
+* La solicitud de firma de certificado (CSR) debe coincidir con el subdominio configurado para funcionar con Adobe. Por ejemplo, no puede contener más subdominios que el que se ha configurado.
 * El certificado debe tener una fecha actual. No es posible instalar certificados con fechas en el futuro y no deben caducar (es decir, fechas de inicio y finalización válidas).
 * El certificado debe ser emitido por una autoridad de certificación (CA) de confianza como Comodo, DigiCert, GoDaddy, etc.
 * El tamaño del certificado debe ser de 2048 bits y el algoritmo debe ser RSA.
