@@ -1,9 +1,9 @@
 ---
 title: Versiones del Panel de control
 translation-type: tm+mt
-source-git-commit: 1c7e5a830ff9a6b6a726cfbe30ca2ad264f1d8c6
+source-git-commit: ee5c44c8b22b1053b7993744aa4898a10761782a
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '620'
 ht-degree: 79%
 
 ---
@@ -25,7 +25,7 @@ Panel de control de Campaign ahora le permite configurar un subdominio para trab
 
 **Mejoras en la supervisión de bases de datos**
 
-La **[!UICONTROL Database monitoring]** ficha se ha mejorado con métricas adicionales, lo que le permite obtener información detallada sobre los recursos que consumen espacio en la base de datos. [Más información](performance-monitoring/using/database-monitoring.md)
+La supervisión de bases de datos se ha mejorado con métricas adicionales que le permiten obtener información detallada sobre los recursos que consumen espacio en la base de datos. [Más información](performance-monitoring/using/database-monitoring.md)
 
 ## Junio de 2020 {#june-2020}
 
