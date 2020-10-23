@@ -1,42 +1,42 @@
 ---
 title: Preguntas frecuentes sobre el Panel de control de Campaign
 description: Preguntas frecuentes relacionadas con el Panel de control de Campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '629'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 
 # Preguntas frecuentes {#faq}
 
-## IMS Organization ID {#ims-org-id}
+## ID de la organización IMS {#ims-org-id}
 
-**¿Qué es un identificador de organización de IMS?**
+**¿Qué es un ID de organización de IMS?**
 
 Se trata de un ID exclusivo que se le proporciona a su instancia cuando inicia sesión por primera vez en Adobe Experience Cloud. Debe tener el formato siguiente: xxx@AdobeOrg.
 
-Para obtener más información, consulte la [documentación d Adobe Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcloud/organizations.html).
+Para obtener más información, consulte la [documentación de Adobe Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcloud/organizations.html).
 
-**¿Dónde puedo encontrar mi identificador de organización de IMS?**
+**¿Dónde puedo encontrar mi ID de organización de IMS?**
 
-Una forma es ir a la [Página de inicio de Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** . You will find your IMS Organization ID at the bottom of Administration **[!UICONTROL Quick Access]** section. Puede encontrar información más detallada en la [documentación de Adobe Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcloud/organizations.html).
+Una forma es ir a la [Página de inicio de Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** . Encontrará su ID de organización de IMS en la parte inferior de la sección **[!UICONTROL Quick Access]** de Administración. Puede encontrar información más detallada en la [documentación de Adobe Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcloud/organizations.html).
 
-La otra forma es iniciar **Admin Console**. El identificador de organización de IMS estará visible en la dirección URL, debería tener un aspecto similar al siguiente: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
+La otra forma es iniciar **Admin Console**. El ID de organización de IMS será visible en la dirección URL y debe tener un aspecto similar al siguiente: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
-**¿Por qué necesito saber mi identificador de organización de IMS?**
+**¿Por qué necesito saber mi ID de organización de IMS?**
 
 Para administrar la configuración de su instancia, queremos asegurarnos de que obtiene la información adecuada de la instancia correcta en caso de que utilice varias instancias para su compañía.
 
 **¿Qué sucede si tengo varios ID de organización de IMS?**
 
-Puede tener más de un identificador de organización de IMS si tiene acceso a varias soluciones de Adobe. En este caso, el identificador de organización de IMS correcto que debe utilizar es el que ve en la instancia de Adobe Campaign.
+Puede tener más de un ID de organización de IMS si tiene acceso a varias soluciones de Adobe. En este caso, el ID de organización de IMS correcto que debe utilizar es el que ve debajo de la instancia de Adobe Campaign.
 
 >[!NOTE]
 >
->Si tiene el mismo ID de organización de IMS para Adobe Campaign y Adobe Analytics, esto es bueno. Tener un ID de organización de IMS entre Analytics y Campaña es un requisito si planea integrar las soluciones para aprovechar los casos de uso complejos como el abandono del carro de compras (para AA + AC).
+>Si tiene el mismo ID de organización de IMS para Adobe Campaign y Adobe Analytics, no hay problema. Tener un ID de organización de IMS para Analytics y Campaign es un requisito si tiene pensado integrar las soluciones con el fin de aprovechar los casos de uso complejos, como el abandono del carro de compras (AA + AC).
 >
 >Si tiene diferentes ID de organización de IMS para Adobe Campaign y Adobe Analytics, póngase en contacto con el Servicio de atención al cliente para alinearlos.
 
@@ -44,7 +44,7 @@ Puede tener más de un identificador de organización de IMS si tiene acceso a v
 
 Para comprobar si la instancia está alojada en AWS, siga estos pasos:
 
-1. Recupere la dirección URL de inicio de sesión. Es la dirección URL que utiliza para iniciar sesión en la instancia de Campaign y termina principalmente con &quot;.campaña.adobe.com&quot; o&quot;.neolane.net&quot;.
+1. Recupere la dirección URL de inicio de sesión. Es la dirección URL que utiliza para iniciar sesión en la instancia de Campaign y termina principalmente con “.campaign.adobe.com” o “.neolane.net”.
 1. Abra el terminal y, a continuación, ejecute una operación **[!DNL nslookup]** en la dirección URL de inicio de sesión.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
@@ -69,7 +69,7 @@ Para comprobar si la instancia está alojada en AWS, siga estos pasos:
 
    `doe-macOS% nslookup 12.34.567.89`
 
-1. Compruebe el valor &quot;name&quot; en el resultado devuelto. Si contiene &quot;amazonaws.com&quot;, significa que su instancia está alojada en AWS.
+1. Compruebe el valor “name” en el resultado devuelto. Si contiene “amazonaws.com”, significa que su instancia está alojada en AWS.
 
    ```
    doe-macOS% nslookup 12.34.567.89
