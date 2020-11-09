@@ -2,10 +2,10 @@
 title: Configuración de un nuevo subdominio
 description: Obtenga información sobre cómo configurar un nuevo subdominio para las instancias de Campaign
 translation-type: tm+mt
-source-git-commit: 4488040118bac708348bc73c5e525f35f6b1e6c1
+source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 50%
+source-wordcount: '1106'
+ht-degree: 49%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 50%
 >
 >La configuración de subdominios del Panel de control de Campaign está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
 
-Esta página proporciona información sobre cómo configurar nuevos subdominios mediante delegación de subdominios completa o CNAME. En esta sección se presentan los conceptos globales sobre estos dos métodos: [](../../subdomains-certificates/using/subdomains-branding.md).
+Esta página proporciona información sobre cómo configurar nuevos subdominios mediante delegación de subdominios completa o CNAME. En esta sección se presentan los conceptos globales sobre estos dos métodos: [Marca de subdominios](../../subdomains-certificates/using/subdomains-branding.md).
 
 **Temas relacionados:**
 
@@ -74,9 +74,9 @@ Para delegar completamente un subdominio a Adobe Campaign, siga estos pasos:
 
    ![](assets/subdomain6.png)
 
-Una vez enviado el subdominio, el Panel de control de Campaign realizará varias comprobaciones y pasos de configuración. Para obtener más información sobre esto, consulte [](../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-check-and-configuration).
+Una vez enviado el subdominio, el Panel de control de Campaign realizará varias comprobaciones y pasos de configuración. Para obtener más información sobre esto, consulte Comprobaciones y configuración [de subdominios](#subdomain-checks-and-configuration).
 
-## Configuración de subdominio mediante CNAME {#use-cnames}
+## Configuración del subdominio mediante CNAME {#use-cnames}
 
 Para configurar un subdominio mediante CNAME, siga estos pasos:
 
@@ -112,7 +112,7 @@ Para configurar un subdominio mediante CNAME, siga estos pasos:
    >
    >Tenga en cuenta que los registros DNS que se van a colocar en el servidor se conservarán por Panel de control de Campaign 30 días. Más allá de ese período, tendrá que configurar el subdominio desde cero.
 
-Una vez enviado el subdominio, el Panel de control de Campaign realizará varias comprobaciones y pasos de configuración. Para obtener más información, consulte [](../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration).
+Una vez enviado el subdominio, el Panel de control de Campaign realizará varias comprobaciones y pasos de configuración. Para obtener más información sobre esto, consulte Comprobaciones y configuración [de subdominios](#subdomain-checks-and-configuration).
 
 ## Comprobación y configuración de subdominios {#subdomain-checks-and-configuration}
 
