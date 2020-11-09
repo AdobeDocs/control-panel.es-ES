@@ -2,10 +2,10 @@
 title: Promoción de subdominios
 description: Más información sobre la promoción de subdominios
 translation-type: tm+mt
-source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 80%
+source-wordcount: '707'
+ht-degree: 79%
 
 ---
 
@@ -54,7 +54,7 @@ Si tiene alguna pregunta acerca de los métodos de configuración de subdominio,
 
 ## Casos de uso de subdominios (Campaign Classic) (#subdominios-use-cases)
 
-Al configurar subdominios para instancias de Campaign Classic, debe seleccionar el caso de uso para el que se usará el subdominio (consulte [](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Al configurar subdominios para instancias de Campaign Classic, debe seleccionar el caso de uso para el que se usará el subdominio (consulte [Configuración de un nuevo subdominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Los casos de uso posibles son:
 
