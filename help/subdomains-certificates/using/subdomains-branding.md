@@ -2,9 +2,9 @@
 title: Promoción de subdominios
 description: Más información sobre la promoción de subdominios
 translation-type: tm+mt
-source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
+source-git-commit: 3ff864e7e8c896d49c89d49800b7471d00b777e7
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '706'
 ht-degree: 79%
 
 ---
@@ -52,7 +52,7 @@ Additional information on domain configuration is available in [this documentati
 
 Si tiene alguna pregunta acerca de los métodos de configuración de subdominio, póngase en contacto con el equipo de entrega de Adobe o póngase en contacto con el Servicio de atención al cliente para solicitar consultoría sobre la entrega.
 
-## Casos de uso de subdominios (Campaign Classic) (#subdominios-use-cases)
+## Casos de uso de subdominios (Campaign Classic){#subdomains-use-cases}
 
 Al configurar subdominios para instancias de Campaign Classic, debe seleccionar el caso de uso para el que se usará el subdominio (consulte [Configuración de un nuevo subdominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
