@@ -1,8 +1,10 @@
 ---
-title: Administración de permisos del Panel de control
-description: Obtenga información sobre cómo administrar los permisos del Panel de control
+product: campaign
+solution: Campaign
+title: Administración de permisos para el Panel de control de Campaign
+description: Obtenga información sobre cómo administrar los permisos del Panel de control de Campaign
 translation-type: tm+mt
-source-git-commit: aae2007169cc2abc003b3ef6b72e32570ffacba5
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -10,9 +12,9 @@ ht-degree: 0%
 ---
 
 
-# Administración de permisos al Panel de control {#managing-permissions-control-panel}
+# Managing permsissions to Control Panel {#managing-permissions-control-panel}
 
-El Panel de control está disponible para todos los usuarios administradores de una instancia de Campaña. Siga los pasos a continuación para asignar usuarios al grupo Administradores y otorgarles acceso al Panel de control.
+El Panel de control de Campaign está disponible para todos los usuarios administradores de una instancia de Campaña. Siga los pasos a continuación para asignar usuarios al grupo Administradores y otorgarles acceso al Panel de control de Campaign.
 
 1. Vaya a [Adobe Experience Cloud](https://experiencecloud.adobe.com/)y, a continuación, seleccione la **[!UICONTROL Administration]** ficha.
 
@@ -22,7 +24,7 @@ El Panel de control está disponible para todos los usuarios administradores de 
    >
    >Si la ficha <b>Administración</b> no está visible, significa que no tiene derechos de administrador para su organización. Póngase en contacto con los administradores de su organización para realizar los pasos con ellos.
 
-1. Inicie la **Consola** de administración haciendo clic en los vínculos disponibles.
+1. Inicie el **Admin Console** haciendo clic en los vínculos disponibles.
 
    ![](assets/do-not-localize/control_panel_admin1.png)
 
@@ -40,7 +42,7 @@ El Panel de control está disponible para todos los usuarios administradores de 
 
    >[!NOTE]
    >
-   >Puede agregar diferentes usuarios administradores para cada instancia de Campaña. En ese caso, los usuarios administradores tendrán acceso al Panel de control de la instancia a la que pertenecen solamente.
+   >Puede agregar diferentes usuarios administradores para cada instancia de Campaña. En ese caso, los usuarios administradores tendrán acceso al Panel de control de Campaign de la instancia a la que pertenecen únicamente.
 
 1. Se muestra la lista de Perfiles de producto para la instancia seleccionada. Haga clic en el perfil del **[!UICONTROL Administrators]** producto para acceder a la lista de los usuarios administradores.
 
@@ -56,4 +58,4 @@ El Panel de control está disponible para todos los usuarios administradores de 
 
 >[!NOTE]
 >
->Una vez configurado el acceso, el usuario tendrá que cerrar la sesión de Adobe Experience Cloud y volver a iniciarla, para poder acceder al panel control de acceso.
+>Una vez configurado el acceso, el usuario tendrá que cerrar la sesión de Adobe Experience Cloud y volver a iniciarla para acceder al panel control de acceso.
