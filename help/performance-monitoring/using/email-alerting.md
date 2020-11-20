@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: Alertas por correo electrónico
 description: Obtenga información sobre cómo recibir notificaciones por correo electrónico en caso de problemas con las instancias de Campaña
 translation-type: tm+mt
-source-git-commit: e2ee8badd9fffdfadabbe6c659aef8504ee62e9d
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 2%
@@ -12,11 +14,11 @@ ht-degree: 2%
 
 # Alertas por correo electrónico {#email-alerting}
 
-Con el fin de proporcionar buena flexibilidad a su trabajo, el Panel de control está equipado con funcionalidad de alerta por correo electrónico en tiempo real.
+Con el fin de proporcionar buena flexibilidad a su trabajo, Panel de control de Campaign está equipado con funcionalidad de alerta por correo electrónico en tiempo real.
 
 Para suscribirse a estas alertas, siga estos pasos:
 
-1. Haga clic en el **[!UICONTROL Alerting notifications]** botón disponible en cualquier ubicación del Panel de control y, a continuación, haga clic en **[!UICONTROL Subscribe]**.
+1. Haga clic en el **[!UICONTROL Alerting notifications]** botón disponible desde cualquier ubicación del Panel de control de Campaign y, a continuación, haga clic en **[!UICONTROL Subscribe]**.
 
    ![](assets/subscribing.png)
 
@@ -24,7 +26,7 @@ Para suscribirse a estas alertas, siga estos pasos:
 
    ![](assets/email_subscription.png)
 
-1. Después de suscribirse, el Panel de control notificará los problemas del sistema y recomendará las acciones que deben realizarse. Las alertas por correo electrónico se envían a todos los usuarios que se hayan registrado en **todas las instancias** de las que sean administradores.
+1. Después de suscribirse, Panel de control de Campaign notificará los problemas del sistema y recomendará las acciones que deben realizarse. Las alertas por correo electrónico se envían a todos los usuarios que se hayan registrado en **todas las instancias** de las que sean administradores.
 
    ![](assets/alert_sample.png)
 
