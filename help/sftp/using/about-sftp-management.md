@@ -1,9 +1,11 @@
 ---
+product: campaign
+solution: Campaign
 title: Acerca de la administración SFTP
 description: Más información sobre la administración de SFTP en el Panel de control de Campaign
 testing: SSECD-836 2
 translation-type: tm+mt
-source-git-commit: 9fe5f25ef2f3d7dafe9ae63d430279c354fce25a
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 3%
