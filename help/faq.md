@@ -1,9 +1,11 @@
 ---
+product: campaign
+solution: Campaign
 title: Preguntas frecuentes sobre el Panel de control de Campaign
 description: Preguntas frecuentes relacionadas con el Panel de control de Campaign
-translation-type: ht
-source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 100%
 
