@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: Inicio de sesión en el servidor SFTP
 description: Obtenga información sobre cómo iniciar sesión en el servidor SFTP
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 5%
@@ -24,11 +26,11 @@ Antes de iniciar sesión en el servidor, asegúrese de que:
 
 Para conectarse al servidor SFTP, siga estos pasos:
 
-1. Inicie el Panel de control y, a continuación, seleccione la **[!UICONTROL Key Management]** ficha de la **[!UICONTROL SFTP]** tarjeta.
+1. Inicie el Panel de control de Campaign y, a continuación, seleccione la **[!UICONTROL Key Management]** ficha de la **[!UICONTROL SFTP]** tarjeta.
 
    ![](assets/sftp_card.png)
 
-1. Inicie la aplicación de cliente SFTP y, a continuación, copie y pegue la dirección del servidor desde el Panel de control, seguido de &quot;campaña.adobe.com&quot; y rellene el nombre de usuario.
+1. Inicie la aplicación de cliente SFTP y, a continuación, copie y pegue la dirección del servidor desde el Panel de control de Campaign, seguida de &quot;campaña.adobe.com&quot; y rellene el nombre de usuario.
 
    ![](assets/do-not-localize/connect1.png)
 
@@ -40,7 +42,7 @@ Para conectarse al servidor SFTP, siga estos pasos:
 
    ![](assets/do-not-localize/connect3.png)
 
-   Puede comprobar que la clave que intenta utilizar se guarda en el Panel de control comparando la huella digital de la clave pública o privada con la huella digital de las claves que aparecen en la ficha Administración de claves de la tarjeta SFTP.
+   Puede comprobar que la clave que intenta utilizar se guarda en el Panel de control de Campaign comparando la huella digital de la clave pública o privada con la huella digital de las claves que aparecen en la ficha Administración de claves de la tarjeta SFTP.
 
    ![](assets/fingerprint_compare.png)
 
