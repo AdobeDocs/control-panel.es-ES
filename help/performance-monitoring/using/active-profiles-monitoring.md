@@ -4,7 +4,7 @@ solution: Campaign
 title: Supervisión de perfiles activos
 description: Obtenga información en tiempo real sobre el uso y la evolución más recientes e históricos de los Perfiles activos para cada una de las instancias de Campaign.
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 100%
@@ -14,13 +14,13 @@ ht-degree: 100%
 
 # Supervisión de perfiles activos {#active-profiles-monitoring}
 
+## Acerca de los perfiles activos {#about-active-profiles}
+
 >[!IMPORTANT]
 >
 >La monitorización de perfiles activos desde el Panel de control de Campaign está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
 >
 >La función está disponible para los clientes alojados en AWS desde la versión 10368 de Campaign Standard y 8931 de Campaign Classic. Si está utilizando una versión anterior, debe actualizarla para usar esta función.
-
-## Acerca de los perfiles activos {#about-active-profiles}
 
 Según el contrato, cada una de las instancias de Campaign se aprovisiona con una cantidad específica de perfiles activos que se contabilizan a efectos de facturación. Consulte su contrato más reciente para obtener una referencia sobre la cantidad de perfiles activos adquiridos.
 
