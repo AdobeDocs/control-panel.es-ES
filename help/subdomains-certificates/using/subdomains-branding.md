@@ -4,7 +4,7 @@ solution: Campaign
 title: Promoción de subdominios
 description: Más información sobre la promoción de subdominios
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 79%
@@ -20,11 +20,11 @@ ht-degree: 79%
 >abstract="Supervise los subdominios y los certificados SSL asociados."
 >additional-url="https://docs.adobe.com/content/help/es-ES/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Supervisión de los certificados SSL de los subdominios"
 
+## ¿Por qué configurar subdominios? {#why-setting-up-subdomains}
+
 >[!IMPORTANT]
 >
 >La configuración de subdominios del Panel de control de Campaign está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
-
-## ¿Por qué configurar subdominios? {#why-setting-up-subdomains}
 
 Un subdominio es una división de su dominio que puede utilizarse para aislar sus marcas o varios tipos de tráfico (mensajes transaccionales, información de marketing, etc.).
 
