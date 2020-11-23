@@ -4,10 +4,10 @@ solution: Campaign
 title: Administración de claves GPG
 description: Obtenga información sobre cómo administrar claves GPG para cifrar y descifrar datos en Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 16%
+source-wordcount: '1221'
+ht-degree: 13%
 
 ---
 
@@ -20,6 +20,8 @@ El cifrado GPG le permite proteger sus datos mediante un sistema de pares de cla
 
 Una vez implementados, los datos entrantes se pueden descifrar y los datos salientes se pueden cifrar antes de que se produzca la transferencia para garantizar que nadie tenga acceso a ellos sin un par de claves coincidentes válido.
 
+![](assets/do-not-localize/how-to-video.png) Descubrir esta función en vídeo mediante [Campaign Classic](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html) o [Campaign Standard](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+
 Para implementar el cifrado GPG con Campaign, un usuario administrador debe instalar y/o generar claves GPG en una instancia de marketing directamente desde el Panel de control de Campaign.
 
 Esto le permite:
@@ -28,16 +30,13 @@ Esto le permite:
 
 * **Descifrar datos** entrantes: Adobe Campaign recibe datos cifrados desde un sistema externo mediante una clave pública descargada del Panel de control de Campaign. Adobe Campaign descifra los datos mediante una clave privada generada a partir del Panel de control de Campaign.
 
-**Temas relacionados:**
-
-* [Tutoriales en vídeo de Campaign Standard](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Tutoriales en vídeo de Campaign Classic](https://docs.adobe.com/content/help/es-ES/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
-
 ## Cifrar datos {#encrypting-data}
 
 El panel de control de Campaign le permite cifrar datos procedentes de la instancia de Adobe Campaign.
 
-Para ello, debe generar un par de claves GPG a partir de una herramienta de cifrado PGP y luego instalar la clave pública en Panel de control de Campaign. Luego podrá cifrar los datos antes de enviarlos desde su instancia. Para ello, siga estos pasos:
+Para ello, debe generar un par de claves GPG a partir de una herramienta de cifrado PGP y luego instalar la clave pública en Panel de control de Campaign. Luego podrá cifrar los datos antes de enviarlos desde su instancia. Para realizar esto, siga los pasos a continuación.
+
+![](assets/do-not-localize/how-to-video.png) Descubra cómo generar e instalar claves GPG en vídeo con [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html?lang=en#instance-settings) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html?lang=en#instance-settings)
 
 1. Genere un par de claves pública y privada utilizando una herramienta de cifrado PGP siguiendo la especificación [OpenPGP](https://www.openpgp.org/about/standard/). Para ello, instale una utilidad GPG o un software GNuGP.
 
@@ -86,7 +85,7 @@ Una vez instalada la clave pública, esta se muestra en la lista. Puede usar el 
 
 La clave está disponible para su uso en flujos de trabajo de Adobe Campaign. Puede utilizarla para cifrar datos al utilizar actividades de extracción de datos.
 
-Para obtener más información sobre esto, consulte la documentación de Adobe Campaign:
+Para obtener más información sobre este tema, consulte la documentación de Adobe Campaign:
 
 **Campaign Classic:**
 
@@ -98,6 +97,8 @@ Para obtener más información sobre esto, consulte la documentación de Adobe C
 * [Administración de datos cifrados](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [Caso de uso: codificación y exportación de datos con una clave instalada en el Panel de control de Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
+![](assets/do-not-localize/how-to-video.png) Descubra cómo cifrar datos en vídeo mediante [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)
+
 ## Descifrado de datos {#decrypting-data}
 
 Panel de control de Campaign le permite descifrar datos externos que llegan a las instancias de Adobe Campaign.
@@ -106,6 +107,8 @@ Para ello, debe generar un par de claves GPG directamente desde el Panel de cont
 
 * The **public key** will be shared with the external system, which will use it to encrypt the data to send to Campaign.
 * The **private key** will be used by Campaign to decrypt the incoming encrypted data.
+
+![](assets/do-not-localize/how-to-video.png) Descubrir esta función en vídeo mediante [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#decrypting-data) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings)
 
 Para generar un par de claves en Panel de control de Campaign, siga estos pasos:
 
