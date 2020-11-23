@@ -4,10 +4,10 @@ solution: Campaign
 title: Permisos de URL
 description: Obtenga información sobre cómo administrar los permisos de URL en el Panel de control de Campaign
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 
@@ -32,11 +32,12 @@ De forma predeterminada, las instancias no pueden conectarse a direcciones URL e
 
 Una vez añadida una URL, se hace referencia a ella en el archivo de configuración de la instancia (serverConf.xml).
 
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=en#instance-settings)
+
 **Temas relacionados:**
 
 * [Configuración del servidor de Campaign](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
 * [Protección de conexión saliente](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
-* [Adición de permisos de URL (tutorial en vídeo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html)
 
 ## Prácticas recomendadas {#best-practices}
 
