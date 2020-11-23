@@ -4,7 +4,7 @@ solution: Campaign
 title: Detalles de instancias
 description: Obtenga información sobre cómo supervisar los detalles de su instancia en el Panel de control de Campaign
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 94%
@@ -21,11 +21,11 @@ ht-degree: 94%
 >additional-url="https://docs.adobe.com/content/help/es-ES/campaign-classic/using/release-notes/latest-release.html" text="Notas de la versión de Campaign Classic"
 >additional-url="https://docs.adobe.com/content/help/es-ES/campaign-standard/using/release-notes/release-notes.html" text="Notas de la versión de Campaign Standard"
 
+## Acerca de los detalles de instancias {#about-instance-details}
+
 >[!IMPORTANT]
 >
 >Esta función solo está disponible para instancias de Campaign Classic.
-
-## Acerca de los detalles de instancias {#about-instance-details}
 
 La arquitectura de las instancias de Adobe Campaign Classic puede contener varios servidores para permitir la flexibilidad de las actividades de marketing. Por ejemplo, puede tener servidores de fuentes de marketing, tiempo real (o centro de mensajes) y medios que admitan su instancia.
 
@@ -48,7 +48,7 @@ Para obtener información sobre los servidores conectados a las instancias, siga
 
    >[!NOTE]
    >
-   >If the Instance Settings card is not visible on the homepage of the Control Panel, this means your IMS Organization ID is not associated with any Adobe Campaign Classic instances
+   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control de Campaign, significa que el identificador de organización de IMS no está asociado a ninguna instancia de Adobe Campaign Classic
 
 1. Seleccione en el panel izquierdo la instancia de Campaign Classic que desee.
 
