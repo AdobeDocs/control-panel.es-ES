@@ -4,10 +4,10 @@ solution: Campaign
 title: Configuración de un nuevo subdominio
 description: Obtenga información sobre cómo configurar un nuevo subdominio para las instancias de Campaign
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 49%
+source-wordcount: '1140'
+ht-degree: 47%
 
 ---
 
@@ -28,8 +28,6 @@ Esta página proporciona información sobre cómo configurar nuevos subdominios 
 
 **Temas relacionados:**
 
-* [Delegación de subdominios (tutorial en vídeo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
-* [Configuración de subdominios mediante CNAME (vídeo de tutorial)](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
 * [Supervisión de subdominios](../../subdomains-certificates/using/monitoring-subdomains.md)
 
 ## Lectura obligatoria {#must-read}
@@ -50,7 +48,9 @@ Además, **no cree ningún archivo de zona independiente** para este nuevo subdo
 
 ## Delegación completa de subdominios {#full-subdomain-delegation}
 
-Para delegar completamente un subdominio a Adobe Campaign, siga estos pasos:
+Para delegar completamente un subdominio a Adobe Campaign, siga los pasos a continuación.
+
+![](assets/do-not-localize/how-to-video.png) Descubrir esta función en vídeo mediante [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates)
 
 1. En la tarjeta **[!UICONTROL Subdomains & Certificates]**, seleccione la instancia de producción que desee y haga clic en **[!UICONTROL Setup new subdomain]**.
 
@@ -80,7 +80,9 @@ Una vez enviado el subdominio, el Panel de control de Campaign realizará varias
 
 ## Configuración del subdominio mediante CNAME {#use-cnames}
 
-Para configurar un subdominio mediante CNAME, siga estos pasos:
+Para configurar un subdominio mediante CNAME, siga los pasos a continuación.
+
+![](assets/do-not-localize/how-to-video.png) Descubrir esta función en vídeo mediante [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en)
 
 1. En la tarjeta **[!UICONTROL Subdomains & Certificates]**, seleccione la instancia de producción que desee y haga clic en **[!UICONTROL Setup new subdomain]**.
 
