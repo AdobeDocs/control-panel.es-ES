@@ -4,10 +4,10 @@ solution: Campaign
 title: Lista de IP permitidas
 description: Obtenga información sobre cómo agregar direcciones IP a la lista de permitidos en el Panel de control de Campaign para obtener acceso a instancias.
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -33,6 +33,8 @@ Si su dirección IP no se ha incluido en la lista de permitidos, no podrá inici
 El Panel de control de Campaign le permite configurar nuevas conexiones a las instancias añadiendo rangos de direcciones IP a la lista de permitidos. Para realizar esto, siga los pasos descritos a continuación.
 
 Una vez que las direcciones IP estén en la lista de permitidos, puede crear y vincular operadores de Campaign a ellas para que los usuarios puedan acceder a la instancia.
+
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=en#instance-settings)
 
 ## Prácticas recomendadas {#best-practices}
 
@@ -91,5 +93,5 @@ Para agregar direcciones IP a la lista de permitidos, siga estos pasos:
 Para eliminar rangos de IP de la lista de permitidos, selecciónelos y haga clic en el botón **[!UICONTROL Delete IP range]**.
 
 **Temas relacionados:**
-* [Lista de IP permitidas (tutorial en vídeo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
+
 * [Vinculación de una zona de seguridad a un operador](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
