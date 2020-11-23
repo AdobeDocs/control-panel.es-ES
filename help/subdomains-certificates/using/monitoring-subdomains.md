@@ -4,10 +4,10 @@ solution: Campaign
 title: Supervisión de los certificados SSL de los subdominios
 description: Obtenga información sobre cómo supervisar los certificados SSL de los subdominios
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 24%
+source-wordcount: '142'
+ht-degree: 16%
 
 ---
 
@@ -32,6 +32,5 @@ Si falla la verificación del subdominio, póngase en contacto con el Servicio d
 
 **Temas relacionados:**
 
-* [Adición de certificados SSL (tutorial en vídeo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [Renovación del certificado SSL de un subdominio](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [Promoción de subdominios](../../subdomains-certificates/using/subdomains-branding.md)
