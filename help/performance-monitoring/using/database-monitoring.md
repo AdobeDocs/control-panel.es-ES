@@ -4,9 +4,9 @@ solution: Campaign
 title: Supervisión de bases de datos
 description: Obtenga información sobre cómo supervisar la base de datos de Campañas en el Panel de control de Campaign
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '936'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,8 @@ El desbordamiento de una base de datos de instancia puede provocar varios proble
 >Si la cantidad de espacio proporcionado en la base de datos, según muestra el Panel de control de Campaign, no refleja la cantidad especificada en el contrato, póngase en contacto con el Servicio de atención al cliente.
 
 ## Monitoreo del uso de la base de datos {#monitoring-instances-database}
+
+![](assets/do-not-localize/how-to-video.png) Descubrir esta función en vídeo mediante [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
 
 Panel de control de Campaign permite supervisar el uso de la base de datos para cada una de las instancias de Campaña. Para ello, abra la **[!UICONTROL Performance Monitoring]** tarjeta y, a continuación, seleccione la **[!UICONTROL Databases]** ficha.
 
