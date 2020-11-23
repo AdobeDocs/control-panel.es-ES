@@ -4,7 +4,7 @@ solution: Campaign
 title: Permisos de URL
 description: Obtenga información sobre cómo administrar los permisos de URL en el Panel de control de Campaign
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 93%
@@ -20,11 +20,11 @@ ht-degree: 93%
 >abstract="Administre las direcciones URL con las que se pueden conectar las instancias de Adobe Campaign."
 >additional-url="https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4" text="Ver vídeo de demostración"
 
+## Acerca de los permisos de URL {#about-url-permissions}
+
 >[!IMPORTANT]
 >
 >Esta función solo está disponible para instancias de Campaign Classic desde la versión 8850. Si está utilizando una versión anterior, debe actualizarla para usar esta función.
-
-## Acerca de los permisos de URL {#about-url-permissions}
 
 La lista predeterminada de direcciones URL a las que pueden llamar los códigos JavaScript (flujos de trabajo, etc.) a través de instancias de Campaign Classic es limitada. Son direcciones URL que permiten que las instancias funcionen correctamente.
 
