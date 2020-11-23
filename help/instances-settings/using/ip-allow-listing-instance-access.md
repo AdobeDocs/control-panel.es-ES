@@ -4,7 +4,7 @@ solution: Campaign
 title: Lista de IP permitidas
 description: Obtenga información sobre cómo agregar direcciones IP a la lista de permitidos en el Panel de control de Campaign para obtener acceso a instancias.
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 94%
@@ -20,11 +20,11 @@ ht-degree: 94%
 >abstract="Añada direcciones IP a la lista de permitidos para acceder a sus instancias."
 >additional-url="https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4" text="Ver vídeo de demostración"
 
+## Acerca de las listas de IP permitidas {#about-ip-allow-listing}
+
 >[!IMPORTANT]
 >
 >Esta función solo está disponible para instancias de Campaign Classic.
-
-## Acerca de las listas de IP permitidas {#about-ip-allow-listing}
 
 De forma predeterminada, la instancia de Adobe Campaign Classic no es accesible desde varias direcciones IP.
 
