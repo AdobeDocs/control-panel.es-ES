@@ -4,10 +4,10 @@ solution: Campaign
 title: Inicio de sesión en el servidor SFTP
 description: Obtenga información sobre cómo iniciar sesión en el servidor SFTP
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 54d3239a566491c854e5d46c297e72afeff83792
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 4%
+source-wordcount: '348'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Los pasos a continuación detallan cómo conectar el servidor SFTP a través de la aplicación cliente SFTP.
 
-![](assets/do-not-localize/how-to-video.png) Descubrir esta función en vídeo mediante [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html?lang=en#sftp-management) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/connect-to-sftp-server.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](https://video.tv.adobe.com/v/27263?quality=12&captions=spa)
 
 Antes de iniciar sesión en el servidor, asegúrese de que:
 
