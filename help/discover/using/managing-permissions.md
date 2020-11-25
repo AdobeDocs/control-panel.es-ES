@@ -4,19 +4,19 @@ solution: Campaign
 title: Administración de permisos para el Panel de control de Campaign
 description: Obtenga información sobre cómo administrar los permisos del Panel de control de Campaign
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: b3eb3dd5144a0d29ac4c684a151525cc5a37287b
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 0%
+source-wordcount: '269'
+ht-degree: 4%
 
 ---
 
 
-# Managing permsissions to Control Panel {#managing-permissions-control-panel}
+# Administración de permisos en Panel de control de Campaign {#managing-permissions-control-panel}
 
 El Panel de control de Campaign está disponible para todos los usuarios administradores de una instancia de Campaña. Siga los pasos a continuación para asignar usuarios al grupo Administradores y otorgarles acceso al Panel de control de Campaign.
 
-![](assets/do-not-localize/how-to-video.png) Descubrir esta función en vídeo mediante [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights) o [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights)
+![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](#video)
 
 1. Vaya a [Adobe Experience Cloud](https://experiencecloud.adobe.com/)y, a continuación, seleccione la **[!UICONTROL Administration]** ficha.
 
@@ -61,3 +61,7 @@ El Panel de control de Campaign está disponible para todos los usuarios adminis
 >[!NOTE]
 >
 >Una vez configurado el acceso, el usuario tendrá que cerrar la sesión de Adobe Experience Cloud y volver a iniciarla para acceder al panel control de acceso.
+
+## Tutorial video {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
