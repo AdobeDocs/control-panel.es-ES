@@ -4,10 +4,10 @@ solution: Campaign
 title: Administración de claves GPG
 description: Obtenga información sobre cómo administrar claves GPG para cifrar y descifrar datos en Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: c56aba50fd3b79fba996e87fed5556dc54ccc7c8
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 12%
+source-wordcount: '1116'
+ht-degree: 16%
 
 ---
 
@@ -19,8 +19,6 @@ ht-degree: 12%
 El cifrado GPG le permite proteger sus datos mediante un sistema de pares de claves público-privadas que siguen la especificación [OpenPGP](https://www.openpgp.org/about/standard/) .
 
 Una vez implementados, los datos entrantes se pueden descifrar y los datos salientes se pueden cifrar antes de que se produzca la transferencia para garantizar que nadie tenga acceso a ellos sin un par de claves coincidentes válido.
-
-![](assets/do-not-localize/how-to-video.png) Descubrir esta función en vídeo mediante [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)
 
 Para implementar el cifrado GPG con Campaign, un usuario administrador debe instalar y/o generar claves GPG en una instancia de marketing directamente desde el Panel de control de Campaign.
 
@@ -36,7 +34,7 @@ El panel de control de Campaign le permite cifrar datos procedentes de la instan
 
 Para ello, debe generar un par de claves GPG a partir de una herramienta de cifrado PGP y luego instalar la clave pública en Panel de control de Campaign. Luego podrá cifrar los datos antes de enviarlos desde su instancia. Para realizar esto, siga los pasos a continuación.
 
-![](assets/do-not-localize/how-to-video.png) Descubra cómo generar e instalar claves GPG en vídeo con [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html?lang=en#instance-settings) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html?lang=en#instance-settings)
+![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](#video-generate-key)
 
 1. Genere un par de claves pública y privada utilizando una herramienta de cifrado PGP siguiendo la especificación [OpenPGP](https://www.openpgp.org/about/standard/). Para ello, instale una utilidad GPG o un software GNuGP.
 
@@ -85,7 +83,7 @@ Una vez instalada la clave pública, esta se muestra en la lista. Puede usar el 
 
 La clave está disponible para su uso en flujos de trabajo de Adobe Campaign. Puede utilizarla para cifrar datos al utilizar actividades de extracción de datos.
 
-![](assets/do-not-localize/how-to-video.png) Descubra cómo cifrar datos en vídeo mediante [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)
+![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](#video-use-key)
 
 Para obtener más información sobre este tema, consulte la documentación de Adobe Campaign:
 
@@ -108,7 +106,7 @@ Para ello, debe generar un par de claves GPG directamente desde el Panel de cont
 * The **public key** will be shared with the external system, which will use it to encrypt the data to send to Campaign.
 * The **private key** will be used by Campaign to decrypt the incoming encrypted data.
 
-![](assets/do-not-localize/how-to-video.png) Descubrir esta función en vídeo mediante [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#decrypting-data) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings)
+![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](#video-decrypt)
 
 Para generar un par de claves en Panel de control de Campaign, siga estos pasos:
 
@@ -175,3 +173,17 @@ Como práctica recomendada, le recomendamos que elimine cualquier clave que ya n
 >[!IMPORTANT]
 >
 >Antes de quitar una clave, asegúrese de que no se utiliza en ningún flujo de trabajo de Adobe Campaign para evitar que falle.
+
+## Videotutoriales {#video}
+
+### Generación e instalación de claves GPG para el cifrado de datos {#video-generate-key}
+
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
+
+### Uso de una clave GPG para cifrar datos {#video-use-key}
+
+>[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
+
+### Descifrado de datos {#video-decrypt}
+
+>[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
