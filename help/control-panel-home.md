@@ -2,11 +2,11 @@
 product: campaign
 solution: Campaign
 title: Documentación del producto
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '116'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,13 @@ La pestaña **[!UICONTROL Database monitoring]** se ha mejorado con métricas ad
     <tr>
         <td><b>Campaign Standard</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html">Tutoriales en vídeo del Panel de control de Campaign Standard</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=es">Tutoriales en vídeo del Panel de control de Campaign Standard</a></li>
             <li><a href="https://docs.adobe.com/content/help/es-ES/campaign-standard/using/campaign-standard-home.html">Documentación del producto de Campaign Standard</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html">Tutoriales en vídeo del Panel de control de Campaign Classic</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=es">Tutoriales en vídeo del Panel de control de Campaign Classic</a></li>
             <li><a href="https://docs.adobe.com/content/help/es-ES/campaign-classic/using/campaign-classic-home.html">Documentación del producto Campaign Standard</a></li>
         </ul>
         </td>
