@@ -34,11 +34,11 @@ Esta página proporciona información sobre cómo configurar nuevos subdominios 
 
 ### Selección de instancias
 
-Subdomain configuration is available for **production** instances only.
+La configuración de subdominio solo está disponible para instancias de **producción**.
 
-Si la instancia seleccionada en el asistente no tiene subdominios de configuración anteriores, el primer subdominio configurado se convertirá en el subdominio **** principal de esa instancia y no podrá cambiarlo en el futuro.
+Si la instancia seleccionada en el asistente no tiene subdominios de configuración anteriores, el primer subdominio configurado se convertirá en el **subdominio principal** para esa instancia y no podrá cambiarlo en el futuro.
 
-Como resultado, se crearán registros **DNS** inversos para otros subdominios que usen este subdominio principal. **Las direcciones de respuesta y devolución de otros subdominios se generarán desde el subdominio principal.**
+Como resultado, **registros DNS inversos** se crearán para otros subdominios que usen este subdominio principal. **Las direcciones de respuesta y devolución de otros subdominios se generarán desde el subdominio principal.**
 
 ### Configuración de servidores de nombres
 
@@ -50,7 +50,7 @@ Además, **no cree ningún archivo de zona independiente** para este nuevo subdo
 
 Para delegar completamente un subdominio a Adobe Campaign, siga los pasos a continuación.
 
-![](assets/do-not-localize/how-to-video.png) Descubrir esta función en vídeo mediante [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png) Descubra esta función en vídeo con  [Campaña ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates) Classic o  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates)
 
 1. En la tarjeta **[!UICONTROL Subdomains & Certificates]**, seleccione la instancia de producción que desee y haga clic en **[!UICONTROL Setup new subdomain]**.
 
@@ -66,7 +66,7 @@ Para delegar completamente un subdominio a Adobe Campaign, siga los pasos a cont
 
 1. Una vez creado el subdominio con la información correspondiente del servidor de nombres de Adobe, haga clic en **[!UICONTROL Next]**.
 
-1. Si seleccionó una instancia de Campaign Classic, seleccione el caso de uso que desee para el subdominio: **Comunicaciones** de marketing o comunicaciones **** transaccionales y operativas. Los conceptos globales sobre los casos de uso de los subdominios se presentan en [esta sección](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
+1. Si seleccionó una instancia de Campaign Classic, seleccione el caso de uso que desee para el subdominio: **Comunicaciones de marketing** o **Comunicaciones transaccionales y operacionales**. Los conceptos globales sobre los casos de uso de los subdominios se presentan en [esta sección](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
 
    ![](assets/subdomain5.png)
 
@@ -76,29 +76,29 @@ Para delegar completamente un subdominio a Adobe Campaign, siga los pasos a cont
 
    ![](assets/subdomain6.png)
 
-Una vez enviado el subdominio, el Panel de control de Campaign realizará varias comprobaciones y pasos de configuración. Para obtener más información sobre esto, consulte Comprobaciones y configuración [de subdominios](#subdomain-checks-and-configuration).
+Una vez enviado el subdominio, el Panel de control de Campaign realizará varias comprobaciones y pasos de configuración. Para obtener más información sobre esto, consulte [Comprobaciones y configuración de subdominios](#subdomain-checks-and-configuration).
 
 ## Configuración del subdominio mediante CNAME {#use-cnames}
 
 Para configurar un subdominio mediante CNAME, siga los pasos a continuación.
 
-![](assets/do-not-localize/how-to-video.png) Descubrir esta función en vídeo mediante [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en)
+![](assets/do-not-localize/how-to-video.png) Descubra esta función en vídeo con  [Campaña ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en#subdomains-and-certificates) Classic o  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en)
 
 1. En la tarjeta **[!UICONTROL Subdomains & Certificates]**, seleccione la instancia de producción que desee y haga clic en **[!UICONTROL Setup new subdomain]**.
 
    ![](assets/subdomain1.png)
 
-1. Select the **[!UICONTROL CNAME]** method, then click **[!UICONTROL Next]**.
+1. Seleccione el método **[!UICONTROL CNAME]** y haga clic en **[!UICONTROL Next]**.
 
    ![](assets/cname-method-selection.png)
 
-1. Si seleccionó una instancia de Campaign Classic, seleccione el caso de uso que desee para el subdominio: **Comunicaciones** de marketing o comunicaciones **** transaccionales y operativas. Los conceptos globales sobre los casos de uso de los subdominios se presentan en [esta sección](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
+1. Si seleccionó una instancia de Campaign Classic, seleccione el caso de uso que desee para el subdominio: **Comunicaciones de marketing** o **Comunicaciones transaccionales y operacionales**. Los conceptos globales sobre los casos de uso de los subdominios se presentan en [esta sección](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
 
    ![](assets/cname-use-case.png)
 
 1. Escriba el subdominio que creó en la solución de alojamiento y haga clic en **[!UICONTROL Next]**.
 
-   Make sure you fill in the **full name** of the subdomain to setup. Por ejemplo, para configurar el subdominio &quot;usoffer.email.weretail.com&quot;, escriba &quot;usoffer.email.weretail.com&quot;.
+   Asegúrese de completar el **nombre completo** del subdominio que desea configurar. Por ejemplo, para configurar el subdominio &quot;usoffer.email.weretail.com&quot;, escriba &quot;usoffer.email.weretail.com&quot;.
 
    ![](assets/cname-submit.png)
 
@@ -112,13 +112,13 @@ Para configurar un subdominio mediante CNAME, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Si desea crear los registros y enviar la configuración del subdominio más adelante, seleccione la segunda instrucción y haga clic en **[!UICONTROL Submit later]**. A continuación, podrá reanudar la configuración de subdominio directamente desde el **[!UICONTROL Processing]** área de la pantalla de administración de subdominios.
+   >Si desea crear los registros y enviar la configuración del subdominio más adelante, seleccione la segunda instrucción y haga clic en **[!UICONTROL Submit later]**. Luego podrá reanudar la configuración de subdominio directamente desde el área **[!UICONTROL Processing]** de la pantalla de administración de subdominios.
    >
    >Tenga en cuenta que los registros DNS que se van a colocar en el servidor se conservarán por Panel de control de Campaign 30 días. Más allá de ese período, tendrá que configurar el subdominio desde cero.
 
-Una vez enviado el subdominio, el Panel de control de Campaign realizará varias comprobaciones y pasos de configuración. Para obtener más información sobre esto, consulte Comprobaciones y configuración [de subdominios](#subdomain-checks-and-configuration).
+Una vez enviado el subdominio, el Panel de control de Campaign realizará varias comprobaciones y pasos de configuración. Para obtener más información sobre esto, consulte [Comprobaciones y configuración de subdominios](#subdomain-checks-and-configuration).
 
-## Comprobación y configuración de subdominios {#subdomain-checks-and-configuration}
+## Comprobaciones y configuración de subdominio {#subdomain-checks-and-configuration}
 
 1. Una vez enviado un subdominio, el Panel de control de Campaign comprobará que señala correctamente a los registros NS de Adobe y que el registro de Inicio de autoridad (SOA) no existe para este subdominio.
 
@@ -130,7 +130,7 @@ Una vez enviado el subdominio, el Panel de control de Campaign realizará varias
 
    ![](assets/subdomain7.png)
 
-   You can get more details on the configuration progress by clicking the subdomain configuration **[!UICONTROL Details]** button.
+   Puede obtener más detalles sobre el progreso de la configuración haciendo clic en el botón de configuración de subdominio **[!UICONTROL Details]**.
 
    ![](assets/subdomain_audit.png)
 
