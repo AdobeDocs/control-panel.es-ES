@@ -30,7 +30,7 @@ Una vez configurado el acceso al servidor, recuerde **añadir las direcciones IP
 >
 >Actualmente no es posible eliminar una clave pública SSH.
 
-![](assets/do-not-localize/how-to-video.png) Descubrir esta función en vídeo mediante [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Descubra esta función en vídeo con  [Campaña ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) Classic o  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management)
 
 ## Prácticas recomendadas {#best-practices}
 
