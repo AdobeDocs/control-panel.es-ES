@@ -70,7 +70,7 @@ La información disponible es:
    * Amarillo: debe considerar la posibilidad de actualizar. Le faltan las funciones y correcciones más recientes.
    * Rojo: actualice lo antes posible. Faltan nuevas funciones y es posible que el rendimiento del servidor no sea óptimo.
 
-Si es necesario actualizar uno de los servidores, consulte [esta documentación](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) para obtener más información sobre cómo proceder.
+Si es necesario actualizar uno de los servidores, consulte [esta documentación](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) para obtener más información sobre cómo proceder.
 
 ## Preguntas frecuentes {#common-questions}
 
