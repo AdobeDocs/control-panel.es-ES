@@ -22,7 +22,7 @@ ht-degree: 95%
 
 Los servidores SFTP están protegidos. Para poder acceder a ellos con el fin de ver archivos o escribir nuevos archivos, debe incluir en la lista de permitidos la dirección IP pública del sistema o cliente que accede a los servidores.
 
-![](assets/do-not-localize/how-to-video.png) Descubrir esta función en vídeo mediante [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Descubra esta función en vídeo con  [Campaña ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) Classic o  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management)
 
 ## Acerca del formato CIDR {#about-cidr-format}
 
