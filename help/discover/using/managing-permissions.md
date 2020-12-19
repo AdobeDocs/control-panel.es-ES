@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: b3eb3dd5144a0d29ac4c684a151525cc5a37287b
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -18,7 +18,7 @@ El Panel de control de Campaign está disponible para todos los usuarios adminis
 
 ![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](#video)
 
-1. Vaya a [Adobe Experience Cloud](https://experiencecloud.adobe.com/)y, a continuación, seleccione la **[!UICONTROL Administration]** ficha.
+1. Vaya a [Adobe Experience Cloud](https://experiencecloud.adobe.com/) y, a continuación, seleccione la ficha **[!UICONTROL Administration]**.
 
    ![](assets/do-not-localize/control_panel_add_user1.png)
 
@@ -46,7 +46,7 @@ El Panel de control de Campaign está disponible para todos los usuarios adminis
    >
    >Puede agregar diferentes usuarios administradores para cada instancia de Campaña. En ese caso, los usuarios administradores tendrán acceso al Panel de control de Campaign de la instancia a la que pertenecen únicamente.
 
-1. Se muestra la lista de Perfiles de producto para la instancia seleccionada. Haga clic en el perfil del **[!UICONTROL Administrators]** producto para acceder a la lista de los usuarios administradores.
+1. Se muestra la lista de Perfiles de producto para la instancia seleccionada. Haga clic en el perfil del producto **[!UICONTROL Administrators]** para acceder a la lista de los usuarios administradores.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
@@ -54,7 +54,7 @@ El Panel de control de Campaign está disponible para todos los usuarios adminis
    >
    >De forma predeterminada, los usuarios administradores pertenecen al Perfil de productos &quot;Administradores&quot;. Según la configuración de su organización, el nombre del Perfil de productos puede ser distinto (&quot;admin&quot;, &quot;admins&quot;, etc.).
 
-1. Se muestra la lista de usuarios administradores. Haga clic en el **[!UICONTROL Add User]** botón para agregar el usuario deseado.
+1. Se muestra la lista de usuarios administradores. Haga clic en el botón **[!UICONTROL Add User]** para agregar el usuario deseado.
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
 
@@ -62,6 +62,6 @@ El Panel de control de Campaign está disponible para todos los usuarios adminis
 >
 >Una vez configurado el acceso, el usuario tendrá que cerrar la sesión de Adobe Experience Cloud y volver a iniciarla para acceder al panel control de acceso.
 
-## Tutorial video {#video}
+## Videotutorial {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
