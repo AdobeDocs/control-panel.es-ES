@@ -174,7 +174,7 @@ Como práctica recomendada, le recomendamos que elimine cualquier clave que ya n
 >
 >Antes de quitar una clave, asegúrese de que no se utiliza en ningún flujo de trabajo de Adobe Campaign para evitar que falle.
 
-## Tutorial video {#video}
+## Videotutorial {#video}
 
 El siguiente vídeo muestra cómo generar e instalar claves GPG para el cifrado de datos.
 
