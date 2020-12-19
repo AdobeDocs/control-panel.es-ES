@@ -16,26 +16,26 @@ ht-degree: 19%
 
 La página de inicio del Panel de control le permite acceder a todas las acciones que se pueden realizar en las instancias de Campaign.
 
-Están representados por tarjetas organizadas en temas, por ejemplo, Administración de **Almacenamientos y bases de datos**.
+Están representados por tarjetas organizadas en temas, por ejemplo **Administración de Almacenamientos y bases de datos**.
 
 Con las próximas versiones de Campaña, habrá más temas y tarjetas disponibles.
 
 ![](assets/control_panel_interface.png)
 
-## Registros de trabajos {#job-logs}
+## Registros de trabajo {#job-logs}
 
-The **[!UICONTROL Job Logs]** button in the upper-right corner lets you audit all the changes that have been made by users of your organization.
+El botón **[!UICONTROL Job Logs]** de la esquina superior derecha permite auditar todos los cambios realizados por los usuarios de la organización.
 
 ![](assets/control_panel_interface2.png)
 
 Haga clic en un elemento de la lista para obtener más detalles.
 
-The **[!UICONTROL Open]** button allows you to access directly the Control Panel tab where the change has been made.
+El botón **[!UICONTROL Open]** le permite acceder directamente a la ficha Panel de control de Campaign donde se realizó el cambio.
 
 ![](assets/control_panel_logdetails.png)
 
 ## Recursos de ayuda {#help-resources}
 
-La **[!UICONTROL Help Resources]** sección proporciona documentación útil para ayudarle en el uso del Panel de control de Campaign y los productos de Campaña. No dudes en explorarlas.
+La sección **[!UICONTROL Help Resources]** proporciona documentación útil para ayudarle en el uso de los productos de Panel de control de Campaign y Campaña. No dudes en explorarlas.
 
 ![](assets/helpresources.png)
