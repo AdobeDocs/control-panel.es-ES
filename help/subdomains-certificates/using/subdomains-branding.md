@@ -35,7 +35,7 @@ Veamos el ejemplo del dominio &quot;mybrand.com&quot;, que se utiliza para envia
 
 Al hacerlo, ayudará a preservar la reputación de su dominio y otros subdominios. Por ejemplo: si los subdominios &quot;marketing.mybrand.com&quot; terminan en la lista de bloqueados de los proveedores de servicios de Internet debido a la mala capacidad de entrega, esto impedirá que todo el dominio &quot;mybrand.com&quot; y el subdominio &quot;info.mybrand.com&quot; terminen en la lista de bloqueados.
 
-## Métodos de configuración de subdominios {#subdomain-delegation-methods}
+## Métodos de configuración de subdominio {#subdomain-delegation-methods}
 
 La configuración de subdominio permite configurar una subsección de su dominio (técnicamente, una &quot;zona DNS&quot;) para su uso con Adobe Campaign. Los métodos de configuración disponibles son estos:
 
@@ -50,7 +50,7 @@ En el cuadro que figura a continuación se ofrece un resumen del funcionamiento 
 | **Delegación completa** | Cree el subdominio y el registro de área de nombres. A continuación, Adobe configurará todos los registros DNS necesarios para Adobe Campaign.<br/><br/>En esta configuración, Adobe es totalmente responsable de administrar el subdominio y todos los registros DNS. | Bajo |
 | **CNAME, método personalizado** | Cree el subdominio y el registro de área de nombres. A continuación, Adobe proporcionará los registros que se van a colocar en los servidores DNS y configurará los valores correspondientes en los servidores DNS de Adobe Campaign.<br/><br/>En esta configuración, tanto usted como Adobe comparten la responsabilidad de mantener DNS. | Alto |
 
-Additional information on domain configuration is available in [this documentation](https://helpx.adobe.com/es/campaign/kb/domain-name-delegation.html).
+Encontrará información adicional sobre la configuración de dominio en [esta documentación](https://helpx.adobe.com/es/campaign/kb/domain-name-delegation.html).
 
 Si tiene alguna pregunta acerca de los métodos de configuración de subdominio, póngase en contacto con el equipo de entrega de Adobe o póngase en contacto con el Servicio de atención al cliente para solicitar consultoría sobre la entrega.
 
