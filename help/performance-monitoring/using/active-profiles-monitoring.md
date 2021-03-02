@@ -4,10 +4,10 @@ solution: Campaign
 title: Supervisión de perfiles activos
 description: Obtenga información en tiempo real sobre el uso y la evolución más recientes e históricos de los Perfiles activos para cada una de las instancias de Campaign.
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 90c6d50dcb0d70616745170b5c35e42b7e5d784e
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: '387'
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,7 @@ Para ello, siga estos pasos:
 >Los perfiles activos se cuentan en función de los flujos de trabajo técnicos dedicados que se ejecutan todos los días en las instancias:
 >
 >* Flujo de trabajo [&quot;Facturación&quot;](https://docs.adobe.com/help/es-ES/campaign-standard/using/administrating/application-settings/technical-workflows.html) para Campaign Standard.
->* Flujo de trabajo [&quot;Número de perfiles de facturación activos&quot;](https://docs.adobe.com/content/help/es-ES/campaign-classic/using/automating-with-workflows/technical-workflows/deliveries.html) para Campaign Classic.
+>* Flujo de trabajo [&quot;Número de perfiles de facturación activos&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) para Campaign Classic.
 
 
 El área inferior proporciona una representación gráfica del uso de perfiles activos durante los últimos 30 días. Puede cambiar el período de tiempo mostrado a 1 año utilizando los filtros disponibles en la esquina superior derecha.
