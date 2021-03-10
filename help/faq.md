@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: Preguntas frecuentes sobre el Panel de control de Campaign
 description: Preguntas frecuentes relacionadas con el Panel de control de Campaign
-translation-type: ht
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
-workflow-type: ht
-source-wordcount: '629'
-ht-degree: 100%
+feature: 'Panel de control de Campaign   '
+role: Arquitecto
+level: Intermedio
+translation-type: tm+mt
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+workflow-type: tm+mt
+source-wordcount: '633'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +27,7 @@ Para obtener más información, consulte la [documentación de Adobe Experience 
 
 **¿Dónde puedo encontrar mi ID de organización de IMS?**
 
-Una forma es ir a la [Página de inicio de Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** . Encontrará su ID de organización de IMS en la parte inferior de la sección **[!UICONTROL Quick Access]** de Administración. Puede encontrar información más detallada en la [documentación de Adobe Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcloud/organizations.html).
+Una forma es ir a la [Página de inicio de Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** . Encontrará su ID de organización de IMS en la parte inferior de la sección **[!UICONTROL Quick Access]** de Administración. Puede encontrar información más detallada en la [documentación de Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
 La otra forma es iniciar **Admin Console**. El ID de organización de IMS será visible en la dirección URL y debe tener un aspecto similar al siguiente: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
