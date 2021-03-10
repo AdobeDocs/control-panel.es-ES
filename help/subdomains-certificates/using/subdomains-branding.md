@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: Promoción de subdominios
 description: Más información sobre la promoción de subdominios
+feature: 'Panel de control de Campaign   '
+role: Arquitecto
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '698'
 ht-degree: 79%
 
 ---
@@ -35,13 +38,13 @@ Veamos el ejemplo del dominio &quot;mybrand.com&quot;, que se utiliza para envia
 
 Al hacerlo, ayudará a preservar la reputación de su dominio y otros subdominios. Por ejemplo: si los subdominios &quot;marketing.mybrand.com&quot; terminan en la lista de bloqueados de los proveedores de servicios de Internet debido a la mala capacidad de entrega, esto impedirá que todo el dominio &quot;mybrand.com&quot; y el subdominio &quot;info.mybrand.com&quot; terminen en la lista de bloqueados.
 
-## Métodos de configuración de subdominio {#subdomain-delegation-methods}
+## Métodos de configuración de subdominios {#subdomain-delegation-methods}
 
-La configuración de subdominio permite configurar una subsección de su dominio (técnicamente, una &quot;zona DNS&quot;) para su uso con Adobe Campaign. Los métodos de configuración disponibles son estos:
+La configuración del subdominio le permite configurar una subsección de su dominio (técnicamente, una &quot;zona DNS&quot;) para usarla con Adobe Campaign. Los métodos de configuración disponibles son estos:
 
 * **Delegación de subdominios completa en Adobe Campaign** (recomendado): el subdominio se delega completamente a Adobe. Adobe puede ofrecer Campaign como servicio administrado controlando y manteniendo todos los aspectos de DNS necesarios para la entrega, el procesamiento y el seguimiento de campañas de correo electrónico.
 
-* **Uso de CNAME**: Cree un subdominio y utilice CNAME para apuntar a registros específicos del Adobe. Con esta configuración, tanto Adobe como el cliente comparten la responsabilidad de mantener DNS.
+* **Uso de CNAME**: Cree un subdominio y utilice CNAME para señalar registros específicos de Adobe. Con esta configuración, tanto Adobe como el cliente comparten la responsabilidad de mantener DNS.
 
 En el cuadro que figura a continuación se ofrece un resumen del funcionamiento de estos métodos, así como el nivel de esfuerzo que suponen:
 
@@ -50,13 +53,13 @@ En el cuadro que figura a continuación se ofrece un resumen del funcionamiento 
 | **Delegación completa** | Cree el subdominio y el registro de área de nombres. A continuación, Adobe configurará todos los registros DNS necesarios para Adobe Campaign.<br/><br/>En esta configuración, Adobe es totalmente responsable de administrar el subdominio y todos los registros DNS. | Bajo |
 | **CNAME, método personalizado** | Cree el subdominio y el registro de área de nombres. A continuación, Adobe proporcionará los registros que se van a colocar en los servidores DNS y configurará los valores correspondientes en los servidores DNS de Adobe Campaign.<br/><br/>En esta configuración, tanto usted como Adobe comparten la responsabilidad de mantener DNS. | Alto |
 
-Encontrará información adicional sobre la configuración de dominio en [esta documentación](https://helpx.adobe.com/es/campaign/kb/domain-name-delegation.html).
+Encontrará información adicional sobre la configuración del dominio en [esta documentación](https://helpx.adobe.com/es/campaign/kb/domain-name-delegation.html).
 
-Si tiene alguna pregunta acerca de los métodos de configuración de subdominio, póngase en contacto con el equipo de entrega de Adobe o póngase en contacto con el Servicio de atención al cliente para solicitar consultoría sobre la entrega.
+Si tiene alguna pregunta sobre los métodos de configuración de subdominios, póngase en contacto con el equipo de entrega de Adobe o póngase en contacto con el Servicio de atención al cliente para solicitar consultoría de entrega.
 
 ## Casos de uso de subdominios (Campaign Classic){#subdomains-use-cases}
 
-Al configurar subdominios para instancias de Campaign Classic, debe seleccionar el caso de uso para el que se usará el subdominio (consulte [Configuración de un nuevo subdominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Al configurar subdominios para instancias de Campaign Classic, debe seleccionar el caso de uso para el que se utilizará el subdominio (consulte [Configuración de un nuevo subdominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Los casos de uso posibles son:
 
@@ -66,7 +69,7 @@ Los casos de uso posibles son:
 
 **Desglose de los subdominios según los casos de uso es una práctica recomendada para la entrega**. Al hacerlo, la reputación de cada subdominio está aislada y protegida. Por ejemplo: si el subdominio para comunicaciones de marketing termina en la lista de bloqueados de los proveedores de servicios de Internet, el subdominio de comunicaciones transaccionales no se verá afectado y podrá enviar comunicaciones.
 
-**Puede configurar subdominios para casos** de uso de mercadotecnia y transaccional:
+**Puede configurar un subdominio para los casos** de uso de marketing y transaccional:
 
 * En los casos de uso de Marketing, los subdominios se configurarán en instancias de **MID** (fuentes medias).
 * En los casos de uso transaccional, los subdominios se configurarán en TODAS las instancias de **RT** (centro de mensajes/mensajería en tiempo real) para garantizar la conectividad. Por lo tanto, los subdominios funcionarán con todas las instancias de RT.
