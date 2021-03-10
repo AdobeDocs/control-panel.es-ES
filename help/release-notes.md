@@ -2,10 +2,13 @@
 product: campaign
 solution: Campaign
 title: Versiones del Panel de control
+feature: 'Panel de control de Campaign   '
+role: Arquitecto
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 1e1421494e5a6e357e56a77ee192475a03d18a28
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 95%
 
 ---
@@ -27,7 +30,7 @@ El Panel de control de Campaign ahora le permite configurar un subdominio para t
 
 **Mejoras en la supervisión de bases de datos**
 
-La supervisión de bases de datos se ha mejorado con métricas adicionales que le permiten obtener información detallada sobre los recursos que consumen espacio en la base de datos. [Más información](performance-monitoring/using/database-monitoring.md)
+La supervisión de la base de datos se ha mejorado con métricas adicionales que le permiten obtener información detallada sobre los recursos que consumen espacio en la base de datos. [Más información](performance-monitoring/using/database-monitoring.md)
 
 ## Junio de 2020 {#june-2020}
 
