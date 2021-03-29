@@ -7,7 +7,7 @@ feature: 'Panel de control de Campaign   '
 role: Arquitecto
 level: Principiante
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: c6401d8aba84e414f37eada9da593c353dcf3080
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 99%
@@ -36,7 +36,7 @@ Ventajas principales:
 >
 >Tenga en cuenta que no es necesario actualizar a la última versión de Campaign para acceder al Panel de control de Campaign.
 
-<table>
+<table style="table-layout:fixed">
 <tr>
     <td>
         <a href="../../discover/using/accessing-control-panel.md"><img alt="condiciones" src="assets/do-not-localize/discover.png"/></a>
