@@ -7,10 +7,10 @@ feature: 'Panel de control de Campaign   '
 role: Arquitecto
 level: Principiante
 translation-type: tm+mt
-source-git-commit: c6401d8aba84e414f37eada9da593c353dcf3080
+source-git-commit: 56797d4d418f353738a241534eab3938fc5f747f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,9 +32,10 @@ Ventajas principales:
 * Mejore la seguridad controlando la configuración de acceso según sus necesidades.
 
 >[!NOTE]
->El Panel de control de Campaign solo está disponible para los usuarios administradores y para todos los clientes alojados en AWS, excepto para los entornos híbridos que aún no son compatibles. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](../../discover/using/managing-permissions.md). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta sección](../../faq.md).
 >
->Tenga en cuenta que no es necesario actualizar a la última versión de Campaign para acceder al Panel de control de Campaign.
+>Todos los usuarios administradores pueden acceder a Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Para el Campaign Classic, tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la última [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html) compilación o la [última versión de GA (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes). Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](../../faq.md).
 
 <table style="table-layout:fixed">
 <tr>
