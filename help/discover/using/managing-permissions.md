@@ -7,10 +7,10 @@ feature: 'Panel de control de Campaign   '
 role: Arquitecto
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 El Panel de control de Campaign está disponible para todos los usuarios administradores de una instancia de Campaign. Siga los pasos a continuación para asignar usuarios al grupo Administradores y otorgarles acceso al Panel de control de Campaign.
 
-![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](#video)
+![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](../../discover/using/managing-permissions.md#video)
 
 1. Vaya a [Adobe Experience Cloud](https://experiencecloud.adobe.com/) y, a continuación, seleccione la pestaña **[!UICONTROL Administration]**.
 
