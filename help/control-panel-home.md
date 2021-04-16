@@ -2,17 +2,17 @@
 product: campaign
 solution: Campaign
 title: Documentación del producto
-feature: 'Panel de control de Campaign   '
-role: Arquitecto
-level: Principiante
-translation-type: tm+mt
-source-git-commit: 555181ca19af2f850f0e85f94ea2dcb4a87a7c1f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+feature: Panel de control de Campaign
+role: Architect
+level: Beginner
+exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '225'
+ht-degree: 100%
 
 ---
-
 
 # Centro de ayuda {#control-panel-documentation}
 
@@ -27,13 +27,13 @@ El Panel de control de Campaign ahora le permite configurar un subdominio para t
 
 **Mejoras en la supervisión de bases de datos**
 
-La pestaña **[!UICONTROL Database monitoring]** se ha mejorado con métricas adicionales, lo que le permite obtener información detallada sobre los recursos que consumen espacio en la base de datos. [Obtenga más información](performance-monitoring/using/database-monitoring.md)
+La pestaña **[!UICONTROL Database monitoring]** se ha mejorado con métricas adicionales, lo que le permite obtener información detallada sobre los recursos que consumen espacio en la base de datos. [Más información](performance-monitoring/using/database-monitoring.md)
 
 >[!NOTE]
 >
->Todos los usuarios administradores pueden acceder a Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 >
->Para el Campaign Classic, tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la última [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html) compilación o la [última versión de GA (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes). Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](faq.md).
+>Para Campaign Classic, tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la última compilación de [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=es) o de [GA (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=es#release-notes). Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](faq.md).
 
 ## Recursos adicionales {#additional-resources}
 
