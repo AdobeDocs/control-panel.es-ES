@@ -3,7 +3,7 @@ product: adobe campaign
 sub-product: panel de control de Campaign
 audience: end-user
 user-guide-title: Guía del Panel de control
-feature: Panel de control de Campaign
+feature: Control Panel
 role: Architect
 level: Beginner
 translation-type: ht

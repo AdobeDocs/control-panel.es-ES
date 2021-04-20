@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Adición de rangos de IP a la lista de permitidos
 description: Obtenga información sobre cómo agregar rangos de IP a la lista de permitidos para acceder a servidores SFTP.
-feature: 'Panel de control de Campaign   '
-role: Arquitecto
-level: Con experiencia
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

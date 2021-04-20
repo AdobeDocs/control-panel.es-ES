@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Supervisión de perfiles activos
 description: Obtenga información en tiempo real sobre el uso y la evolución más recientes e históricos de los Perfiles activos para cada una de las instancias de Campaign.
-feature: 'Panel de control de Campaign   '
-role: Arquitecto
-level: Con experiencia
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 5a74107daaff7e3470e1db45f4ef8d75e40c83c1
 workflow-type: tm+mt

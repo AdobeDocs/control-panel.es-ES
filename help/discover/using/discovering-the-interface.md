@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Descubrimiento de la interfaz del Panel de control de Campaign
 description: Obtenga más información sobre la interfaz de Panel de control de Campaign
-feature: 'Panel de control de Campaign   '
-role: Arquitecto
-level: Intermedio
+feature: Control Panel
+role: Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Supervisión de bases de datos
 description: Obtenga información sobre cómo supervisar su base de datos de Campaign en el Panel de control
-feature: Panel de control de Campaign
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e

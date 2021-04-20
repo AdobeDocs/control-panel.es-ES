@@ -5,7 +5,7 @@ solution: Campaign
 feature-set: Campaign
 git-repo: https://git.corp.adobe.com/AdobeDocs/control-panel.es-ES
 index: true
-feature: Panel de control de Campaign
+feature: Control Panel
 role: Architect
 level: Beginner
 translation-type: tm+mt

@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Alertas por correo electrónico
 description: Obtenga información sobre cómo recibir notificaciones por correo electrónico en caso de problemas con las instancias de Campaign
-feature: 'Panel de control de Campaign   '
-role: Arquitecto
-level: Con experiencia
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

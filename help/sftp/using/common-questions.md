@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Preguntas frecuentes
 description: Obtenga más información sobre las preguntas comunes relacionadas con la administración de SFTP.
-feature: 'Panel de control de Campaign   '
-role: Arquitecto
-level: Intermedio
+feature: Control Panel
+role: Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Administración de registros TXT
 description: Obtenga información sobre cómo administrar registros TXT para la verificación de la propiedad del dominio.
-feature: 'Panel de control de Campaign   '
-role: Arquitecto
-level: Con experiencia
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
