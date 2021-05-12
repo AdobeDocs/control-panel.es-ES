@@ -1,15 +1,15 @@
 ---
 title: Documentación del producto
-description: Documentación para el Panel de control de Campaign.
-feature: Control Panel
+description: Documentación del Panel de control de Campaign.
+feature: Panel de control de Campaign
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 63491701dd099b12d22bf9a1eab3c8a290a2e6af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '229'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
