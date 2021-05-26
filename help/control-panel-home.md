@@ -5,7 +5,7 @@ feature: Panel de control de Campaign
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 9c7a17d3e6d5bb953cb584f5a255d7b76d5c2973
+source-git-commit: 99c24d7f27464741ee9eec0339c52fa95174b1cf
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 68%
@@ -31,13 +31,7 @@ La pestaña **[!UICONTROL Database monitoring]** se ha mejorado con métricas ad
 >* El Panel de control de Campaign está restringido a los usuarios administradores. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
    >
    >
-* Para el Campaign Classic, tenga en cuenta que la instancia debe estar alojada en Amazon Web Services (AWS) y actualizarse a la última versión de [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses).
-   >   
-   >   
-   * Obtenga información sobre cómo comprobar la versión del Campaign Classic en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version).
-      >   
-      >   
-   * Para comprobar si la instancia de Campaign Classic está alojada en AWS, siga los pasos detallados en [esta página](faq.md).
+* Para el Campaign Classic, tenga en cuenta que la instancia debe estar alojada en Amazon Web Services (AWS) y actualizarse a la última versión de [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses). Obtenga información sobre cómo comprobar la versión del Campaign Classic en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia de Campaign Classic está alojada en AWS, siga los pasos detallados en [esta página](faq.md).
 
 
 ## Recursos adicionales {#additional-resources}
