@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Acceso al Panel de control de Campaign
 description: Obtenga información sobre cómo acceder al Panel de control de Campaign
-feature: Control Panel
+feature: Panel de control de Campaign
 role: Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 56797d4d418f353738a241534eab3938fc5f747f
+exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
+source-git-commit: 12ec4cada1b038e6edc46457d5cebe6a0693bfe3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '316'
+ht-degree: 87%
 
 ---
-
 
 # Funciones principales {#key-features}
 
@@ -33,9 +32,9 @@ Ventajas principales:
 
 >[!NOTE]
 >
->Todos los usuarios administradores pueden acceder a Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>El Panel de control de Campaign está restringido a los usuarios administradores. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 >
->Para el Campaign Classic, tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la última [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html) compilación o la [última versión de GA (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes). Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](../../faq.md).
+>Para el Campaign Classic, tenga en cuenta que la instancia debe estar alojada en Amazon Web Services (AWS) y actualizarse a la última versión de [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses). Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](../../faq.md).
 
 <table style="table-layout:fixed">
 <tr>
