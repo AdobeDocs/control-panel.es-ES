@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: Configuración de un nuevo subdominio
 description: Obtenga información sobre cómo configurar un nuevo subdominio para las instancias de Campaign
-feature: Control Panel
+feature: Panel de control de Campaign
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '1142'
-ht-degree: 100%
+source-git-commit: c8a17ca49f83282070c4ab50883454433970f2a7
+workflow-type: tm+mt
+source-wordcount: '1158'
+ht-degree: 98%
 
 ---
 
@@ -64,6 +63,10 @@ Para delegar completamente un subdominio a Adobe Campaign, siga los pasos a cont
    ![](assets/subdomain3.png)
 
 1. Cree los subdominios y servidores de nombres deseados en la solución de hospedaje que use su organización. Para ello, copie y pegue la información del servidor de nombres de Adobe que se muestra en el asistente. Para obtener más información sobre cómo crear un subdominio en una solución de alojamiento, consulte el [tutorial en vídeo](https://video.tv.adobe.com/v/30175).
+
+   >[!NOTE]
+   >
+   > Por ejemplo, los subdominios permiten enviar comunicaciones transaccionales y de marketing.
 
    ![](assets/subdomain4.png)
 
@@ -159,7 +162,7 @@ Puede obtener más información sobre el subdominio haciendo clic en los botones
 
 ![](assets/sender_info.png)
 
-## Resolución de problemas {#troubleshooting}
+## Solución de problemas {#troubleshooting}
 
 * En algunos casos, la configuración se completa, pero es posible que el subdominio no se haya verificado correctamente. El subdominio permanecerá en la lista **[!UICONTROL Configured]** con un registro de trabajos que proporciona información sobre el error. Póngase en contacto con el Servicio de atención al cliente si tiene problemas.
 * Si el subdominio se muestra como &quot;Unverified&quot; después de configurarse, inicie una nueva verificación de subdominio (**...**/**[!UICONTROL Verify subdomain]**). Si aún muestra el mismo estado, la razón podría ser que hay alguna personalización en el esquema de destinatarios, que no se puede comprobar mediante procesos estándar. Intente enviar una campaña con ese subdominio.
