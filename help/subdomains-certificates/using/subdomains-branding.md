@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Promoción de subdominios
 description: Más información sobre la promoción de subdominios
-feature: Control Panel
+feature: Panel de control de Campaign
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 79%
+source-wordcount: '708'
+ht-degree: 80%
 
 ---
-
 
 # Promoción de subdominios {#subdomains-branding}
 
@@ -23,11 +22,14 @@ ht-degree: 79%
 >abstract="Supervise los subdominios y los certificados SSL asociados."
 >additional-url="https://docs.adobe.com/content/help/es-ES/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Supervisión de los certificados SSL de los subdominios"
 
-## ¿Por qué configurar subdominios? {#why-setting-up-subdomains}
+
+## ¿Por qué configurar subdominios?  {#why-setting-up-subdomains}
 
 >[!IMPORTANT]
 >
->La configuración de subdominios del Panel de control de Campaign está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
+>La configuración de subdominios del Panel de control está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
+>
+>Esta capacidad no está disponible para Campaign v8.
 
 Un subdominio es una división de su dominio que puede utilizarse para aislar sus marcas o varios tipos de tráfico (mensajes transaccionales, información de marketing, etc.).
 
@@ -53,11 +55,11 @@ En el cuadro que figura a continuación se ofrece un resumen del funcionamiento 
 | **Delegación completa** | Cree el subdominio y el registro de área de nombres. A continuación, Adobe configurará todos los registros DNS necesarios para Adobe Campaign.<br/><br/>En esta configuración, Adobe es totalmente responsable de administrar el subdominio y todos los registros DNS. | Bajo |
 | **CNAME, método personalizado** | Cree el subdominio y el registro de área de nombres. A continuación, Adobe proporcionará los registros que se van a colocar en los servidores DNS y configurará los valores correspondientes en los servidores DNS de Adobe Campaign.<br/><br/>En esta configuración, tanto usted como Adobe comparten la responsabilidad de mantener DNS. | Alto |
 
-Encontrará información adicional sobre la configuración del dominio en [esta documentación](https://helpx.adobe.com/es/campaign/kb/domain-name-delegation.html).
+Encontrará información adicional sobre la configuración del dominio en [esta documentación](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
 
 Si tiene alguna pregunta sobre los métodos de configuración de subdominios, póngase en contacto con el equipo de entrega de Adobe o póngase en contacto con el Servicio de atención al cliente para solicitar consultoría de entrega.
 
-## Casos de uso de subdominios (Campaign Classic){#subdomains-use-cases}
+## Casos de uso de los subdominios (Campaign Classic){#subdomains-use-cases}
 
 Al configurar subdominios para instancias de Campaign Classic, debe seleccionar el caso de uso para el que se utilizará el subdominio (consulte [Configuración de un nuevo subdominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
