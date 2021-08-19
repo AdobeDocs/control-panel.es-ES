@@ -3,19 +3,22 @@ product: campaign
 solution: Campaign
 title: Supervisión de los certificados SSL de los subdominios
 description: Obtenga información sobre cómo supervisar los certificados SSL de los subdominios
-feature: Control Panel
+feature: Panel de control de Campaign
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 92%
+source-wordcount: '399'
+ht-degree: 90%
 
 ---
 
-
 # Supervisión de los certificados SSL de los subdominios {#monitoring-ssl-certificates}
+
+>[!AVAILABILITY]
+>
+>Esta capacidad no está disponible para Campaign v8.
 
 ## Acerca de los certificados SSL {#about-ssl-certificates}
 
