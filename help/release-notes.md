@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: Versiones del Panel de control
 description: Últimas notas de la versión de Panel de control de Campaign.
-feature: Control Panel
+feature: Panel de control de Campaign
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-translation-type: tm+mt
-source-git-commit: 4c8347f7b0f4a776ea726f02029ea1c92a83406a
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 95%
+source-wordcount: '632'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +22,7 @@ Aquí encontrará información sobre las últimas versiones del Panel de control
 >
 >Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 >
->Para Campaign Classic, tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la última compilación de [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=es) o de [GA (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=es#release-notes). Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](faq.md).
+>Para Campaign Classic v7, tenga en cuenta que su instancia debe estar alojada en AWS y actualizarse con la última versión de [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=es) o la [última versión de GA (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=es#release-notes). Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](faq.md).
 
 ## Octubre de 2020 {#october-2020}
 
@@ -53,13 +52,13 @@ El Panel de control de Campaign ahora le permite monitorizar el número de perfi
 >
 >La monitorización de perfiles activos desde el Panel de control de Campaign está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
 
-## Mayo 2020 {#may-2020}
+## Mayo de 2020 {#may-2020}
 
 **Administración de certificados para subdominios CNAME**
 
 El Panel de control de Campaign ahora le permite renovar los certificados SSL de sus subdominios configurados con el método CNAME. [Más información](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
-## de abril de 2020 {#april-2020}
+## Abril de 2020 {#april-2020}
 
 **Administración de registros TXT de Google**
 
