@@ -5,10 +5,10 @@ feature: Panel de control de Campaign
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 99c24d7f27464741ee9eec0339c52fa95174b1cf
-workflow-type: ht
-source-wordcount: '210'
-ht-degree: 100%
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 88%
 
 ---
 
@@ -29,8 +29,9 @@ La pestaña **[!UICONTROL Database monitoring]** se ha mejorado con métricas ad
 >[!NOTE]
 >
 >* El acceso al Panel de control de Campaign está restringido a los usuarios administradores. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
->
->* Para Campaign Classic, tenga en cuenta que la instancia debe estar alojada en Amazon Web Services (AWS) y actualizarse a la última versión de [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses). Aprenda a comprobar su versión de Campaign Classic en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia de Campaign Classic está alojada en AWS, siga los pasos que se detallan en [esta página](faq.md).
+   >
+   >
+* Para Campaign Classic v7, tenga en cuenta que la instancia debe estar alojada en Amazon Web Services (AWS) y actualizarse a la última versión de [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses). Aprenda a comprobar su versión de Campaign Classic en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia de Campaign Classic está alojada en AWS, siga los pasos que se detallan en [esta página](faq.md).
 
 
 ## Recursos adicionales {#additional-resources}
