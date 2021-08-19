@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Detalles de instancias
 description: Obtenga información sobre cómo supervisar los detalles de su instancia en el Panel de control de Campaign
-feature: Control Panel
+feature: Panel de control de Campaign
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
-
 
 # Detalles de instancias {#instance-details}
 
@@ -28,9 +27,9 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Esta función solo está disponible para instancias de Campaign Classic.
+>Esta función solo está disponible para instancias de Campaign Classic v7 y Campaign v8.
 
-La arquitectura de las instancias de Adobe Campaign Classic puede contener varios servidores para permitir la flexibilidad de las actividades de marketing. Por ejemplo, puede tener servidores de fuentes de marketing, tiempo real (o centro de mensajes) y medios que admitan su instancia.
+La arquitectura de las instancias de Adobe Campaign puede contener varios servidores para permitir la flexibilidad de las actividades de marketing. Por ejemplo, puede tener servidores de fuentes de marketing, tiempo real (o centro de mensajes) y medios que admitan su instancia.
 
 La funcionalidad Detalles de instancias permite ver la arquitectura plana de la instancia. Además de la información del servidor, también le permite saber si la versión de la instancia está actualizada o no, así como recomendar actualizaciones cuando sea necesario.
 
@@ -53,7 +52,7 @@ Para obtener información sobre los servidores conectados a las instancias, siga
    >
    >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control de Campaign, el ID de organización de IMS no está asociado a ninguna instancia de Adobe Campaign Classic
 
-1. Seleccione en el panel izquierdo la instancia de Campaign Classic que desee.
+1. Seleccione en el panel izquierdo la instancia de Campaign que desee.
 
    >[!NOTE]
    >
