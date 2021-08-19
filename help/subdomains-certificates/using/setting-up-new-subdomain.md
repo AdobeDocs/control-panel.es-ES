@@ -7,10 +7,10 @@ feature: Panel de control de Campaign
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 27b5baaf67a23799a3ecb56fcfcb7f5e891a25b9
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 98%
+source-wordcount: '1166'
+ht-degree: 97%
 
 ---
 
@@ -22,11 +22,14 @@ ht-degree: 98%
 >abstract="Debe configurar un nuevo subdominio y administrar los certificados SSL de los subdominios para que el inicio envíe correos electrónicos o publique páginas de aterrizaje con Adobe Campaign."
 >additional-url="https://docs.adobe.com/content/help/es-ES/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Supervisión de los certificados SSL de los subdominios"
 
+
 ## Lectura obligatoria {#must-read}
 
 >[!IMPORTANT]
 >
 >La configuración de subdominios del Panel de control está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
+>
+>Esta capacidad no está disponible para Campaign v8.
 
 Esta página proporciona información sobre cómo configurar nuevos subdominios mediante delegación de subdominios completos o CNAME. Los conceptos globales sobre estos dos métodos se presentan en esta sección: [Promoción de subdominios](../../subdomains-certificates/using/subdomains-branding.md).
 
