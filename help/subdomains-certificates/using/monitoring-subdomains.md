@@ -3,19 +3,22 @@ product: campaign
 solution: Campaign
 title: Supervisión de los certificados SSL de los subdominios
 description: Obtenga información sobre cómo supervisar los certificados SSL de los subdominios
-feature: Control Panel
+feature: Panel de control de Campaign
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '152'
 ht-degree: 17%
 
 ---
 
-
 # Supervisión de subdominios {#monitoring-subdomains}
+
+>[!AVAILABILITY]
+>
+>Esta capacidad no está disponible para Campaign v8.
 
 Es esencial monitorizar los subdominios para garantizar que todos estén correctamente configurados para funcionar con Adobe Campaign.
 
