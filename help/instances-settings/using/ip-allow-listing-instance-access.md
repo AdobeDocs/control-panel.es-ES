@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Lista de IP permitidas
 description: Obtenga información sobre cómo agregar direcciones IP a la lista de permitidos en el Panel de control de Campaign para obtener acceso a instancias.
-feature: Control Panel
+feature: Panel de control de Campaign
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 94%
+source-wordcount: '770'
+ht-degree: 91%
 
 ---
-
 
 # Lista de IP permitidas {#ip-allow-listing}
 
@@ -27,9 +26,9 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Esta función solo está disponible para instancias de Campaign Classic.
+>Esta función solo está disponible para instancias de Campaign Classic v7 y Campaign v8.
 
-De forma predeterminada, la instancia de Adobe Campaign Classic no es accesible desde varias direcciones IP.
+De forma predeterminada, la instancia de Adobe Campaign no es accesible desde varias direcciones IP.
 
 Si su dirección IP no se ha incluido en la lista de permitidos, no podrá iniciar sesión en la instancia desde esa dirección. Del mismo modo, es posible que no pueda conectar una API a su instancia de centro de mensajes o de marketing si la dirección IP no se ha incluido explícitamente en la lista de permitidos con la instancia.
 
@@ -83,7 +82,7 @@ Para agregar direcciones IP a la lista de permitidos, siga estos pasos:
 
 1. Especifique el tipo de acceso que desea conceder a las direcciones IP:
 
-   * **[!UICONTROL Campaign Console Access]**: se permitirá que las direcciones IP se conecten a la Consola de Campaign Classic. Tenga en cuenta que el acceso a la consola solo está habilitado para instancias de Marketing. No se permite el acceso a las instancias de MID y RT y, por tanto, no se habilita.
+   * **[!UICONTROL Campaign Console Access]**: Se permitirá que las direcciones IP se conecten a la consola del cliente de Campaign. Tenga en cuenta que el acceso a la consola solo está habilitado para instancias de Marketing. No se permite el acceso a las instancias de MID y RT y, por tanto, no se habilita.
    * **[!UICONTROL AEM connection]**: se permitirá que las direcciones IP de AEM especificadas se conecten a la instancia de Marketing.
    * **[!UICONTROL External API connection]**: se permitirá que las API externas con las direcciones IP especificadas se conecten a la instancia de Marketing y/o Centro de mensajes (RT). Tenga en cuenta que la conexión a la consola de instancias de RT no está habilitada.
 
