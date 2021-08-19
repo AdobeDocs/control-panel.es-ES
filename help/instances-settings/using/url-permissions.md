@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Permisos de URL
 description: Obtenga información sobre cómo administrar los permisos de URL en el Panel de control de Campaign
-feature: Control Panel
+feature: Panel de control de Campaign
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
+exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
-
 
 # Permisos de URL {#url-permissions}
 
@@ -27,9 +26,9 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->Esta función solo está disponible para instancias de Campaign Classic desde la versión 8850. Si está utilizando una versión anterior, debe actualizarla para usar esta función.
+>Esta función solo está disponible para instancias de Campaign v8 y Campaign Classic v7 desde la versión 8850. Si está utilizando una versión anterior, debe actualizarla para usar esta función.
 
-La lista predeterminada de direcciones URL a las que pueden llamar los códigos JavaScript (flujos de trabajo, etc.) a través de instancias de Campaign Classic es limitada. Son direcciones URL que permiten que las instancias funcionen correctamente.
+La lista predeterminada de direcciones URL a las que pueden llamar los códigos JavaScript (flujos de trabajo, etc.) a través de instancias de Campaign es limitada. Son direcciones URL que permiten que las instancias funcionen correctamente.
 
 De forma predeterminada, las instancias no pueden conectarse a direcciones URL externas. El Panel de control de Campaign permite añadir algunas direcciones URL externas a la lista de direcciones URL autorizadas para que la instancia pueda conectarse a ellas. Esto le permite conectar las instancias de Campaign a sistemas externos como, por ejemplo, servidores SFTP o sitios web para habilitar la transferencia de datos o archivos.
 
@@ -61,7 +60,7 @@ Para añadir una dirección URL a la que se pueda conectar su instancia, siga es
 
    >[!NOTE]
    >
-   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control de Campaign, el ID de organización de IMS no está asociado a ninguna instancia de Adobe Campaign Classic
+   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control de Campaign, el ID de organización de IMS no está asociado a ninguna instancia de Adobe Campaign
    >
    >La pestaña <b><span class="uicontrol">Permisos de URL</span></b> lista todas las direcciones URL externas a las que se puede conectar la instancia. Esta lista no incluye las direcciones URL que son necesarias para que funcione Campaign (por ejemplo, conexiones entre elementos de infraestructura).
 
