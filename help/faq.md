@@ -7,34 +7,74 @@ feature: Panel de control de Campaign
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 224bad296e416288ea717c904ce679653495c046
+source-git-commit: b915b78858810c1ad6600fb459f3ce0d6978897e
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 94%
+source-wordcount: '774'
+ht-degree: 87%
 
 ---
 
 # Preguntas frecuentes {#faq}
 
+## Panel de control de Campaign {#control-panel}
+
+### ¿Qué es el Panel de control de Campaign?
+
+El Panel de control de Campaign permite a los administradores de productos administrar directamente diversas configuraciones y supervisar la capacidad de los servidores SFTP conectados a Adobe Campaign.
+
+### ¿Cuáles son algunas de las capacidades actuales del Panel de control de Campaign?
+
+El Panel de control de Campaign le permite hacer el seguimiento del almacenamiento y las direcciones IP de lista de permitidos, y administrar las claves SSH de sus servidores SFTP por su cuenta en función de sus necesidades y otras acciones.
+
+Para obtener más información, consulte la documentación de acciones admitidas por el Panel de control de Campaign.
+
+### Qué capacidades no son compatibles con Campaign v8 pero están disponibles en Campaign Classic v7{#v8-restrictions}
+
+Las funciones relacionadas con la administración de certificados y subdominios aún no son compatibles mediante el Panel de control de Campaign en Campaign v8. Póngase en contacto con el Servicio de atención al cliente de Campaign para obtener cualquier asistencia relacionada.
+
+### ¿El Panel de control de Campaign solo sirve para Adobe Campaign?
+
+Sí, solo podrá administrar la configuración de Adobe Campaign en el Panel de control de Campaign.
+
+### ¿Puedo utilizar el Panel de control de Campaign?
+
+El Panel de control de Campaign solo está abierto a los administradores de productos de nuestros clientes actuales que tienen Adobe Campaign alojado en AWS. Tenga en cuenta que aún no se admiten entornos híbridos.
+
+Si no es administrador, pero desea acceder a él, póngase en contacto con el administrador del producto para que le ayude a agregarlo como administrador.
+
+### Como usuario Campaign Classic v7, ¿cuáles son las condiciones para acceder al Panel de control de Campaign? {#v7-restrictions}
+
+El acceso al Panel de control de Campaign está restringido a los usuarios administradores. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
+
+Para Campaign Classic v7, tenga en cuenta que la instancia debe estar alojada en Amazon Web Services (AWS) y actualizarse a la última versión de [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses). Aprenda a comprobar su versión de Campaign Classic en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia de Campaign Classic está alojada en AWS, siga los pasos detallados en [esta sección](#hosted-aws).
+
+### ¿Cómo puedo acceder al Panel de control de Campaign?
+
+Siga las instrucciones detalladas que se encuentran en la documentación de Acceso al Panel de control de Campaign.
+
+### ¿Se cobra una tarifa adicional para utilizar el Panel de control de Campaign?
+
+No, no hay costo adicional si usted es cliente actual de Adobe Campaign.
+
 ## ID de la organización IMS {#ims-org-id}
 
-**¿Qué es un ID de organización de IMS?**
+### ¿Qué es un ID de organización de IMS?
 
 Se trata de un ID exclusivo que se le proporciona a su instancia cuando inicia sesión por primera vez en Adobe Experience Cloud. Debe tener el formato siguiente: xxx@AdobeOrg.
 
 Para obtener más información, consulte la [documentación de Adobe Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcloud/organizations.html).
 
-**¿Dónde puedo encontrar mi ID de organización de IMS?**
+### ¿Dónde puedo encontrar mi ID de organización de IMS?
 
 Una forma es ir a la [Página de inicio de Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Encontrará su ID de organización de IMS en la parte inferior de la sección **[!UICONTROL Quick Access]** de Administración. Puede encontrar información más detallada en la [documentación de Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
 La otra forma es iniciar **Admin Console**. El ID de organización de IMS será visible en la dirección URL y debe tener un aspecto similar al siguiente: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
-**¿Por qué necesito saber mi ID de organización de IMS?**
+### ¿Por qué necesito saber mi ID de organización de IMS?
 
 Para administrar la configuración de su instancia, queremos asegurarnos de que obtiene la información adecuada de la instancia correcta en caso de que utilice varias instancias para su compañía.
 
-**¿Qué sucede si tengo varios ID de organización de IMS?**
+### ¿Qué sucede si tengo varios ID de organización de IMS?
 
 Puede tener más de un ID de organización de IMS si tiene acceso a varias soluciones de Adobe. En este caso, el ID de organización de IMS correcto que debe utilizar es el que ve debajo de la instancia de Adobe Campaign.
 
@@ -44,7 +84,7 @@ Puede tener más de un ID de organización de IMS si tiene acceso a varias soluc
 >
 >Si tiene diferentes ID de organización de IMS para Adobe Campaign y Adobe Analytics, póngase en contacto con el Servicio de atención al cliente para alinearlos.
 
-**¿Cómo puedo saber si mi instancia de Adobe Campaign está alojada en AWS o no?**
+### ¿Cómo puedo saber si mi instancia de Adobe Campaign está alojada en AWS o no?{#hosted-aws}
 
 Para comprobar si la instancia está alojada en AWS, siga estos pasos:
 
@@ -87,37 +127,3 @@ Para comprobar si la instancia está alojada en AWS, siga estos pasos:
 >[!NOTE]
 >
 >Si desea realizar la migración a AWS, póngase en inicio con el administrador de éxito del cliente.
-
-## Panel de control de Campaign {#control-panel}
-
-**¿Qué es el Panel de control de Campaign?**
-
-El Panel de control de Campaign permite a los administradores de productos administrar directamente diversas configuraciones y supervisar la capacidad de los servidores SFTP conectados a Adobe Campaign.
-
-**¿Cuáles son algunas de las capacidades actuales del Panel de control de Campaign?**
-
-El Panel de control de Campaign le permite hacer el seguimiento del almacenamiento y las direcciones IP de lista de permitidos, y administrar las claves SSH de sus servidores SFTP por su cuenta en función de sus necesidades y otras acciones.
-
-Para obtener más información, consulte la documentación de acciones admitidas por el Panel de control de Campaign.
-
-**Qué capacidades no son compatibles con Campaign v8 pero están disponibles en Campaign Classic v7**
-
-Las funciones relacionadas con la administración de certificados y subdominios aún no son compatibles mediante el Panel de control de Campaign en Campaign v8. Póngase en contacto con el Servicio de atención al cliente de Campaign para obtener cualquier asistencia relacionada.
-
-**¿El Panel de control de Campaign solo sirve para Adobe Campaign?**
-
-Sí, solo podrá administrar la configuración de Adobe Campaign en el Panel de control de Campaign.
-
-**¿Puedo utilizar el Panel de control de Campaign?**
-
-El Panel de control de Campaign solo está abierto a los administradores de productos de nuestros clientes actuales que tienen Adobe Campaign alojado en AWS. Tenga en cuenta que aún no se admiten entornos híbridos.
-
-Si no es administrador, pero desea acceder a él, póngase en contacto con el administrador del producto para que le ayude a agregarlo como administrador.
-
-**¿Cómo puedo acceder al Panel de control de Campaign?**
-
-Siga las instrucciones detalladas que se encuentran en la documentación de Acceso al Panel de control de Campaign.
-
-**¿Se cobra una tarifa adicional para utilizar el Panel de control de Campaign?**
-
-No, no hay costo adicional si usted es cliente actual de Adobe Campaign.
