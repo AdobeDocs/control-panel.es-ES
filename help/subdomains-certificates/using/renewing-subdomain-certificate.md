@@ -7,10 +7,10 @@ feature: Panel de control de Campaign
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 93%
+source-wordcount: '863'
+ht-degree: 88%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 93%
 >id="cp_add_ssl_certificate"
 >title="Adición de certificado SSL"
 >abstract="Para añadir un certificado SSL, debe generar un CSR, adquirir el certificado SSL de los subdominios e instalar el paquete de certificados."
->additional-url="https://docs.adobe.com/content/help/es-ES/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generación de una solicitud de firma de certificado (CSR)"
->additional-url="https://docs.adobe.com/content/help/es-ES/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="Instalación de un certificado SSL"
+>additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generación de una solicitud de firma de certificado (CSR)"
+>additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="Instalación de un certificado SSL"
 
 ## Acerca de la renovación de certificados {#about-certificate-renewal-process}
 
@@ -53,8 +53,8 @@ Una vez adquirido el certificado SSL, puede instalarlo en el subdominio deseado.
 >id="cp_select_subdomains"
 >title="Selección de los subdominios para la CSR"
 >abstract="Puede optar por incluir todos los subdominios o solo los específicos en la solicitud de firma de certificado. Solo los subdominios seleccionados se certificarán mediante el certificado SSL adquirido."
->additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generación de una solicitud de firma de certificado (CSR)"
->additional-url="https://docs.adobe.com/content/help/es-ES/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Acerca de la marca de subdominios"
+>additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generación de una solicitud de firma de certificado (CSR)"
+>additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Acerca de la marca de subdominios"
 
 Para generar una solicitud de firma de certificado (CSR), siga estos pasos:
 
@@ -104,7 +104,7 @@ Después de obtener una CSR (solicitud de firma de certificado) de Panel de cont
 >id="cp_install_ssl_certificate"
 >title="Instalación del certificado SSL"
 >abstract="Instale el certificado SSL adquirido de la entidad emisora de certificados aprobada por su organización."
->additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Acerca de la marca de subdominios"
+>additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Acerca de la marca de subdominios"
 
 Una vez adquirido un certificado SSL, puede instalarlo en su instancia. Antes de continuar, asegúrese de conocer los requisitos previos siguientes:
 
