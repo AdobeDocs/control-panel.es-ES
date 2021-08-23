@@ -5,10 +5,10 @@ feature: Panel de control de Campaign
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: b915b78858810c1ad6600fb459f3ce0d6978897e
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 78%
+source-wordcount: '179'
+ht-degree: 67%
 
 ---
 
@@ -43,20 +43,20 @@ La pestaña **[!UICONTROL Database monitoring]** se ha mejorado con métricas ad
     <tr>
         <td><b>Campaign Standard</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=es">Tutoriales en vídeo del Panel de control de Campaign Standard</a></li>
-            <li><a href="https://docs.adobe.com/content/help/es-ES/campaign-standard/using/campaign-standard-home.html">Documentación del producto de Campaign Standard</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=es">Tutoriales en vídeo de Panel de control de Campaign</a></li>
+            <li><a href="https://https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html">Documentación del producto de Campaign Standard</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic v7</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=es">Tutoriales en vídeo de Panel de control de Campaign para Campaign Classic v7</a></li>
-            <li><a href="https://docs.adobe.com/content/help/es-ES/campaign-classic/using/campaign-classic-home.html">Documentación del producto de Campaign Classic v7</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=es">Tutoriales en vídeo de Panel de control de Campaign</a></li>
+            <li><a href="https://https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html">Documentación del producto de Campaign Classic v7</a></li>
         </ul>
         </td>
         <td><b>Campaign v8</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=en">Tutoriales en vídeo de Panel de control de Campaign para Campaign v8</a></li>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html">Documentación del producto de Campaign v8</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=en">Tutoriales en vídeo de Panel de control de Campaign</a></li>
+            <li><a href="https://https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html">Documentación del producto de Campaign v8</a></li>
         </ul>
         </td>
     </tr>
