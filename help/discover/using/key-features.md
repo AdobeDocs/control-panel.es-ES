@@ -7,10 +7,10 @@ feature: Panel de control de Campaign
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: 12ec4cada1b038e6edc46457d5cebe6a0693bfe3
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 87%
+source-wordcount: '315'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 >id="cp_overview"
 >title="Acerca del Panel de control de Campaign"
 >abstract="La página de inicio del Panel de control le permite acceder a todas las acciones que se pueden realizar en las instancias de Campaign."
->additional-url="https://docs.adobe.com/content/help/es-ES/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Descubrimiento de la interfaz"
+>additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Descubrimiento de la interfaz"
 
 El Panel de control de Campaign le ayuda a aumentar la eficacia de su trabajo como administrador de productos de Adobe Campaign Classic y/o Standard, lo que le permite administrar la configuración y rastrear los usos de cada una de sus instancias. Su intuitiva interfaz le permite supervisar fácilmente el uso de recursos clave, así como realizar tareas administrativas como adición direcciones IP a listas de permitidos, supervisión de almacenamiento SFTP, administración de claves, etc.
 
@@ -32,9 +32,9 @@ Ventajas principales:
 
 >[!NOTE]
 >
->El Panel de control de Campaign está restringido a los usuarios administradores. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
+>El acceso al Panel de control de Campaign está restringido a los usuarios administradores. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 >
->Para el Campaign Classic, tenga en cuenta que la instancia debe estar alojada en Amazon Web Services (AWS) y actualizarse a la última versión de [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses). Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](../../faq.md).
+>Para Campaign Classic, tenga en cuenta que la instancia debe estar alojada en Amazon Web Services (AWS) y actualizarse a la última versión de [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses). Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](../../faq.md).
 
 <table style="table-layout:fixed">
 <tr>
