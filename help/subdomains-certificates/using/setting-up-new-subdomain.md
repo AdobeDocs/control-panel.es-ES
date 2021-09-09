@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Configuración de un nuevo subdominio
 description: Obtenga información sobre cómo configurar un nuevo subdominio para las instancias de Campaign
-feature: Panel de control de Campaign
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
-workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 97%
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+workflow-type: ht
+source-wordcount: '1163'
+ht-degree: 100%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 97%
 >id="cp_subdomain_management"
 >title="Configuración de nuevos subdominios y administración de certificados"
 >abstract="Debe configurar un nuevo subdominio y administrar los certificados SSL de los subdominios para que el inicio envíe correos electrónicos o publique páginas de aterrizaje con Adobe Campaign."
->additional-url="https://docs.adobe.com/content/help/es-ES/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Supervisión de los certificados SSL de los subdominios"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=es" text="Supervisión de los certificados SSL de los subdominios"
 
 
 ## Lectura obligatoria {#must-read}
 
 >[!IMPORTANT]
 >
->La configuración de subdominios del Panel de control está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
+>La configuración de subdominios del Panel de control de Campaign está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
 >
 >Esta capacidad no está disponible para Campaign v8.
 
@@ -69,7 +69,7 @@ Para delegar completamente un subdominio a Adobe Campaign, siga los pasos a cont
 
    >[!NOTE]
    >
-   > Para Adobe Campaign Standard, los subdominios delegados le permiten enviar comunicaciones **Marketing** y **Transactional**.
+   > Para Adobe Campaign Standard, los subdominios delegados le permiten enviar comunicaciones de **marketing** y **transaccionales**.
 
    ![](assets/subdomain4.png)
 
@@ -165,7 +165,7 @@ Puede obtener más información sobre el subdominio haciendo clic en los botones
 
 ![](assets/sender_info.png)
 
-## Solución de problemas {#troubleshooting}
+## Resolución de problemas {#troubleshooting}
 
 * En algunos casos, la configuración se completa, pero es posible que el subdominio no se haya verificado correctamente. El subdominio permanecerá en la lista **[!UICONTROL Configured]** con un registro de trabajos que proporciona información sobre el error. Póngase en contacto con el Servicio de atención al cliente si tiene problemas.
 * Si el subdominio se muestra como &quot;Unverified&quot; después de configurarse, inicie una nueva verificación de subdominio (**...**/**[!UICONTROL Verify subdomain]**). Si aún muestra el mismo estado, la razón podría ser que hay alguna personalización en el esquema de destinatarios, que no se puede comprobar mediante procesos estándar. Intente enviar una campaña con ese subdominio.
