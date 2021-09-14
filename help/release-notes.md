@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Versiones del Panel de control
 description: Últimas notas de la versión de Panel de control de Campaign.
-feature: Panel de control de Campaign
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: bffe0b17dad980e045bf4f56beadfb444a31dc88
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 91%
+source-wordcount: '669'
+ht-degree: 87%
 
 ---
 
@@ -23,6 +23,10 @@ Aquí encontrará información sobre las últimas versiones del Panel de control
 >Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 >
 >Para Campaign Classic v7, tenga en cuenta que su instancia debe estar alojada en AWS y actualizarse con la última versión de [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=es) o la [última versión de GA (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=es#release-notes). Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](faq.md).
+
+## Agosto de 2021 {#august-2021}
+
+El Panel de control de Campaign ya está disponible para Adobe Campaign v8, excepto las funciones de administración **Subdomain** y **Certificate**, que aún no son compatibles. Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=en){target=&quot;_blank&quot;}
 
 ## Octubre de 2020 {#october-2020}
 
