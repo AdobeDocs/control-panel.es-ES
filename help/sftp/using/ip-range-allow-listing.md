@@ -6,14 +6,13 @@ description: Obtenga información sobre cómo agregar rangos de IP a la lista de
 feature: Control Panel
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 94%
+source-wordcount: '631'
+ht-degree: 96%
 
 ---
-
 
 # Adición de rangos de IP a la lista de permitidos {#ip-range-allow-listing}
 
@@ -25,7 +24,7 @@ ht-degree: 94%
 
 Los servidores SFTP están protegidos. Para poder acceder a ellos con el fin de ver archivos o escribir nuevos archivos, debe incluir en la lista de permitidos la dirección IP pública del sistema o cliente que accede a los servidores.
 
-![](assets/do-not-localize/how-to-video.png) Descubra esta función en vídeo usando  [Campaign ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) Classic  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Descubra esta función en vídeo usando [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management)
 
 ## Acerca del formato CIDR {#about-cidr-format}
 
@@ -48,7 +47,7 @@ Asegúrese de seguir las recomendaciones y limitaciones que se indican a continu
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_add"
->title="Adición de un nuevo rango de IP"
+>title="Configuración de rango de IP"
 >abstract="Defina los rangos de IP que desea agregar a la lista de permitidos para conectarse a los servidores SFTP."
 
 Para agregar un rango de IP a la lista de permitidos, siga estos pasos:

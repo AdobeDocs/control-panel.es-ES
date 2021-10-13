@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Detalles de instancias
 description: Obtenga información sobre cómo supervisar los detalles de su instancia en el Panel de control de Campaign
-feature: Panel de control de Campaign
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 92%
+source-wordcount: '552'
+ht-degree: 86%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="Acerca de los detalles de instancias"
->abstract="Vea los detalles de las instancias de Adobe Campaign: tipos, nombres, información de versión y posibles recomendaciones de actualización."
->additional-url="https://docs.adobe.com/content/help/es-ES/campaign-classic/using/release-notes/latest-release.html" text="Notas de la versión de Campaign Classic"
->additional-url="https://docs.adobe.com/content/help/es-ES/campaign-standard/using/release-notes/release-notes.html" text="Notas de la versión de Campaign Standard"
+>abstract="Vea los detalles de las instancias de Adobe Campaign: tipos, nombres, información de compilación y posibles recomendaciones de actualización."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Notas de la versión de Campaign Classic"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Notas de la versión de Campaign Standard"
 
 ## Acerca de los detalles de instancias {#about-instance-details}
 

@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Lista de IP permitidas
 description: Obtenga información sobre cómo agregar direcciones IP a la lista de permitidos en el Panel de control de Campaign para obtener acceso a instancias.
-feature: Panel de control de Campaign
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 91%
+source-wordcount: '767'
+ht-degree: 89%
 
 ---
 
@@ -50,7 +50,7 @@ Asegúrese de seguir las recomendaciones y limitaciones que se indican a continu
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
->title="Adición de un nuevo rango de IP"
+>title="Configuración de rango de IP"
 >abstract="Defina el rango de IP que desea agregar a la lista de permitidos para conectarse a la instancia."
 
 Para agregar direcciones IP a la lista de permitidos, siga estos pasos:

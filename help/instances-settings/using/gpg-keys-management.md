@@ -3,18 +3,24 @@ product: campaign
 solution: Campaign
 title: Administración de claves GPG
 description: Obtenga información sobre cómo administrar claves GPG para cifrar y descifrar datos en Adobe Campaign.
-feature: Panel de control de Campaign
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 14%
+source-wordcount: '1192'
+ht-degree: 13%
 
 ---
 
 # Administración de claves GPG {#gpg-keys-management}
+
+>[!CONTEXTUALHELP]
+>id="cp_instancesettings_gpg_management"
+>title="Acerca de las claves GPG"
+>abstract="En esta pestaña, puede instalar o generar claves GPG en una instancia de marketing para cifrar los datos enviados desde Campaign y descifrar los datos entrantes."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="Acerca de la monitorización del rendimiento"
 
 ## Acerca del cifrado GPG {#about-gpg-encryption}
 
@@ -92,7 +98,7 @@ Para obtener más información sobre este tema, consulte la documentación de Ad
 **Campaign Classic v7 y Campaign v8:**
 
 * [Compresión o cifrado de un archivo](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
-* [Caso de uso: codificación y exportación de datos con una clave instalada en el Panel de control de Campaign](https://https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
+* [Caso de uso: codificación y exportación de datos con una clave instalada en el Panel de control de Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 

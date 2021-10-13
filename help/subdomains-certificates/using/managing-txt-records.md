@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Administración de registros TXT
 description: Obtenga información sobre cómo administrar registros TXT para la verificación de la propiedad del dominio.
-feature: Panel de control de Campaign
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 008edcd915017d147ee496ae7c0130a868b099b9
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 92%
+source-wordcount: '364'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 92%
 >id="cp_siteverification_add"
 >title="Administración de registros TXT"
 >abstract="Algunos servicios como Google requieren que añada un registro TXT a la configuración de su dominio para comprobar que es el propietario de este."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es" text="Configuración de un nuevo subdominio"
 
 ## Acerca de los registros TXT {#about-txt-records}
 

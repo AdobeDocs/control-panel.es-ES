@@ -3,13 +3,13 @@ product: campaign
 solution: Campaign
 title: Permisos de URL
 description: Obtenga información sobre cómo administrar los permisos de URL en el Panel de control de Campaign
-feature: Panel de control de Campaign
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '604'
 ht-degree: 89%
 
 ---
@@ -51,7 +51,7 @@ Una vez añadida una URL, se hace referencia a ella en el archivo de configuraci
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_url_add"
->title="Adición de una dirección URL nueva"
+>title="Definición de URL"
 >abstract="Añada las direcciones URL para permitir conexiones con la instancia de Campaign."
 
 Para añadir una dirección URL a la que se pueda conectar su instancia, siga estos pasos:

@@ -3,24 +3,18 @@ product: campaign
 solution: Campaign
 title: Acceso al Panel de control de Campaign
 description: Obtenga información sobre cómo acceder al Panel de control de Campaign
-feature: Panel de control de Campaign
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 97%
+source-wordcount: '280'
+ht-degree: 100%
 
 ---
 
 # Funciones principales {#key-features}
-
->[!CONTEXTUALHELP]
->id="cp_overview"
->title="Acerca del Panel de control de Campaign"
->abstract="La página de inicio del Panel de control le permite acceder a todas las acciones que se pueden realizar en las instancias de Campaign."
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Descubrimiento de la interfaz"
 
 El Panel de control de Campaign le ayuda a aumentar la eficacia de su trabajo como administrador de productos de Adobe Campaign Classic y/o Standard, lo que le permite administrar la configuración y rastrear los usos de cada una de sus instancias. Su intuitiva interfaz le permite supervisar fácilmente el uso de recursos clave, así como realizar tareas administrativas como adición direcciones IP a listas de permitidos, supervisión de almacenamiento SFTP, administración de claves, etc.
 
