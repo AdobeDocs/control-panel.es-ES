@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: eb7cfbd68bdaaf3761e8901feecebea2d8b3b38a
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 86%
+source-wordcount: '792'
+ht-degree: 72%
 
 ---
 
@@ -24,7 +24,27 @@ Aquí encontrará información sobre las últimas versiones del Panel de control
 >
 >Para Campaign Classic v7, tenga en cuenta que su instancia debe estar alojada en AWS y actualizarse con la última [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=es) compilación o la [última versión de GA (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=es#release-notes). Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](faq.md).
 
+## Octubre de 2021 {#october-2021}
+
+**Intervalo de IP y periodo de validez de clave pública**
+
+Ahora es posible establecer una duración para la disponibilidad de intervalos de IP y claves públicas. Obtenga más información en las secciones [IP range allow listing](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) y [Key management](sftp/using/key-management.md#installing-ssh-key) .
+
+**Rango de IP y edición de clave pública**
+
+Ahora puede editar los [rangos de IP](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) y [claves públicas](sftp/using/key-management.md#editing-public-keys) que crea. Tenga en cuenta que esta función no está disponible para los elementos creados antes de la versión de Panel de control de Campaign actual.
+
+**Alerta sobre el intervalo IP SFTP y la caducidad de la clave pública**
+
+La funcionalidad de alertas por correo electrónico ahora incluye alertas sobre la IP SFTP que permiten enumerar la caducidad y la caducidad de la clave pública SFTP. [Más información](performance-monitoring/using/email-alerting.md)
+
+**Compatibilidad total con Campaign v8**
+
+Las funcionalidades de administración de **Subdomain** y **Certificate** ahora son compatibles con Panel de control de Campaign en Adobe Campaign v8.
+
 ## Agosto de 2021 {#august-2021}
+
+**Compatibilidad con Campaign v8**
 
 El Panel de control de Campaign ya está disponible para Adobe Campaign v8, excepto las funciones de administración **Subdomain** y **Certificate**, que aún no son compatibles. Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;}
 
