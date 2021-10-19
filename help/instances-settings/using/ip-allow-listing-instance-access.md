@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 83a6d002a5a21815a66d198c6e5e805f559d5ee2
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 89%
+source-wordcount: '770'
+ht-degree: 87%
 
 ---
 
@@ -53,13 +53,15 @@ Asegúrese de seguir las recomendaciones y limitaciones que se indican a continu
 >title="Configuración de rango de IP"
 >abstract="Defina el rango de IP que desea agregar a la lista de permitidos para conectarse a la instancia."
 
+>[!NOTE]
+>
+>Si la variable **[!UICONTROL Instance Settings]** no está visible en la página principal del Panel de control de Campaign, lo que significa que su ID de organización de IMS no está asociado a ninguna instancia de Adobe Campaign Classic v7 o Campaign v8.
+
 Para agregar direcciones IP a la lista de permitidos, siga estos pasos:
 
 1. Abra la pestaña **[!UICONTROL Instances Settings card]** para acceder a la lista de direcciones IP permitidas y haga clic en **[!UICONTROL Add new IP Range]**.
 
-   >[!NOTE]
-   >
-   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control de Campaign, el ID de organización de IMS no está asociado a ninguna instancia de Adobe Campaign Classic
+
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -90,9 +92,11 @@ Para agregar direcciones IP a la lista de permitidos, siga estos pasos:
 
 1. Haga clic en el botón **[!UICONTROL Save]**. El rango de IP se agrega a la lista de permitidos.
 
-   ![](assets/ip_whitelist_added.png)
+   <!--![](assets/ip_whitelist_added.png)-->
 
-Para eliminar rangos de IP de la lista de permitidos, selecciónelos y haga clic en el botón **[!UICONTROL Delete IP range]**.
+Para eliminar uno o varios rangos de IP de la lista de permitidos, selecciónelos y haga clic en el botón **[!UICONTROL Delete IP range]** botón.
+
+![](assets/ip_whitelist_delete.png)
 
 **Temas relacionados:**
 
