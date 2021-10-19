@@ -22,17 +22,17 @@ Aquí encontrará información sobre las últimas versiones del Panel de control
 >
 >Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel).
 >
->Para Campaign Classic v7, tenga en cuenta que su instancia debe estar alojada en AWS y actualizarse con la última [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=es) compilación o la [última versión de GA (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=es#release-notes). Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](faq.md).
+>Para Campaign Classic v7, tenga en cuenta que la instancia debe estar alojada en AWS y actualizarse con la última [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=es) o el [última versión de GA (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=es#release-notes). Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](faq.md).
 
 ## Octubre de 2021 {#october-2021}
 
 **Intervalo de IP y periodo de validez de clave pública**
 
-Ahora es posible establecer una duración para la disponibilidad de intervalos de IP y claves públicas. Obtenga más información en las secciones [IP range allow listing](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) y [Key management](sftp/using/key-management.md#installing-ssh-key) .
+Ahora es posible establecer una duración para la disponibilidad de intervalos de IP y claves públicas. Obtenga más información en la [Adición de rangos de IP a la lista de permitidos](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) y [Administración de claves](sftp/using/key-management.md#installing-ssh-key) secciones.
 
 **Rango de IP y edición de clave pública**
 
-Ahora puede editar los [rangos de IP](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) y [claves públicas](sftp/using/key-management.md#editing-public-keys) que crea. Tenga en cuenta que esta función no está disponible para los elementos creados antes de la versión de Panel de control de Campaign actual.
+Ahora puede editar el [Intervalos de IP](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) y [claves públicas](sftp/using/key-management.md#editing-public-keys) que cree. Tenga en cuenta que esta función no está disponible para los elementos creados antes de la versión de Panel de control de Campaign actual.
 
 **Alerta sobre el intervalo IP SFTP y la caducidad de la clave pública**
 
@@ -40,13 +40,13 @@ La funcionalidad de alertas por correo electrónico ahora incluye alertas sobre 
 
 **Compatibilidad total con Campaign v8**
 
-Las funcionalidades de administración de **Subdomain** y **Certificate** ahora son compatibles con Panel de control de Campaign en Adobe Campaign v8.
+La variable **Subdominio** y **Certificado** las funciones de administración ahora son compatibles con Panel de control de Campaign en Adobe Campaign v8.
 
 ## Agosto de 2021 {#august-2021}
 
 **Compatibilidad con Campaign v8**
 
-El Panel de control de Campaign ya está disponible para Adobe Campaign v8, excepto las funciones de administración **Subdomain** y **Certificate**, que aún no son compatibles. Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;}
+El Panel de control de Campaign ya está disponible para Adobe Campaign v8, excepto el **Subdominio** y **Certificado** funciones de administración, que aún no son compatibles. Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;}
 
 ## Octubre de 2020 {#october-2020}
 

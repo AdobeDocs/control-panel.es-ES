@@ -69,17 +69,17 @@ En casos muy excepcionales, la autenticación basada en contraseña está habili
    >
    >Se pueden añadir una o más claves SSH públicas por cada usuario.
 
-1. Para administrar mejor las claves públicas, puede establecer una duración para la disponibilidad de cada clave. Para ello, seleccione una unidad en la lista desplegable **[!UICONTROL Type]** y defina una duración en el campo correspondiente. Para obtener más información sobre la caducidad de la clave pública, consulte [esta sección](#expiry).
+1. Para administrar mejor las claves públicas, puede establecer una duración para la disponibilidad de cada clave. Para ello, seleccione una unidad en la **[!UICONTROL Type]** lista desplegable y defina una duración en el campo correspondiente. Para obtener más información sobre la caducidad de la clave pública, consulte [esta sección](#expiry).
 
    ![](assets/key_expiry.png)
 
    >[!NOTE]
    >
-   >De forma predeterminada, el campo **[!UICONTROL Type]** se establece en **[!UICONTROL Unlimited]**, lo que significa que la clave pública nunca caduca.
+   >De forma predeterminada, la variable **[!UICONTROL Type]** el campo está definido como **[!UICONTROL Unlimited]**, lo que significa que la clave pública nunca caduca.
 
-1. En el campo **[!UICONTROL Comment]** puede indicar un motivo para agregar esta clave pública (por qué, para quién, etc.).
+1. En el **[!UICONTROL Comment]** , puede indicar un motivo para añadir esta clave pública (por qué, para quién, etc.).
 
-1. Para poder rellenar el campo **[!UICONTROL Public Key]** , debe generar una clave SSH pública. Siga los pasos que se indican a continuación según su sistema operativo.
+1. Para poder rellenar el **[!UICONTROL Public Key]** , debe generar una clave SSH pública. Siga los pasos que se indican a continuación según su sistema operativo.
 
    **Linux y Mac:**
 
@@ -99,7 +99,7 @@ En casos muy excepcionales, la autenticación basada en contraseña está habili
 
    >[!NOTE]
    >
-   >El campo **[!UICONTROL Public Key]** solo acepta el formato OpenSSH. El tamaño de la clave SSH pública debe ser de **2048 bits**.
+   >La variable **[!UICONTROL Public Key]** solo acepta el formato OpenSSH. El tamaño de la clave SSH pública debe ser de **2048 bits**.
 
 1. Haga clic en el botón **[!UICONTROL Save]** para crear la clave. Panel de control de Campaign guarda la clave pública y la huella digital asociada, cifrada con el formato SHA256.
 
@@ -117,7 +117,7 @@ El botón **...** permite eliminar una clave existente o copiar su huella digita
 
 ## Administración de claves públicas {#managing-public-keys}
 
-Las claves públicas que crea se muestran en la pestaña **[!UICONTROL Key Management]**.
+Las claves públicas que crea se muestran en la **[!UICONTROL Key Management]** pestaña .
 
 Puede ordenar los elementos en función de la fecha de creación o edición, del usuario que la creó o editó y de la caducidad del intervalo IP.
 
@@ -125,23 +125,23 @@ También puede buscar una clave pública empezando a escribir un nombre o un com
 
 ![](assets/control_panel_key_management_sort.png)
 
-Para editar uno o más rangos de IP, consulte [esta sección](#editing-public-keys).
+Para editar uno o varios rangos de IP, consulte [esta sección](#editing-public-keys).
 
-Para eliminar una o más claves públicas de la lista, selecciónelas y haga clic en el botón **[!UICONTROL Delete public key]**.
+Para eliminar una o varias claves públicas de la lista, selecciónelas y haga clic en el botón **[!UICONTROL Delete public key]** botón.
 
 ![](assets/control_panel_delete_key.png)
 
 ### Caducidad {#expiry}
 
-La columna **[!UICONTROL Expires]** muestra cuántos días quedan hasta que caduque la clave pública.
+La variable **[!UICONTROL Expires]** muestra cuántos días quedan hasta que caduque la clave pública.
 
-Si se suscribió a [alertas por correo electrónico](../../performance-monitoring/using/email-alerting.md), recibirá notificaciones por correo electrónico 10 días y 5 días antes de que caduque una clave pública y, el día en que caduque. Tras recibir la alerta, puede [editar la clave pública](#editing-public-keys) para ampliar su periodo de validez si es necesario.
+Si se ha suscrito a [alertas por correo electrónico](../../performance-monitoring/using/email-alerting.md), recibirá notificaciones por correo electrónico 10 días y 5 días antes de que caduque una clave pública y, el día en que caduque. Al recibir la alerta, puede [editar la clave pública](#editing-public-keys) para ampliar su periodo de validez si es necesario.
 
-Una clave pública caducada se eliminará automáticamente pasados 7 días. Se muestra como **[!UICONTROL Expired]** en la columna **[!UICONTROL Expires]**. Dentro de este periodo de 7 días:
+Una clave pública caducada se eliminará automáticamente pasados 7 días. Se muestra como **[!UICONTROL Expired]** en el **[!UICONTROL Expires]** para abrir el Navegador. Dentro de este periodo de 7 días:
 
 * Ya no se puede utilizar una clave pública caducada para conectarse al servidor SFTP.
 
-* Puede [editar](#editing-public-keys) una clave pública caducada y actualizar su duración para que vuelva a estar disponible.
+* Puede [editar](#editing-public-keys) una clave pública caducada y actualice su duración para que vuelva a estar disponible.
 
 * Puede eliminarlo de la lista.
 
@@ -158,7 +158,7 @@ Para editar claves públicas, siga los pasos a continuación.
 >
 >Solo puede editar las claves públicas que se han creado desde la versión de Panel de control de Campaign de octubre de 2021.
 
-1. Seleccione uno o varios elementos de la lista **[!UICONTROL Key Management]**.
+1. Seleccione uno o varios elementos de la lista **[!UICONTROL Key Management]** lista.
 1. Haga clic en el botón **[!UICONTROL Update public key]**.
 
    ![](assets/control_panel_edit_key.png)
