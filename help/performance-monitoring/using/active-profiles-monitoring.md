@@ -32,7 +32,7 @@ Los perfiles se consideran activos si se han segmentado o si se ha comunicado co
 >
 >Los canales de Facebook y Twitter no se tienen en cuenta.
 
-Para obtener más información sobre los perfiles activos, consulte la documentación [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) y [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles).
+Para obtener más información sobre los perfiles activos, consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) y [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documentaciones.
 
 ## Supervisión de perfiles activos {#monitoring-active-profiles}
 
