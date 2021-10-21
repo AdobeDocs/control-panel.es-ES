@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: a315b98ac3fc35eca0234a44afdd513ba24dce63
+source-git-commit: 056d5b91652b07ccf9ce8e46e11a4c29cccf6e70
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 59%
+source-wordcount: '212'
+ht-degree: 92%
 
 ---
 
@@ -25,23 +25,21 @@ ht-degree: 59%
 
 ## Novedades
 
-**Compatibilidad total con Campaign v8**
+**Configuración del subdominio mediante CNAME**
 
-Todas las capacidades, incluidas **Subdominio** y **Certificado** administración, ahora son compatibles con Panel de control de Campaign en Adobe Campaign v8. [Más información](faq.md#v8-restrictions)
+El Panel de control de Campaign ahora le permite configurar un subdominio para trabajar con Adobe mediante CNAME directamente desde la interfaz. [Más información](subdomains-certificates/using/setting-up-new-subdomain.md)
 
-**Período de validez y edición del rango de IP**
+**Mejoras en la supervisión de bases de datos**
 
-Ahora es posible establecer una duración para la disponibilidad de intervalos de IP y editar los intervalos de IP que cree. [Más información](sftp/using/ip-range-allow-listing.md)
-
-**Período de validez de la clave pública y edición**
-
-Del mismo modo, ahora puede establecer una duración para la disponibilidad de claves públicas y editar las claves públicas que cree. [Más información](sftp/using/key-management.md)
+La pestaña **[!UICONTROL Database monitoring]** se ha mejorado con métricas adicionales, lo que le permite obtener información detallada sobre los recursos que consumen espacio en la base de datos. [Más información](performance-monitoring/using/database-monitoring.md)
 
 >[!CAUTION]
 >
 >* El acceso al Panel de control de Campaign está restringido a los usuarios administradores. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
 >
 >* Para Campaign Classic v7, se aplican restricciones de implementación. [Más información](faq.md#v7-restrictions)
+>
+>* Para Campaign v8, algunas funciones no están disponibles. [Más información](faq.md#v8-restrictions)
 
 
 ## Recursos adicionales {#additional-resources}

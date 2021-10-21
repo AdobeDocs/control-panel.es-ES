@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
+source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '836'
 ht-degree: 88%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 88%
 >[!IMPORTANT]
 >
 >La configuración de subdominios del Panel de control de Campaign está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
+>
+>Esta capacidad no está disponible para Campaign v8.
 
 El proceso de renovación de certificados SSL incluye 3 pasos:
 

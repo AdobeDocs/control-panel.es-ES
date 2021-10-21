@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
+source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '753'
 ht-degree: 79%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 79%
 >[!IMPORTANT]
 >
 >La configuración de subdominios del Panel de control de Campaign está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
+>
+>Esta capacidad no está disponible para Campaign v8.
 
 Un subdominio es una división de su dominio que puede utilizarse para aislar sus marcas o varios tipos de tráfico (mensajes transaccionales, información de marketing, etc.).
 
