@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '987'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -34,11 +34,11 @@ El desbordamiento de una base de datos de instancias puede dar lugar a varios pr
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_database"
->title="Acerca de la supervisión de bases de datos"
+>title="Acerca de la monitorización de bases de datos"
 >abstract="En esta pestaña, puede obtener información en tiempo real sobre el uso y la evolución más recientes e históricos de la base de datos para cada una de las instancias de Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es" text="Acerca de la monitorización del rendimiento"
 
-![](assets/do-not-localize/how-to-video.png) Descubra esta función en vídeo usando [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html#performance-monitoring) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html#performance-monitoring)
+![](assets/do-not-localize/how-to-video.png) Descubra esta función en vídeo usando [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=es#performance-monitoring) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=es#performance-monitoring)
 
 El Panel de control le permite monitorizar el uso de la base de datos para cada una de las instancias de Campaign. Para ello, abra la tarjeta **[!UICONTROL Performance Monitoring]** y seleccione la pestaña **[!UICONTROL Databases]**.
 
@@ -48,7 +48,7 @@ Seleccione la instancia que desee en **[!UICONTROL Instance List]** para mostrar
 
 >[!NOTE]
 >
->Tenga en cuenta que los datos de este tablero se actualizan en función de la **[!UICONTROL Database cleanup technical workflow]** que se ejecuta en la instancia de Campaign (consulte la documentación de [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) y [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)).
+>Tenga en cuenta que los datos de este tablero se actualizan en función de la **[!UICONTROL Database cleanup technical workflow]** que se ejecuta en la instancia de Campaign (consulte la documentación de [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=es#list-of-technical-workflows) y [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=es)).
 >
 >También puede comprobar que puede recibir notificaciones cuando una de las bases de datos alcance su c la última vez que el flujo de trabajo se ejecuta por debajo de las métricas **[!UICONTROL Used Space]** y **[!UICONTROL Provided Space]**. Tenga en cuenta que, si el flujo de trabajo no se ha ejecutado desde hace más de 3 días, le recomendamos que se ponga en contacto con el Servicio de atención al cliente de Adobe para que investigue por qué no se está ejecutando.
 
@@ -70,7 +70,7 @@ Para obtener más información sobre un período de tiempo específico, pase el 
 
 >[!CONTEXTUALHELP]
 >id="cp_dbdetails_storagedetails"
->title="Información general sobre el almacenamiento"
+>title="Información general acerca del almacenamiento"
 >abstract="En esta pestaña, puede obtener información detallada sobre los distintos recursos de Campaign que consumen espacio en la base de datos."
 
 El área **[!UICONTROL Storage overview]** proporciona una representación gráfica del espacio ocupado por:
@@ -115,7 +115,7 @@ El botón **[!UICONTROL View all]** le permite acceder a información detallada 
 
 ![](assets/database-top10-view.png)
 
-El valor de la columna **[!UICONTROL Keep interim results]** indica si la opción está activada (&quot;1&quot;) o desactivada (&quot;0&quot;) en Campaign. Permite guardar los resultados de las transiciones entre las distintas actividades de un flujo de trabajo (consulte la documentación de [Campaign Standard](://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=es) y [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html#logs)).
+El valor de la columna **[!UICONTROL Keep interim results]** indica si la opción está activada (&quot;1&quot;) o desactivada (&quot;0&quot;) en Campaign. Permite guardar los resultados de las transiciones entre las distintas actividades de un flujo de trabajo (consulte la documentación de [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=es) y [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=es#logs)).
 
 >[!IMPORTANT]
 >
@@ -131,16 +131,16 @@ La sección siguiente proporciona recursos útiles de la documentación de Campa
 
 **Monitorización de flujos de trabajo**
 
-* [Prácticas recomendadas de flujos de trabajo](://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html?lang=es) (Campaign Standard)
-* [Monitorización de la ejecución del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html) (Campaign Classic)
+* [Prácticas recomendadas de flujos de trabajo](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html?lang=es) (Campaign Standard)
+* [Monitorización de la ejecución del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=es) (Campaign Classic)
 
 **Mantenimiento de la base de datos**
 
-* Flujo de trabajo técnico para limpieza de bases de datos: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)
-* [Guía de mantenimiento de la base de datos](://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=es) (Campaign Classic)
+* Flujo de trabajo técnico para limpieza de bases de datos: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=es#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=es)
+* [Guía de mantenimiento de la base de datos](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=es) (Campaign Classic)
 * [Solución de problemas del rendimiento de la base de datos](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=es) (Campaign Classic)
-* [Opciones relacionadas con la base de datos](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
-* Retención de datos: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html#data-retention)
+* [Opciones relacionadas con la base de datos](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=es#database) (Campaign Classic)
+* Retención de datos: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html?lang=es) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html?lang=es#data-retention)
 
 >[!NOTE]
 >
