@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 75d369f52be140732525411239ae18b7269e761f
+source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 60%
+source-wordcount: '232'
+ht-degree: 59%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 60%
 
 ## Novedades
 
+**Compatibilidad total con Campaign v8**
+
+Todas las capacidades, incluidas **Subdominio** y **Certificado** administración, ahora son compatibles con Panel de control de Campaign en Adobe Campaign v8. [Más información](faq.md#v8-restrictions)
+
 **Período de validez y edición del rango de IP**
 
 Ahora es posible establecer una duración para la disponibilidad de intervalos de IP y editar los intervalos de IP que cree. [Más información](sftp/using/ip-range-allow-listing.md)
@@ -33,17 +37,11 @@ Ahora es posible establecer una duración para la disponibilidad de intervalos d
 
 Del mismo modo, ahora puede establecer una duración para la disponibilidad de claves públicas y editar las claves públicas que cree. [Más información](sftp/using/key-management.md)
 
-**Compatibilidad con Campaign v8**
-
-El Panel de control de Campaign ya está disponible para Adobe Campaign v8, excepto el **Subdominio** y **Certificado** funciones de administración, que aún no son compatibles.
-
 >[!CAUTION]
 >
 >* El acceso al Panel de control de Campaign está restringido a los usuarios administradores. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
 >
 >* Para Campaign Classic v7, se aplican restricciones de implementación. [Más información](faq.md#v7-restrictions)
->
->* Para Campaign v8, algunas funciones no están disponibles. [Más información](faq.md#v8-restrictions)
 
 
 ## Recursos adicionales {#additional-resources}
