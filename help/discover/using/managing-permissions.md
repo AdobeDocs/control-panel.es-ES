@@ -20,17 +20,17 @@ El Panel de control de Campaign está disponible para todos los usuarios adminis
 
 ![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](../../discover/using/managing-permissions.md#video)
 
-1. Vaya a la [página principal de Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+1. Vaya a la [Página de inicio de Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
 
-1. Inicie el **Admin Console** haciendo clic en el vínculo disponible en la sección **Acceso rápido** o en el menú superior derecho.
+1. Inicie el **Admin Console** haciendo clic en el vínculo disponible en la **Acceso rápido** o en el menú superior derecho.
 
    ![](assets/do-not-localize/control_panel_admin-console.png)
 
    >[!NOTE]
    >
-   >Si el vínculo **Admin Console** no está visible, significa que no tiene derechos de administrador para su organización. Póngase en contacto con los administradores de su organización para realizar los pasos con ellos.
+   >Si la variable **Admin Console** vínculo no está visible, lo que significa que no tiene derechos de administrador para su organización. Póngase en contacto con los administradores de su organización para realizar los pasos con ellos.
 
-1. En el **Admin Console**, seleccione el producto de campaña que desee en la lista **[!UICONTROL Products and services]**.
+1. En el **Admin Console**, seleccione el producto de campaña que desee en el **[!UICONTROL Products and services]** lista.
 
    ![](assets/do-not-localize/control_panel_product-list.png)
 
@@ -46,7 +46,7 @@ El Panel de control de Campaign está disponible para todos los usuarios adminis
    >
    >Puede agregar diferentes usuarios administradores para cada instancia de Campaign. Los usuarios administradores accederán al Panel de control de Campaign de la instancia a la que pertenecen únicamente.
 
-1. Se muestra la lista de **[!UICONTROL Product Profiles]** para la instancia seleccionada. Haga clic en el perfil de producto **[!UICONTROL Administrators]** para acceder a la lista de usuarios administradores.
+1. La lista de **[!UICONTROL Product Profiles]** para la instancia seleccionada. Haga clic en el **[!UICONTROL Administrators]** perfil de producto para acceder a la lista de usuarios administradores.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
@@ -54,7 +54,7 @@ El Panel de control de Campaign está disponible para todos los usuarios adminis
    >
    >De forma predeterminada, los usuarios administradores pertenecen al perfil de producto &quot;Administradores&quot;. Según la configuración de su organización, el perfil de producto puede tener nombres diferentes (&quot;administrador&quot;, &quot;administradores&quot;, etc.).
 
-1. Se muestra la lista de usuarios administradores. Haga clic en el botón **[!UICONTROL Add User]** para agregar el usuario deseado.
+1. Se muestra la lista de usuarios administradores. Haga clic en el **[!UICONTROL Add User]** para agregar el usuario deseado.
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
 

@@ -24,7 +24,7 @@ ht-degree: 14%
 
 ## Acerca del cifrado GPG {#about-gpg-encryption}
 
-El cifrado GPG le permite proteger sus datos mediante un sistema de pares de claves pública y privada que siguen la especificación [OpenPGP](https://www.openpgp.org/about/standard/).
+El cifrado GPG le permite proteger sus datos mediante un sistema de pares de claves pública y privada que siguen el [OpenPGP](https://www.openpgp.org/about/standard/) especificación.
 
 Una vez implementados, los datos entrantes se pueden descifrar y los datos salientes se pueden cifrar antes de la transferencia para garantizar que nadie sin un par de claves coincidentes válido no pueda acceder a ellos.
 
@@ -32,9 +32,9 @@ Para implementar el cifrado GPG con Campaign, un usuario administrador debe inst
 
 Esto le permite:
 
-* **Codificar datos** enviados: Adobe Campaign envía los datos después de cifrarlos con la clave pública instalada.
+* **Codificar datos enviados**: Adobe Campaign envía los datos después de cifrarlos con la clave pública instalada.
 
-* **Descifrar datos** entrantes: Adobe Campaign recibe datos cifrados desde un sistema externo mediante una clave pública descargada del Panel de control de Campaign. Adobe Campaign descifra los datos mediante una clave privada generada a partir del Panel de control de Campaign.
+* **Descifrar datos entrantes**: Adobe Campaign recibe datos cifrados desde un sistema externo mediante una clave pública descargada del Panel de control de Campaign. Adobe Campaign descifra los datos mediante una clave privada generada a partir del Panel de control de Campaign.
 
 ## Codificación de datos {#encrypting-data}
 
@@ -44,7 +44,7 @@ Para ello, debe generar un par de claves GPG a partir de una herramienta de cifr
 
 ![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](#video)
 
-1. Genere un par de claves pública y privada usando una herramienta de encriptación PGP siguiendo la [especificación OpenPGP](https://www.openpgp.org/about/standard/). Para ello, instale una utilidad GPG o software GNuGP.
+1. Genere un par de claves pública y privada utilizando una herramienta de cifrado PGP siguiendo las instrucciones de [Especificación OpenPGP](https://www.openpgp.org/about/standard/). Para ello, instale una utilidad GPG o software GNuGP.
 
    >[!NOTE]
    >
@@ -56,10 +56,10 @@ Para ello, debe generar un par de claves GPG a partir de una herramienta de cifr
 
 1. Cuando se le pida, especifique los parámetros deseados para la clave. Los parámetros necesarios son:
 
-   * **tipo** de clave: RSA
+   * **tipo de clave**: RSA
    * **longitud de clave**: 1024 - 4096 bits
-   * **nombre real** y dirección de  **correo electrónico**: Permite rastrear quién creó el par de claves. Introduzca un nombre y una dirección de correo electrónico vinculados a su organización o departamento.
-   * **comentario**: agregar una etiqueta al campo de comentarios le ayudará a identificar fácilmente la clave que debe utilizar para cifrar los datos.
+   * **nombre real** y **dirección de correo electrónico**: Permite rastrear quién creó el par de claves. Introduzca un nombre y una dirección de correo electrónico vinculados a su organización o departamento.
+   * **comment**: agregar una etiqueta al campo de comentarios le ayudará a identificar fácilmente la clave que debe utilizar para cifrar los datos.
    * **caducidad**: Fecha o &quot;0&quot; sin fecha de caducidad.
    * **frase de contraseña**
 
@@ -69,7 +69,7 @@ Para ello, debe generar un par de claves GPG a partir de una herramienta de cifr
 
    `gpg -a --export <fingerprint>`
 
-1. Para instalar la clave pública en Panel de control de Campaign, abra la tarjeta **[!UICONTROL Instance settings]** y seleccione la pestaña **[!UICONTROL GPG keys]** y la instancia que desee.
+1. Para instalar la clave pública en el Panel de control de Campaign, abra el **[!UICONTROL Instance settings]** y, a continuación, seleccione **[!UICONTROL GPG keys]** y la instancia que desee.
 
 1. Haga clic en el botón **[!UICONTROL Install Key]**.
 
@@ -85,7 +85,7 @@ Para ello, debe generar un par de claves GPG a partir de una herramienta de cifr
 
 1. Haga clic en el botón **[!UICONTROL Install Key]**.
 
-Una vez instalada la clave pública, esta se muestra en la lista. Puede utilizar el **...** para descargarlo o copiar su huella digital.
+Una vez instalada la clave pública, esta se muestra en la lista. Puede usar la variable **...** para descargarla o copiar su huella digital.
 
 ![](assets/gpg_install_download.png)
 
@@ -111,14 +111,14 @@ Panel de control de Campaign le permite descifrar datos externos que llegan a la
 
 Para ello, debe generar un par de claves GPG directamente desde el Panel de control de Campaign .
 
-* La **clave pública** se compartirá con el sistema externo, que la utilizará para cifrar los datos que se enviarán a Campaign.
-* Campaign utilizará la **clave privada** para descifrar los datos cifrados entrantes.
+* La variable **clave pública** se compartirá con el sistema externo, que lo usará para cifrar los datos que se enviarán a Campaign.
+* La variable **clave privada** Campaign utilizará para descifrar los datos cifrados entrantes.
 
 ![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](#video)
 
 Para generar un par de claves en el Panel de control de Campaign, siga estos pasos:
 
-1. Abra la tarjeta **[!UICONTROL Instance settings]** y seleccione la pestaña **[!UICONTROL GPG keys]** y la instancia de Adobe Campaign que desee.
+1. Abra el **[!UICONTROL Instance settings]** y, a continuación, seleccione **[!UICONTROL GPG keys]** y la instancia de Adobe Campaign que desee.
 
 1. Haga clic en el botón **[!UICONTROL Generate Key]**.
 
@@ -130,7 +130,7 @@ Para generar un par de claves en el Panel de control de Campaign, siga estos pas
 
 Una vez generado el par de claves, la clave pública se muestra en la lista. Tenga en cuenta que los pares de claves de descifrado se generan sin fecha de caducidad.
 
-Puede utilizar el **...** para descargar la clave pública o copiar su huella digital.
+Puede usar la variable **...** para descargar la clave pública o copiar su huella digital.
 
 ![](assets/gpg_generate_list.png)
 
@@ -150,7 +150,7 @@ Para obtener más información, consulte la documentación de Adobe Campaign:
 
 ## Supervisión de claves GPG
 
-Para acceder a las claves GPG instaladas y generadas para las instancias, abra la tarjeta **[!UICONTROL Instance settings]** y seleccione la pestaña **[!UICONTROL GPG keys]** .
+Para acceder a las claves GPG instaladas y generadas para las instancias, abra el **[!UICONTROL Instance settings]** y, a continuación, seleccione **[!UICONTROL GPG keys]** pestaña .
 
 ![](assets/gpg_list.png)
 
@@ -174,7 +174,7 @@ La lista muestra todas las claves GPG de cifrado y descifrado que se han instala
    >
    >Tenga en cuenta que no se enviará ninguna notificación por correo electrónico por Panel de control de Campaign.
 
-Como práctica recomendada, le recomendamos que elimine todas las claves que ya no necesite. Para ello, haga clic en **...Botón** y seleccione **[!UICONTROL Delete Key].**.
+Como práctica recomendada, le recomendamos que elimine todas las claves que ya no necesite. Para ello, haga clic en el botón **...** a continuación, seleccione **[!UICONTROL Delete Key].**.
 
 ![](assets/gpg_delete.png)
 
@@ -186,6 +186,6 @@ Como práctica recomendada, le recomendamos que elimine todas las claves que ya 
 
 El siguiente vídeo muestra cómo generar e instalar claves GPG para el cifrado de datos.
 
-Hay disponibles vídeos de procedimientos adicionales relacionados con la administración de claves GPG en las páginas de tutoriales [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) y [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings).
+Hay disponibles vídeos de procedimientos adicionales relacionados con la administración de claves GPG en  [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) y [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) páginas de tutoriales.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

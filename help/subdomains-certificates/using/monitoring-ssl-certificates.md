@@ -28,7 +28,7 @@ Adobe Campaign recomienda proteger los subdominios que albergan sus páginas de 
 
 ![](assets/no_certificate.png)
 
-## Supervisión de certificados SSL {#monitoring-certificates}
+## Monitorización de certificados SSL {#monitoring-certificates}
 
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_details"

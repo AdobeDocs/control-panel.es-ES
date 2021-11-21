@@ -20,7 +20,7 @@ ht-degree: 79%
 >id="cp_certificate_management"
 >title="Acerca de los subdominios y los certificados SSL"
 >abstract="Supervise los subdominios y los certificados SSL asociados."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=es" text="Supervisión de certificados SSL"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=es" text="Monitorización de certificados SSL"
 
 ## ¿Por qué configurar subdominios?  {#why-setting-up-subdomains}
 
