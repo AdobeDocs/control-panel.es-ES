@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -27,15 +27,15 @@ ht-degree: 66%
 
 **Compatibilidad total con Campaign v8**
 
-Todas las capacidades, incluidas **Subdominio** y **Certificado** administración, ahora son compatibles con Panel de control de Campaign en Adobe Campaign v8. [Más información](faq.md#v8-restrictions)
+Todas las funcionalidades, incluidas la administración de **Subdominios** y de **Certificados**, ahora son compatibles con Panel de control de Campaign en Adobe Campaign v8. [Más información](faq.md#v8-restrictions)
 
-**Período de validez y edición del rango de IP**
+**Período de validez y edición del intervalo de IP**
 
-Ahora es posible establecer una duración para la disponibilidad de intervalos de IP y editar los intervalos de IP que cree. [Más información](sftp/using/ip-range-allow-listing.md)
+Ahora es posible establecer una duración para la disponibilidad de intervalos de IP y editar los que cree. [Más información](sftp/using/ip-range-allow-listing.md)
 
 **Período de validez de la clave pública y edición**
 
-Del mismo modo, ahora puede establecer una duración para la disponibilidad de claves públicas y editar las claves públicas que cree. [Más información](sftp/using/key-management.md)
+Del mismo modo, ahora puede establecer una duración para la disponibilidad de claves públicas y editar las que cree. [Más información](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
