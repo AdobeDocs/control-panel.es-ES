@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
+source-git-commit: 10c4cf41dc9502bb66566951780cf8f963b08aa9
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 71%
+source-wordcount: '858'
+ht-degree: 65%
 
 ---
 
@@ -23,6 +23,20 @@ Aquí encontrará información sobre las últimas versiones del Panel de control
 >Solo los usuarios administradores pueden acceder al Panel de control de Campaign. Obtenga más información sobre los permisos en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 >
 >Para Campaign Classic v7, la instancia debe estar alojada en Amazon Web Service (AWS) y actualizarse a la versión más reciente [Compilación estable de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses) (o para construir 9032 o superior). Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](faq.md#hosted-aws).
+
+## Enero de 2022 {#january-2022}
+
+**Supervisión de consultas activas**
+
+Ahora, el Panel de control de Campaign le permite supervisar las consultas que se han estado ejecutando durante más tiempo en las instancias. [Más información](performance-monitoring/using/database-active-queries.md)
+
+**Monitorización de latencia y rendimiento**
+
+Ahora puede monitorizar cómo las pulsaciones de la entrega y la latencia son tendencias a lo largo del tiempo en las instancias. [Más información](performance-monitoring/using/thoughputs-latencies.md)
+
+**Operaciones de certificados SSL en nuevos subdominios**
+
+Ahora, las operaciones de certificados SSL se pueden realizar en un subdominio recién configurado, incluso si la auditoría de la entrega sigue en curso. [Más información](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Octubre de 2021 {#october-2021}
 
