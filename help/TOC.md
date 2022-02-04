@@ -2,19 +2,19 @@
 product: adobe campaign
 sub-product: control panel
 audience: end-user
-user-guide-title: Guía del Panel de control
+user-guide-title: Guía del Panel de control de Campaign
 feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 9a864f8a80ed0d34212e5e825cc8962e557345a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Guía del Panel de control {#using}
+# Guía del Panel de control de Campaign {#using}
 
 + [Documentación del producto](control-panel-home.md)
 + [Notas de la versión](release-notes.md)
@@ -31,23 +31,23 @@ ht-degree: 94%
    + [Inicio de sesión en el servidor SFTP](sftp/using/logging-into-sftp-server.md)
    + [Preguntas frecuentes](sftp/using/common-questions.md)
 + Subdominios y certificados {#subdomains-and-certificates}
-   + [Promoción de subdominios](subdomains-certificates/using/subdomains-branding.md)
-   + [Supervisión de subdominios](subdomains-certificates/using/monitoring-subdomains.md)
-   + [Configuración de un nuevo subdominio](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + [Promoción de la marca de subdominios](subdomains-certificates/using/subdomains-branding.md)
+   + [Monitorización de subdominios](subdomains-certificates/using/monitoring-subdomains.md)
+   + [ Configuración de un nuevo subdominio](subdomains-certificates/using/setting-up-new-subdomain.md)
    + [Monitorización de certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
    + [Renovación de certificados SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
    + [Administración de registros TXT](subdomains-certificates/using/managing-txt-records.md)
-+ Supervisión del rendimiento {#performance-monitoring}
-   + [Acerca de la supervisión del rendimiento](performance-monitoring/using/about-performance-monitoring.md)
-   + Supervisión de bases de datos {#database-monitoring}
++ Monitorización del rendimiento {#performance-monitoring}
+   + [Acerca de la monitorización del rendimiento](performance-monitoring/using/about-performance-monitoring.md)
+   + Monitorización de bases de datos {#database-monitoring}
       + [Acerca de la monitorización de bases de datos](performance-monitoring/using/database-monitoring.md)
       + [Utilización de la base de datos](performance-monitoring/using/database-utilization.md)
       + [Resumen de almacenamiento](performance-monitoring/using/database-storage-overview.md)
       + [Los 10 recursos temporales principales](performance-monitoring/using/database-top-ten-resources.md)
-      + [Supervisión de consultas activas](performance-monitoring/using/database-active-queries.md)
+      + [Monitorización de consultas activas](performance-monitoring/using/database-active-queries.md)
       + [Prevención de la sobrecarga de la base de datos](performance-monitoring/using/database-preventing-overload.md)
-   + [Supervisión de perfiles activos](performance-monitoring/using/active-profiles-monitoring.md)
-   + [Monitorización de latencia y rendimiento](performance-monitoring/using/thoughputs-latencies.md)
+   + [Monitorización de perfiles activos](performance-monitoring/using/active-profiles-monitoring.md)
+   + [Monitorización de rendimiento y latencia ](performance-monitoring/using/thoughputs-latencies.md)
    + [Alertas por correo electrónico](performance-monitoring/using/email-alerting.md)
 + Configuración de instancias {#instances-settings}
    + [Listado de IP permitidas para acceso a instancias](instances-settings/using/ip-allow-listing-instance-access.md)
