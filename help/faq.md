@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Si no es administrador, pero desea acceder a él, póngase en contacto con el ad
 
 El acceso al Panel de control de Campaign está restringido a los usuarios administradores. [Más información](discover/using/managing-permissions.md).
 
-Para Campaign Classic v7, tenga en cuenta que la instancia debe estar alojada en Amazon Web Service (AWS) y actualizarse a la versión más reciente [Compilación estable de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses) o para construir 9032 o superior. Aprenda a comprobar su versión de Campaign Classic en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia de Campaign Classic está alojada en AWS, siga los pasos que se detallan en [esta sección](#hosted-aws).
+Para Campaign Classic v7, tenga en cuenta que la instancia debe estar alojada en Amazon Web Services (AWS) y actualizarse a la última versión estable de [Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses) o la versión 9032 o superior. Aprenda a comprobar su versión de Campaign Classic en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia de Campaign Classic está alojada en AWS, siga los pasos que se detallan en [esta sección](#hosted-aws).
 
 ### ¿Cómo puedo acceder al Panel de control de Campaign?
 
@@ -66,7 +66,7 @@ Para obtener más información, consulte la [documentación de Adobe Experience 
 
 ### ¿Dónde puedo encontrar mi ID de organización de IMS?
 
-Una forma es ir a la [Página de inicio de Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Encontrará su ID de organización de IMS en la parte inferior de la sección **[!UICONTROL Quick Access]** de Administración. Puede encontrar información más detallada en la [documentación de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+Una forma es ir a la [Página de inicio de Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Encontrará su ID de organización de IMS en la parte inferior de la sección **[!UICONTROL Quick Access]** de Administración. Puede encontrar información más detallada en la [documentación de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es).
 
 La otra forma es iniciar **Admin Console**. El ID de organización de IMS será visible en la dirección URL y debe tener un aspecto similar al siguiente: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
