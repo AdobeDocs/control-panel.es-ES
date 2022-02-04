@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: a99c3753a2bf4378e981629feb934e39fdd410d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 77%
 
 ## Novedades
 
-**Supervisión de consultas activas**
+**Monitorización de consultas activas**
 
 Ahora, el Panel de control de Campaign le permite supervisar las consultas que se han estado ejecutando durante más tiempo en las instancias. [Más información](performance-monitoring/using/database-active-queries.md)
 
 **Monitorización de latencia y rendimiento**
 
-Ahora puede monitorizar cómo las pulsaciones de la entrega y la latencia son tendencias a lo largo del tiempo en las instancias. [Más información](performance-monitoring/using/thoughputs-latencies.md)
+Ahora puede monitorizar cómo el rendimiento y la latencia de la entrega son tendencias a lo largo del tiempo en las instancias. [Más información](performance-monitoring/using/thoughputs-latencies.md)
 
 
 >[!CAUTION]
