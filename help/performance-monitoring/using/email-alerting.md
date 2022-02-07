@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
-source-git-commit: 6249776ef4981cd3d706bf1946be0e054b471fb6
+source-git-commit: ec83878e93536c979c39da52ed07b465f4fbbcb1
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
@@ -43,3 +43,5 @@ La lista de alertas es la siguiente:
 * **Caducidad de la lista de permitidos de SFTP**: Uno de los intervalos de IP definidos ha caducado o va a caducar en 10 días o menos. Consulte [Adición de rangos de IP a la lista de permitidos](../../sftp/using/ip-range-allow-listing.md).
 
 * **Caducidad de clave pública SFTP**: Una de las claves públicas que definió caducó o caducará en 10 días o menos. Consulte [Administración de claves](../../sftp/using/key-management.md).
+
+* **Consultas de larga duración**: Una consulta se ha estado ejecutando durante más de 24 horas en una de las instancias. Consulte [Supervisión de consultas activas](database-active-queries.md).

@@ -6,11 +6,10 @@ description: Aprenda a monitorizar las consultas activas en las instancias de Ca
 feature: Control Panel
 role: Architect
 level: Experienced
-exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 6922e132321f67e1e8122e33ead3c5e54c639763
-workflow-type: ht
-source-wordcount: '106'
-ht-degree: 100%
+source-git-commit: 12e9326ba220776874654705587152bf3978949c
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 50%
 
 ---
 
@@ -24,4 +23,6 @@ Las columnas **[!UICONTROL Duration]** especifican cuánto tiempo se ha estado e
 
 >[!IMPORTANT]
 >
->Si una de las consultas ha estado activa durante más de 24 horas, póngase en contacto con el Servicio de atención al cliente para que identifique y resuelva el problema. En ese caso, deberá proporcionarles el valor de columna **[!UICONTROL PID]**, que es un identificador único para la consulta.
+>Si una de las consultas ha estado activa durante más de 24 horas, se le notificará por correo electrónico si se ha suscrito a [alertas por correo electrónico](email-alerting.md).
+>
+>En ese caso, póngase en contacto con el Servicio de atención al cliente para que identifiquen y resuelvan el problema. Deberá proporcionarles la variable **[!UICONTROL PID]** valor de columna, que es un identificador único para la consulta.
