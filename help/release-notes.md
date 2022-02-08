@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 10c4cf41dc9502bb66566951780cf8f963b08aa9
+source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 65%
+source-wordcount: '834'
+ht-degree: 70%
 
 ---
 
@@ -26,13 +26,13 @@ Aquí encontrará información sobre las últimas versiones del Panel de control
 
 ## Enero de 2022 {#january-2022}
 
-**Supervisión de consultas activas**
+<!-- **Active queries monitoring**
 
-Ahora, el Panel de control de Campaign le permite supervisar las consultas que se han estado ejecutando durante más tiempo en las instancias. [Más información](performance-monitoring/using/database-active-queries.md)
+Control Panel now allows you to monitor queries that have been running for the longest time on your instances. [Read more](performance-monitoring/using/database-active-queries.md)-->
 
 **Monitorización de latencia y rendimiento**
 
-Ahora puede monitorizar cómo las pulsaciones de la entrega y la latencia son tendencias a lo largo del tiempo en las instancias. [Más información](performance-monitoring/using/thoughputs-latencies.md)
+Ahora puede monitorizar cómo el rendimiento y la latencia de la entrega son tendencias a lo largo del tiempo en las instancias. [Más información](performance-monitoring/using/thoughputs-latencies.md)
 
 **Operaciones de certificados SSL en nuevos subdominios**
 
@@ -117,7 +117,7 @@ El Panel de control de Campaign está equipado con funciones de alerta por corre
 Hemos añadido nuevas funciones para que los usuarios administradores configuren subdominios y renueven los certificados SSL desde el Panel de control de Campaign.
 
 Para obtener más información, consulte estas páginas:
-* [Configuración de un nuevo subdominio](subdomains-certificates/using/setting-up-new-subdomain.md)
+* [ Configuración de un nuevo subdominio](subdomains-certificates/using/setting-up-new-subdomain.md)
 * [Renovación del certificado SSL de un subdominio](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 >[!IMPORTANT]

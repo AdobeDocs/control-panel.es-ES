@@ -6,9 +6,9 @@ user-guide-title: Guía del Panel de control de Campaign
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 9a864f8a80ed0d34212e5e825cc8962e557345a7
-workflow-type: ht
-source-wordcount: '118'
+source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
+workflow-type: tm+mt
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,6 @@ ht-degree: 100%
       + [Utilización de la base de datos](performance-monitoring/using/database-utilization.md)
       + [Resumen de almacenamiento](performance-monitoring/using/database-storage-overview.md)
       + [Los 10 recursos temporales principales](performance-monitoring/using/database-top-ten-resources.md)
-      + [Monitorización de consultas activas](performance-monitoring/using/database-active-queries.md)
       + [Prevención de la sobrecarga de la base de datos](performance-monitoring/using/database-preventing-overload.md)
    + [Monitorización de perfiles activos](performance-monitoring/using/active-profiles-monitoring.md)
    + [Monitorización de rendimiento y latencia ](performance-monitoring/using/thoughputs-latencies.md)

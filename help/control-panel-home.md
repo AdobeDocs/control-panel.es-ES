@@ -5,9 +5,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: a99c3753a2bf4378e981629feb934e39fdd410d8
-workflow-type: ht
-source-wordcount: '197'
+source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
+workflow-type: tm+mt
+source-wordcount: '173'
 ht-degree: 100%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 100%
 
 ## Novedades
 
-**Monitorización de consultas activas**
+<!--**Active queries monitoring**
 
-Ahora, el Panel de control de Campaign le permite supervisar las consultas que se han estado ejecutando durante más tiempo en las instancias. [Más información](performance-monitoring/using/database-active-queries.md)
+Control Panel now allows you to monitor queries that have been running for the longest time on your instances. [Read more](performance-monitoring/using/database-active-queries.md)-->
 
 **Monitorización de latencia y rendimiento**
 
