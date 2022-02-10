@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: 12e9326ba220776874654705587152bf3978949c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '231'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 79%
 
 Monitorizar cómo el rendimiento y la latencia de la entrega son tendencias a lo largo de un período es esencial para comprender el uso de las instancias y garantizar que tengan un buen rendimiento.
 
-Esta información está disponible en Panel de control de Campaign para cada una de las instancias de Campaign en la variable **[!UICONTROL Performance Monitoring]** tarjeta, **[!UICONTROL Throughputs & Latency]** (tenga en cuenta que el Panel de control de Campaign puede tardar hasta 1 hora en mostrar las cifras).
+Esta información está disponible en Panel de control de Campaign para cada una de las instancias de Campaign de la tarjeta **[!UICONTROL Performance Monitoring]**, pestaña **[!UICONTROL Throughputs & Latency]** (tenga en cuenta que el Panel de control de Campaign puede tardar hasta una hora en mostrar las cifras).
 
 * El área **[!UICONTROL Throughput]** proporciona información sobre el número de mensajes enviados por hora desde la instancia de Campaign seleccionada para todos los canales de comunicación a los que está autorizado.
 
@@ -36,6 +36,6 @@ Esta información está disponible en Panel de control de Campaign para cada una
 
 De forma predeterminada, los datos se muestran para el día actual. Puede cambiar el período mostrado utilizando los botones **[!UICONTROL 6 months]**, **[!UICONTROL 30 days]** y **[!UICONTROL 7 days]**.
 
-También puede visualizar información en formato tabular con columnas que se pueden ordenar en lugar de un gráfico. Para ello, haga clic en el botón **[!UICONTROL Visualization settings]** y seleccione **[!UICONTROL Table]**.
+También puede visualizar la información en formato tabular con columnas que se pueden ordenar en lugar de un gráfico. Para ello, haga clic en el botón **[!UICONTROL Visualization settings]** y seleccione **[!UICONTROL Table]**.
 
 ![](assets/throughput-latencies-table.png)
