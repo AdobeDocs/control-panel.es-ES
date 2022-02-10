@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: 12e9326ba220776874654705587152bf3978949c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -23,6 +23,6 @@ Las columnas **[!UICONTROL Duration]** especifican cuánto tiempo se ha estado e
 
 >[!IMPORTANT]
 >
->Si una de las consultas ha estado activa durante más de 24 horas, se le notificará por correo electrónico si se ha suscrito a [alertas por correo electrónico](email-alerting.md).
+>Si una de las consultas ha estado activa durante más de 24 horas, se le notificará por correo electrónico si se ha suscrito a las [alertas por correo electrónico](email-alerting.md).
 >
->En ese caso, póngase en contacto con el Servicio de atención al cliente para que identifiquen y resuelvan el problema. Deberá proporcionarles la variable **[!UICONTROL PID]** valor de columna, que es un identificador único para la consulta.
+>En ese caso, póngase en contacto con el Servicio de atención al cliente para que identifiquen y resuelvan el problema. Deberá proporcionarles el valor de columna **[!UICONTROL PID]**, que es un identificador único para la consulta.
