@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
-source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
+source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
@@ -44,4 +44,4 @@ La lista de alertas es la siguiente:
 
 * **Caducidad de clave pública SFTP**: Una de las claves públicas que definió caducó o caducará en 10 días o menos. Consulte [Administración de claves](../../sftp/using/key-management.md).
 
-<!--* **Long running Queries**: A query has been running for more than 24 hours on one of your instances. See [Monitoring active queries](database-active-queries.md).-->
+* **Consultas de larga duración**: Una consulta se ha estado ejecutando durante más de 24 horas en una de las instancias. Consulte [Supervisión de consultas activas](database-active-queries.md).

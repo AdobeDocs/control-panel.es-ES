@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
+source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 70%
+source-wordcount: '858'
+ht-degree: 71%
 
 ---
 
@@ -26,9 +26,9 @@ Aquí encontrará información sobre las últimas versiones del Panel de control
 
 ## Enero de 2022 {#january-2022}
 
-<!-- **Active queries monitoring**
+**Monitorización de consultas activas**
 
-Control Panel now allows you to monitor queries that have been running for the longest time on your instances. [Read more](performance-monitoring/using/database-active-queries.md)-->
+Ahora, el Panel de control de Campaign le permite supervisar las consultas que se han estado ejecutando durante más tiempo en las instancias. [Más información](performance-monitoring/using/database-active-queries.md)
 
 **Monitorización de latencia y rendimiento**
 
