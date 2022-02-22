@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
+source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 71%
+source-wordcount: '882'
+ht-degree: 69%
 
 ---
 
@@ -23,6 +23,12 @@ Aquí encontrará información sobre las últimas versiones del Panel de control
 >Solo los usuarios administradores pueden acceder al Panel de control de Campaign. Obtenga más información sobre los permisos en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 >
 >Para Campaign Classic v7, la instancia debe estar alojada en Amazon Web Service (AWS) y actualizarse a la versión más reciente [Compilación estable de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses) (o para construir 9032 o superior). Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](faq.md#hosted-aws).
+
+## Febrero de 2022 {#february-2022}
+
+**Monitorización de parámetros de flujo de trabajo**
+
+Ahora puede monitorizar los parámetros de flujo de trabajo que pueden requerir una atención específica para evitar problemas en las instancias. [Más información](performance-monitoring/using/workflow-monitoring.md).
 
 ## Enero de 2022 {#january-2022}
 

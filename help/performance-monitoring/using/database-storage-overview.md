@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 9accc4306bacab3bc27922f495c19138f905b1c5
+source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 84%
+source-wordcount: '160'
+ht-degree: 59%
 
 ---
 
@@ -35,8 +35,8 @@ El área **[!UICONTROL Storage overview]** proporciona una representación gráf
 
 Haga clic en el botón **[!UICONTROL View details]** para obtener más información sobre los distintos recursos que consumen espacio en la base de datos.
 
+Puede utilizar la lista desplegable para restringir las tablas de búsqueda y visualización solo de un tipo de recurso específico (flujos de trabajo, envíos, destinatarios).
+
 ![](assets/database-storage-details.png)
 
-Utilice el filtro para restringir la búsqueda y visualizar solo las tablas de un tipo de recurso específico.
-
-![](assets/database-storage-overview-filter.png)
+Tenga en cuenta que esta pantalla también le permite monitorizar los parámetros del flujo de trabajo que pueden requerir una atención específica para evitar problemas en las instancias. Obtenga más información en [esta página](workflow-monitoring.md).
