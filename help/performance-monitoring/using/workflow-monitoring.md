@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo monitorizar parámetros de flujo d
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
+source-git-commit: 062fce923fe638925a9fee22aeab589a890cfa37
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 9%
@@ -13,7 +13,7 @@ ht-degree: 9%
 
 # Monitorización de flujos de trabajo {#monitor-workflows}
 
-<!--## Clean paused and completed workflows
+<!-- Clean paused and completed workflows
 
 When [!DNL Adobe Campaign] workflows are paused or completed, they leave temporary tables on your instances database that consume space and can lead to performance issues.
 
@@ -41,7 +41,7 @@ To clean paused and completed workflows, follow these steps:
 
     ![](assets/wkf-monitoring-in-progress.png)
 
-## Monitor workflow parameters -->
+Monitor workflow parameters -->
 
 En Adobe Campaign, algunos parámetros de flujo de trabajo pueden requerir una atención específica para evitar problemas en las instancias. El Panel de control de Campaign **[!UICONTROL Storage overview]** Los detalles le permiten comprobar si alguna de estas opciones está habilitada para sus flujos de trabajo.
 
