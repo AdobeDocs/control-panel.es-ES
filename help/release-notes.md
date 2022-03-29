@@ -4,9 +4,9 @@ solution: Campaign
 title: Versiones del Panel de control
 description: Esta página enumera todas las nuevas funciones y mejoras de Panel de control de Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
+source-git-commit: 35b849725711bfee9852cf8f503bc599f6d8eaff
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1022'
 ht-degree: 63%
 
 ---
@@ -32,7 +32,7 @@ Esta página enumera todas las nuevas funciones y mejoras de Panel de control de
 <tbody>
 <tr>
 <td>
-<p>La monitorización de latencia y las puntuaciones ya está disponible para todos los clientes Campaign Standards y v8 con los números de compilación 9032,9330, 9346 o 9349 que tienen implementaciones independientes (sin ninguna instancia media).</p><p>Para obtener más información, consulte la <a href="performance-monitoring/using/thoughputs-latencies.md">documentación detallada.</a></p>
+<p>La monitorización de latencia y de rendimiento ya está disponible para todos los clientes Campaign Standards y v8, y para los clientes de Campaign V7 con los números de compilación 9032, 9330, 9346 o 9349 que tienen implementaciones independientes (sin ninguna instancia media).</p><p>Para obtener más información, consulte la <a href="performance-monitoring/using/thoughputs-latencies.md">documentación detallada.</a></p>
 </td>
 </tr>
 </tbody>
