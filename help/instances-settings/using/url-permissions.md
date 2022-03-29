@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 89%
+source-wordcount: '600'
+ht-degree: 86%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->Esta función solo está disponible para instancias de Campaign v8 y Campaign Classic v7 desde la versión 8850. Si está utilizando una versión anterior, debe actualizarla para usar esta función.
+>Esta función solo está disponible para instancias de Campaign v7/v8 desde la versión 8850. Si está utilizando una versión anterior, debe actualizarla para usar esta función.
 
 La lista predeterminada de direcciones URL a las que pueden llamar los códigos JavaScript (flujos de trabajo, etc.) a través de instancias de Campaign es limitada. Son direcciones URL que permiten que las instancias funcionen correctamente.
 
@@ -72,7 +72,7 @@ Para añadir una dirección URL a la que se pueda conectar su instancia, siga es
    >
    >Todas las instancias de Campaign se muestran en la lista del panel izquierdo.
    >
-   >Como la administración de permisos de URL está dedicada únicamente a instancias de Campaign Classic, se muestra el mensaje Instancia no aplicable si selecciona una instancia de Campaign Standard.
+   >Como la administración de permisos de URL está dedicada únicamente a instancias de Campaign v7/v8, se muestra el mensaje Instancia no aplicable si selecciona una instancia de Campaign Standard.
 
 1. Escriba la dirección URL para autorizar, con su protocolo asociado (http, https o sftp).
 

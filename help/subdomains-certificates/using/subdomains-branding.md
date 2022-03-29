@@ -7,14 +7,14 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 79%
+source-wordcount: '748'
+ht-degree: 75%
 
 ---
 
-# Promoción de subdominios {#subdomains-branding}
+# Promoción de la marca de subdominios {#subdomains-branding}
 
 >[!CONTEXTUALHELP]
 >id="cp_certificate_management"
@@ -56,16 +56,16 @@ Encontrará información adicional sobre la configuración de dominios en [esta 
 
 Si tiene alguna pregunta sobre los métodos de configuración de subdominios, póngase en contacto con el equipo de entrega de Adobe o póngase en contacto con el Servicio de atención al cliente para solicitar consultoría de entrega.
 
-## Casos de uso de los subdominios (Campaign Classic){#subdomains-use-cases}
+## Casos de uso de subdominios (Campaign v7/v8){#subdomains-use-cases}
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
 >title="Seleccione el caso de uso del subdominio"
 >abstract="Desglose de los subdominios por casos de uso es una práctica recomendada para la entrega. Al hacerlo, la reputación de cada subdominio está aislada y protegida."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es" text="Configuración de un nuevo subdominio"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es" text="Promoción de subdominios"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es" text="Promoción de la marca de subdominios"
 
-Al configurar subdominios para instancias de Campaign Classic, debe seleccionar el caso de uso para el que se utilizará el subdominio (consulte [Configuración de un nuevo subdominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Al configurar subdominios para instancias de Campaign v7/v8, debe seleccionar el caso de uso para el que se utilizará el subdominio (consulte [Configuración de un nuevo subdominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Los casos de uso posibles son:
 
@@ -82,9 +82,9 @@ Los casos de uso posibles son:
 
 >[!NOTE]
 >
->Si utiliza Campaign Classic, el Panel de control de Campaign le permite ver qué instancias de RT/MID están conectadas a la instancia de Marketing con la que está trabajando. Para obtener más información, consulte la sección [Detalles de instancias](../../instances-settings/using/instance-details.md).
+>Si utiliza Campaign v7/v8, el Panel de control de Campaign le permite ver qué instancias de RT/MID están conectadas a la instancia de Marketing con la que está trabajando. Para obtener más información, consulte la sección [Detalles de instancias](../../instances-settings/using/instance-details.md).
 
 **Temas relacionados:**
 
-* [Configuración de un nuevo subdominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)
-* [Supervisión de subdominios](../../subdomains-certificates/using/monitoring-subdomains.md)
+* [ Configuración de un nuevo subdominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)
+* [Monitorización de subdominios](../../subdomains-certificates/using/monitoring-subdomains.md)

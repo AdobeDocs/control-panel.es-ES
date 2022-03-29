@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 88%
+source-wordcount: '829'
+ht-degree: 86%
 
 ---
 
@@ -38,7 +38,7 @@ Una vez generada la CSR, puede descargarla y utilizarla para adquirir el certifi
 1. **Instalación del certificado SSL**
 Una vez adquirido el certificado SSL, puede instalarlo en el subdominio deseado.
 
-![](assets/do-not-localize/how-to-video.png) Descubra esta función en vídeo usando [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) Descubra esta función en vídeo usando [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#adding-ssl-certificates)
 
 ## Generación de una solicitud de firma de certificado (CSR) {#generating-csr}
 
@@ -141,5 +141,5 @@ Una vez instalado el certificado SSL, la fecha de caducidad y el icono de estado
 
 **Temas relacionados:**
 
-* [Promoción de subdominios](../../subdomains-certificates/using/subdomains-branding.md)
-* [Supervisión de subdominios](../../subdomains-certificates/using/monitoring-subdomains.md)
+* [Promoción de la marca de subdominios](../../subdomains-certificates/using/subdomains-branding.md)
+* [Monitorización de subdominios](../../subdomains-certificates/using/monitoring-subdomains.md)

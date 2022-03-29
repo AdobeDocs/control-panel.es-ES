@@ -2,95 +2,263 @@
 product: campaign
 solution: Campaign
 title: Versiones del Panel de control
-description: Últimas notas de la versión de Panel de control de Campaign.
-feature: Control Panel
-role: Architect
-level: Beginner
+description: Esta página enumera todas las nuevas funciones y mejoras de Panel de control de Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
+source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 69%
+source-wordcount: '1017'
+ht-degree: 63%
 
 ---
 
 # Versiones del Panel de control {#control-panel-releases}
 
-Aquí encontrará información sobre las últimas versiones del Panel de control de Campaign.
+Esta página enumera todas las nuevas funciones y mejoras de Panel de control de Campaign.
 
 >[!NOTE]
 >
 >Solo los usuarios administradores pueden acceder al Panel de control de Campaign. Obtenga más información sobre los permisos en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 >
->Para Campaign Classic v7, la instancia debe estar alojada en Amazon Web Service (AWS) y actualizarse a la versión más reciente [Compilación estable de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses) (o para construir 9032 o superior). Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](faq.md#hosted-aws).
+>Para Campaign v7, la instancia debe estar alojada en Amazon Web Service (AWS) y actualizarse a la versión más reciente [Compilación estable de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses) (o para construir 9032 o superior). Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](faq.md#hosted-aws).
+
+## Marzo de 2022 {#march-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Disponibilidad de monitorización de latencia y de rendimiento</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La monitorización de latencia y las puntuaciones ya está disponible para todos los clientes Campaign Standards y v8 con los números de compilación 9032,9330, 9346 o 9349 que tienen implementaciones independientes (sin ninguna instancia media).</p><p>Para obtener más información, consulte la <a href="performance-monitoring/using/thoughputs-latencies.md">documentación detallada.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Febrero de 2022 {#february-2022}
 
-**Monitorización de parámetros de flujo de trabajo**
-
-Ahora puede monitorizar los parámetros de flujo de trabajo que pueden requerir una atención específica para evitar problemas en las instancias. [Más información](performance-monitoring/using/workflow-monitoring.md).
+<table>
+<thead>
+<tr>
+<th><strong>Monitorización de parámetros de flujo de trabajo</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede monitorizar los parámetros de flujo de trabajo que puedan requerir una atención específica para evitar problemas en las instancias. </p><p>Para obtener más información, consulte la <a href="performance-monitoring/using/workflow-monitoring.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Enero de 2022 {#january-2022}
 
-**Monitorización de consultas activas**
+<table>
+<thead>
+<tr>
+<th><strong>Monitorización de consultas activas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora, el Panel de control de Campaign le permite supervisar las consultas que se han estado ejecutando durante más tiempo en las instancias.</p><p>Para obtener más información, consulte la <a href="performance-monitoring/using/database-active-queries.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-Ahora, el Panel de control de Campaign le permite supervisar las consultas que se han estado ejecutando durante más tiempo en las instancias. [Más información](performance-monitoring/using/database-active-queries.md)
+<table>
+<thead>
+<tr>
+<th><strong>Monitorización de rendimiento y latencia </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede monitorizar cómo el rendimiento y la latencia de la entrega son tendencias a lo largo del tiempo en las instancias.</p><p>Para obtener más información, consulte la <a href="performance-monitoring/using/thoughputs-latencies.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-**Monitorización de latencia y rendimiento**
-
-Ahora puede monitorizar cómo el rendimiento y la latencia de la entrega son tendencias a lo largo del tiempo en las instancias. [Más información](performance-monitoring/using/thoughputs-latencies.md)
-
-**Operaciones de certificados SSL en nuevos subdominios**
-
-Ahora, las operaciones de certificados SSL se pueden realizar en un subdominio recién configurado, incluso si la auditoría de la entrega sigue en curso. [Más información](subdomains-certificates/using/renewing-subdomain-certificate.md)
+<table>
+<thead>
+<tr>
+<th><strong>Operaciones de certificados SSL en nuevos subdominios</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora, las operaciones de certificados SSL se pueden realizar en un subdominio recién configurado, incluso si la auditoría de la entrega sigue en curso.</p><p>Para obtener más información, consulte la <a href="subdomains-certificates/using/renewing-subdomain-certificate.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Octubre de 2021 {#october-2021}
 
-**Intervalo de IP y periodo de validez de clave pública**
+<table>
+<thead>
+<tr>
+<th><strong>Intervalo de IP y periodo de validez de clave pública</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora es posible establecer una duración para la disponibilidad de intervalos de IP y claves públicas. </p><p>Para obtener más información, consulte <a href="sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list">Adición de rangos de IP a la lista de permitidos</a> y <a href="sftp/using/key-management.md#installing-ssh-key">Administración de claves</a> secciones.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-Ahora es posible establecer una duración para la disponibilidad de intervalos de IP y claves públicas. Obtenga más información en la [Adición de rangos de IP a la lista de permitidos](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) y [Administración de claves](sftp/using/key-management.md#installing-ssh-key) secciones.
+<table>
+<thead>
+<tr>
+<th><strong>Rango de IP y edición de clave pública</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede editar el <a href="sftp/using/ip-range-allow-listing.md#editing-ip-ranges">Intervalos de IP</a> y <a href="sftp/using/key-management.md#editing-public-keys">claves públicas</a> que cree. Tenga en cuenta que esta función no está disponible para los elementos creados antes de la versión de Panel de control de Campaign actual.
+</td>
+</tr>
+</tbody>
+</table>
 
-**Rango de IP y edición de clave pública**
+<table>
+<thead>
+<tr>
+<th><strong>Alerta sobre el intervalo IP SFTP y la caducidad de la clave pública</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La funcionalidad de alertas por correo electrónico ahora incluye alertas sobre la IP SFTP que permiten enumerar la caducidad y la caducidad de la clave pública SFTP.</p><p>Para obtener más información, consulte la <a href="performance-monitoring/using/email-alerting.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-Ahora puede editar el [Intervalos de IP](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) y [claves públicas](sftp/using/key-management.md#editing-public-keys) que cree. Tenga en cuenta que esta función no está disponible para los elementos creados antes de la versión de Panel de control de Campaign actual.
-
-**Alerta sobre el intervalo IP SFTP y la caducidad de la clave pública**
-
-La funcionalidad de alertas por correo electrónico ahora incluye alertas sobre la IP SFTP que permiten enumerar la caducidad y la caducidad de la clave pública SFTP. [Más información](performance-monitoring/using/email-alerting.md)
-
-**Compatibilidad total con Campaign v8**
-
-La variable **Subdominio** y **Certificado** las funciones de administración ahora son compatibles con Panel de control de Campaign en Adobe Campaign v8.
+<table>
+<thead>
+<tr>
+<th><strong>Compatibilidad total con Campaign v8</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La variable <strong>Subdominio</strong> y <strong>Certificado</strong> las funciones de administración ahora son compatibles con Panel de control de Campaign en Adobe Campaign v8.</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Agosto de 2021 {#august-2021}
 
-**Compatibilidad con Campaign v8**
-
-El Panel de control de Campaign ya está disponible para Adobe Campaign v8, excepto el **Subdominio** y **Certificado** funciones de administración, que aún no son compatibles. Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;}
+<table>
+<thead>
+<tr>
+<th><strong>Compatibilidad con Campaign v8</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El Panel de control de Campaign ya está disponible para Adobe Campaign v8, excepto el <strong>Subdominio</strong> y <strong>Certificado</strong> funciones de administración, que aún no son compatibles.</p><p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html" target="blank">Documentación de Campaign v8</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Octubre de 2020 {#october-2020}
 
-**Configuración del subdominio mediante CNAME**
+<table>
+<thead>
+<tr>
+<th><strong>Configuración del subdominio mediante CNAME</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El Panel de control de Campaign ahora le permite configurar un subdominio para trabajar con Adobe mediante CNAME directamente desde la interfaz.</p><p>Para obtener más información, consulte la <a href="subdomains-certificates/using/setting-up-new-subdomain.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-El Panel de control de Campaign ahora le permite configurar un subdominio para trabajar con Adobe mediante CNAME directamente desde la interfaz. [Más información](subdomains-certificates/using/setting-up-new-subdomain.md)
-
-**Mejoras en la supervisión de bases de datos**
-
-La supervisión de la base de datos se ha mejorado con métricas adicionales que le permiten obtener información detallada sobre los recursos que consumen espacio en la base de datos. [Más información](performance-monitoring/using/database-monitoring.md)
+<table>
+<thead>
+<tr>
+<th><strong>Mejoras en la supervisión de bases de datos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La supervisión de la base de datos se ha mejorado con métricas adicionales que le permiten obtener información detallada sobre los recursos que consumen espacio en la base de datos.</p><p>Para obtener más información, consulte la <a href="performance-monitoring/using/database-monitoring.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Junio de 2020 {#june-2020}
 
-**Auditoría de entrega de subdominios**
+<table>
+<thead>
+<tr>
+<th><strong>Auditoría de entrega de subdominios</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Después de delegar un nuevo subdominio, el Panel de control le permite realizar un seguimiento de la auditoría realizada por el equipo de entrega.</p><p>Para obtener más información, consulte la <a href="subdomains-certificates/using/setting-up-new-subdomain.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-Después de delegar un nuevo subdominio, el Panel de control le permite realizar un seguimiento de la auditoría realizada por el equipo de entrega. [Más información](subdomains-certificates/using/setting-up-new-subdomain.md)
+<table>
+<thead>
+<tr>
+<th><strong>Administración de claves GPG</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El Panel de control ya le permite generar un par de claves GPG para que pueda descifrar fácilmente los datos que llegan a Campaign desde el exterior. Además, hemos agregado una función para que pueda instalar una clave GPG pública con el fin de cifrar los datos que salen de Campaign.</p><p>Para obtener más información, consulte la <a href="instances-settings/using/gpg-keys-management.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-**Administración de claves GPG**
-
-El Panel de control ya le permite generar un par de claves GPG para que pueda descifrar fácilmente los datos que llegan a Campaign desde el exterior. Además, hemos agregado una función para que pueda instalar una clave GPG pública con el fin de cifrar los datos que salen de Campaign. [Más información](instances-settings/using/gpg-keys-management.md)
-
-**Supervisión de perfiles activos**
-
-El Panel de control de Campaign ahora le permite monitorizar el número de perfiles activos que utilizan las instancias y que se contabilizan con fines de facturación. [Más información](performance-monitoring/using/active-profiles-monitoring.md)
+<table>
+<thead>
+<tr>
+<th><strong>Monitorización de perfiles activos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El Panel de control de Campaign ahora le permite monitorizar el número de perfiles activos que utilizan las instancias y que se contabilizan con fines de facturación.</p><p>Para obtener más información, consulte la <a href="performance-monitoring/using/active-profiles-monitoring.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 >[!IMPORTANT]
 >
@@ -98,27 +266,69 @@ El Panel de control de Campaign ahora le permite monitorizar el número de perfi
 
 ## Mayo de 2020 {#may-2020}
 
-**Administración de certificados para subdominios CNAME**
-
-El Panel de control de Campaign ahora le permite renovar los certificados SSL de sus subdominios configurados con el método CNAME. [Más información](subdomains-certificates/using/renewing-subdomain-certificate.md)
+<table>
+<thead>
+<tr>
+<th><strong>Administración de certificados para subdominios CNAME</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El Panel de control de Campaign ahora le permite renovar los certificados SSL de sus subdominios configurados con el método CNAME.</p><p>Para obtener más información, consulte la <a href="subdomains-certificates/using/renewing-subdomain-certificate.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Abril de 2020 {#april-2020}
 
-**Administración de registros TXT de Google**
+<table>
+<thead>
+<tr>
+<th><strong>Administración de registros TXT de Google</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Añada el registro de verificación del sitio TXT de Google a todos los subdominios utilizados para enviar correos electrónicos a las direcciones de Gmail a través del Panel de control de Campaign.</p><p>Para obtener más información, consulte la <a href="subdomains-certificates/using/managing-txt-records.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-Añada el registro de verificación del sitio TXT de Google a todos los subdominios utilizados para enviar correos electrónicos a las direcciones de Gmail a través del Panel de control de Campaign. [Más información](subdomains-certificates/using/managing-txt-records.md)
+<table>
+<thead>
+<tr>
+<th><strong>Supervisión del espacio de la base de datos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El Panel de control de Campaign está equipado con funcionalidades de supervisión de bases de datos, lo que le permite ver el uso del espacio de las bases de datos según demanda e historial.</p><p>Para obtener más información, consulte la <a href="performance-monitoring/using/database-monitoring.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-**Supervisión del espacio de la base de datos**
-
-El Panel de control de Campaign está equipado con funcionalidades de supervisión de bases de datos, lo que le permite ver el uso del espacio de las bases de datos según demanda e historial. [Más información](performance-monitoring/using/database-monitoring.md)
-
-**Alertas por correo electrónico**
-
-El Panel de control de Campaign está equipado con funciones de alerta por correo electrónico en tiempo real que le permiten iniciar sesión en el Panel de control y registrarse para recibir alertas cuando el sistema está en riesgo de deterioro del rendimiento o se requiere una acción para garantizar un alto rendimiento en el futuro. [Más información](performance-monitoring/using/email-alerting.md)
+<table>
+<thead>
+<tr>
+<th><strong>Alertas por correo electrónico</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El Panel de control de Campaign está equipado con funciones de alerta por correo electrónico en tiempo real que le permiten iniciar sesión en el Panel de control y registrarse para recibir alertas cuando el sistema está en riesgo de deterioro del rendimiento o se requiere una acción para garantizar un alto rendimiento en el futuro.</p><p>Para obtener más información, consulte la <a href="performance-monitoring/using/email-alerting.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Enero de 2020 {#january-2020}
-
-*22 de enero de 2020*
 
 Hemos añadido nuevas funciones para que los usuarios administradores configuren subdominios y renueven los certificados SSL desde el Panel de control de Campaign.
 
@@ -132,10 +342,8 @@ Para obtener más información, consulte estas páginas:
 
 ## Septiembre de 2019 {#september-2019}
 
-*16 de septiembre de 2019*
-
-Hemos agregado nuevas funcionalidades para que los usuarios administradores agreguen direcciones IP a la lista de permitidos para conectarse a instancias de Campaign Classic.
-Además, los usuarios administradores ahora pueden ver la lista de instancias de Campaign Classic y los requisitos para las actualizaciones de versiones.
+Hemos añadido nuevas funciones para que los usuarios administradores agreguen direcciones IP a la lista de permitidos para conectarse a instancias de Campaign v7/v8.
+Además, los usuarios administradores ahora pueden ver la lista de instancias de Campaign v7/v8 y los requisitos para las actualizaciones de la compilación.
 
 Para obtener más información, consulte la [documentación especializada](instances-settings/using/ip-allow-listing-instance-access.md).
 
@@ -147,6 +355,6 @@ Además, los administradores ahora pueden borrar las claves SSH que se añadiero
 
 ## Julio de 2019 {#july-2019}
 
-Se han añadido nuevas funciones para que los administradores puedan tener un mayor control de la configuración de las instancias de Campaign Classic. Las nuevas funcionalidades del Panel de control incluyen la posibilidad de añadir las URL a las que se conecta Adobe Campaign para las transferencias de datos o archivos.
+Se han añadido nuevas funciones para que los administradores puedan tener bueno control de la configuración de las instancias de Campaign v7/v8. Las nuevas funcionalidades del Panel de control incluyen la posibilidad de añadir las URL a las que se conecta Adobe Campaign para las transferencias de datos o archivos.
 
 Para obtener más información, consulte la [documentación detallada](instances-settings/using/url-permissions.md).

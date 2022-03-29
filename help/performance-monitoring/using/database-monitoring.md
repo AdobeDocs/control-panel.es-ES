@@ -6,10 +6,11 @@ description: Obtenga información sobre cómo supervisar su base de datos de Cam
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
+exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 85%
+source-wordcount: '380'
+ht-degree: 82%
 
 ---
 
@@ -45,7 +46,7 @@ Además, puede recibir notificaciones cuando una de sus bases de datos alcance s
 
 ![](assets/databases_dashboard.png)
 
-Los datos de este tablero se actualizan en función de la variable **[!UICONTROL Database cleanup technical workflow]** que se ejecuta en la instancia de Campaign (consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=es#list-of-technical-workflows) y [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=es) documentación). Puede comprobar la última vez que el flujo de trabajo se ejecutó por debajo del **[!UICONTROL Used Space]** y **[!UICONTROL Provided Space]** métricas. Tenga en cuenta que, si el flujo de trabajo no se ha ejecutado desde hace más de 3 días, le recomendamos que se ponga en contacto con el Servicio de atención al cliente de Adobe para que investigue por qué no se está ejecutando.
+Los datos de este tablero se actualizan en función de la variable **[!UICONTROL Database cleanup technical workflow]** que se ejecuta en la instancia de Campaign (consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=es#list-of-technical-workflows) y [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=es) documentación). Puede comprobar la última vez que el flujo de trabajo se ejecutó por debajo del **[!UICONTROL Used Space]** y **[!UICONTROL Provided Space]** métricas. Tenga en cuenta que, si el flujo de trabajo no se ha ejecutado desde hace más de 3 días, le recomendamos que se ponga en contacto con el Servicio de atención al cliente de Adobe para que investigue por qué no se está ejecutando.
 
 En este tablero encontrará métricas adicionales que le ayudarán a analizar el uso de la base de datos de la instancia. Se detallan en estas secciones:
 
@@ -54,4 +55,4 @@ En este tablero encontrará métricas adicionales que le ayudarán a analizar el
 * [Los 10 recursos temporales principales](../../performance-monitoring/using/database-top-ten-resources.md)
 * [Consultas activas](../../performance-monitoring/using/database-active-queries.md)
 
-![](assets/do-not-localize/how-to-video.png) Descubra esta función en vídeo usando [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=es#performance-monitoring) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=es#performance-monitoring)
+![](assets/do-not-localize/how-to-video.png) Descubra esta función en vídeo usando [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=es#performance-monitoring) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=es#performance-monitoring)
