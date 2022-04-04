@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 84%
 
 ![](assets/do-not-localize/banner.png)
 
-El Panel de control de Campaign de Campaign le ayuda a aumentar la eficacia de su trabajo como administrador de productos de Campaign Standard y V7/v8, lo que le permite administrar la configuración y rastrear los usos de cada una de sus instancias de Campaign.
+El Panel de control de Campaign le ayuda a aumentar la eficiencia de su trabajo como administrador de productos de las versiones 7 y 8 y de Campaign Standard, lo que le permite administrar la configuración y rastrear los usos de cada una de sus instancias de Campaign.
 
 ## Novedades
 
@@ -40,7 +40,7 @@ Ahora puede monitorizar cómo el rendimiento y la latencia de la entrega son ten
 >
 >* El acceso al Panel de control de Campaign está restringido a los usuarios administradores. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel)
 >
->* Para Campaign v7, se aplican restricciones de implementación. [Más información](faq.md#v7-restrictions)
+>* Para la versión 7 de Campaign, se aplican restricciones de implementación. [Más información](faq.md#v7-restrictions)
 
 
 ## Recursos adicionales {#additional-resources}
@@ -53,13 +53,13 @@ Ahora puede monitorizar cómo el rendimiento y la latencia de la entrega son ten
             <li><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=es">Documentación del producto de Campaign Standard</a></li>
         </ul>
         </td>
-        <td><b>Campaign v7</b><br/>
+        <td><b>Versión 7 de Campaign</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=es">Tutoriales en vídeo de Panel de control de Campaign</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=es">Documentación del producto de Campaign v7</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=es">Documentación del producto de la versión 7 de Campaign</a></li>
         </ul>
         </td>
-        <td><b>Campaign v8</b><br/>
+        <td><b>Versión 8 de Campaign</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=es">Tutoriales en vídeo del Panel de control de Campaign</a></li>
             <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=es">Documentación del producto de Campaign v8</a></li>
