@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
-workflow-type: ht
-source-wordcount: '228'
-ht-degree: 100%
+source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 82%
 
 ---
 
@@ -27,14 +27,9 @@ El Panel de control de Campaign le ayuda a aumentar la eficiencia de su trabajo 
 
 ## Novedades
 
-**Monitorización de parámetros de flujo de trabajo**
+**Supervisión de contactos y eventos clave en las instancias**
 
-Ahora puede monitorizar los parámetros de flujo de trabajo que puedan requerir una atención específica para evitar problemas en las instancias. [Más información](performance-monitoring/using/workflow-monitoring.md)
-
-**Monitorización de latencia y rendimiento**
-
-Ahora puede monitorizar cómo el rendimiento y la latencia de la entrega son tendencias a lo largo del tiempo en las instancias. [Más información](performance-monitoring/using/thoughputs-latencies.md)
-
+Ahora puede supervisar las versiones anteriores y futuras, así como las revisiones de servicio que se producen en las instancias, así como acceder a una lista de contactos clave en el Adobe para cualquier solicitud o problema. [Más información](service-events/service-events.md)
 
 >[!CAUTION]
 >
