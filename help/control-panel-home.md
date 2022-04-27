@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ El Panel de control de Campaign le ayuda a aumentar la eficiencia de su trabajo 
 
 **Supervisión de contactos y eventos clave en las instancias**
 
-Ahora puede supervisar las versiones anteriores y futuras, así como las revisiones de servicio que se producen en las instancias, así como acceder a una lista de contactos clave en el Adobe para cualquier solicitud o problema. [Más información](service-events/service-events.md)
+Ahora puede monitorizar las versiones anteriores y futuras, así como las revisiones de servicio que se producen en las instancias, y acceder a una lista de contactos clave en Adobe para cualquier solicitud o problema. [Más información](service-events/service-events.md)
 
 >[!CAUTION]
 >
