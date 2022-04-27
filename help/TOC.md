@@ -6,10 +6,10 @@ user-guide-title: Guía del Panel de control de Campaign
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 03f88c50e0eff20654dfcb90c711bb3d381591ed
-workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 93%
+source-git-commit: 9dc288986f11cd64f187ba9253e4e4ff9f1b00b3
+workflow-type: ht
+source-wordcount: '124'
+ht-degree: 100%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 93%
    + [Acceso al Panel de control de Campaign](discover/using/accessing-control-panel.md)
    + [Administración de permisos en Panel de control de Campaign](discover/using/managing-permissions.md)
    + [Descubrimiento de la interfaz del Panel de control de Campaign](discover/using/discovering-the-interface.md)
++ [Supervisión de los contactos y eventos clave](service-events/service-events.md)
 + Administración SFTP {#sftp-management}
    + [Acerca de la administración SFTP](sftp/using/about-sftp-management.md)
    + [Administración de almacenamiento SFTP](sftp/using/sftp-storage-management.md)
@@ -55,5 +56,4 @@ ht-degree: 93%
    + [Permisos de URL](instances-settings/using/url-permissions.md)
    + [Detalles de instancias](instances-settings/using/instance-details.md)
    + [Administración de claves GPG](instances-settings/using/gpg-keys-management.md)
-+ [Identificar contactos y eventos clave en las instancias](service-events/service-events.md)
 + [Preguntas frecuentes](faq.md)
