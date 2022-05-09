@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: d323fa76c5707b3284e5763b5f60a82974a6c045
+source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '529'
 ht-degree: 77%
 
 ---
@@ -48,7 +48,7 @@ Para obtener información sobre los servidores conectados a las instancias, siga
 
    >[!NOTE]
    >
-   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control de Campaign, el ID de organización de IMS no está asociado a ninguna instancia de Adobe Campaign v7/v8
+   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control de Campaign, significa que el ID de organización no está asociado a ninguna instancia de Adobe Campaign v7/v8
 
 1. Seleccione en el panel izquierdo la instancia de Campaign que desee.
 
