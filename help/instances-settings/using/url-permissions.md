@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '600'
 ht-degree: 86%
 
 ---
@@ -60,7 +60,7 @@ Para añadir una dirección URL a la que se pueda conectar su instancia, siga es
 
    >[!NOTE]
    >
-   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control de Campaign, el ID de organización no está asociado a ninguna instancia de Adobe Campaign
+   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control de Campaign, el ID de organización de IMS no está asociado a ninguna instancia de Adobe Campaign
    >
    >La pestaña <b><span class="uicontrol">Permisos de URL</span></b> lista todas las direcciones URL externas a las que se puede conectar la instancia. Esta lista no incluye las direcciones URL que son necesarias para que funcione Campaign (por ejemplo, conexiones entre elementos de infraestructura).
 

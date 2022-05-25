@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+source-git-commit: 2458263ef5981a16d983912b498e320501df7889
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 88%
+source-wordcount: '831'
+ht-degree: 82%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 88%
 >[!IMPORTANT]
 >
 >Esta función solo está disponible para instancias de Campaign v7/v8.
+>
+>Si utiliza una instancia con un modelo de alojamiento híbrido, solo podrá añadir direcciones IP en &quot;Conexión de API externa&quot; para la instancia de RT.
 
 De forma predeterminada, la instancia de Adobe Campaign no es accesible desde varias direcciones IP.
 
@@ -55,7 +57,7 @@ Asegúrese de seguir las recomendaciones y limitaciones que se indican a continu
 
 >[!NOTE]
 >
->Si la variable **[!UICONTROL Instance Settings]** no está visible en la página principal del Panel de control de Campaign, lo que significa que su ID de organización no está asociado a ninguna instancia de Adobe Campaign v7/v8.
+>Si la variable **[!UICONTROL Instance Settings]** no está visible en la página principal del Panel de control de Campaign, lo que significa que su ID de organización de IMS no está asociado a ninguna instancia de Adobe Campaign v7/v8.
 
 Para agregar direcciones IP a la lista de permitidos, siga estos pasos:
 
@@ -88,11 +90,16 @@ Para agregar direcciones IP a la lista de permitidos, siga estos pasos:
    * **[!UICONTROL AEM connection]**: se permitirá que las direcciones IP de AEM especificadas se conecten a la instancia de Marketing.
    * **[!UICONTROL External API connection]**: se permitirá que las API externas con las direcciones IP especificadas se conecten a la instancia de Marketing y/o Centro de mensajes (RT). Tenga en cuenta que la conexión a la consola de instancias de RT no está habilitada.
 
+      >[!NOTE]
+      >
+      >Si utiliza una instancia con un modelo de alojamiento híbrido, solo podrá añadir direcciones IP en &quot;Conexión de API externa&quot; para la instancia de RT.
    ![](assets/ip_whitelist_acesstype.png)
 
 1. Haga clic en el botón **[!UICONTROL Save]**. El rango de IP se agrega a la lista de permitidos.
 
    <!--![](assets/ip_whitelist_added.png)-->
+
+De forma predeterminada, la instancia de Adobe Campaign no es accesible desde varias direcciones IP.
 
 Para eliminar uno o varios rangos de IP de la lista de permitidos, selecciónelos y haga clic en el botón **[!UICONTROL Delete IP range]** botón.
 

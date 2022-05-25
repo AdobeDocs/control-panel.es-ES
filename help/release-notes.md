@@ -4,10 +4,10 @@ solution: Campaign
 title: Versiones del Panel de control
 description: Esta página enumera todas las nuevas funciones y mejoras de Panel de control de Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+source-git-commit: 87b28195ede08756d5084aad36bf1c95f621b5f5
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 61%
+source-wordcount: '1174'
+ht-degree: 60%
 
 ---
 
@@ -21,6 +21,39 @@ Esta página enumera todas las nuevas funciones y mejoras de Panel de control de
 >
 >Para Campaign v7, la instancia debe estar alojada en Amazon Web Service (AWS) y actualizarse a la versión más reciente [Compilación estable de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses) (o para construir 9032 o superior). Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](faq.md#hosted-aws).
 
+## Mayo de 2022 {#may-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Disponibilidad de Paneles de control de Campaign para el modelo de alojamiento híbrido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El Panel de control de Campaign ya está disponible para los clientes con un modelo de alojamiento híbrido. Estos clientes pueden aprovechar las funciones de Panel de control de Campaign al proporcionar su URL de instancia de MID/RT configurada en su instancia de marketing en Panel de control de Campaign.</p><p>Para obtener más información, consulte la <a href="instances-settings/using/external-accounts.md">documentación detallada.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Actualizaciones de supervisión de las latencias y los procesos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Se han mejorado las capacidades de supervisión de las conversiones y las latencias:<ul><li>Ahora puede identificar los ID de los 5 envíos principales que contribuyen al rendimiento de su instancia.</li><li>Los clientes de Campaign Classic v7/v8 ahora pueden visualizar la latencia de un canal específico.</p></li><p>Para obtener más información, consulte la <a href="performance-monitoring/using/thoughputs-latencies.md">documentación detallada.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 ## Abril de 2022 {#april-2022}
 
 <table>
@@ -32,7 +65,7 @@ Esta página enumera todas las nuevas funciones y mejoras de Panel de control de
 <tbody>
 <tr>
 <td>
-<p>Ahora puede supervisar las versiones anteriores y futuras, así como las revisiones de servicio que se producen en las instancias, así como acceder a una lista de contactos clave en el Adobe para cualquier solicitud o problema.</p><p>Para obtener más información, consulte la <a href="service-events/service-events.md">documentación detallada.</a></p>
+<p>Ahora puede monitorizar las versiones anteriores y futuras, así como las revisiones de servicio que se producen en las instancias, y acceder a una lista de contactos clave en Adobe para cualquier solicitud o problema.</p><p>Para obtener más información, consulte la <a href="service-events/service-events.md">documentación detallada.</a></p>
 </td>
 </tr>
 </tbody>
