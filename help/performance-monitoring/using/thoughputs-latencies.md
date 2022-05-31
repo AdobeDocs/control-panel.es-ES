@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: a5bd04c4659ae18c4f05934f42e071b209a58fff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '425'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_throughputslatencies"
 >title="Acerca de la monitorización del rendimiento y la latencia "
->abstract="En esta pestaña, puede monitorizar cómo el rendimiento y la latencia de la entrega son las tendencias a lo largo del tiempo en las instancias. Para obtener información sobre las entregas que contribuyen al rendimiento, cambie a la vista tabular."
+>abstract="En esta pestaña, puede monitorizar cómo el rendimiento y la latencia de la entrega son las tendencias a lo largo del tiempo en las instancias. Para obtener información acerca de las entregas que contribuyen al rendimiento, cambie a la vista tabular."
 
 El Panel de control de Campaign permite monitorizar el rendimiento de entrega y la latencia de cada una de las instancias.
 
@@ -37,16 +37,16 @@ Esta información está disponible en Panel de control de Campaign para cada una
 
 ![](assets/throughput-latencies-overview.png)
 
-De forma predeterminada, los datos se muestran para el día actual. Puede cambiar el período mostrado utilizando los botones **[!UICONTROL 6 months]**, **[!UICONTROL 30 days]** y **[!UICONTROL 7 days]**. Se presentarán los datos:
-* Por hora para 1 día y 7 días de visualización,
-* 6 horas durante 30 días de visualización,
-* Diario durante 6 meses de visualización.
+De forma predeterminada, los datos se muestran para el día actual. Puede cambiar el período mostrado utilizando los botones **[!UICONTROL 6 months]**, **[!UICONTROL 30 days]** y **[!UICONTROL 7 days]**. Se presentarán los siguientes datos:
+* de cada hora para la vista de uno día y siete días,
+* de cada seis horas para la vista de 30 días,
+* diarios para la vista de seis meses.
 
 También puede visualizar la información en formato tabular con columnas que se pueden ordenar en lugar de un gráfico. Para ello, haga clic en el botón **[!UICONTROL Visualization settings]** y seleccione **[!UICONTROL Table]**.
 
 ![](assets/throughput-latencies-table.png)
 
-## Perspectivas del monitor {#throughput}
+## Monitorización del rendimiento {#throughput}
 
 El área **[!UICONTROL Throughput]** proporciona información sobre el número de mensajes enviados por hora desde la instancia de Campaign seleccionada para todos los canales de comunicación a los que está autorizado.
 
@@ -54,17 +54,17 @@ El área **[!UICONTROL Throughput]** proporciona información sobre el número d
 >
 >Para las versiones 7 y 8 de Campaign, el número de rendimiento mostrado es el logrado desde instancias de MID (fuentes intermediarias). Para implementaciones de marketing (MKT) independientes (sin ninguna instancia de MID), se muestra el rendimiento de la instancia de MKT en su lugar.
 
-Además, el Panel de control de Campaign permite identificar los ID de los 5 envíos principales que contribuyen al rendimiento durante el período de tiempo seleccionado. Esta información solo está disponible en la vista de tabla:
+Además, el Panel de control de Campaign permite identificar los ID de los cinco envíos principales que contribuyen al rendimiento durante el período de tiempo seleccionado. Esta información solo está disponible en la vista tabular:
 
 ![](assets/throughput-latencies-top5.png)
 
-## Latencia del monitor {#latency}
+## Monitorización de la latencia {#latency}
 
 El área **[!UICONTROL Latency]** proporciona información sobre la latencia encontrada en la instancia seleccionada al enviar comunicaciones transaccionales en tiempo real.
 
 >[!NOTE]
 >
->Tenga en cuenta que la información relacionada con **Latencia del perfil** también está disponible para [!DNL Campaign Standard] solo instancias.
+>Tenga en cuenta que la información relacionada con la **Latencia del perfil** también está disponible solo para instancias de [!DNL Campaign Standard].
 
 Las latencias se capturan y visualizan con un percentil 95 y 99, lo que significa que el 95 % y el 99 % de las solicitudes deben ser más rápidas que la latencia dada.
 
@@ -76,4 +76,4 @@ De forma predeterminada, la latencia se muestra en todos los canales. Puede visu
 
 >[!NOTE]
 >
->El filtrado de canales solo está disponible para instancias de Campaign Classic v7/v8.
+>El filtrado de canales solo está disponible para instancias de las versiones 7 y 8 de Campaign Classic.
