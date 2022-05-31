@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 085d1854eda2c9fe05473760e1f1a30113de01a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -56,5 +56,5 @@ ht-degree: 95%
    + [Permisos de URL](instances-settings/using/url-permissions.md)
    + [Detalles de instancias](instances-settings/using/instance-details.md)
    + [Administración de claves GPG](instances-settings/using/gpg-keys-management.md)
-   + [Añadir instancias MID/RT (modelo híbrido)](instances-settings/using/external-accounts.md)
+   + [Adición de instancias MID/RT (modelo híbrido)](instances-settings/using/external-accounts.md)
 + [Preguntas frecuentes](faq.md)
