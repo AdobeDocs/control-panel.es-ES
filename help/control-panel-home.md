@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
-workflow-type: ht
-source-wordcount: '221'
-ht-degree: 100%
+source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 67%
 
 ---
 
@@ -27,9 +27,17 @@ El Panel de control de Campaign le ayuda a aumentar la eficiencia de su trabajo 
 
 ## Novedades
 
-**Supervisión de contactos y eventos clave en las instancias**
+**Disponibilidad de Paneles de control de Campaign para el modelo de alojamiento híbrido**
 
-Ahora puede monitorizar las versiones anteriores y futuras, así como las revisiones de servicio que se producen en las instancias, y acceder a una lista de contactos clave en Adobe para cualquier solicitud o problema. [Más información](service-events/service-events.md)
+El Panel de control de Campaign ya está disponible para los clientes con un modelo de alojamiento híbrido. Estos clientes pueden aprovechar las funciones de Panel de control de Campaign al proporcionar su URL de instancia de MID/RT configurada en su instancia de marketing en Panel de control de Campaign. [Más información](instances-settings/using/external-accounts.md)
+
+
+**Actualizaciones de supervisión de las latencias y los procesos**
+
+Se han mejorado las capacidades de supervisión de los resultados y las latencias. [Más información](performance-monitoring/using/thoughputs-latencies.md)
+
+* Ahora puede identificar los ID de los 5 envíos principales que contribuyen al rendimiento de su instancia.
+* Los clientes de Campaign Classic v7/v8 ahora pueden visualizar la latencia de un canal específico.
 
 >[!CAUTION]
 >
