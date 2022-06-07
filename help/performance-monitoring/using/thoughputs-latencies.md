@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: bcc9ae9e8f3d6ed88f6f930af81e46c98dfd3d89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ El Panel de control de Campaign permite monitorizar el rendimiento de entrega y 
 
 >[!IMPORTANT]
 >
->Esta función está disponible para todos los clientes de Campaign Standard, v8 y Campaign v7 con los números de compilación 9032 y posteriores, incluidas [implementaciones independientes](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=es) (sin ninguna instancia media).
+>Esta función está disponible para todos los clientes de las versiones 7 y 8 de Campaign Standard, con los números de compilación 9032 y más recientes, incluidas las [implementaciones independientes](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=es) (sin ninguna instancia intermediaria).
 
 Monitorizar las tendencias del rendimiento y la latencia de entrega a lo largo de un período es esencial para comprender el uso de las instancias y garantizar que tengan un buen rendimiento.
 
