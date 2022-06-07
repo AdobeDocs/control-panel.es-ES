@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -27,17 +27,17 @@ El Panel de control de Campaign le ayuda a aumentar la eficiencia de su trabajo 
 
 ## Novedades
 
-**Disponibilidad de Paneles de control de Campaign para el modelo de alojamiento híbrido**
+**Disponibilidad del Panel de control de Campaign para el modelo de alojamiento híbrido**
 
-El Panel de control de Campaign ya está disponible para los clientes con un modelo de alojamiento híbrido. Estos clientes pueden aprovechar las funciones de Panel de control de Campaign al proporcionar su URL de instancia de MID/RT configurada en su instancia de marketing en Panel de control de Campaign. [Más información](instances-settings/using/external-accounts.md)
+El Panel de control de Campaign ya está disponible para los clientes con un modelo de alojamiento híbrido. Estos clientes pueden aprovechar las funciones del Panel de control de Campaign al proporcionar su URL de instancia MID/RT configurada en su instancia de marketing en Panel de control de Campaign. [Más información](instances-settings/using/external-accounts.md)
 
 
 **Actualizaciones de supervisión de las latencias y los procesos**
 
 Se han mejorado las capacidades de supervisión de los resultados y las latencias. [Más información](performance-monitoring/using/thoughputs-latencies.md)
 
-* Ahora puede identificar los ID de los 5 envíos principales que contribuyen al rendimiento de su instancia.
-* Los clientes de Campaign Classic v7/v8 ahora pueden visualizar la latencia de un canal específico.
+* Ahora puede identificar los ID de los cinco envíos principales que contribuyen al rendimiento de su instancia.
+* Los clientes de las versiones 7 y 8 de Campaign Classic ahora pueden visualizar la latencia de un canal específico.
 
 >[!CAUTION]
 >
