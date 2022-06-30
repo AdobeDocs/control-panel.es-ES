@@ -2,7 +2,7 @@
 title: Última versión
 description: Esta página enumera todas las nuevas funciones y mejoras de Panel de control de Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 55%
@@ -42,7 +42,7 @@ Esta página enumera todas las nuevas funciones y mejoras de Panel de control de
 <tbody>
 <tr>
 <td>
-<p>El calendario de servicios ahora le permite configurar recordatorios para recibir notificaciones por correo electrónico antes de que se produzca un evento en las instancias. <a href="../instances-settings/using/external-accounts.md">Más información</a></p>
+<p>El calendario de servicios ahora le permite configurar recordatorios para recibir notificaciones por correo electrónico antes de que se produzca un evento en las instancias. <a href="../service-events/service-events.md">Más información</a></p>
 <img src="../assets/do-not-localize/reminders.gif"/>
 </td>
 </tr>

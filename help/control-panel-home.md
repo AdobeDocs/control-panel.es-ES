@@ -5,7 +5,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 66456eefea1bf442874e2b388f292af9df9ec186
+source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 73%
@@ -34,7 +34,7 @@ Ahora puede identificar los 10 archivos principales que consumen más espacio en
 
 **Avisos del calendario de servicios**
 
-El calendario de servicios ahora le permite configurar recordatorios para recibir notificaciones por correo electrónico antes de que se produzca un evento en las instancias. [Más información](instances-settings/using/external-accounts.md)
+El calendario de servicios ahora le permite configurar recordatorios para recibir notificaciones por correo electrónico antes de que se produzca un evento en las instancias. [Más información](service-events/service-events.md)
 
 **Mejoras en la generación de CSR de los subdominios**
 
