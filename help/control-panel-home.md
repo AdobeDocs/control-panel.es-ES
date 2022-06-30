@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 66456eefea1bf442874e2b388f292af9df9ec186
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 73%
 
 ---
 
@@ -27,17 +27,19 @@ El Panel de control de Campaign le ayuda a aumentar la eficiencia de su trabajo 
 
 ## Novedades
 
-**Disponibilidad del Panel de control de Campaign para el modelo de alojamiento híbrido**
+**Los 10 archivos principales que consumen espacio en los servidores SFTP**
 
-El Panel de control de Campaign ya está disponible para los clientes con un modelo de alojamiento híbrido. Estos clientes pueden aprovechar las funciones del Panel de control de Campaign al proporcionar su URL de instancia MID/RT configurada en su instancia de marketing en Panel de control de Campaign. [Más información](instances-settings/using/external-accounts.md)
+Ahora puede identificar los 10 archivos principales que consumen más espacio en un servidor SFTP. [Más información](sftp/using/sftp-storage-management.md)
 
 
-**Actualizaciones de supervisión de las latencias y los procesos**
+**Avisos del calendario de servicios**
 
-Se han mejorado las capacidades de supervisión de los resultados y las latencias. [Más información](performance-monitoring/using/thoughputs-latencies.md)
+El calendario de servicios ahora le permite configurar recordatorios para recibir notificaciones por correo electrónico antes de que se produzca un evento en las instancias. [Más información](instances-settings/using/external-accounts.md)
 
-* Ahora puede identificar los ID de los cinco envíos principales que contribuyen al rendimiento de su instancia.
-* Los clientes de las versiones 7 y 8 de Campaign Classic ahora pueden visualizar la latencia de un canal específico.
+**Mejoras en la generación de CSR de los subdominios**
+
+Se han realizado varias mejoras en el proceso de generación de CSR. [Más información](subdomains-certificates/using/renewing-subdomain-certificate.md)
+
 
 >[!CAUTION]
 >

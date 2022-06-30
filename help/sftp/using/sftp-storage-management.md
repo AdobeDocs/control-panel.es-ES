@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 8db39899be5dfe610f39a6cecc23bd5f969078c6
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 84%
+source-wordcount: '388'
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="cp_storage"
 >title="Acerca de la capacidad de almacenamiento"
->abstract="En esta pestaña, puede ver la información de capacidad y utilización de almacenamiento de sus servidores SFTP. Aquí solo se muestran los servidores SFTP a los que tiene acceso. Póngase en contacto con el administrador para solicitar acceso a otros servidores SFTP."
+>abstract="En esta pestaña, puede ver la información de capacidad y utilización de almacenamiento de sus servidores SFTP. También puede enumerar los 10 archivos principales que consumen más espacio en un servidor SFTP haciendo clic en su nombre. Aquí solo se muestran los servidores SFTP a los que tiene acceso. Póngase en contacto con el administrador para solicitar acceso a otros servidores SFTP."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4" text="Ver vídeo de demostración"
 
 Es posible que tenga una capacidad de almacenamiento diferente en su servidor SFTP según las condiciones contractuales.
@@ -38,6 +38,10 @@ En cada caso, una alerta visual le permite saber cuándo su almacenamiento super
 
 * **Naranja**: la instancia superó el 80 % de su capacidad,
 * **Rojo**: la instancia supera el 90% de su capacidad.
+
+También puede identificar los 10 archivos principales que consumen más espacio en un servidor SFTP haciendo clic en su nombre.
+
+![](assets/sftp-top10.png)
 
 También hay disponibles sugerencias adicionales para ayudarle a saber cómo proceder con el servidor a medida que se acerca al límite de su capacidad.
 
