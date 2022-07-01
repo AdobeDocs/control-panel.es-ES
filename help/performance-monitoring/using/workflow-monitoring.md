@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: f22a935769d74a2b8bae3f79cd53f2ee31d19737
-workflow-type: ht
+source-git-commit: 485069285709a7cc5c074f8813b322328e2840c0
+workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -60,7 +60,7 @@ Cuando está activada (valor &quot;1&quot;), esta opción guarda los resultados 
 
 ## **[!UICONTROL Show SQL log]** {#sql}
 
-Cuando esta opción está habilitada, las consultas SQL enviadas a la base de datos durante la ejecución del flujo de trabajo se muestran en Adobe Campaign. Obtenga más información en la documentación de [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=es) y [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=es#execution).
+Cuando esta opción está habilitada, las consultas SQL enviadas a la base de datos durante la ejecución del flujo de trabajo se muestran en Adobe Campaign. Obtenga más información en la documentación de [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=en) y [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=es#execution).
 
 El valor 1 indica que el flujo de trabajo tiene el campo **Gravedad** definido como Producción, y que la opción registro de consulta de SQL está habilitada.
 
@@ -72,7 +72,7 @@ El valor 1 indica que el flujo de trabajo tiene el campo **Gravedad** definido c
 
 ## **[!UICONTROL Supervisors]** {#supervisors}
 
-Este campo permite asignar un operador a un flujo de trabajo. Si el flujo de trabajo falla, se alerta al operador asociado. Obtenga más información en la documentación de [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=es#error-management) y [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=es#error-management).
+Este campo permite asignar un operador a un flujo de trabajo. Si el flujo de trabajo falla, se alerta al operador asociado. Obtenga más información en la documentación de [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=en#error-management) y [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=es#error-management).
 
 El valor 1 indica que el flujo de trabajo tiene el campo **Gravedad** definido como Producción y que no se ha asignado ningún grupo de supervisor al flujo de trabajo.
 
