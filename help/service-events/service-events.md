@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: 8d1eda31cbe6ab915760d4894a03a4a0055a3130
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="cp_servicecalendar_serviceevents"
 >title="Calendario de servicios"
->abstract="La sección Contactos clave enumera las personas en Adobe con las que ponerse en contacto para cualquier solicitud o problema de las instancias. En la sección Calendario de eventos de servicio , puede identificar las versiones y revisiones de servicio de la instancia seleccionada y configurar recordatorios para eventos próximos."
+>abstract="La sección Contactos clave enumera las personas en Adobe con las que ponerse en contacto para cualquier solicitud o problema de las instancias. En la sección Calendario de eventos de servicio, puede identificar las versiones y revisiones de servicio de la instancia seleccionada y configurar recordatorios para eventos próximos."
 
 >[!IMPORTANT]
 >
@@ -71,17 +71,17 @@ Puede asignar un indicador a uno o varios eventos próximos para realizar un seg
 
 ![](assets/service-events-flag.png)
 
-### Definir recordatorios {#reminders}
+### Definición de recordatorios {#reminders}
 
-Con el Calendario de servicios, puede configurar recordatorios para que se le notifique por correo electrónico antes de que se produzca un evento.
+Con el Calendario de servicios, puede configurar recordatorios para recibir notificaciones por correo electrónico antes de que se produzca un evento.
 
 >[!NOTE]
 >
->Para recibir notificaciones sobre próximos eventos, asegúrese de haberse suscrito a las alertas de correo electrónico en el Panel de control de Campaign. [Más información](../performance-monitoring/using/email-alerting.md)
+>Para recibir notificaciones acerca de próximos eventos, asegúrese de haberse suscrito a las alertas de correo electrónico en el Panel de control de Campaign. [Más información](../performance-monitoring/using/email-alerting.md)
 
 Para establecer una alerta para un evento, siga estos pasos:
 
-1. Haga clic en el botón de elipse junto al evento del que desee que se le recuerde y, a continuación, seleccione **[!UICONTROL Set Reminder]**.
+1. Haga clic en el botón de los tres puntos junto al evento que quiere que se le recuerde y, a continuación, seleccione **[!UICONTROL Set Reminder]**.
 
 1. Asigne un título al recordatorio y seleccione la fecha en la que desea que se le notifique antes de que se produzca el evento.
 
@@ -89,9 +89,9 @@ Para establecer una alerta para un evento, siga estos pasos:
 
    >[!NOTE]
    >
-   >Si no se ha suscrito a las alertas de Panel de control de Campaign, se mostrará un mensaje que le permitirá inscribirse para recibir notificaciones por correo electrónico.
+   >Si no se ha suscrito a las alertas del Panel de control de Campaign, se mostrará un mensaje que le permitirá inscribirse para recibir notificaciones por correo electrónico.
 
-1. El recordatorio ahora se establece para el evento seleccionado. Puede pasar el ratón sobre ella en cualquier momento para mostrar su título.
+1. El recordatorio ahora se establece para el evento seleccionado. Puede pasar el ratón sobre él en cualquier momento para mostrar su título.
 
    ![](assets/service-events-reminder.png)
 
@@ -99,4 +99,4 @@ Para establecer una alerta para un evento, siga estos pasos:
    >
    >Se pueden configurar hasta dos recordatorios para el mismo evento.
 
-1. En la fecha especificada en el recordatorio, se enviará un correo electrónico para notificarle el evento siguiente y el recordatorio se eliminará automáticamente del **[!UICONTROL Reminders]** en el menú Calendario de servicios .
+1. En la fecha especificada en el recordatorio, se enviará un correo electrónico para notificarle el próximo evento y el recordatorio se eliminará automáticamente del recuento de **[!UICONTROL Reminders]** en el menú Calendario de servicios.
