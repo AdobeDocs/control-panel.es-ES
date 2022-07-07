@@ -2,9 +2,9 @@
 title: Notas de la versión 2020
 description: Esta página enumera todas las versiones de Panel de control de Campaign de 2020.
 source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>Mejoras en la supervisión de bases de datos</strong><br/></th>
+<th><strong>Mejoras en la monitorización de bases de datos</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La supervisión de la base de datos se ha mejorado con métricas adicionales que le permiten obtener información detallada sobre los recursos que consumen espacio en la base de datos.</p><p>Para obtener más información, consulte la <a href="../performance-monitoring/using/database-monitoring.md">documentación detallada</a>.</p>
+<p>La monitorización de bases de datos se ha mejorado con métricas adicionales, lo que le permite obtener información detallada sobre los recursos que consumen espacio en la base de datos.</p><p>Para obtener más información, consulte la <a href="../performance-monitoring/using/database-monitoring.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
