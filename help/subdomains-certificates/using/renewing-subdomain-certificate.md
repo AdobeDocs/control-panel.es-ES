@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 5a5ac1a604fe5bdce07479ff84184abdb2e0ddba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="cp_add_ssl_certificate"
->title="renovación de certificado SSL"
->abstract="Para renovar un certificado SSL, debe generar un CSR, adquirir el certificado SSL para los subdominios e instalar el paquete de certificados."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generación de una solicitud de firma de certificado (CSR)"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="Instalación de un certificado SSL"
+>title="Renovación de certificado SSL"
+>abstract="Para renovar un certificado SSL, debe generar una CSR, adquirir el certificado SSL de los subdominios e instalar el paquete de certificados."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=es#generating-csr" text="Generación de una solicitud de firma de certificado (CSR)"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=es#installing-ssl-certificate" text="Instalación de un certificado SSL"
 
 >[!IMPORTANT]
 >
@@ -37,16 +37,16 @@ El proceso de renovación de certificados SSL incluye 3 pasos:
 
 1. **Compra del certificado SSL**
 
-   Una vez generado el CSR, puede utilizarlo para adquirir el certificado SSL de la entidad emisora de certificados que apruebe su empresa.
+   Una vez generada la CSR, puede utilizarla para adquirir el certificado SSL de la autoridad de certificación que apruebe su compañía.
 
 1. **Instalación del certificado SSL**
 
    Instale el certificado SSL adquirido en el subdominio deseado para protegerlo. [Más información](install-ssl-certificate.md)
 
-![](assets/do-not-localize/how-to-video.png) Descubra esta función en vídeo usando [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) Descubra esta función en vídeo usando [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=es#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=es#adding-ssl-certificates)
 
 **Temas relacionados:**
 
-* [Guía de prácticas recomendadas de entrega: Proceso de solicitud de certificado SSL para Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html)
+* [Guía de prácticas recomendadas de capacidad de entrega: Proceso de solicitud de certificado SSL para Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=es)
 * [Promoción de la marca de subdominios](../../subdomains-certificates/using/subdomains-branding.md)
 * [Monitorización de subdominios](../../subdomains-certificates/using/monitoring-subdomains.md)
