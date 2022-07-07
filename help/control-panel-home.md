@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -27,18 +27,18 @@ El Panel de control de Campaign le ayuda a aumentar la eficiencia de su trabajo 
 
 ## Novedades
 
-**Los 10 archivos principales que consumen espacio en los servidores SFTP**
+**Los 10 archivos que más espacio consumen en los servidores SFTP**
 
-Ahora puede identificar los 10 archivos principales que consumen más espacio en un servidor SFTP. [Más información](sftp/using/sftp-storage-management.md)
+Ahora puede identificar los 10 archivos que más espacio consumen en un servidor SFTP. [Más información](sftp/using/sftp-storage-management.md)
 
 
-**Avisos del calendario de servicios**
+**Recordatorios del calendario de servicios**
 
 El calendario de servicios ahora le permite configurar recordatorios para recibir notificaciones por correo electrónico antes de que se produzca un evento en las instancias. [Más información](service-events/service-events.md)
 
 **Mejoras en la generación de CSR de los subdominios**
 
-Se han realizado varias mejoras en el proceso de generación de CSR. [Más información](subdomains-certificates/using/renewing-subdomain-certificate.md)
+Se han llevado a cabo varias mejoras en el proceso de generación de CSR. [Más información](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 
 >[!CAUTION]
