@@ -7,14 +7,14 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: 28a45ff56e1ec82bde45d075cb6c89a58a3a5136
-workflow-type: tm+mt
+source-git-commit: e375b0c8c00ecec6c2fe52bff31a33bf73295018
+workflow-type: ht
 source-wordcount: '461'
 ht-degree: 100%
 
 ---
 
-# Adición de instancias MID/RT (modelo híbrido)
+# Adición de instancias MID/RT (modelo híbrido){#add-mid-rt-instances-hybrid-model}
 
 >[!CONTEXTUALHELP]
 >id="cp_externalaccounts"
