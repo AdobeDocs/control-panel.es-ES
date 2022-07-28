@@ -1,27 +1,84 @@
 ---
 title: Notas de la versión 2022
 description: Esta página enumera todas las versiones de Panel de control de Campaign de 2022.
-source-git-commit: 737ff99e60bb940980f3b7179672fdb984e6d4bf
+exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
+source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Notas de la versión 2021 {#rn-2022}
+
+## Junio de 2022 {#june-2022}
+
+### Novedades
+
+<table>
+<thead>
+<tr>
+<th><strong>Los 10 archivos que más espacio consumen en los servidores SFTP</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede identificar los 10 archivos que más espacio consumen en un servidor SFTP. <a href="../sftp/using/sftp-storage-management.md">Más información</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Recordatorios del calendario de servicios</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El calendario de servicios ahora le permite configurar recordatorios para recibir notificaciones por correo electrónico antes de que se produzca un evento en las instancias. <a href="../service-events/service-events.md">Más información</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Mejoras en la generación de CSR de los subdominios</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Se han llevado a cabo varias mejoras en el proceso de generación de CSR. <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">Más información</a></p><ul><li>Al generar una CSR, ahora puede seleccionar uno de los subdominios incluidos como Nombre común.</li><li>Ahora puede copiar el resumen de la CSR antes de generarla.</li><li>Una vez que se ha generado una CSR, puede descargarla de nuevo desde los registros de trabajos. Esta función no se aplica a los certificados generados antes de esta versión.</li></ul><p>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+### Mejoras
+
+**Configuración de instancias**
+
+* El número máximo de claves GPG en el Panel de control de Campaign se ha aumentado a 60 claves. [Más información](../instances-settings/using/gpg-keys-management.md)
 
 ## Mayo de 2022 {#may-2022}
 
 <table>
 <thead>
 <tr>
-<th><strong>Disponibilidad del Panel de control de Campaign para el modelo de alojamiento híbrido</strong><br/></th>
+<th><strong>Disponibilidad del Panel de control de Campaign para modelos de alojamiento híbridos</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>El Panel de control de Campaign ya está disponible para los clientes con un modelo de alojamiento híbrido. Estos clientes pueden aprovechar las funciones del Panel de control de Campaign al proporcionar su URL de instancia MID/RT configurada en su instancia de marketing en Panel de control de Campaign.</p><p>Para obtener más información, consulte la <a href="../instances-settings/using/external-accounts.md">documentación detallada.</a></p>
+<p>El Panel de control de Campaign ya está disponible para los clientes con un modelo de alojamiento híbrido. Estos clientes pueden aprovechar las funciones del Panel de control de Campaign al proporcionar su URL de instancia MID/RT configurada en su instancia de marketing en el Panel de control de Campaign.</p><p>Para obtener más información, consulte la <a href="../instances-settings/using/external-accounts.md">documentación detallada.</a></p>
 </td>
 </tr>
 </tbody>
@@ -36,7 +93,7 @@ ht-degree: 78%
 <tbody>
 <tr>
 <td>
-<p>Se han mejorado las capacidades de supervisión de los resultados y las latencias:<ul><li>Ahora puede identificar los ID de los cinco envíos principales que contribuyen al rendimiento de su instancia.</li><li>Los clientes de las versiones 7 y 8 de Campaign Classic ahora pueden visualizar la latencia de un canal específico.</p></li><p>Para obtener más información, consulte la <a href="../performance-monitoring/using/thoughputs-latencies.md">documentación detallada.</a></p>
+<p>Se han mejorado las funciones de supervisión de los resultados y las latencias:<ul><li>Ahora puede identificar los ID de los cinco envíos principales que contribuyen al rendimiento de su instancia.</li><li>Los clientes de las versiones 7 y 8 de Campaign Classic ahora pueden visualizar la latencia de un canal específico.</p></li><p>Para obtener más información, consulte la <a href="../performance-monitoring/using/thoughputs-latencies.md">documentación detallada.</a></p>
 </td>
 </tr>
 </tbody>
@@ -48,7 +105,7 @@ ht-degree: 78%
 <table>
 <thead>
 <tr>
-<th><strong>Supervisión de contactos y eventos clave en las instancias</strong><br/></th>
+<th><strong>Monitorización de contactos y eventos clave en las instancias</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -65,13 +122,13 @@ ht-degree: 78%
 <table>
 <thead>
 <tr>
-<th><strong>Disponibilidad de monitorización de latencia y de rendimiento</strong><br/></th>
+<th><strong>Disponibilidad de monitorización de rendimiento y latencia</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La monitorización de latencia y de rendimiento ya está disponible para todos los clientes Campaign Standards y v8, y para los clientes de Campaign V7 con los números de compilación 9032, 9330, 9346 o 9349 que tienen implementaciones independientes (sin ninguna instancia media).</p><p>Para obtener más información, consulte la <a href="../performance-monitoring/using/thoughputs-latencies.md">documentación detallada.</a></p>
+<p>La monitorización de rendimiento y latencia ahora está disponible para todos los clientes de Campaign Standard y v8, así como para los clientes de Campaign v7 con los números de versión 9032, 9330, 9346 o 9349 que tengan implementaciones independientes (sin ninguna instancia intermediaria).</p><p>Para obtener más información, consulte la <a href="../performance-monitoring/using/thoughputs-latencies.md">documentación detallada.</a></p>
 </td>
 </tr>
 </tbody>
@@ -135,7 +192,7 @@ ht-degree: 78%
 <tbody>
 <tr>
 <td>
-<p>Ahora, las operaciones de certificados SSL se pueden realizar en un subdominio recién configurado, incluso si la auditoría de la entrega sigue en curso.</p><p>Para obtener más información, consulte la <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentación detallada</a>.</p>
+<p>Ahora, las operaciones de certificados SSL se pueden ejecutar en un subdominio recién configurado, incluso si la auditoría de capacidad de entrega sigue en curso.</p><p>Para obtener más información, consulte la <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
