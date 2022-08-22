@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: bf710d56b0f4d3834ab505633ae85cf9444b6ccf
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '153'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 + Notas de la versión  {#release-notes}
    + [Última versión](rn/release-notes.md)
    + Versiones anteriores {#previous-releases}
-      + [Notas de la versión 2022](rn/release-notes-2022.md)
+      + [Notas de la versión de 2022](rn/release-notes-2022.md)
       + [Notas de la versión 2021](rn/release-notes-2021.md)
       + [Notas de la versión 2020](rn/release-notes-2020.md)
       + [Notas de la versión 2019](rn/release-notes-2019.md)
