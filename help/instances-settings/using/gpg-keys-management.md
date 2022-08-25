@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
+source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 14%
@@ -61,7 +61,7 @@ Para ello, debe generar un par de claves GPG a partir de una herramienta de cifr
 1. Cuando se le pida, especifique los parámetros deseados para la clave. Los parámetros necesarios son:
 
    * **tipo de clave**: RSA
-   * **longitud de clave**: 1024 - 4096 bits
+   * **longitud de clave**: 3072 - 4096 bits
    * **nombre real** y **dirección de correo electrónico**: Permite rastrear quién creó el par de claves. Introduzca un nombre y una dirección de correo electrónico vinculados a su organización o departamento.
    * **comment**: agregar una etiqueta al campo de comentarios le ayudará a identificar fácilmente la clave que debe utilizar para cifrar los datos.
    * **caducidad**: Fecha o &quot;0&quot; sin fecha de caducidad.
