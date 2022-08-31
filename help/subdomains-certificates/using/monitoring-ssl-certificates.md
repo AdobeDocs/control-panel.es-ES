@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 91%
+source-wordcount: '372'
+ht-degree: 90%
 
 ---
 
@@ -55,11 +55,7 @@ La pestaña **[!UICONTROL Sender info]** proporciona información sobre las band
 
 Si uno de los certificados SSL de su subdominio está a punto de caducar, puede renovarlo directamente desde el Panel de control de Campaign. Para obtener más información sobre esto, consulte esta sección: [Renovación del certificado SSL de un subdominio](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
 
->[!IMPORTANT]
->
->La renovación de certificados del Panel de control de Campaign está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
-
 **Temas relacionados:**
 
 * [Renovación del certificado SSL de un subdominio](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
-* [Promoción de subdominios](../../subdomains-certificates/using/subdomains-branding.md)
+* [Promoción de la marca de subdominios](../../subdomains-certificates/using/subdomains-branding.md)

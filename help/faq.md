@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '795'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,9 @@ Sí, solo podrá administrar la configuración de Adobe Campaign en el Panel de 
 
 ### ¿Puedo utilizar el Panel de control de Campaign?
 
-El Panel de control de Campaign solo está abierto a los administradores de productos de nuestros clientes actuales que tienen Adobe Campaign alojado en AWS. Tenga en cuenta que aún no se admiten entornos híbridos.
+El Panel de control de Campaign solo está abierto a los administradores de productos de nuestros clientes actuales que tienen Adobe Campaign alojado en AWS.
+
+El Panel de control de Campaign permite a los clientes con un modelo de alojamiento híbrido aprovechar las funcionalidades específicas del Panel de control de Campaign. Para ello, deben proporcionar la URL de instancia MID/RT configurada en su instancia de marketing en Panel de control de Campaign. [Más información](instances-settings/using/external-accounts.md)
 
 Si no es administrador, pero desea acceder a él, póngase en contacto con el administrador del producto para que le ayude a agregarlo como administrador.
 
