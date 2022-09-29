@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: f1f6388bd32927cb13359f8975748ca4a158e660
+source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 89%
+source-wordcount: '1339'
+ht-degree: 92%
 
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 89%
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=es" text="Monitorización de certificados SSL"
 
 ## Lectura obligatoria {#must-read}
-
->[!IMPORTANT]
->
->Si utiliza una instancia con un modelo de alojamiento híbrido, solo puede ver subdominios delegados y no podrá configurar subdominios.
 
 Esta página proporciona información sobre cómo configurar nuevos subdominios mediante delegación de subdominios completos o CNAME. Los conceptos globales sobre estos dos métodos se presentan en esta sección: [Promoción de subdominios](../../subdomains-certificates/using/subdomains-branding.md).
 
