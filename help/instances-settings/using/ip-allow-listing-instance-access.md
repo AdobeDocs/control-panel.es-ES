@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 2458263ef5981a16d983912b498e320501df7889
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '837'
 ht-degree: 82%
 
 ---
@@ -57,7 +57,7 @@ Asegúrese de seguir las recomendaciones y limitaciones que se indican a continu
 
 >[!NOTE]
 >
->Si la variable **[!UICONTROL Instance Settings]** no está visible en la página principal del Panel de control de Campaign, lo que significa que su ID de organización de IMS no está asociado a ninguna instancia de Adobe Campaign v7/v8.
+>Si la variable **[!UICONTROL Instance Settings]** no está visible en la página principal del Panel de control de Campaign, lo que significa que su [ID de organización](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es) no está asociado a ninguna instancia de Adobe Campaign v7/v8.
 
 Para agregar direcciones IP a la lista de permitidos, siga estos pasos:
 
