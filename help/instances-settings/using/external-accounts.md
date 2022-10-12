@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 >title="Cuentas externas"
 >abstract="En esta pantalla, los clientes con un modelo de alojamiento híbrido pueden proporcionar su URL de instancia MID/RT configurada en la instancia de marketing del Panel de control de Campaign, para aprovechar las capacidades de este."
 
-El Panel de control de Campaign permite a los clientes con un modelo de alojamiento híbrido aprovechar las funcionalidades específicas del Panel de control de Campaign. Para ello, deben proporcionar la URL de instancia MID/RT configurada en su instancia de marketing en Panel de control de Campaign.
+El Panel de control de Campaign permite a los clientes con un modelo de alojamiento híbrido aprovechar las funcionalidades específicas del Panel de control de Campaign. Para ello, deben proporcionar la dirección URL de instancia MID/RT configurada en su instancia de marketing en el Panel de control de Campaign.
 
 Para obtener más información sobre los modelos de alojamiento, consulte [Documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es).
 
@@ -48,7 +48,7 @@ Los clientes híbridos deben conectarse al Panel de control de Campaign a travé
 
 >[!NOTE]
 >
->En caso de que encuentre algún problema para acceder al Panel de control de Campaign, es muy probable que la instancia de marketing aún no esté asignada a su [ID de organización](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es). Póngase en contacto con el Servicio de atención al cliente para completar esta configuración y continuar. Si la conexión se establece correctamente, verá la página de inicio del Panel de control de Campaign.
+>En caso de que encuentre algún problema para acceder al Panel de control de Campaign, lo más probable es que la instancia de marketing aún no esté asignada a su [ID de organización](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es). Póngase en contacto con el Servicio de atención al cliente para completar esta configuración y continuar. Si la conexión se establece correctamente, verá la página de inicio del Panel de control de Campaign.
 
 Para poder acceder a las funcionalidades del Panel de control de Campaign, debe proporcionar la información de la instancia MID/RT en la tarjeta **[!UICONTROL Instances Settings]**. Para realizar esto, siga los pasos a continuación.
 
