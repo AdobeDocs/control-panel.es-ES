@@ -5,9 +5,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
+source-git-commit: 9fc94d403a0cd4229feea112f460514bef9a2104
 workflow-type: ht
-source-wordcount: '252'
+source-wordcount: '242'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 100%
 >id="cp_overview"
 >title="Acerca del Panel de control de Campaign"
 >abstract="La página de inicio del Panel de control le permite acceder a todas las acciones que se pueden realizar en las instancias de Campaign."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html?lang=es" text="Descubrimiento de la interfaz"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=es" text="Acceso al Panel de control de Campaign"
 
 ![](assets/do-not-localize/banner.png)
