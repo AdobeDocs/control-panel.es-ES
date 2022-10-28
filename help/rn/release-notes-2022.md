@@ -3,7 +3,7 @@ title: Notas de la versión de 2022
 description: Esta página enumera todas las versiones de Panel de control de Campaign de 2022.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
 ht-degree: 100%
 
