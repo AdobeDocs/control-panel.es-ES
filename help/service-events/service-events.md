@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Para establecer una alerta para un evento, siga estos pasos:
 
    >[!NOTE]
    >
-   >Si no se ha suscrito a las alertas de Panel de control de Campaign, se mostrará un mensaje que le permitirá inscribirse para recibir notificaciones por correo electrónico.
+   >Si no se ha suscrito a las alertas del Panel de control de Campaign, se mostrará un mensaje que le permitirá suscribirse a las notificaciones por correo electrónico.
 
 1. El recordatorio ahora se establece para el evento seleccionado. Puede pasar el ratón sobre él en cualquier momento para mostrar su título.
 
