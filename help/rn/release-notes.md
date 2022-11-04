@@ -3,9 +3,9 @@ title: Última versión
 description: Esta página enumera todas las nuevas funciones y mejoras de Panel de control de Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '49'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
