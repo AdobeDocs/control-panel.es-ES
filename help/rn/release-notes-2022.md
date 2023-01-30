@@ -2,8 +2,8 @@
 title: Notas de la versión de 2022
 description: Esta página enumera todas las versiones de Panel de control de Campaign de 2022.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
-workflow-type: ht
+source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -123,7 +123,7 @@ Los clientes con un modelo de alojamiento híbrido ya pueden configurar nuevos s
 <tbody>
 <tr>
 <td>
-<p>Se han mejorado las funciones de supervisión de los resultados y las latencias:<ul><li>Ahora puede identificar los ID de los cinco envíos principales que contribuyen al rendimiento de su instancia.</li><li>Los clientes de las versiones 7 y 8 de Campaign Classic ahora pueden visualizar la latencia de un canal específico.</p></li><p>Para obtener más información, consulte la <a href="../performance-monitoring/using/thoughputs-latencies.md">documentación detallada.</a></p>
+<p>Se han mejorado las funciones de supervisión de los resultados y las latencias:<ul><li>Ahora puede identificar los ID de los cinco envíos principales que contribuyen al rendimiento de su instancia.</li><li>Los clientes de las versiones 7 y 8 de Campaign Classic ahora pueden visualizar la latencia de un canal específico.</p></li><p>Para obtener más información, consulte la <a href="../performance-monitoring/using/throughputs-latencies.md">documentación detallada.</a></p>
 </td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ Los clientes con un modelo de alojamiento híbrido ya pueden configurar nuevos s
 <tbody>
 <tr>
 <td>
-<p>La monitorización de rendimiento y latencia ahora está disponible para todos los clientes de Campaign Standard y v8, así como para los clientes de Campaign v7 con los números de versión 9032, 9330, 9346 o 9349 que tengan implementaciones independientes (sin ninguna instancia intermediaria).</p><p>Para obtener más información, consulte la <a href="../performance-monitoring/using/thoughputs-latencies.md">documentación detallada.</a></p>
+<p>La monitorización de rendimiento y latencia ahora está disponible para todos los clientes de Campaign Standard y v8, así como para los clientes de Campaign v7 con los números de versión 9032, 9330, 9346 o 9349 que tengan implementaciones independientes (sin ninguna instancia intermediaria).</p><p>Para obtener más información, consulte la <a href="../performance-monitoring/using/throughputs-latencies.md">documentación detallada.</a></p>
 </td>
 </tr>
 </tbody>
@@ -207,7 +207,7 @@ Los clientes con un modelo de alojamiento híbrido ya pueden configurar nuevos s
 <tbody>
 <tr>
 <td>
-<p>Ahora puede monitorizar cómo el rendimiento y la latencia de la entrega son tendencias a lo largo del tiempo en las instancias.</p><p>Para obtener más información, consulte la <a href="../performance-monitoring/using/thoughputs-latencies.md">documentación detallada</a>.</p>
+<p>Ahora puede monitorizar cómo el rendimiento y la latencia de la entrega son tendencias a lo largo del tiempo en las instancias.</p><p>Para obtener más información, consulte la <a href="../performance-monitoring/using/throughputs-latencies.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
