@@ -6,8 +6,8 @@ user-guide-title: Guía del Panel de control de Campaign
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
-workflow-type: ht
+source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ ht-degree: 100%
       + [Monitorización de flujos de trabajo](performance-monitoring/using/workflow-monitoring.md)
       + [Impedimento de la sobrecarga de la base de datos](performance-monitoring/using/database-preventing-overload.md)
    + [Monitorización de perfiles activos](performance-monitoring/using/active-profiles-monitoring.md)
-   + [Monitorización de rendimiento y latencia](performance-monitoring/using/thoughputs-latencies.md)
+   + [Monitorización de rendimiento y latencia](performance-monitoring/using/throughputs-latencies.md)
    + [Listado de IP permitidas para acceso a instancias](instances-settings/using/ip-allow-listing-instance-access.md)
    + [Permisos de URL](instances-settings/using/url-permissions.md)
    + [Detalles de instancias](instances-settings/using/instance-details.md)
