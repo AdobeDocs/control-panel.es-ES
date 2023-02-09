@@ -6,7 +6,7 @@ user-guide-title: Guía del Panel de control de Campaign
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+source-git-commit: 99241b1b4982049f844fcf51d307ace36ee70c94
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
@@ -31,7 +31,6 @@ ht-degree: 100%
    + [Descubrimiento de la interfaz del Panel de control de Campaign](discover/using/discovering-the-interface.md)
 + [Monitorización de los contactos y eventos clave](service-events/service-events.md)
 + [Alertas por correo electrónico](performance-monitoring/using/email-alerting.md)
-+ Configuración de instancias {#instances-settings}
 + Administración SFTP {#sftp-management}
    + [Acerca de la administración SFTP](sftp/using/about-sftp-management.md)
    + [Administración del almacenamiento SFTP](sftp/using/sftp-storage-management.md)
@@ -61,6 +60,7 @@ ht-degree: 100%
       + [Impedimento de la sobrecarga de la base de datos](performance-monitoring/using/database-preventing-overload.md)
    + [Monitorización de perfiles activos](performance-monitoring/using/active-profiles-monitoring.md)
    + [Monitorización de rendimiento y latencia](performance-monitoring/using/throughputs-latencies.md)
++ Configuración de instancias {#instances-settings}
    + [Listado de IP permitidas para acceso a instancias](instances-settings/using/ip-allow-listing-instance-access.md)
    + [Permisos de URL](instances-settings/using/url-permissions.md)
    + [Detalles de instancias](instances-settings/using/instance-details.md)
