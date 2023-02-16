@@ -2,35 +2,40 @@
 product: campaign
 solution: Campaign
 title: Monitorización de subdominios
-description: Monitor your subdomains to ensure that are all configured properly to work with Adobe Campaign.
+description: Supervise los subdominios para asegurarse de que todos están correctamente configurados para funcionar con Adobe Campaign.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
+source-git-commit: a6a77cf6e564f4607c0c12facb2061cfb102a5a5
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 10%
+source-wordcount: '207'
+ht-degree: 7%
 
 ---
 
 # Monitorización de subdominios {#monitoring-subdomains}
 
-It is essential to monitor your subdomains to ensure that are all configured properly to work with Adobe Campaign.
+>[!CONTEXTUALHELP]
+>id="cp_subdomain_undelegate"
+>title="Eliminar subdominios delegados "
+>abstract="Esta pantalla le permite eliminar cualquier subdominio que se haya delegado en Panel de control de Campaign. Tenga en cuenta que la eliminación del subdominio no se puede deshacer y será irreversible una vez enviado.<br>Si está intentando quitar el dominio principal de la instancia seleccionada, se le pedirá que elija el dominio que la sustituirá."
 
-**[!UICONTROL Subdomains & Certificates]**
+Es esencial monitorizar los subdominios para garantizar que todos estén correctamente configurados para funcionar con Adobe Campaign.
 
-**[!UICONTROL Last verification]** ******[!UICONTROL Verify subdomain]**
+Se puede acceder directamente a la lista de subdominios de cada una de las instancias de producción al seleccionar la variable **[!UICONTROL Subdomains & Certificates]** tarjeta.
+
+La variable **[!UICONTROL Last verification]** indica cuándo se verificó un subdominio por última vez. Puede iniciar una verificación en cualquier momento haciendo clic en el botón **...** / **[!UICONTROL Verify subdomain]** botón.
 
 ![](assets/subdomain_verification.png)
 
 >[!IMPORTANT]
 >
->Adobe does not recommend using subdomains with no certificate date as it could mean that these subdomains may be having some deliverability issues.
+>Adobe no recomienda el uso de subdominios sin fecha de certificado, ya que podría significar que estos subdominios pueden estar teniendo algunos problemas de envío.
 
-When launching a verification, several operations are performed to check that the subdomain is correctly configured (instance tenant check, email sending test, etc.)
+Al iniciar una verificación, se realizan varias operaciones para comprobar que el subdominio está configurado correctamente (comprobación de inquilino de instancia, prueba de envío de correo electrónico, etc.)
 
-If the subdomain&#39;s verification fails, contact Adobe Customer Care for further investigation.
+Si falla la verificación del subdominio, póngase en contacto con el servicio de atención al cliente de Adobe para obtener más información.
 
 **Temas relacionados:**
 
