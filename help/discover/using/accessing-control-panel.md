@@ -9,7 +9,7 @@ level: Beginner
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '174'
 ht-degree: 14%
 
 ---
@@ -24,7 +24,7 @@ Es accesible para **Usuarios administradores** solo. Para obtener más informaci
 
 Para acceder al Panel de control de Campaign desde la plataforma de Adobe Experience Cloud, siga los pasos a continuación.
 
-1. Vaya a la [página principal del Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+1. Vaya a la [página principal del Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. Haga clic en el vínculo dedicado en la **Acceso rápido** para obtener más información.
 
@@ -32,7 +32,7 @@ Para acceder al Panel de control de Campaign desde la plataforma de Adobe Experi
 
 También se puede acceder al Panel de control de Campaign desde la plataforma del Experience Cloud **selector de soluciones**:
 
-1. En el [Página de inicio de Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}, seleccione **Campaign** de la variable **Acceso rápido** o el menú superior de la derecha.
+1. En el [Página de inicio de Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}, seleccione **Campaign** de la variable **Acceso rápido** o el menú superior de la derecha.
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
@@ -44,7 +44,7 @@ También se puede acceder al Panel de control de Campaign desde la plataforma de
 
 >[!NOTE]
 >
->El acceso desde dentro del producto está disponible para [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=es)Solo {target=&quot;_blank&quot;}.
+>El acceso desde dentro del producto está disponible para [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=es){target="_blank"} solo.
 
 1. Abra el producto del Campaign Standard.
 

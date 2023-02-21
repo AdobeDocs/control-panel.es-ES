@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 36%
+source-wordcount: '1048'
+ht-degree: 38%
 
 ---
 
@@ -30,7 +30,7 @@ Los servidores SFTP están protegidos. Para poder acceder a ellos para ver archi
 
 CIDR (enrutamiento entre dominios sin clase) es el formato admitido al agregar intervalos de IP con la interfaz del Panel de control de Campaign.
 
-La sintaxis consiste en una dirección IP, seguida de / y un número decimal. El formato y su sintaxis se detallan en [este artículo](https://whatismyipaddress.com/cidr){target=&quot;_blank&quot;}.
+La sintaxis consiste en una dirección IP, seguida de / y un número decimal. El formato y su sintaxis se detallan en [este artículo](https://whatismyipaddress.com/cidr){target="_blank"}.
 
 Puede buscar en Internet herramientas gratuitas en línea que le ayudarán a convertir el rango de IP que tiene en mano al formato CIDR.
 

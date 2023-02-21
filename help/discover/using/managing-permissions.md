@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '280'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ El Panel de control de Campaign está disponible para todos los usuarios adminis
 
 ![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](../../discover/using/managing-permissions.md#video)
 
-1. Vaya a la [Página de inicio de Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+1. Vaya a la [Página de inicio de Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. Inicie el **Admin Console** haciendo clic en el vínculo disponible en la **Acceso rápido** o en el menú superior derecho.
 
