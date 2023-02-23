@@ -7,19 +7,15 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: f0c3df4727e89e3f6127fe4563908b955ccb820c
+source-git-commit: acf0334e894649d6b5edf0b96877c3f643894763
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 7%
+source-wordcount: '148'
+ht-degree: 10%
 
 ---
 
-# Monitorización de subdominios {#monitoring-subdomains}
 
->[!CONTEXTUALHELP]
->id="cp_subdomain_undelegate"
->title="Quitar delegación de subdominios"
->abstract="Esta pantalla le permite eliminar la delegación de un subdominio al Adobe. Tenga en cuenta que este proceso no se puede deshacer ni detener una vez enviado.<br><br>Si está intentando eliminar la delegación de un dominio principal para la instancia seleccionada, se le pedirá que elija el dominio que lo sustituirá."
+# Supervisión de los subdominios {#monitoring-subdomains}
 
 Es esencial monitorizar los subdominios para garantizar que todos estén correctamente configurados para funcionar con Adobe Campaign.
 
@@ -33,9 +29,7 @@ La variable **[!UICONTROL Last verification]** indica cuándo se verificó un su
 >
 >Adobe no recomienda el uso de subdominios sin fecha de certificado, ya que podría significar que estos subdominios pueden estar teniendo algunos problemas de envío.
 
-Al iniciar una verificación, se realizan varias operaciones para comprobar que el subdominio está configurado correctamente (comprobación de inquilino de instancia, prueba de envío de correo electrónico, etc.)
-
-Si falla la verificación del subdominio, póngase en contacto con el servicio de atención al cliente de Adobe para obtener más información.
+Al iniciar una verificación, se realizan varias operaciones para comprobar que el subdominio está configurado correctamente (comprobación de inquilino de instancia, prueba de envío de correo electrónico, etc.) Si falla la verificación del subdominio, póngase en contacto con el servicio de atención al cliente de Adobe para obtener más información.
 
 **Temas relacionados:**
 

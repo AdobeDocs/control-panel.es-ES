@@ -6,10 +6,10 @@ user-guide-title: Guía del Panel de control de Campaign
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 99241b1b4982049f844fcf51d307ace36ee70c94
+source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 + Notas de la versión  {#release-notes}
    + [Última versión](rn/release-notes.md)
    + Versiones anteriores {#previous-releases}
+      + [Notas de la versión de 2023](rn/release-notes-2023.md)
       + [Notas de la versión de 2022](rn/release-notes-2022.md)
       + [Notas de la versión 2021](rn/release-notes-2021.md)
       + [Notas de la versión 2020](rn/release-notes-2020.md)
@@ -42,10 +43,11 @@ ht-degree: 100%
    + [Promoción de la marca de subdominios](subdomains-certificates/using/subdomains-branding.md)
    + [Supervisión de los subdominios](subdomains-certificates/using/monitoring-subdomains.md)
    + [Configuración de un nuevo subdominio](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + [Eliminar delegación de subdominios al Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
    + [Administración de registros TXT](subdomains-certificates/using/managing-txt-records.md)
-   + [Monitorización de certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
-   + Renovación de certificados SSL {#renew-ssl}
-      + [Acerca de la renovación de certificados SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
+   + Administrar certificados SSL {#manage-certificates}
+      + [Monitorización de certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
+      + [Renovación de certificados SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [Generación de la CSR](subdomains-certificates/using/generate-csr.md)
       + [Instalación del certificado SSL](subdomains-certificates/using/install-ssl-certificate.md)
 + Monitorización del rendimiento {#performance-monitoring}

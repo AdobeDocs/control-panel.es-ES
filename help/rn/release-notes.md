@@ -2,10 +2,10 @@
 title: Última versión
 description: Esta página enumera todas las nuevas funciones y mejoras de Panel de control de Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: e72d3809eddc47cf0b41422f6c703671ebefad38
+source-git-commit: 37e4d287a82f9b750eb7fdac64d0ac9602a803c8
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 69%
+source-wordcount: '94'
+ht-degree: 34%
 
 ---
 
@@ -13,12 +13,14 @@ ht-degree: 69%
 
 Esta página enumera las nuevas funciones y mejoras de Panel de control de Campaign.
 
-## Enero de 2023 {#january-2023}
+## Febrero de 2023 {#february-2023}
 
-**Nueva capacidad del modelo de alojamiento híbrido**
+**Eliminación de delegación para subdominios delegados en el Adobe**
 
-Los clientes con modelo de alojamiento híbrido pueden ahora añadir direcciones IP a la lista de permitidos para acceder a las instancias de MID. [Más información](../instances-settings/using/ip-allow-listing-instance-access.md)
+Ahora puede eliminar la delegación de un subdominio delegado a Adobe, incluida la configuración de CNAME. [Más información](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
-**Mejora de la solicitud de firma de certificado (CSR)**
+**Calendario de servicio**
 
-El campo Ciudad/Localidad es ahora opcional durante la generación de solicitudes de firma de certificado.
+El calendario de servicios ahora proporciona una vista de calendario para realizar un seguimiento de los eventos importantes que se producen en las instancias. Además, se ha añadido información sobre las notificaciones enviadas a los usuarios suscritos a las alertas de Panel de control de Campaign. [Más información](../service-events/service-events.md)
+
+![](assets/do-not-localize/gif-calendar.gif)
