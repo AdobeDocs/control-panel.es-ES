@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 9fc94d403a0cd4229feea112f460514bef9a2104
+source-git-commit: 861061eefcb38235a7f056192237842bceec55eb
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 100%
+source-wordcount: '236'
+ht-degree: 73%
 
 ---
 
@@ -26,19 +26,13 @@ El Panel de control de Campaign le ayuda a aumentar la eficiencia de su trabajo 
 
 ## Novedades
 
-**Los 10 archivos que más espacio consumen en los servidores SFTP**
+**Eliminación de delegación para subdominios delegados en el Adobe**
 
-Ahora puede identificar los 10 archivos que más espacio consumen en un servidor SFTP. [Más información](sftp/using/sftp-storage-management.md)
+Ahora puede eliminar la delegación de un subdominio delegado a Adobe, incluida la configuración de CNAME. [Más información](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
+**Calendario de servicio**
 
-**Recordatorios del calendario de servicios**
-
-El calendario de servicios ahora le permite configurar recordatorios para recibir notificaciones por correo electrónico antes de que se produzca un evento en las instancias. [Más información](service-events/service-events.md)
-
-**Mejoras en la generación de CSR de los subdominios**
-
-Se han llevado a cabo varias mejoras en el proceso de generación de CSR. [Más información](subdomains-certificates/using/renewing-subdomain-certificate.md)
-
+El calendario de servicios ahora proporciona una vista de calendario para realizar un seguimiento de los eventos importantes que se producen en las instancias. Además, se ha añadido información sobre las notificaciones enviadas a los usuarios suscritos a las alertas de Panel de control de Campaign. [Más información](../service-events/service-events.md)
 
 >[!CAUTION]
 >
