@@ -5,7 +5,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 861061eefcb38235a7f056192237842bceec55eb
+source-git-commit: d0ba7f99eefd565ffa52dbe22771df0cd5438899
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 73%
@@ -28,11 +28,11 @@ El Panel de control de Campaign le ayuda a aumentar la eficiencia de su trabajo 
 
 **Eliminación de delegación para subdominios delegados en el Adobe**
 
-Ahora puede eliminar la delegación de un subdominio delegado a Adobe, incluida la configuración de CNAME. [Más información](../subdomains-certificates/using/remove-delegated-subdomains.md)
+Ahora puede eliminar la delegación de un subdominio delegado a Adobe, incluida la configuración de CNAME. [Más información](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
 
 **Calendario de servicio**
 
-El calendario de servicios ahora proporciona una vista de calendario para realizar un seguimiento de los eventos importantes que se producen en las instancias. Además, se ha añadido información sobre las notificaciones enviadas a los usuarios suscritos a las alertas de Panel de control de Campaign. [Más información](../service-events/service-events.md)
+El calendario de servicios ahora proporciona una vista de calendario para realizar un seguimiento de los eventos importantes que se producen en las instancias. Además, se ha añadido información sobre las notificaciones enviadas a los usuarios suscritos a las alertas de Panel de control de Campaign. [Más información](../help/service-events/service-events.md)
 
 >[!CAUTION]
 >
