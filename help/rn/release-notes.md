@@ -17,12 +17,12 @@ Esta página enumera las nuevas funciones y mejoras de Panel de control de Campa
 
 **Eliminación de delegación para subdominios delegados en el Adobe**
 
-Ahora puede eliminar la delegación de un subdominio delegado a Adobe, incluida la configuración de CNAME. [Más información](../subdomains-certificates/using/remove-delegated-subdomains.md)
+Ahora puede eliminar la delegación de un subdominio que se haya delegado al Adobe, incluida la configuración CNAME. [Más información](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ![](assets/do-not-localize/gif-delegation.gif)
 
 
-**Calendario de servicio**
+**Calendario de servicios**
 
 El calendario de servicios ahora proporciona una vista de calendario para realizar un seguimiento de los eventos importantes que se producen en las instancias. Además, se ha añadido información sobre las notificaciones enviadas a los usuarios suscritos a las alertas de Panel de control de Campaign. [Más información](../service-events/service-events.md)
 
