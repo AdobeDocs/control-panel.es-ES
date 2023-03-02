@@ -2,10 +2,10 @@
 title: Última versión
 description: Esta página enumera todas las nuevas funciones y mejoras de Panel de control de Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 975ed013a50c6f5e15178e3c8700c554c5baa34c
+source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 34%
+source-wordcount: '105'
+ht-degree: 30%
 
 ---
 
@@ -17,10 +17,13 @@ Esta página enumera las nuevas funciones y mejoras de Panel de control de Campa
 
 **Eliminación de delegación para subdominios delegados en el Adobe**
 
-Ahora puede eliminar la delegación de un subdominio que se haya delegado al Adobe, incluida la configuración CNAME. [Más información](../subdomains-certificates/using/remove-delegated-subdomains.md)
+Ahora puede quitar la delegación de un subdominio totalmente delegado al Adobe. [Más información](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ![](assets/do-not-localize/gif-delegation.gif)
 
+>[!NOTE]
+>
+>La eliminación de la delegación no está disponible actualmente para los subdominios que se han configurado con CNAME.
 
 **Calendario de servicios**
 
