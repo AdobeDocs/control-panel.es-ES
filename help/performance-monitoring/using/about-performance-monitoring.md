@@ -16,13 +16,13 @@ ht-degree: 36%
 
 # Acerca de la monitorización del rendimiento {#about-performance-monitoring}
 
-El Panel de control de Campaign proporciona varias funcionalidades que le ayudan a monitorizar las instancias y garantizar un rendimiento óptimo.
+El Panel de control proporciona varias funcionalidades que le ayudan a monitorizar las instancias y garantizar un rendimiento óptimo.
 
-La variable **[!UICONTROL Performance monitoring]** en la página de inicio de Panel de control de Campaign le permite supervisar el uso de las instancias de Campaign como, por ejemplo, su capacidad de base de datos. Para obtener más información, consulte [esta sección](../../performance-monitoring/using/database-monitoring.md).
+El **[!UICONTROL Performance monitoring]** en la página de inicio de la Panel de control de Campaign le permite monitorizar el uso de las instancias de Campaign como, por ejemplo, la capacidad de la base de datos. Para obtener más información, consulte [esta sección](../../performance-monitoring/using/database-monitoring.md).
 
 ![](assets/performance_card.png)
 
 >[!NOTE]
 >
->Con próximas versiones de Panel de control de Campaign, en esta tarjeta se dispondrá de funciones de monitorización adicionales.
+>Con las próximas versiones de Paneles de control de Campaign, se pondrán a disposición funciones de monitorización adicionales en esta tarjeta.
 

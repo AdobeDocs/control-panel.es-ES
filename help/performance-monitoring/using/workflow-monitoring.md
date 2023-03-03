@@ -44,7 +44,7 @@ To clean paused and completed workflows, follow these steps:
 
 Monitor workflow parameters -->
 
-En Adobe Campaign, algunos parámetros de flujo de trabajo pueden requerir una atención específica para evitar problemas en las instancias. Los detalles del Panel de control de Campaign **[!UICONTROL Storage overview]** le permiten comprobar si alguna de estas opciones está habilitada para sus flujos de trabajo.
+En Adobe Campaign, algunos parámetros de flujo de trabajo pueden requerir una atención específica para evitar problemas en las instancias. Los detalles del Panel de control **[!UICONTROL Storage overview]** le permiten comprobar si alguna de estas opciones está habilitada para sus flujos de trabajo.
 
 ![](assets/wkf-monitoring-parameters.png)
 

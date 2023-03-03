@@ -1,8 +1,8 @@
 ---
 product: campaign
 solution: Campaign
-title: Preguntas frecuentes sobre el Panel de control de Campaign
-description: Preguntas frecuentes relacionadas con el Panel de control de Campaign
+title: Preguntas frecuentes sobre el Panel de control
+description: Preguntas frecuentes relacionadas con el Panel de control
 feature: Control Panel
 role: Architect
 level: Intermediate
@@ -16,45 +16,45 @@ ht-degree: 100%
 
 # Preguntas frecuentes {#faq}
 
-## Panel de control de Campaign {#control-panel}
+## Panel de control {#control-panel}
 
-### ¿Qué es el Panel de control de Campaign?
+### ¿Qué es el Panel de control?
 
-El Panel de control de Campaign permite a los administradores de productos administrar directamente diversas configuraciones y supervisar la capacidad de los servidores SFTP conectados a Adobe Campaign.
+El Panel de control permite a los administradores de productos administrar directamente diversas configuraciones y supervisar la capacidad de los servidores SFTP conectados a Adobe Campaign.
 
-### ¿Cuáles son algunas de las capacidades actuales del Panel de control de Campaign?
+### ¿Cuáles son algunas de las capacidades actuales del Panel de control?
 
-El Panel de control de Campaign le permite hacer el seguimiento del almacenamiento y las direcciones IP de lista de permitidos, y administrar las claves SSH de sus servidores SFTP por su cuenta en función de sus necesidades y otras acciones.
+El Panel de control le permite hacer el seguimiento del almacenamiento y las direcciones IP de lista de permitidos, y administrar las claves SSH de sus servidores SFTP por su cuenta en función de sus necesidades y otras acciones.
 
-Para obtener más información, consulte la documentación de acciones admitidas por el Panel de control de Campaign.
+Para obtener más información, consulte la documentación de acciones admitidas por el Panel de control.
 
 ### ¿Hay algunas funciones que aún no son compatibles con Campaign v8, pero que están disponibles en Campaign Classic v7?{#v8-restrictions}
 
-No. Todas las funciones disponibles en la versión 7 de Campaign ahora también están disponibles mediante el Panel de control de Campaign en la versión 8 de Campaign, incluidas las funciones relacionadas con la administración de subdominios y certificados.
+No. Todas las funciones disponibles en la versión 7 de Campaign ahora también están disponibles mediante el Panel de control en la versión 8 de Campaign, incluidas las funciones relacionadas con la administración de subdominios y certificados.
 
-### ¿El Panel de control de Campaign solo sirve para Adobe Campaign?
+### ¿El Panel de control solo sirve para Adobe Campaign?
 
-Sí, solo podrá administrar la configuración de Adobe Campaign en el Panel de control de Campaign.
+Sí, solo podrá administrar la configuración de Adobe Campaign en el Panel de control.
 
-### ¿Puedo utilizar el Panel de control de Campaign?
+### ¿Puedo utilizar el Panel de control?
 
-El Panel de control de Campaign solo está disponible para los administradores de productos de nuestros clientes actuales que tengan Adobe Campaign instalado en AWS.
+El Panel de control solo está disponible para los administradores de productos de nuestros clientes actuales que tengan Adobe Campaign instalado en AWS.
 
-El Panel de control de Campaign permite a los clientes con un modelo de alojamiento híbrido aprovechar las funcionalidades específicas del Panel de control de Campaign. Para ello, deben proporcionar la dirección URL de instancia MID/RT configurada en su instancia de marketing en el Panel de control de Campaign. [Más información](instances-settings/using/external-accounts.md)
+El Panel de control permite a los clientes con un modelo de alojamiento híbrido aprovechar las funcionalidades específicas del Panel de control. Para ello, deben proporcionar la dirección URL de instancia MID/RT configurada en su instancia de marketing en el Panel de control. [Más información](instances-settings/using/external-accounts.md)
 
 Si no es administrador, pero desea acceder a él, póngase en contacto con el administrador del producto para que le ayude a agregarlo como administrador.
 
-### Como usuario Campaign Classic v7, ¿cuáles son las condiciones para acceder al Panel de control de Campaign? {#v7-restrictions}
+### Como usuario Campaign Classic v7, ¿cuáles son las condiciones para acceder al Panel de control? {#v7-restrictions}
 
-El acceso al Panel de control de Campaign está restringido a los usuarios administradores. [Más información](discover/using/managing-permissions.md).
+El acceso al Panel de control está restringido a los usuarios administradores. [Más información](discover/using/managing-permissions.md).
 
 Para la versión 7 de Campaign, tenga en cuenta que la instancia debe estar alojada en Amazon Web Services (AWS) y actualizarse a la última [versión estable de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses) o la versión 9032 o superior. Aprenda a comprobar la versión 7 de Campaign Classic en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia de Campaign Classic está alojada en AWS, siga los pasos que se detallan en [esta sección](#hosted-aws).
 
-### ¿Cómo puedo acceder al Panel de control de Campaign?
+### ¿Cómo puedo acceder al Panel de control?
 
-Siga las instrucciones detalladas que se encuentran en la documentación de Acceso al Panel de control de Campaign.
+Siga las instrucciones detalladas que se encuentran en la documentación de Acceso al Panel de control.
 
-### ¿Se cobra una tarifa adicional para utilizar el Panel de control de Campaign?
+### ¿Se cobra una tarifa adicional para utilizar el Panel de control?
 
 No, no hay costo adicional si usted es cliente actual de Adobe Campaign.
 

@@ -1,9 +1,9 @@
 ---
 title: Notas de la versión de 2022
-description: Esta página enumera todas las versiones de Panel de control de Campaign de 2022.
+description: Esta página enumera todas las versiones de Panel de control de 2022.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Los clientes con un modelo de alojamiento híbrido ya pueden configurar nuevos s
 <tbody>
 <tr>
 <td>
-<p><p>Los clientes con modelo de alojamiento híbrido ahora pueden renovar los certificados SSL de sus subdominios desde el Panel de control de Campaign.</p><p>Para obtener más información, consulte la <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentación detallada.</a></p>
+<p><p>Los clientes con modelo de alojamiento híbrido ahora pueden renovar los certificados SSL de sus subdominios desde el Panel de control.</p><p>Para obtener más información, consulte la <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentación detallada.</a></p>
 </td>
 </tr>
 </tbody>
@@ -95,20 +95,20 @@ Los clientes con un modelo de alojamiento híbrido ya pueden configurar nuevos s
 
 **Configuración de instancias**
 
-* El número máximo de claves GPG en el Panel de control de Campaign se ha aumentado a 60 claves. [Más información](../instances-settings/using/gpg-keys-management.md)
+* El número máximo de claves GPG en el Panel de control se ha aumentado a 60 claves. [Más información](../instances-settings/using/gpg-keys-management.md)
 
 ## Mayo de 2022 {#may-2022}
 
 <table>
 <thead>
 <tr>
-<th><strong>Disponibilidad del Panel de control de Campaign para modelos de alojamiento híbridos</strong><br/></th>
+<th><strong>Disponibilidad del Panel de control para modelos de alojamiento híbridos</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>El Panel de control de Campaign ya está disponible para los clientes con un modelo de alojamiento híbrido. Estos clientes pueden aprovechar las funciones del Panel de control de Campaign al proporcionar su URL de instancia MID/RT configurada en su instancia de marketing en el Panel de control de Campaign.</p><p>Para obtener más información, consulte la <a href="../instances-settings/using/external-accounts.md">documentación detallada.</a></p>
+<p>El Panel de control ya está disponible para los clientes con un modelo de alojamiento híbrido. Estos clientes pueden aprovechar las funciones del Panel de control al proporcionar su URL de instancia MID/RT configurada en su instancia de marketing en el Panel de control.</p><p>Para obtener más información, consulte la <a href="../instances-settings/using/external-accounts.md">documentación detallada.</a></p>
 </td>
 </tr>
 </tbody>
@@ -192,7 +192,7 @@ Los clientes con un modelo de alojamiento híbrido ya pueden configurar nuevos s
 <tbody>
 <tr>
 <td>
-<p>Ahora, el Panel de control de Campaign le permite supervisar las consultas que se han estado ejecutando durante más tiempo en las instancias.</p><p>Para obtener más información, consulte la <a href="../performance-monitoring/using/database-active-queries.md">documentación detallada</a>.</p>
+<p>Ahora, el Panel de control le permite supervisar las consultas que se han estado ejecutando durante más tiempo en las instancias.</p><p>Para obtener más información, consulte la <a href="../performance-monitoring/using/database-active-queries.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>

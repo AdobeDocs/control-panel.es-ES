@@ -24,8 +24,8 @@ La monitorización de flujos de trabajo y envíos que crean grandes recursos tem
 >
 >La recomendación general es evitar tener **más de 40 columnas** en recursos que no sean predeterminados. Si se ve que un flujo de trabajo tiene un gran número de recuentos de tablas o tamaño de base de datos, se recomienda revisar el flujo de trabajo para investigar por qué está generando tantos datos.
 >
->Las directrices de Campaign Standard y Classic también están disponibles en [esta página](database-preventing-overload.md) para evitar la sobrecarga de la base de datos.
+>Las directrices para Campaign Standards y Clásicos también están disponibles en [esta página](database-preventing-overload.md) para ayudarle a evitar la sobrecarga de la base de datos.
 
 ![](assets/database-top10.png)
 
-La variable **[!UICONTROL View all]** permite acceder al **[!UICONTROL Storage overview]** detalles para obtener información detallada sobre estos recursos temporales. Para obtener más información, consulte [esta página](database-storage-overview.md).
+El **[!UICONTROL View all]** permite acceder a la **[!UICONTROL Storage overview]** detalles para obtener información detallada sobre estos recursos temporales. Para obtener más información, consulte [esta página](database-storage-overview.md).

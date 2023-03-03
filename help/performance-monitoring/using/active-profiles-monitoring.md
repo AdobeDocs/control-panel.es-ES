@@ -20,7 +20,7 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->La monitorización de perfiles activos desde el Panel de control de Campaign está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso. Está disponible desde la versión de Campaign Standard 10368.
+>La monitorización de perfiles activos desde el Panel de control está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso. Está disponible en la versión del 10368 de Campaign Standard.
 
 Según el contrato, cada una de las instancias de Campaign se aprovisiona con una cantidad específica de perfiles activos que se contabilizan a efectos de facturación. Consulte su contrato más reciente para obtener una referencia sobre la cantidad de perfiles activos adquiridos.
 
@@ -32,17 +32,17 @@ Los perfiles se consideran activos si se han segmentado o si se ha comunicado co
 >
 >Los canales de Facebook y Twitter no se tienen en cuenta.
 
-Para obtener más información sobre los perfiles activos, consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) y [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documentaciones.
+Para obtener más información sobre perfiles activos, consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) y [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documentaciones.
 
 ## Supervisión de perfiles activos {#monitoring-active-profiles}
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
 >title="Acerca de la monitorización de perfiles activos"
->abstract="En esta pestaña, puede obtener información en tiempo real sobre el uso y la evolución de los perfiles activos más recientes e históricos de cada una de las instancias de Campaign."
+>abstract="En esta pestaña, puede obtener información en tiempo real sobre el uso y la evolución más recientes e históricos de los perfiles activos para cada una de las instancias de Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es" text="Acerca de la monitorización del rendimiento"
 
-El Panel de control de Campaign permite supervisar el uso de perfiles activos para cada una de las instancias de Campaign.
+El Panel de control permite supervisar el uso de perfiles activos para cada una de las instancias de Campaign.
 
 Para ello, siga estos pasos:
 
@@ -59,7 +59,7 @@ Para ello, siga estos pasos:
 >Los perfiles activos se cuentan en función de los flujos de trabajo técnicos dedicados que se ejecutan todos los días en las instancias:
 >
 >* Flujo de trabajo [&quot;Facturación&quot;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=es) para Campaign Standard.
->* La variable [&quot;Número de perfiles de facturación activos&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=es) flujo de trabajo para Campaign v7/v8.
+>* El [&quot;Número de perfiles de facturación activos&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=es) flujo de trabajo para Campaign v7/v8.
 
 
 El área inferior proporciona una representación gráfica del uso de perfiles activos durante los últimos 30 días. Puede cambiar el período de tiempo mostrado a 1 año utilizando los filtros disponibles en la esquina superior derecha.

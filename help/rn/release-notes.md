@@ -1,6 +1,6 @@
 ---
 title: Última versión
-description: Esta página enumera todas las nuevas funciones y mejoras de Panel de control de Campaign
+description: Esta página enumera todas las nuevas funciones y mejoras de Panel de control
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
 workflow-type: tm+mt
@@ -11,7 +11,7 @@ ht-degree: 30%
 
 # Última versión {#control-panel-releases}
 
-Esta página enumera las nuevas funciones y mejoras de Panel de control de Campaign.
+Esta página enumera las nuevas funciones y mejoras de Panel de control.
 
 ## Febrero de 2023 {#february-2023}
 

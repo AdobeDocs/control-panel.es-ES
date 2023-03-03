@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Monitorización de consultas activas
-description: Aprenda a monitorizar las consultas activas en las instancias de Campaign en el Panel de control de Campaign.
+description: Aprenda a monitorizar las consultas activas en las instancias de Campaign en el Panel de control.
 feature: Control Panel
 role: Architect
 level: Experienced

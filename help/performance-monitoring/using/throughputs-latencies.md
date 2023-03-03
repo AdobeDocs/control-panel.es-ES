@@ -2,13 +2,13 @@
 product: campaign
 solution: Campaign
 title: Monitorización de rendimiento y latencia
-description: Aprenda a monitorizar el rendimiento y la latencia de las instancias de Campaign en el Panel de control de Campaign.
+description: Aprenda a monitorizar el rendimiento y la latencia de las instancias de Campaign en el Panel de control.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >title="Acerca de la monitorización del rendimiento y la latencia "
 >abstract="En esta pestaña, puede monitorizar cómo el rendimiento y la latencia de la entrega son las tendencias a lo largo del tiempo en las instancias. Para obtener información acerca de las entregas que contribuyen al rendimiento, cambie a la vista tabular."
 
-El Panel de control de Campaign permite monitorizar el rendimiento de entrega y la latencia de cada una de las instancias.
+El Panel de control permite monitorizar el rendimiento de entrega y la latencia de cada una de las instancias.
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ El Panel de control de Campaign permite monitorizar el rendimiento de entrega y 
 
 Monitorizar las tendencias del rendimiento y la latencia de entrega a lo largo de un período es esencial para comprender el uso de las instancias y garantizar que tengan un buen rendimiento.
 
-Esta información está disponible en Panel de control de Campaign para cada una de las instancias de Campaign de la tarjeta **[!UICONTROL Performance Monitoring]**, pestaña **[!UICONTROL Throughputs & Latency]** (tenga en cuenta que el Panel de control de Campaign puede tardar hasta una hora en mostrar las cifras).
+Esta información está disponible en Panel de control para cada una de las instancias de Campaign de la tarjeta **[!UICONTROL Performance Monitoring]**, pestaña **[!UICONTROL Throughputs & Latency]** (tenga en cuenta que el Panel de control puede tardar hasta una hora en mostrar las cifras).
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ El área **[!UICONTROL Throughput]** proporciona información sobre el número d
 >
 >Para las versiones 7 y 8 de Campaign, el número de rendimiento mostrado es el logrado desde instancias de MID (fuentes intermediarias). Para implementaciones de marketing (MKT) independientes (sin ninguna instancia de MID), se muestra el rendimiento de la instancia de MKT en su lugar.
 
-Además, el Panel de control de Campaign permite identificar los ID de los cinco envíos principales que contribuyen al rendimiento durante el período de tiempo seleccionado. Esta información solo está disponible en la vista tabular:
+Además, el Panel de control permite identificar los ID de los cinco envíos principales que contribuyen al rendimiento durante el período de tiempo seleccionado. Esta información solo está disponible en la vista tabular:
 
 ![](assets/throughput-latencies-top5.png)
 

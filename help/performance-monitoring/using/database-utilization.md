@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Utilización de la base de datos
-description: Obtenga información sobre cómo monitorizar el uso de la base de datos de Campaign en el Panel de control de Campaign .
+description: Obtenga información sobre cómo monitorizar el uso de la base de datos de Campaign en el Panel de control de Campaign.
 feature: Control Panel
 role: Architect
 level: Experienced

@@ -2,7 +2,7 @@
 product: adobe campaign
 sub-product: control panel
 audience: end-user
-user-guide-title: Guía del Panel de control de Campaign
+user-guide-title: Guía del Panel de control
 feature: Control Panel
 role: Architect
 level: Beginner
@@ -14,7 +14,7 @@ ht-degree: 94%
 ---
 
 
-# Guía del Panel de control de Campaign {#using}
+# Guía del Panel de control {#using}
 
 + [Documentación del producto](control-panel-home.md)
 + Notas de la versión  {#release-notes}
@@ -25,11 +25,11 @@ ht-degree: 94%
       + [Notas de la versión 2021](rn/release-notes-2021.md)
       + [Notas de la versión 2020](rn/release-notes-2020.md)
       + [Notas de la versión 2019](rn/release-notes-2019.md)
-+ Descubra el Panel de control de Campaign{#discover-control-panel}
++ Descubra el Panel de control{#discover-control-panel}
    + [Funciones principales](discover/using/key-features.md)
    + [Panel de control de acceso](discover/using/accessing-control-panel.md)
-   + [Administración de permisos del Panel de control de Campaign](discover/using/managing-permissions.md)
-   + [Descubrimiento de la interfaz del Panel de control de Campaign](discover/using/discovering-the-interface.md)
+   + [Administración de permisos del Panel de control](discover/using/managing-permissions.md)
+   + [Descubrimiento de la interfaz del Panel de control](discover/using/discovering-the-interface.md)
 + [Monitorización de los contactos y eventos clave](service-events/service-events.md)
 + [Alertas por correo electrónico](performance-monitoring/using/email-alerting.md)
 + Administración SFTP {#sftp-management}

@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Resumen de almacenamiento
-description: Obtenga información sobre cómo monitorizar en el Panel de control de Campaign los distintos recursos de Campaign que consumen espacio en la base de datos en las instancias.
+description: Obtenga información sobre cómo monitorizar en la Panel de control de Campaign los diferentes recursos de Campaign que consumen espacio en la base de datos en las instancias.
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -35,8 +35,8 @@ El área **[!UICONTROL Storage overview]** proporciona una representación gráf
 
 Haga clic en el botón **[!UICONTROL View details]** para obtener más información sobre los distintos recursos que consumen espacio en la base de datos.
 
-Puede utilizar la lista desplegable para restringir las tablas de búsqueda y visualización solo de un tipo de recurso específico (flujos de trabajo, envíos, destinatarios).
+Puede utilizar la lista desplegable para restringir la búsqueda y mostrar solo las tablas de un tipo de recurso específico (flujos de trabajo, envíos, destinatarios).
 
 ![](assets/database-storage-details.png)
 
-Tenga en cuenta que esta pantalla también le permite monitorizar los parámetros del flujo de trabajo que pueden requerir una atención específica para evitar problemas en las instancias. Obtenga más información en [esta página](workflow-monitoring.md).
+Tenga en cuenta que esta pantalla también le permite monitorizar los parámetros de flujo de trabajo que pueden requerir una atención específica para evitar problemas en las instancias. Obtenga más información en [esta página](workflow-monitoring.md).

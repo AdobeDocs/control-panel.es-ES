@@ -1,6 +1,6 @@
 ---
 title: Notas de la versión 2020
-description: Esta página enumera todas las versiones de Panel de control de Campaign de 2020.
+description: Esta página enumera todas las versiones de Panel de control de 2020.
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
 source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
 workflow-type: tm+mt
@@ -22,7 +22,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>El Panel de control de Campaign ahora le permite configurar un subdominio para trabajar con Adobe mediante CNAME directamente desde la interfaz.</p><p>Para obtener más información, consulte la <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">documentación detallada</a>.</p>
+<p>El Panel de control ahora le permite configurar un subdominio para trabajar con Adobe mediante CNAME directamente desde la interfaz.</p><p>Para obtener más información, consulte la <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -84,7 +84,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>El Panel de control de Campaign ahora le permite monitorizar el número de perfiles activos que utilizan las instancias y que se contabilizan con fines de facturación.</p><p>Para obtener más información, consulte la <a href="../performance-monitoring/using/active-profiles-monitoring.md">documentación detallada</a>.</p>
+<p>El Panel de control ahora le permite monitorizar el número de perfiles activos que utilizan las instancias y que se contabilizan con fines de facturación.</p><p>Para obtener más información, consulte la <a href="../performance-monitoring/using/active-profiles-monitoring.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -92,7 +92,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->La monitorización de perfiles activos desde el Panel de control de Campaign está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
+>La monitorización de perfiles activos desde el Panel de control está disponible en versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
 
 ## Mayo de 2020 {#may-2020}
 
@@ -105,7 +105,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>El Panel de control de Campaign ahora le permite renovar los certificados SSL de sus subdominios configurados con el método CNAME.</p><p>Para obtener más información, consulte la <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentación detallada</a>.</p>
+<p>El Panel de control ahora le permite renovar los certificados SSL de sus subdominios configurados con el método CNAME.</p><p>Para obtener más información, consulte la <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -160,7 +160,7 @@ ht-degree: 100%
 
 ## Enero de 2020 {#january-2020}
 
-Hemos añadido nuevas funciones para que los usuarios administradores configuren subdominios y renueven los certificados SSL desde el Panel de control de Campaign.
+Hemos añadido nuevas funciones para que los usuarios administradores configuren subdominios y renueven los certificados SSL desde el Panel de control.
 
 Para obtener más información, consulte estas páginas:
 * [ Configuración de un nuevo subdominio](../subdomains-certificates/using/setting-up-new-subdomain.md)

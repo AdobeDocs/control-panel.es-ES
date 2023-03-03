@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: El Panel de control de Campaign le ayuda a aumentar la eficacia de su trabajo como administrador de productos de Adobe Campaign Standard o Classic.
-description: Obtenga información sobre cómo acceder al Panel de control de Campaign
+description: Obtenga información sobre cómo acceder al Panel de control
 feature: Control Panel
 role: Architect
 level: Beginner
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 # Funciones principales {#key-features}
 
-El Panel de control de Campaign le ayuda a aumentar la eficacia de su trabajo como administrador de productos de Adobe Campaign Classic y/o Standard, lo que le permite administrar la configuración y rastrear los usos de cada una de sus instancias. Su intuitiva interfaz le permite supervisar fácilmente el uso de recursos clave, así como realizar tareas administrativas como adición direcciones IP a listas de permitidos, supervisión de almacenamiento SFTP, administración de claves, etc.
+El Panel de control le ayuda a aumentar la eficacia de su trabajo como administrador de productos de Adobe Campaign Classic y/o Standard, lo que le permite administrar la configuración y rastrear los usos de cada una de sus instancias. Su intuitiva interfaz le permite supervisar fácilmente el uso de recursos clave, así como realizar tareas administrativas como adición direcciones IP a listas de permitidos, supervisión de almacenamiento SFTP, administración de claves, etc.
 
 Ventajas principales:
 
@@ -26,16 +26,16 @@ Ventajas principales:
 
 >[!NOTE]
 >
->El acceso al Panel de control de Campaign está restringido a los usuarios administradores. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](managing-permissions.md).
+>El acceso al Panel de control está restringido a los usuarios administradores. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](managing-permissions.md).
 >
->Para Campaign v7/v8, tenga en cuenta que la instancia debe estar alojada en Amazon Web Service (AWS) y actualizarse a la última [Compilación estable de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses) o para construir 9032 o superior. Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](../../faq.md#hosted-aws).
+>Para las versiones 7 y 8 de Campaign, tenga en cuenta que la instancia debe estar alojada en Amazon Web Service (AWS) y actualizarse a la última versión [Compilación estable de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses) o para la versión 9032 o superior. Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](../../faq.md#hosted-aws).
 
 <table style="table-layout:fixed">
 <tr>
     <td>
         <a href="../../discover/using/accessing-control-panel.md"><img alt="condiciones" src="assets/do-not-localize/discover.png"/></a>
-        <div><a href="../../discover/using/accessing-control-panel.md"><strong>Descubra el Panel de control de Campaign</strong></a></div>
-        <em>Obtenga más información sobre el Panel de control de Campaign y cómo acceder a él.</em>
+        <div><a href="../../discover/using/accessing-control-panel.md"><strong>Descubra el Panel de control</strong></a></div>
+        <em>Obtenga más información sobre el Panel de control y cómo acceder a él.</em>
     </td>
     <td>
         <a href="../../sftp/using/about-sftp-management.md"><img alt="condiciones" src="assets/do-not-localize/sftp.png"/></a>

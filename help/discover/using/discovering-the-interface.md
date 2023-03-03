@@ -1,8 +1,8 @@
 ---
 product: campaign
 solution: Campaign
-title: Descubrimiento de la interfaz del Panel de control de Campaign
-description: Obtenga más información sobre la interfaz de Panel de control de Campaign
+title: Descubrimiento de la interfaz del Panel de control
+description: Más información sobre la interfaz de Panel de control de Campaign
 feature: Control Panel
 role: Architect
 level: Intermediate
@@ -14,11 +14,11 @@ ht-degree: 23%
 
 ---
 
-# Descubrimiento de la interfaz del Panel de control de Campaign {#discovering-interface}
+# Descubrimiento de la interfaz del Panel de control {#discovering-interface}
 
 La página de inicio del Panel de control le permite acceder a todas las acciones que se pueden realizar en las instancias de Campaign.
 
-Están representados por tarjetas organizadas en temas, por ejemplo **Monitorización del rendimiento**.
+Se representan con tarjetas organizadas en temas, por ejemplo **Monitorización del rendimiento**.
 
 <!--With upcoming Campaign releases, more topics and cards will be made available.-->
 
@@ -26,18 +26,18 @@ Están representados por tarjetas organizadas en temas, por ejemplo **Monitoriza
 
 ## Registros de trabajos {#job-logs}
 
-La variable **[!UICONTROL Job Logs]** en la esquina superior derecha permite auditar todos los cambios realizados por los usuarios de la organización.
+El **[!UICONTROL Job Logs]** en la esquina superior derecha permite auditar todos los cambios realizados por los usuarios de la organización.
 
 ![](assets/control_panel_interface2.png)
 
 Haga clic en un elemento de la lista para obtener más detalles.
 
-La variable **[!UICONTROL Open]** permite acceder directamente a la pestaña Panel de control de Campaign en la que se ha realizado el cambio.
+El **[!UICONTROL Open]** permite acceder directamente a la pestaña Panel de control de Campaign donde se realizó el cambio.
 
 ![](assets/control_panel_logdetails.png)
 
 ## Recursos de ayuda {#help-resources}
 
-La variable **[!UICONTROL Help Resources]** proporciona documentación útil para ayudarle a utilizar el Panel de control de Campaign y los productos de Campaign. No dudes en explorarlas.
+El **[!UICONTROL Help Resources]** Esta sección proporciona documentación útil para ayudarle en el uso de los productos de Panel de control de Campaign y Campaign. No dudes en explorarlas.
 
 ![](assets/helpresources.png)

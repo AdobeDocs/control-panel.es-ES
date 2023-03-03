@@ -1,6 +1,6 @@
 ---
 title: Notas de la versión 2021
-description: Esta página enumera todas las versiones de Panel de control de Campaign de 2021.
+description: Esta página enumera todas las versiones de Panel de control de 2021.
 exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
 source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
 workflow-type: tm+mt
@@ -37,7 +37,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Ahora puede editar los <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">rangos de IP</a> y las <a href="../sftp/using/key-management.md#editing-public-keys">claves públicas</a> que cree. Tenga en cuenta que esta función no está disponible para los elementos creados antes de la versión de Panel de control de Campaign actual.
+<p>Ahora puede editar los <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">rangos de IP</a> y las <a href="../sftp/using/key-management.md#editing-public-keys">claves públicas</a> que cree. Tenga en cuenta que esta función no está disponible para los elementos creados antes de la versión de Panel de control actual.
 </td>
 </tr>
 </tbody>
@@ -67,7 +67,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Las funcionalidades de administración de <strong>Subdominios</strong> y de <strong>Certificados</strong> ahora son compatibles con Panel de control de Campaign en Adobe Campaign v8.</a>.</p>
+<p>Las funcionalidades de administración de <strong>Subdominios</strong> y de <strong>Certificados</strong> ahora son compatibles con Panel de control en Adobe Campaign v8.</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -84,7 +84,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>El Panel de control de Campaign ya está disponible para Adobe Campaign v8, excepto las funcionalidades de administración de <strong>Subdominios</strong> y <strong>Certificados</strong>, que aún no son compatibles.</p><p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=es" target="blank">Documentación de Campaign v8</a>.</p>
+<p>El Panel de control ya está disponible para Adobe Campaign v8, excepto las funcionalidades de administración de <strong>Subdominios</strong> y <strong>Certificados</strong>, que aún no son compatibles.</p><p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=es" target="blank">Documentación de Campaign v8</a>.</p>
 </td>
 </tr>
 </tbody>

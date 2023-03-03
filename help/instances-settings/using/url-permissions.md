@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Permisos de URL
-description: Obtenga información sobre cómo administrar los permisos de URL en el Panel de control de Campaign
+description: Obtenga información sobre cómo administrar los permisos de URL en el Panel de control
 feature: Control Panel
 role: Architect
 level: Intermediate
@@ -26,11 +26,11 @@ ht-degree: 84%
 
 >[!IMPORTANT]
 >
->Esta función solo está disponible para instancias de Campaign v7/v8 desde la versión 8850. Si está utilizando una versión anterior, debe actualizarla para usar esta función.
+>Esta función solo está disponible para instancias de las versiones 7 y 8 de Campaign, desde la versión 8850. Si está utilizando una versión anterior, debe actualizarla para usar esta función.
 
 La lista predeterminada de direcciones URL a las que pueden llamar los códigos JavaScript (flujos de trabajo, etc.) a través de instancias de Campaign es limitada. Son direcciones URL que permiten que las instancias funcionen correctamente.
 
-De forma predeterminada, las instancias no pueden conectarse a direcciones URL externas. El Panel de control de Campaign permite añadir algunas direcciones URL externas a la lista de direcciones URL autorizadas para que la instancia pueda conectarse a ellas. Esto le permite conectar las instancias de Campaign a sistemas externos como, por ejemplo, servidores SFTP o sitios web para habilitar la transferencia de datos o archivos.
+De forma predeterminada, las instancias no pueden conectarse a direcciones URL externas. El Panel de control permite añadir algunas direcciones URL externas a la lista de direcciones URL autorizadas para que la instancia pueda conectarse a ellas. Esto le permite conectar las instancias de Campaign a sistemas externos como, por ejemplo, servidores SFTP o sitios web para habilitar la transferencia de datos o archivos.
 
 Una vez añadida una URL, se hace referencia a ella en el archivo de configuración de la instancia (serverConf.xml).
 
@@ -45,7 +45,7 @@ Una vez añadida una URL, se hace referencia a ella en el archivo de configuraci
 
 * No conecte la instancia de Campaign a los sitios web o servidores a los que no tiene intención de conectarse.
 * Elimine las direcciones URL con las que ya no esté trabajando. No obstante, tenga en cuenta que, si otra sección de la compañía sigue conectándose a la dirección URL que eliminó, nadie podrá volver a utilizarla.
-* El Panel de control de Campaign admite los protocolos **http**, **https** y **sftp**. La introducción de direcciones URL o protocolos no válidos producirá errores.
+* El Panel de control admite los protocolos **http**, **https** y **sftp**. La introducción de direcciones URL o protocolos no válidos producirá errores.
 
 ## Administración de permisos de URL {#managing-url-permissions}
 
@@ -60,7 +60,7 @@ Para añadir una dirección URL a la que se pueda conectar su instancia, siga es
 
    >[!NOTE]
    >
-   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control de Campaign, significa que [ID de organización](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es) no está asociado a ninguna instancia de Adobe Campaign
+   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control de Campaign, significa que su [ID de organización](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es) no está asociado a ninguna instancia de Adobe Campaign
    >
    >La pestaña <b><span class="uicontrol">Permisos de URL</span></b> lista todas las direcciones URL externas a las que se puede conectar la instancia. Esta lista no incluye las direcciones URL que son necesarias para que funcione Campaign (por ejemplo, conexiones entre elementos de infraestructura).
 
@@ -98,4 +98,4 @@ Tenga en cuenta que, si elimina una dirección URL, su instancia no podrá volve
 
 **He agregado una dirección URL nueva, pero mi instancia sigue sin poder conectarse a ella. ¿Por qué?**
 
-En algunos casos, las direcciones URL que intenta conectar requieren una lista de permitidos, una entrada de contraseña u otra forma de autenticación. El Panel de control de Campaign no administra la autenticación adicional.
+En algunos casos, las direcciones URL que intenta conectar requieren una lista de permitidos, una entrada de contraseña u otra forma de autenticación. El Panel de control no administra la autenticación adicional.

@@ -1,10 +1,10 @@
 ---
 title: Notas de la versión de 2023
-description: Esta página enumera todas las versiones de Panel de control de Campaign de 2023.
+description: Esta página enumera todas las versiones de Panel de control de 2023.
 source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -18,4 +18,4 @@ Los clientes con modelo de alojamiento híbrido pueden ahora añadir direcciones
 
 **Mejora de la solicitud de firma de certificado (CSR)**
 
-El campo Ciudad/Localidad es ahora opcional durante la generación de solicitudes de firma de certificado.
+El campo Ciudad/Localidad es ahora opcional durante la generación de la solicitud de firma de certificado.

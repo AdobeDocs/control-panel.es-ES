@@ -96,7 +96,7 @@ Para delegar completamente un subdominio a Adobe Campaign, siga los pasos a cont
 
    ![](assets/subdomain6.png)
 
-Una vez enviado el subdominio, el Panel de control de Campaign realizará varias comprobaciones y pasos de configuración. Para obtener más información, consulte [Comprobación y configuración de subdominios](#subdomain-checks-and-configuration).
+Una vez enviado el subdominio, el Panel de control realizará varias comprobaciones y pasos de configuración. Para obtener más información, consulte [Comprobación y configuración de subdominios](#subdomain-checks-and-configuration).
 
 ## Configuración del subdominio mediante CNAME {#use-cnames}
 
@@ -152,19 +152,19 @@ Para configurar un subdominio mediante CNAME, siga los pasos a continuación.
    >
    >Si desea crear los registros y enviar la configuración del subdominio más adelante, seleccione la segunda instrucción y haga clic en **[!UICONTROL Submit later]**. A continuación, podrá reanudar la configuración del subdominio directamente desde el área **[!UICONTROL Processing]** de la pantalla de administración del subdominio.
    >
-   >Tenga en cuenta que el Panel de control de Campaign mantendrá los registros DNS que se van a colocar en el servidor durante 30 días. Más allá de ese periodo, tendrá que configurar el subdominio desde cero.
+   >Tenga en cuenta que el Panel de control mantendrá los registros DNS que se van a colocar en el servidor durante 30 días. Más allá de ese periodo, tendrá que configurar el subdominio desde cero.
 
-Una vez enviado el subdominio, el Panel de control de Campaign realizará varias comprobaciones y pasos de configuración. Para obtener más información, consulte [Comprobación y configuración de subdominios](#subdomain-checks-and-configuration).
+Una vez enviado el subdominio, el Panel de control realizará varias comprobaciones y pasos de configuración. Para obtener más información, consulte [Comprobación y configuración de subdominios](#subdomain-checks-and-configuration).
 
 ## Comprobación y configuración de subdominios {#subdomain-checks-and-configuration}
 
-1. Una vez enviado el subdominio, el Panel de control de Campaign comprobará que señala correctamente a los registros NS de Adobe y que el registro de Inicio de autoridad (SOA) no existe para este subdominio.
+1. Una vez enviado el subdominio, el Panel de control comprobará que señala correctamente a los registros NS de Adobe y que el registro de Inicio de autoridad (SOA) no existe para este subdominio.
 
    >[!NOTE]
    >
-   >Tenga en cuenta que mientras se ejecuta la configuración de subdominios, otras solicitudes de Panel de control de Campaign se introducirán en cola y se realizarán solo después de que se complete la configuración del subdominio, para evitar cualquier problema de rendimiento.
+   >Tenga en cuenta que mientras se ejecuta la configuración de subdominios, otras solicitudes de Panel de control de Campaign se pondrán en cola y se gestionarán solo después de que finalice la configuración de subdominios para evitar cualquier problema de rendimiento.
 
-1. Si las comprobaciones son correctas, el Panel de control de Campaign establecerá el inicio del subdominio con registros DNS, direcciones URL adicionales, bandejas de entrada, etc.
+1. Si las comprobaciones son correctas, el Panel de control establecerá el inicio del subdominio con registros DNS, direcciones URL adicionales, bandejas de entrada, etc.
 
    ![](assets/subdomain7.png)
 
@@ -178,7 +178,7 @@ Una vez enviado el subdominio, el Panel de control de Campaign realizará varias
    >
    >Las comprobaciones de entrega que se realizan incluyen bucles de comentarios y pruebas de bucles por quejas de spam. Por lo tanto, no recomendamos el uso del subdominio antes de que se haya completado la auditoría, ya que podría causar una mala reputación de subdominio.
    >
-   >Sin embargo, tenga en cuenta que puede realizar operaciones relacionadas con certificados SSL en el subdominio, incluso si la auditoría de la capacidad de envío aún se está procesando.
+   >Sin embargo, tenga en cuenta que puede realizar operaciones relacionadas con los certificados SSL en el subdominio, incluso si la auditoría de capacidad de entrega aún se está procesando.
 
 1. Al final del proceso, los subdominios se configurarán para que funcionen con la instancia de Adobe Campaign y se crearán los elementos siguientes:
 
@@ -186,7 +186,7 @@ Una vez enviado el subdominio, el Panel de control de Campaign realizará varias
    * **Subdominios adicionales** para réplica de host, recurso, páginas de seguimiento y clave de dominio,
    * **Bandeja de entrada**: Remitente, Error, Responder.
 
-   De forma predeterminada, la bandeja de entrada Responder del Panel de control de Campaign está configurada para borrar correos electrónicos y no se puede revisar. Si desea supervisar la bandeja de entrada Responder para sus campañas de marketing, no utilice esta dirección.
+   De forma predeterminada, la bandeja de entrada Responder del Panel de control está configurada para borrar correos electrónicos y no se puede revisar. Si desea supervisar la bandeja de entrada Responder para sus campañas de marketing, no utilice esta dirección.
 
 Puede obtener más información sobre el subdominio haciendo clic en los botones **[!UICONTROL Subdomain details]** y **[!UICONTROL Sender info]**.
 
