@@ -1,6 +1,6 @@
 ---
 title: Notas de la versión de 2023
-description: Esta página enumera todas las versiones de Panel de control de 2023.
+description: Esta página enumera todas las versiones de Panel de control de Campaign de 2023.
 source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
 workflow-type: tm+mt
 source-wordcount: '56'
