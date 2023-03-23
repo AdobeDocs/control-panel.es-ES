@@ -162,7 +162,7 @@ Una vez enviado el subdominio, el Panel de control realizará varias comprobacio
 
    >[!NOTE]
    >
-   >Tenga en cuenta que mientras se ejecuta la configuración de subdominios, otras solicitudes de Panel de control de Campaign se pondrán en cola y se gestionarán solo después de que finalice la configuración de subdominios para evitar cualquier problema de rendimiento.
+   >Tenga en cuenta que mientras se ejecuta la configuración de subdominios, otras solicitudes de Panel de control de Campaign se introducirán en cola y se realizarán solo después de que se complete la configuración del subdominio, para evitar cualquier problema de rendimiento.
 
 1. Si las comprobaciones son correctas, el Panel de control establecerá el inicio del subdominio con registros DNS, direcciones URL adicionales, bandejas de entrada, etc.
 
@@ -178,7 +178,7 @@ Una vez enviado el subdominio, el Panel de control realizará varias comprobacio
    >
    >Las comprobaciones de entrega que se realizan incluyen bucles de comentarios y pruebas de bucles por quejas de spam. Por lo tanto, no recomendamos el uso del subdominio antes de que se haya completado la auditoría, ya que podría causar una mala reputación de subdominio.
    >
-   >Sin embargo, tenga en cuenta que puede realizar operaciones relacionadas con los certificados SSL en el subdominio, incluso si la auditoría de capacidad de entrega aún se está procesando.
+   >Sin embargo, tenga en cuenta que puede realizar operaciones relacionadas con certificados SSL en el subdominio, incluso si la auditoría de la capacidad de envío aún se está procesando.
 
 1. Al final del proceso, los subdominios se configurarán para que funcionen con la instancia de Adobe Campaign y se crearán los elementos siguientes:
 

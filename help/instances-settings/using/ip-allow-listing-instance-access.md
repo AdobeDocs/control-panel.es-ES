@@ -26,7 +26,7 @@ ht-degree: 84%
 
 >[!IMPORTANT]
 >
->Esta función solo está disponible para instancias de las versiones 7 y 8 de Campaign.
+>Esta función solo está disponible para instancias de Campaign v7/v8.
 
 De forma predeterminada, la instancia de Adobe Campaign no es accesible desde varias direcciones IP.
 
@@ -46,16 +46,16 @@ Asegúrese de seguir las recomendaciones y limitaciones que se indican a continu
 * **Si ha habilitado temporalmente el acceso a su instancia para una dirección IP**, asegúrese de eliminar las direcciones IP de la lista de permitidos una vez que ya no necesite conectarse a su instancia.
 * **No recomendamos añadir direcciones IP de lugares públicos a la lista de permitidos** (aeropuertos, hoteles, etc.). Utilice su dirección VPN de la compañía para mantener la seguridad de su instancia en todo momento.
 
-## Añadir direcciones IP a la lista de permitidos para acceder a instancias {#adding-ip-addresses-allow-list}
+## Adición de direcciones IP a la lista de permitidos para acceso a instancias {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
->title="Configuración de intervalo de IP"
+>title="Configuración de rango de IP"
 >abstract="Defina el rango de IP que desea agregar a la lista de permitidos para conectarse a la instancia."
 
 >[!NOTE]
 >
->Si la variable **[!UICONTROL Instance Settings]** no es visible en la página de inicio del Panel de control de Campaign, lo que significa que su [ID de organización](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es) no está asociado a ninguna instancia de las versiones 7 y 8 de Adobe Campaign.
+>Si la variable **[!UICONTROL Instance Settings]** no está visible en la página principal del Panel de control de Campaign, lo que significa que su [ID de organización](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es) no está asociado a ninguna instancia de Adobe Campaign v7/v8.
 
 Para agregar direcciones IP a la lista de permitidos, siga estos pasos:
 
@@ -84,13 +84,13 @@ Para agregar direcciones IP a la lista de permitidos, siga estos pasos:
 
 1. Especifique el tipo de acceso que desea conceder a las direcciones IP:
 
-   * **[!UICONTROL Campaign Console Access]**: se permitirá que las direcciones IP se conecten a la consola del cliente de Campaign. Tenga en cuenta que el acceso a la consola solo está habilitado para instancias de Marketing. No se permite el acceso a las instancias de MID y RT y, por tanto, no se habilita.
+   * **[!UICONTROL Campaign Console Access]**: Se permitirá que las direcciones IP se conecten a la consola del cliente de Campaign. Tenga en cuenta que el acceso a la consola solo está habilitado para instancias de Marketing. No se permite el acceso a las instancias de MID y RT y, por tanto, no se habilita.
    * **[!UICONTROL AEM connection]**: se permitirá que las direcciones IP de AEM especificadas se conecten a la instancia de Marketing.
    * **[!UICONTROL External API connection]**: se permitirá que las API externas con las direcciones IP especificadas se conecten a la instancia de Marketing y/o Centro de mensajes (RT). Tenga en cuenta que la conexión a la consola de instancias de RT no está habilitada.
 
    >[!NOTE]
    >
-   >Si utiliza una instancia con un modelo de alojamiento híbrido, solo podrá añadir direcciones IP en &quot;Conexión de API externa&quot; para instancias de MID y RT.
+   >Si utiliza una instancia con un modelo de alojamiento híbrido, solo podrá añadir direcciones IP en &quot;Conexión de API externa&quot; para instancias MID y RT.
 
    ![](assets/ip_whitelist_acesstype.png)
 
@@ -100,7 +100,7 @@ Para agregar direcciones IP a la lista de permitidos, siga estos pasos:
 
 De forma predeterminada, la instancia de Adobe Campaign no es accesible desde varias direcciones IP.
 
-Para eliminar uno o más rangos de IP de la lista de permitidos, selecciónelos y haga clic en **[!UICONTROL Delete IP range]** botón.
+Para eliminar uno o varios rangos de IP de la lista de permitidos, selecciónelos y haga clic en el botón **[!UICONTROL Delete IP range]** botón.
 
 ![](assets/ip_whitelist_delete.png)
 

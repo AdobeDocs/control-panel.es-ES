@@ -24,7 +24,7 @@ Con el tiempo, las bases de datos pueden alcanzar su capacidad máxima, especial
 
 El desbordamiento de una base de datos de instancias puede dar lugar a varios problemas (incapacidad para iniciar sesión, enviar correos electrónicos, etc.). Por lo tanto, la supervisión de las bases de datos de las instancias es esencial para garantizar un rendimiento óptimo.
 
-Si se ha suscrito a [alertas por correo electrónico](../../performance-monitoring/using/email-alerting.md), recibirá notificaciones por correo electrónico cuando una de las bases de datos de las instancias haya alcanzado el 80 % o más de su capacidad.
+Si se ha suscrito a [alertas por correo electrónico](../../performance-monitoring/using/email-alerting.md), recibirá notificaciones por correo electrónico cuando una de las bases de datos de instancias haya alcanzado el 80 % o más de su capacidad.
 
 ## Monitorización del uso de la base de datos{#monitoring-database-usage}
 
@@ -44,9 +44,9 @@ Seleccione la instancia que desee en **[!UICONTROL Instance List]** para mostrar
 
 ![](assets/databases_dashboard.png)
 
-Los datos de este tablero se actualizan en función de la variable **[!UICONTROL Database cleanup technical workflow]** que se ejecuta en la instancia de Campaign (consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=es#list-of-technical-workflows) y [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=es) documentación). Puede comprobar la última vez que el flujo de trabajo se ejecutó por debajo de **[!UICONTROL Used Space]** y **[!UICONTROL Provided Space]** métricas. Tenga en cuenta que, si el flujo de trabajo no se ha ejecutado desde hace más de 3 días, le recomendamos que se ponga en contacto con el Servicio de atención al cliente de Adobe para que investigue por qué no se está ejecutando.
+Los datos de este tablero se actualizan en función de la variable **[!UICONTROL Database cleanup technical workflow]** que se ejecuta en la instancia de Campaign (consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=es#list-of-technical-workflows) y [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=es) documentación). Puede comprobar la última vez que el flujo de trabajo se ejecutó por debajo del **[!UICONTROL Used Space]** y **[!UICONTROL Provided Space]** métricas. Tenga en cuenta que, si el flujo de trabajo no se ha ejecutado desde hace más de 3 días, le recomendamos que se ponga en contacto con el Servicio de atención al cliente de Adobe para que investigue por qué no se está ejecutando.
 
-En este tablero hay disponibles métricas adicionales para ayudarle a analizar el uso de la base de datos de la instancia. Se detallan en estas secciones:
+En este tablero encontrará métricas adicionales que le ayudarán a analizar el uso de la base de datos de la instancia. Se detallan en estas secciones:
 
 * [Utilización de la base de datos](../../performance-monitoring/using/database-utilization.md)
 * [Resumen de almacenamiento](../../performance-monitoring/using/database-storage-overview.md)

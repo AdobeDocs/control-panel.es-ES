@@ -46,7 +46,7 @@ Para generar una solicitud de firma de certificado (CSR), siga estos pasos:
    * **[!UICONTROL Organization]**: nombre oficial de la organización.
    * **[!UICONTROL Organization Unit]**: unidad vinculada al subdominio (ejemplo: Marketing, TI).
    * **[!UICONTROL Instance]** (precargada): dirección URL de la instancia de Campaign asociada al subdominio.
-   * **[!UICONTROL Common name]**: el nombre común está seleccionado de forma predeterminada, puede seleccionar uno de los subdominios si es necesario.
+   * **[!UICONTROL Common name]**: Si el nombre común está seleccionado de forma predeterminada, puede seleccionar uno de los subdominios si es necesario.
 
    ![](assets/renewal3.png)
 
@@ -64,22 +64,22 @@ Para generar una solicitud de firma de certificado (CSR), siga estos pasos:
 
    >[!NOTE]
    >
-   >El **[!UICONTROL Copy CSR content]** permite copiar toda la información relacionada con la CSR (ID de organización, instancia, nombre de organización, nombre común, subdominios incluidos, etc.)
+   >La variable **[!UICONTROL Copy CSR content]** permite copiar toda la información relacionada con la CSR (identificador de organización, instancia, nombre de organización, nombre común, subdominios incluidos, etc.)
 
-1. El archivo .csr correspondiente a su selección se genera y descarga automáticamente. Ahora puede utilizarlo para adquirir el certificado SSL de la entidad emisora de certificados que apruebe su compañía. Si necesita volver a descargar CSR, siga los pasos detallados en [esta sección](#download).
+1. El archivo .csr correspondiente a su selección se genera y descarga automáticamente. Ahora puede utilizarlo para adquirir el certificado SSL de la entidad emisora de certificados que apruebe su compañía. Si necesita volver a descargar la CSR, siga los pasos detallados en [esta sección](#download).
 
-Una vez generada y descargada la CSR, puede utilizarla para adquirir un certificado SSL de una autoridad de certificación aprobada por su organización.
+Una vez que su CSR se haya generado y descargado, puede utilizarlo para adquirir un certificado SSL de una entidad emisora de certificados aprobada por su organización.
 
-Una vez adquirido el certificado SSL, podrá instalarlo en su instancia para proteger su subdominio. [Más información](install-ssl-certificate.md)
+Una vez adquirido el certificado SSL, podrá instalarlo en su instancia para proteger el subdominio. [Más información](install-ssl-certificate.md)
 
 ## Descargar la CSR {#download}
 
-Para adquirir un certificado SSL, primero debe descargar la solicitud de firma de certificado. La CSR se descarga automáticamente después de generarse. También puede descargarlo de nuevo en cualquier momento desde los Registros de trabajos:
+Para adquirir un certificado SSL, primero debe descargar la solicitud de firma de certificado. La CSR se descarga automáticamente una vez generada. También puede volver a descargarlo en cualquier momento desde los registros de trabajos:
 
-1. En el **[!UICONTROL Job Logs]**, seleccione la **[!UICONTROL Finished]** y, a continuación, filtre la lista para mostrar los trabajos relacionados con la administración de subdominios.
+1. En el **[!UICONTROL Job Logs]**, seleccione **[!UICONTROL Finished]** y, a continuación, filtre la lista para mostrar los trabajos relacionados con la administración de subdominios.
 
    ![](assets/renewal-download.png)
 
-1. Abra el trabajo correspondiente a la generación de la CSR y haga clic en **[!UICONTROL Downbload]** para obtener el archivo .csr.
+1. Abra el trabajo correspondiente a la generación de la CSR y, a continuación, haga clic en el botón **[!UICONTROL Downbload]** para obtener el archivo .csr.
 
    ![](assets/renewal-download-button.png)
