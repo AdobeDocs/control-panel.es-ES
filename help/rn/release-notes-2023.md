@@ -1,20 +1,30 @@
 ---
 title: Notas de la versión de 2023
 description: Esta página enumera todas las versiones de Panel de control de Campaign de 2023.
-source-git-commit: cca897c84f5b4db9233931086c1befc5719666b9
+source-git-commit: 83138e63558125757259849064552904594e2e0b
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 75%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Notas de la versión de 2023 {#rn-2023}
 
-## Marzo de 2023 {#march-2023}
+## Febrero de 2023 {#february-2023}
 
-**Eliminación de la delegación de subdominios para CNAME**
+**Eliminación de la delegación para subdominios delegados en Adobe**
 
-Ahora puede eliminar la delegación de subdominios que se han configurado mediante CNAME. [Más información](../subdomains-certificates/using/remove-delegated-subdomains.md)
+Ahora puede quitar la delegación de un subdominio delegado de forma completa en Adobe. [Más información](../subdomains-certificates/using/remove-delegated-subdomains.md)
+
+>[!NOTE]
+>
+>La eliminación de la delegación no está disponible actualmente para los subdominios que se han configurado con CNAME.
+
+**Calendario de servicios**
+
+El calendario de servicios ahora proporciona una vista de calendario para seguir los eventos importantes que se producen en las instancias. Además, se ha añadido información sobre las notificaciones enviadas a los usuarios suscritos a las alertas del Panel de control de Campaign. [Más información](../service-events/service-events.md)
+
+![](assets/do-not-localize/gif-calendar.gif)
 
 ## Enero de 2023 {#january-2023}
 
