@@ -6,10 +6,10 @@ description: Obtenga información sobre cómo quitar la delegación de subdomini
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: dbd1b2dd31cf732609f8a515e9adc1c43cbf39c6
+source-git-commit: 4cf7fc767deaff12ca63c844e5c0842eea558078
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '810'
+ht-degree: 60%
 
 ---
 
@@ -66,14 +66,16 @@ Al quitar una delegación de tipo CNAME, debe **quitar estos registros DNS** del
 
 La tabla siguiente enumera las acciones que se deben realizar según el tipo de delegación que elimine y el tipo de delegación que se utilice para configurar el dominio de reemplazo.
 
-| Delegación eliminada | Dominio de reemplazo | Acción requerida |
+| Delegación eliminada | Delegación de dominio de reemplazo | Acción requerida |
 |  ---  |  ---  |  ---  |
-| Completo | Sin dominio de reemplazo | No se requiere ninguna acción |
-| Completo | CNAME | Añadir registros DNS (opcional en función de las afinidades IP) |
-| Completo | Completo | No se requiere ninguna acción |
 | CNAME | Sin dominio de reemplazo | Eliminar registros DNS |
-| CNAME | CNAME | Eliminar y agregar registros DNS (opcional en función de las afinidades IP) |
+| CNAME | CNAME | Eliminar registros DNS<br/>Agregar registros DNS *(opcional en función de las afinidades IP)* |
 | CNAME | Completo | Eliminar registros DNS |
+| Completo | Sin dominio de reemplazo | No se requiere ninguna acción |
+| Completo | CNAME | Agregar registros DNS *(opcional en función de las afinidades IP)* |
+| Completo | Completo | No se requiere ninguna acción |
+
+{style="table-layout:auto"}
 
 Para ello, agregue un **[!DNL Action]** antes de confirmar la eliminación de la delegación. Esta pantalla muestra los registros DNS que se van a quitar o agregar, según el contexto.
 
