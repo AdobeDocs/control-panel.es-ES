@@ -10,7 +10,7 @@ exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 36%
+ht-degree: 41%
 
 ---
 
@@ -49,7 +49,7 @@ En casos muy excepcionales, la autenticación basada en contraseña está habili
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
 >title="Adición de clave pública"
->abstract="Genere una clave SSH pública para una instancia y agréguela a Panel de control de Campaign para acceder al servidor SFTP."
+>abstract="Genere una clave SSH pública para una instancia y añádala al panel de control de Campaign para acceder al servidor SFTP."
 
 >[!IMPORTANT]
 >
@@ -149,7 +149,7 @@ Una clave pública caducada se eliminará automáticamente pasados 7 días. Se m
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_update"
->title="Editar claves públicas"
+>title="Edición de claves públicas"
 >abstract="Actualice las claves públicas seleccionadas para acceder al servidor SFTP."
 
 Para editar claves públicas, siga los pasos a continuación.

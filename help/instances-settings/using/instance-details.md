@@ -10,7 +10,7 @@ exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 72%
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 72%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="Acerca de los detalles de instancias"
->abstract="Vea los detalles de las instancias de Adobe Campaign: tipos, nombres, información de compilación y posibles recomendaciones de actualización."
+>abstract="Vea los detalles de las instancias de Adobe Campaign: tipos, nombres, información de versión y posibles recomendaciones de actualización."
 
 ## Acerca de los detalles de instancias {#about-instance-details}
 

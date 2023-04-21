@@ -10,7 +10,7 @@ exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
 workflow-type: tm+mt
 source-wordcount: '1189'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_gpg_management"
 >title="Acerca de las claves GPG"
->abstract="En esta pestaña, puede instalar o generar claves GPG en una instancia de marketing para cifrar los datos enviados desde Campaign y descifrar los datos entrantes."
+>abstract="En esta pestaña, puede instalar y/o generar claves GPG en una instancia de marketing para cifrar los datos enviados desde Campaign y descifrar datos entrantes."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es" text="Acerca de la monitorización del rendimiento"
 
 ## Acerca del cifrado GPG {#about-gpg-encryption}
