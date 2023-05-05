@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
 source-git-commit: ea738ea3764e4651e0eb7b4bcc68a9f7b3c8d1e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '818'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ La tabla siguiente enumera las acciones que se deben realizar según el tipo de 
 
 {style="table-layout:auto"}
 
-Si se requiere una de estas acciones para eliminar la delegación, se requiere un **[!DNL Action]** antes de confirmar la eliminación de la delegación. Esta pantalla muestra los registros DNS que se van a quitar o agregar, según el contexto.
+Si se requiere una de estas acciones para quitar la delegación, se requiere un paso **[!DNL Action]** adicional antes de confirmar la eliminación de la delegación. Esta pantalla muestra los registros DNS que se van a quitar o agregar, según el contexto.
 
 ![](assets/action-step.png)
 
