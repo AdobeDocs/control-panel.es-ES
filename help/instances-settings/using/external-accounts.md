@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '555'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 80%
 
 El Panel de control permite a los clientes con un modelo de alojamiento híbrido aprovechar las funcionalidades específicas del Panel de control. Para ello, debe:
 
-* [Proporcione la URL de instancia de MID/RT](#add) configurado en la instancia de marketing en Panel de control de Campaign,
-* [Añadir la dirección IP de la instancia MID/RT a la lista de permitidos](#ip) para permitir que la instancia de marketing se conecte a ella.
+* [Proporcione la URL de instancia de MID/RT](#add) configurada en su instancia de marketing en Panel de control,
+* [Añada la dirección IP de la instancia MID/RT a la lista de permitidos](#ip) para permitir que la instancia de marketing se conecte a ella.
 
 Para obtener más información sobre los modelos de alojamiento, consulte [Documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es).
 
@@ -93,9 +93,9 @@ Tenga en cuenta que puede supervisar cualquier acción efectuada en la pestaña 
 
 Una vez añadida la instancia de MID/RT, debe añadir su dirección IP a la lista de permitidos para que la instancia de marketing pueda conectarse a ella.
 
-Esto se puede realizar desde el **[!UICONTROL IP Allow Listing]** en la ficha **[!UICONTROL Instances Settings]** tarjeta. [Aprenda a añadir direcciones IP a la lista de permitidos](ip-allow-listing-instance-access.md)
+Esto se puede realizar desde la pestaña **[!UICONTROL IP Allow Listing]** en la tarjeta **[!UICONTROL Instances Settings]**. [Obtenga información sobre cómo añadir direcciones IP a la lista de permitidos](ip-allow-listing-instance-access.md)
 
-Una vez finalizado, podrá utilizar las funcionalidades de Panel de control de Campaign con su instancia de MID/RT.
+Una vez que haya finalizado, podrá utilizar las funcionalidades de Panel de control de Campaign con su instancia de MID/RT.
 
 ## Capacidades disponibles para clientes híbridos {#capabilities}
 
