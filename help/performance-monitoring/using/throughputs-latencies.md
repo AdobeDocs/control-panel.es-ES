@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: ea738ea3764e4651e0eb7b4bcc68a9f7b3c8d1e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_throughputslatencies"
 >title="Acerca de la monitorización del rendimiento y la latencia "
->abstract="En esta pestaña, puede monitorizar cómo el rendimiento y la latencia de la entrega son las tendencias a lo largo del tiempo en las instancias. Para obtener información acerca de las entregas que contribuyen al rendimiento, cambie a la vista tabular."
+>abstract="En esta pestaña, puede monitorizar cómo el rendimiento y la latencia del envío son las tendencias a lo largo del tiempo en las instancias. Para obtener información acerca de los envíos que contribuyen al rendimiento, cambie a la vista tabular."
 
-El Panel de control permite monitorizar el rendimiento de entrega y la latencia de cada una de las instancias.
+El Panel de control permite monitorizar el rendimiento de envío y la latencia de cada una de las instancias.
 
 >[!IMPORTANT]
 >
 >Esta función está disponible para todos los clientes de las versiones 7 y 8 de Campaign Standard, con los números de compilación 9032 y más recientes, incluidas las [implementaciones independientes](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=es) (sin ninguna instancia intermediaria).
 
-Monitorizar las tendencias del rendimiento y la latencia de entrega a lo largo de un período es esencial para comprender el uso de las instancias y garantizar que tengan un buen rendimiento.
+Monitorizar las tendencias del rendimiento y la latencia de envío a lo largo de un período es esencial para comprender el uso de las instancias y garantizar que tengan un buen rendimiento.
 
 Esta información está disponible en Panel de control para cada una de las instancias de Campaign de la tarjeta **[!UICONTROL Performance Monitoring]**, pestaña **[!UICONTROL Throughputs & Latency]** (tenga en cuenta que el Panel de control puede tardar hasta una hora en mostrar las cifras).
 
