@@ -9,7 +9,7 @@ level: Beginner
 source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,9 +43,9 @@ ht-degree: 94%
    + [Promoción de la marca de subdominios](subdomains-certificates/using/subdomains-branding.md)
    + [Supervisión de los subdominios](subdomains-certificates/using/monitoring-subdomains.md)
    + [Configuración de un nuevo subdominio](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [Eliminar la delegación de subdominios al Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
+   + [Eliminación de la delegación de subdominios en Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
    + [Administración de registros TXT](subdomains-certificates/using/managing-txt-records.md)
-   + Administrar certificados SSL {#manage-certificates}
+   + Administración de certificados SSL {#manage-certificates}
       + [Monitorización de certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Renovación de certificados SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [Generación de la CSR](subdomains-certificates/using/generate-csr.md)

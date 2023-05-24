@@ -10,7 +10,7 @@ exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 84%
 
 >[!IMPORTANT]
 >
->Esta función solo está disponible para instancias de Campaign v7/v8 desde la versión 8850. Si está utilizando una versión anterior, debe actualizarla para usar esta función.
+>Esta función solo está disponible para instancias de las versiones 7 y 8 de Campaign, desde la versión 8850. Si está utilizando una versión anterior, debe actualizarla para usar esta función.
 
 La lista predeterminada de direcciones URL a las que pueden llamar los códigos JavaScript (flujos de trabajo, etc.) a través de instancias de Campaign es limitada. Son direcciones URL que permiten que las instancias funcionen correctamente.
 
@@ -60,7 +60,7 @@ Para añadir una dirección URL a la que se pueda conectar su instancia, siga es
 
    >[!NOTE]
    >
-   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control de Campaign, significa que [ID de organización](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es) no está asociado a ninguna instancia de Adobe Campaign
+   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control de Campaign, significa que su [ID de organización](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es) no está asociado a ninguna instancia de Adobe Campaign
    >
    >La pestaña <b><span class="uicontrol">Permisos de URL</span></b> lista todas las direcciones URL externas a las que se puede conectar la instancia. Esta lista no incluye las direcciones URL que son necesarias para que funcione Campaign (por ejemplo, conexiones entre elementos de infraestructura).
 

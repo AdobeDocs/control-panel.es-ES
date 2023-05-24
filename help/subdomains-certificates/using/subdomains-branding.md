@@ -35,11 +35,11 @@ Al hacerlo, ayudará a preservar la reputación de su dominio y otros subdominio
 
 ## Métodos de configuración de subdominios {#subdomain-delegation-methods}
 
-La configuración del subdominio le permite configurar una subsección de su dominio (técnicamente, una &quot;zona DNS&quot;) para usarla con Adobe Campaign. Los métodos de configuración disponibles son estos:
+La configuración de subdominios le permite configurar una subsección de su dominio (técnicamente, una &quot;zona DNS&quot;) para utilizarla con Adobe Campaign. Los métodos de configuración disponibles son estos:
 
 * **Delegación de subdominios completa en Adobe Campaign** (recomendado): el subdominio se delega completamente a Adobe. Adobe puede ofrecer Campaign como servicio administrado controlando y manteniendo todos los aspectos de DNS necesarios para la entrega, el procesamiento y el seguimiento de campañas de correo electrónico.
 
-* **Uso de CNAME**: Cree un subdominio y utilice CNAME para señalar registros específicos de Adobe. Con esta configuración, tanto Adobe como el cliente comparten la responsabilidad de mantener DNS.
+* **Uso de CNAME**: Cree un subdominio y utilice CNAME para señalar registros específicos del Adobe. Con esta configuración, tanto Adobe como el cliente comparten la responsabilidad de mantener DNS.
 
 En el cuadro que figura a continuación se ofrece un resumen del funcionamiento de estos métodos, así como el nivel de esfuerzo que suponen:
 
@@ -50,7 +50,7 @@ En el cuadro que figura a continuación se ofrece un resumen del funcionamiento 
 
 Encontrará información adicional sobre la configuración de dominios en [esta documentación](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
 
-Si tiene alguna pregunta sobre los métodos de configuración de subdominios, póngase en contacto con el equipo de entrega de Adobe o póngase en contacto con el Servicio de atención al cliente para solicitar consultoría de entrega.
+Si tiene alguna pregunta acerca de los métodos de configuración de subdominios, póngase en contacto con el equipo de entrega de Adobe o póngase en contacto con el Servicio de atención al cliente para solicitar consultoría de entrega.
 
 ## Casos de uso de subdominios (Campaign v7/v8){#subdomains-use-cases}
 
@@ -61,7 +61,7 @@ Si tiene alguna pregunta sobre los métodos de configuración de subdominios, p�
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es" text="Configuración de un nuevo subdominio"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es" text="Promoción de la marca de subdominios"
 
-Al configurar subdominios para instancias de Campaign v7/v8, debe seleccionar el caso de uso para el que se utilizará el subdominio (consulte [Configuración de un nuevo subdominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Al configurar subdominios para instancias de las versiones 7 y 8 de Campaign, es necesario seleccionar el caso de uso para el que se utilizará el subdominio (consulte [Configuración de un nuevo subdominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Los casos de uso posibles son:
 
@@ -78,7 +78,7 @@ Los casos de uso posibles son:
 
 >[!NOTE]
 >
->Si utiliza Campaign v7/v8, el Panel de control de Campaign le permite ver qué instancias de RT/MID están conectadas a la instancia de Marketing con la que está trabajando. Para obtener más información, consulte la sección [Detalles de instancias](../../instances-settings/using/instance-details.md).
+>Si utiliza las versiones 7 y 8 de Campaign, el Panel de control de Campaign le permite ver qué instancias de RT/MID están conectadas a la instancia de Marketing con la que está trabajando. Para obtener más información, consulte la sección [Detalles de instancias](../../instances-settings/using/instance-details.md).
 
 **Temas relacionados:**
 

@@ -25,7 +25,7 @@ ht-degree: 75%
 
 >[!IMPORTANT]
 >
->Esta función solo está disponible para instancias de Campaign v7/v8.
+>Esta función solo está disponible para instancias de las versiones 7 y 8 de Campaign.
 
 La arquitectura de las instancias de Adobe Campaign puede contener varios servidores para permitir la flexibilidad de las actividades de marketing. Por ejemplo, puede tener servidores de fuentes de marketing, tiempo real (o centro de mensajes) y medios que admitan su instancia.
 
@@ -33,7 +33,7 @@ La funcionalidad Detalles de instancias permite ver la arquitectura plana de la 
 
 >[!NOTE]
 >
->Recomendamos que las instancias se actualicen al menos una vez al año para evitar la degradación del rendimiento y poder aprovechar las nuevas funciones y correcciones que ofrece Adobe Campaign v7/v8.
+>Recomendamos que las instancias se actualicen al menos una vez al año para evitar la degradación del rendimiento y poder aprovechar las nuevas funciones y correcciones que Adobe Campaign v7/v8 tiene para ofrecer.
 
 **Temas relacionados:**
 
@@ -48,7 +48,7 @@ Para obtener información sobre los servidores conectados a las instancias, siga
 
    >[!NOTE]
    >
-   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control de Campaign, significa que el ID de organización no está asociado a ninguna instancia de Adobe Campaign v7/v8
+   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control de Campaign, el ID de organización no está asociado a ninguna instancia de Adobe Campaign v7/v8
 
 1. Seleccione en el panel izquierdo la instancia de Campaign que desee.
 
