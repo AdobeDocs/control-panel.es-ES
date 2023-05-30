@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
+source-git-commit: e6b518e8a935b523972302c8efa92a889d36735f
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1205'
 ht-degree: 16%
 
 ---
@@ -64,6 +64,11 @@ Para ello, debe generar un par de claves GPG a partir de una herramienta de cifr
    * **longitud de clave**: 3072 - 4096 bits
    * **nombre real** y **dirección de email**: Permite rastrear quién creó el par de claves. Introduzca un nombre y una dirección de correo electrónico vinculados a su organización o departamento.
    * **comentario**: añadir una etiqueta al campo de comentario le ayudará a identificar fácilmente la clave que debe utilizar para cifrar los datos.
+
+      >[!IMPORTANT]
+      >
+      >Asegúrese de que este campo no se deja vacío y de que se rellena un comentario.
+
    * **vencimiento**: Fecha o &quot;0&quot; para la que no hay fecha de caducidad.
    * **frase de contraseña**
 
