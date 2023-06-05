@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 503280181293df6ec5ffaf6c148042d54c5c1958
+source-git-commit: 3adb780dbff27cf40d519af1bc59e0946110604a
 workflow-type: tm+mt
-source-wordcount: '1523'
-ht-degree: 80%
+source-wordcount: '1611'
+ht-degree: 76%
 
 ---
 
@@ -41,6 +41,16 @@ Esta página proporciona información sobre cómo configurar nuevos subdominios 
 La delegación de subdominios solo está disponible para instancias de **producción**.
 
 Si la instancia que selecciona en el asistente no tiene subdominios configurados previamente, el primer subdominio configurado se convertirá en el **subdominio principal** para esa instancia y no podrá cambiarlo en el futuro. Como resultado, se crearán **registros DNS inversos** para otros subdominios que usen este subdominio principal. **Las direcciones de respuesta y devolución** de otros subdominios se generarán desde el subdominio principal.
+
+### Delegación de certificados SSL de los subdominios en el Adobe
+
+Al configurar un nuevo subdominio, puede hacer que el certificado SSL se administre mediante el Adobe. Esto es muy recomendable, ya que el Adobe creará automáticamente el certificado y lo renovará cada año antes de que caduque el certificado.
+
+Si utiliza CNAME para configurar una delegación de subdominios, Adobe proporcionará registros de certificado para utilizarlos en la solución de alojamiento de dominios a fin de generar el certificado.
+
+>[!NOTE]
+>
+>La delegación de certificados SSL solo está disponible al configurar un nuevo subdominio. No está disponible para subdominios ya delegados.
 
 ### Configuración de servidores de nombres
 
