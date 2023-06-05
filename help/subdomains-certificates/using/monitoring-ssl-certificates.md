@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: a6a77cf6e564f4607c0c12facb2061cfb102a5a5
+source-git-commit: 0628e9eb12da4dcc33b2ea21c9ef31bb7ba4f9c4
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 92%
+source-wordcount: '478'
+ht-degree: 71%
 
 ---
 
@@ -27,6 +27,18 @@ Adobe Campaign recomienda proteger los subdominios que albergan sus páginas de 
 **Los certificados SSL se proporcionan para un período de tiempo** específico (1 año, 60 días, etc.). Una vez que caduca un certificado, puede experimentar problemas al acceder a las páginas de aterrizaje o al usar recursos del subdominio. Para evitarlo, el Panel de control le permite supervisar los certificados SSL de los subdominios, así como iniciar el proceso de renovación.
 
 ![](assets/no_certificate.png)
+
+## Delegación de certificados SSL de los subdominios en el Adobe
+
+Al configurar un nuevo subdominio, puede hacer que el certificado SSL se administre mediante el Adobe. Esto es muy recomendable, ya que el Adobe creará automáticamente el certificado y lo renovará cada año antes de que caduque el certificado.
+
+Si utiliza CNAME para configurar una delegación de subdominios, Adobe proporcionará registros de certificado para utilizarlos en la solución de alojamiento de dominios a fin de generar el certificado.
+
+>[!NOTE]
+>
+>La delegación de certificados SSL solo está disponible al configurar un nuevo subdominio. No está disponible para subdominios ya delegados.
+
+La delegación de certificados SSL está habilitada al configurar un nuevo subdominio. Obtenga información sobre cómo proceder en [esta sección](setting-up-new-subdomain.md).
 
 ## Monitorización de certificados SSL {#monitoring-certificates}
 
