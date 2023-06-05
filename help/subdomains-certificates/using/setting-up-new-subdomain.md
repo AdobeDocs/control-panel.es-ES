@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 3b128832fa453981d358f225e160e3ef6c648b50
+source-git-commit: 05c199984ec1282a0135841dd168430dec374a2e
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1502'
 ht-degree: 81%
 
 ---
@@ -165,7 +165,7 @@ Para configurar un subdominio mediante CNAME, siga los pasos a continuación.
 
    ![](assets/cname-confirmation.png)
 
-1. Si decide delegar el certificado de los subdominios al Adobe, los certificados se generan automáticamente. Copie estos registros, uno por uno o descargando un archivo CSV, y luego vaya a la solución de alojamiento de dominios para generar el certificado coincidente.
+1. Si decide delegar el certificado de los subdominios al Adobe, los registros de certificado se generan automáticamente. Copie estos registros, uno por uno o descargando un archivo CSV, y luego vaya a la solución de alojamiento de dominios para generar el certificado coincidente.
 
    ![](assets/cname-csr-generation.png)
 
