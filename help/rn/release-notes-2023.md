@@ -2,14 +2,20 @@
 title: Notas de la versión de 2023
 description: Esta página enumera todas las versiones de Panel de control de Campaign de 2023.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 11015d1a7c44abaeeb704138e2a3071d293715b7
-workflow-type: tm+mt
-source-wordcount: '134'
+source-git-commit: f43dbc1d28ff22ca1f9092d6ca416c43eed2ebec
+workflow-type: ht
+source-wordcount: '156'
 ht-degree: 100%
 
 ---
 
 # Notas de la versión de 2023 {#rn-2023}
+
+## Marzo de 2023 {#march-2023}
+
+**Eliminación de la delegación de subdominios para CNAME**
+
+Ahora puede quitar la delegación de subdominios que se han configurado mediante CNAME. [Más información](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ## Febrero de 2023 {#february-2023}
 
