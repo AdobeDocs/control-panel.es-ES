@@ -1,7 +1,7 @@
 ---
 product: campaign
 solution: Campaign
-title: Delegación de certificados SSL de los subdominios en el Adobe
+title: Delegar certificados SSL de los subdominios a Adobe
 description: Obtenga información sobre cómo delegar los certificados SSL de los subdominios al Adobe
 feature: Control Panel
 role: Architect
@@ -9,16 +9,16 @@ level: Experienced
 source-git-commit: 0eefdbde25c955c84ee7534976256ca4df9a686c
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 14%
+ht-degree: 25%
 
 ---
 
-# Delegación de certificados SSL de los subdominios en el Adobe {#delegate-ssl-certificates}
+# Delegar certificados SSL de los subdominios a Adobe {#delegate-ssl-certificates}
 
 >[!CONTEXTUALHELP]
 >id="cp_managed_ssl"
->title="Delegación de certificados SSL de los subdominios en el Adobe"
->abstract="El Panel de control de Campaign de permite administrar por Adobe los certificados SSL de los subdominios. Si utiliza CNAME para configurar el subdominio, los registros de certificados se generarán y proporcionarán automáticamente para generar un certificado en la solución de alojamiento de dominios."
+>title="Delegar certificados SSL de los subdominios a Adobe"
+>abstract="El Panel de control le permite administrar sus certificados de subdominios SSL por Adobe. Si utiliza CNAME para configurar el subdominio, los registros de certificados se generarán y proporcionarán automáticamente para generar un certificado en la solución de alojamiento de dominios."
 
 Se recomienda delegar los certificados SSL de los subdominios al Adobe, ya que el Adobe creará automáticamente el certificado y lo renovará cada año antes de que caduque el certificado.
 
