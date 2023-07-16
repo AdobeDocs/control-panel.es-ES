@@ -18,7 +18,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_managed_ssl"
 >title="Delegar certificados SSL de los subdominios en Adobe"
->abstract="El Panel de control le permite administrar por Adobe los certificados SSL de los subdominios. Si utiliza CNAME para configurar el subdominio, los registros de certificados se generarán y proporcionarán automáticamente para generar un certificado en la solución de alojamiento de dominios."
+>abstract="El Panel de control le permite que Adobe administre los certificados SSL de sus subdominios. Si utiliza CNAME para configurar el subdominio, los registros de certificados se generarán y se proporcionarán automáticamente para generar un certificado en la solución de alojamiento de dominios."
 
 Se recomienda delegar los certificados SSL de los subdominios al Adobe, ya que Adobe creará automáticamente el certificado y lo renovará cada año antes de que caduque el certificado.
 
