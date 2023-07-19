@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 80%
+source-wordcount: '1555'
+ht-degree: 84%
 
 ---
 
@@ -37,15 +37,15 @@ La delegación de subdominios solo está disponible para instancias de **producc
 
 Si la instancia que selecciona en el asistente no tiene subdominios configurados previamente, el primer subdominio configurado se convertirá en el **subdominio principal** para esa instancia y no podrá cambiarlo en el futuro. Como resultado, se crearán **registros DNS inversos** para otros subdominios que usen este subdominio principal. **Las direcciones de respuesta y devolución** de otros subdominios se generarán desde el subdominio principal.
 
-### Delegación de certificados SSL de los subdominios en el Adobe
+### Delegar certificados SSL de los subdominios en Adobe
 
 Al configurar un nuevo subdominio, puede hacer que el certificado SSL se administre mediante el Adobe. Esto es muy recomendable, ya que el Adobe creará automáticamente el certificado y lo renovará cada año antes de que caduque el certificado.
 
-Si utiliza CNAME para configurar una delegación de subdominios, Adobe proporcionará registros de certificado para utilizarlos en la solución de alojamiento de dominios a fin de generar el certificado.
+Si utiliza CNAME para configurar una delegación de subdominios, Adobe proporcionará registros de certificado para usarlos en la solución de alojamiento de dominios con el fin de generar tu certificado.
 
 >[!NOTE]
 >
->SSL administrado por Adobe es una funcionalidad gratuita a disposición de los usuarios sin cargo alguno.
+>SSL administrado por Adobe es una funcionalidad gratuita a disposición de los usuarios sin cargo alguno. [Obtenga más información sobre la administración de certificados SSL](monitoring-ssl-certificates.md#management)
 
 ### Configuración de servidores de nombres
 
@@ -170,7 +170,7 @@ Para configurar un subdominio mediante CNAME, siga los pasos a continuación.
 
    ![](assets/cname-confirmation.png)
 
-1. Si decide delegar el certificado de los subdominios al Adobe, los registros de certificado se generan automáticamente. Copie estos registros, uno por uno o descargando un archivo CSV, y luego vaya a la solución de alojamiento de dominios para generar el certificado coincidente.
+1. Si decide delegar el certificado de los subdominios al Adobe, los registros de certificado se generan automáticamente. Copie estos registros, uno por uno o descargando un archivo CSV, y luego vaya a la solución de alojamiento de dominios para generar los certificados coincidentes.
 
    ![](assets/cname-csr-generation.png)
 
