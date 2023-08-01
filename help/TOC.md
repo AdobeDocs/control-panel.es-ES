@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 96%
       + [Configuración de un nuevo subdominio](subdomains-certificates/using/setting-up-new-subdomain.md)
       + [Eliminación de la delegación de subdominios en Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
       + [Administración de registros TXT](subdomains-certificates/using/managing-txt-records.md)
-   + Administrar certificados SSL de los subdominios {#manage-certificates}
+   + Administración de los certificados SSL de los subdominios {#manage-certificates}
       + [Monitorización de certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Delegación de certificados SSL en Adobe](subdomains-certificates/using/delegate-ssl.md)
       + [Renovación de certificados SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
