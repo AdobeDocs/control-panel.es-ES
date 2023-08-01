@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '993'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 73%
 
 >[!NOTE]
 >
->La renovación de los certificados SSL de los subdominios solo es necesaria si elige administrar los certificados usted mismo en lugar de delegar este proceso al Adobe. Se recomienda delegar la administración de los certificados SSL de los subdominios al Adobe, ya que el Adobe creará automáticamente el certificado y lo renovará cada año antes de que caduque. [Obtenga más información sobre la administración de certificados SSL](monitoring-ssl-certificates.md#management)
+>La renovación de los certificados SSL de sus subdominios solo es necesaria si decide administrar los certificados usted mismo en lugar de delegar este proceso a Adobe. Se recomienda delegar la administración de los certificados SSL de los subdominios a Adobe, ya que Adobe creará automáticamente el certificado y lo renovará cada año antes de que caduque. [Obtenga más información sobre la administración de certificados SSL](monitoring-ssl-certificates.md#management)
 
 El proceso de renovación de certificados SSL incluye 3 pasos:
 
@@ -76,7 +76,7 @@ Para generar una solicitud de firma de certificado (CSR), siga estos pasos:
    * **[!UICONTROL Organization]**: nombre oficial de la organización.
    * **[!UICONTROL Organization Unit]**: unidad vinculada al subdominio (ejemplo: Marketing, TI).
    * **[!UICONTROL Instance]** (precargada): dirección URL de la instancia de Campaign asociada al subdominio.
-   * **[!UICONTROL Common name]**: el nombre común está seleccionado de forma predeterminada, puede seleccionar uno de los subdominios si es necesario.
+   * **[!UICONTROL Common name]**: el nombre común se selecciona de forma predeterminada, puede seleccionar uno de los subdominios si es necesario.
 
    ![](assets/renewal3.png)
 
@@ -94,23 +94,23 @@ Para generar una solicitud de firma de certificado (CSR), siga estos pasos:
 
    >[!NOTE]
    >
-   >El **[!UICONTROL Copy CSR content]** permite copiar toda la información relacionada con la CSR (ID de organización, instancia, nombre de organización, nombre común, subdominios incluidos, etc.)
+   >El botón **[!UICONTROL Copy CSR content]** permite copiar toda la información relacionada con la CSR (ID de organización, instancia, nombre de organización, nombre común, subdominios incluidos, etc.)
 
-1. El archivo .csr correspondiente a su selección se genera y descarga automáticamente. Ahora puede utilizarlo para adquirir el certificado SSL de la entidad emisora de certificados que apruebe su compañía. Si necesita volver a descargar CSR, siga los pasos detallados en [esta sección](#download).
+1. El archivo .csr correspondiente a su selección se genera y descarga automáticamente. Ahora puede utilizarlo para adquirir el certificado SSL de la entidad emisora de certificados que apruebe su compañía. Si necesita volver a descargar CSR, siga los pasos que se detallan en [esta sección](#download).
 
 Una vez generada y descargada la CSR, puede utilizarla para adquirir un certificado SSL de una autoridad de certificación aprobada por su organización.
 
 Una vez adquirido el certificado SSL, podrá instalarlo en su instancia para proteger su subdominio. [Más información](#install)
 
-## Descargar la CSR {#download}
+## Descarga de la CSR {#download}
 
-Para adquirir un certificado SSL, primero debe descargar la solicitud de firma de certificado. La CSR se descarga automáticamente después de generarse. También puede descargarlo de nuevo en cualquier momento desde los Registros de trabajos:
+Para adquirir un certificado SSL, primero debe descargar la solicitud de firma de certificado. La CSR se descarga automáticamente después de generarse. También puede descargarla de nuevo en cualquier momento desde los Registros de trabajos:
 
-1. En el **[!UICONTROL Job Logs]**, seleccione la **[!UICONTROL Finished]** y, a continuación, filtre la lista para mostrar los trabajos relacionados con la administración de subdominios.
+1. En **[!UICONTROL Job Logs]**, seleccione la pestaña **[!UICONTROL Finished]** y, a continuación, filtre la lista para mostrar los trabajos relacionados con la administración de subdominios.
 
    ![](assets/renewal-download.png)
 
-1. Abra el trabajo correspondiente a la generación de la CSR y haga clic en **[!UICONTROL Downbload]** para obtener el archivo .csr.
+1. Abra el trabajo correspondiente a la generación de la CSR y haga clic en el vínculo **[!UICONTROL Downbload]** para obtener el archivo .csr.
 
    ![](assets/renewal-download-button.png)
 
@@ -124,7 +124,7 @@ Para adquirir un certificado SSL, primero debe descargar la solicitud de firma d
 Una vez adquirido un certificado SSL, puede instalarlo en su instancia. Antes de continuar, asegúrese de conocer los requisitos previos siguientes:
 
 * La solicitud de firma de certificado (CSR) debe haberse generado desde el Panel de control. De lo contrario, no podrá instalar el certificado desde el Panel de control.
-* La solicitud de firma de certificado (CSR) debe coincidir con el subdominio que se configuró para funcionar con el Adobe. Por ejemplo, no puede contener más subdominios que el que se ha configurado.
+* La solicitud de firma de certificado (CSR) debe coincidir con el subdominio que se ha configurado para funcionar con Adobe. Por ejemplo, no puede contener más subdominios que el que se ha configurado.
 * El certificado debe tener una fecha actual. No es posible instalar certificados con fechas en el futuro y no deben caducar (es decir, fechas de inicio y finalización válidas).
 * El certificado debe ser emitido por una autoridad de certificación (CA) de confianza como Comodo, DigiCert, GoDaddy, etc.
 * El tamaño del certificado debe ser de 2048 bits y el algoritmo debe ser RSA.
