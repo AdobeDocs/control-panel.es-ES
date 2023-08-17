@@ -3,7 +3,7 @@ title: Notas de la versión de 2023
 description: Esta página enumera todas las versiones de Panel de control de Campaign de 2023.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
 source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 **Delegación de certificados SSL de los subdominios a Adobe**
 
-Ahora puede administrar por Adobe los certificados SSL de los subdominios. Si utiliza CNAME para configurar el subdominio, los registros de certificados se generarán y proporcionarán automáticamente para generar un certificado en la solución de alojamiento de dominios.
+Ahora puede administrar por Adobe los certificados SSL de los subdominios. Si utiliza CNAME para configurar el subdominio, los registros de certificados se generarán y se proporcionarán automáticamente para generar un certificado en la solución de alojamiento de dominios.
 
 Tenga en cuenta que esta capacidad solo está disponible al configurar un nuevo subdominio. No puede delegar certificados para los subdominios delegados existentes. [Más información](../subdomains-certificates/using/setting-up-new-subdomain.md)
 

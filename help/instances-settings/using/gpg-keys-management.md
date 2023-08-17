@@ -64,10 +64,9 @@ Para ello, debe generar un par de claves GPG a partir de una herramienta de cifr
    * **longitud de clave**: 3072 - 4096 bits
    * **nombre real** y **dirección de email**: Permite rastrear quién creó el par de claves. Introduzca un nombre y una dirección de correo electrónico vinculados a su organización o departamento.
    * **comentario**: añadir una etiqueta al campo de comentario le ayudará a identificar fácilmente la clave que debe utilizar para cifrar los datos.
-
-      >[!IMPORTANT]
-      >
-      >Asegúrese de que este campo no se deja vacío y de que se rellena un comentario.
+     >[!IMPORTANT]
+     >
+     >Asegúrese de que este campo no se deja vacío y de que se rellena un comentario.
 
    * **vencimiento**: Fecha o &quot;0&quot; para la que no hay fecha de caducidad.
    * **frase de contraseña**
@@ -168,9 +167,9 @@ La lista muestra todas las claves GPG de cifrado y descifrado que se han instala
 * **[!UICONTROL Name]**: Nombre que se ha definido al instalar o generar la clave.
 * **[!UICONTROL Use case]**: Esta columna especifica el caso de uso de la clave:
 
-   ![](assets/gpg_icon_encrypt.png): la clave se ha instalado para el cifrado de datos.
+  ![](assets/gpg_icon_encrypt.png): la clave se ha instalado para el cifrado de datos.
 
-   ![](assets/gpg_icon_decrypt.png): la clave se ha generado para permitir el descifrado de datos.
+  ![](assets/gpg_icon_decrypt.png): la clave se ha generado para permitir el descifrado de datos.
 
 * **[!UICONTROL Fingerprint]**: la huella digital de la clave.
 * **[!UICONTROL Expires]**: la fecha de caducidad de la clave. Tenga en cuenta que el Panel de control de Campaign proporcionará indicaciones visuales a medida que la clave se aproxime a su fecha de caducidad:
@@ -179,9 +178,9 @@ La lista muestra todas las claves GPG de cifrado y descifrado que se han instala
    * El aviso (amarillo) se muestra 60 días antes.
    * Se mostrará el aviso rojo &quot;Caducado&quot; cuando caduque una clave.
 
-   >[!NOTE]
-   >
-   >Tenga en cuenta que no se enviará ninguna notificación por correo electrónico por Panel de control de Campaign.
+  >[!NOTE]
+  >
+  >Tenga en cuenta que no se enviará ninguna notificación por correo electrónico por Panel de control de Campaign.
 
 Como práctica recomendada, le recomendamos que elimine todas las claves que ya no necesite. Para ello, haga clic en el **...** y luego seleccione **[!UICONTROL Delete Key].**.
 

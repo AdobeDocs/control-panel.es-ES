@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # Alertas por correo electrónico {#email-alerting}
 
-Para proporcionar la buena flexibilidad a su trabajo, el Panel de control de Campaign está equipado con la funcionalidad de alertas por correo electrónico en tiempo real.
+Para proporcionar una mayor flexibilidad a su trabajo, el Panel de control de Campaign está equipado con la funcionalidad de alertas por correo electrónico en tiempo real.
 
 ## Lista de alertas {#list}
 

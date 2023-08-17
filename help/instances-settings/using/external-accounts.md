@@ -67,13 +67,13 @@ Para poder acceder a las funcionalidades del Panel de control, debe proporcionar
 
    * **[!UICONTROL URL]**: URL de la instancia, que se puede encontrar en la Consola del cliente de Campaign, en el menú **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]**.
 
-      ![](assets/external-account-url.png)
+     ![](assets/external-account-url.png)
 
    * **[!UICONTROL Operator]** / **[!UICONTROL Password]**: credenciales del operador proporcionadas después del aprovisionamiento inicial por el administrador de Adobe.
 
-      >[!NOTE]
-      >
-      >Si estos detalles no están disponibles, póngase en contacto con el Servicio de atención al cliente.
+     >[!NOTE]
+     >
+     >Si estos detalles no están disponibles, póngase en contacto con el Servicio de atención al cliente.
 
 1. Haga clic en **[!UICONTROL Save]** para confirmar.
 

@@ -40,7 +40,6 @@ El calendario de servicios ahora proporciona una vista de calendario para seguir
 >
 >* Para la versión 7 de Campaign, se aplican restricciones de implementación. [Más información](faq.md#v7-restrictions)
 
-
 ## Recursos adicionales {#additional-resources}
 
 <table>

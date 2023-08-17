@@ -81,7 +81,6 @@ Para agregar direcciones IP a la lista de permitidos, siga estos pasos:
    * **[!UICONTROL Label]**: Etiqueta que se mostrará en la lista de permitidos.
    * **[!UICONTROL Name]**: el nombre debe ser único para el tipo de acceso, la instancia (en caso de conexión API externa) y la dirección IP.
 
-
 1. Especifique el tipo de acceso que desea conceder a las direcciones IP:
 
    * **[!UICONTROL Campaign Console Access]**: se permitirá que las direcciones IP se conecten a la consola del cliente de Campaign. Tenga en cuenta que el acceso a la consola solo está habilitado para instancias de Marketing. No se permite el acceso a las instancias de MID y RT y, por tanto, no se habilita.

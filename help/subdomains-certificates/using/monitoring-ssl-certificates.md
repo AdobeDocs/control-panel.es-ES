@@ -10,7 +10,7 @@ exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 61%
+ht-degree: 65%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign recomienda proteger los subdominios que albergan sus páginas de 
 
 La monitorización de certificados SSL es clave para garantizar que los subdominios sean seguros. Con el Panel de control de Campaign, puede instalar y renovar los certificados SSL de los subdominios directamente por su cuenta o delegarlos en el Adobe para que este proceso se realice automáticamente sin que sea necesario realizar ninguna acción por su parte.
 
-Se recomienda delegar la administración de los certificados SSL de los subdominios al Adobe, ya que el Adobe creará automáticamente el certificado y lo renovará cada año antes de que caduque. Esto reduce el riesgo de errores que se pueden producir al administrar los certificados manualmente. [Obtenga información sobre cómo delegar los certificados SSL de los subdominios al Adobe](delegate-ssl.md)
+Se recomienda delegar la administración de los certificados SSL de los subdominios a Adobe, ya que Adobe creará automáticamente el certificado y lo renovará cada año antes de que caduque. Esto reduce el riesgo de errores que se pueden producir al administrar los certificados manualmente. [Obtenga información sobre cómo delegar los certificados SSL de los subdominios al Adobe](delegate-ssl.md)
 
 A continuación, encontrará una lista completa de los impactos asociados con la administración manual de certificados, en lugar de delegar esta operación al Adobe:
 

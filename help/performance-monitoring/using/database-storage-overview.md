@@ -25,7 +25,7 @@ El área **[!UICONTROL Storage overview]** proporciona una representación gráf
 
 * **[!UICONTROL System resources]**
 
-   Tenga en cuenta que, si los recursos del sistema consumen una gran parte del espacio de la base de datos, le recomendamos que se ponga en contacto con el Servicio de atención al cliente.
+  Tenga en cuenta que, si los recursos del sistema consumen una gran parte del espacio de la base de datos, le recomendamos que se ponga en contacto con el Servicio de atención al cliente.
 
 * **[!UICONTROL Out-of-the-box tables]** proporcionadas de forma predeterminada con las instancias de Campaign,
 * **[!UICONTROL Temporary tables]** creadas por flujos de trabajo y envíos,
