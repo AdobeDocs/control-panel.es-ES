@@ -2,10 +2,10 @@
 title: Última versión
 description: Esta página enumera todas las nuevas funciones y mejoras de Panel de control
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 7dece51698349f792886b3a7cdb22b1e49e48b9e
+source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 100%
+source-wordcount: '98'
+ht-degree: 28%
 
 ---
 
@@ -13,8 +13,22 @@ ht-degree: 100%
 
 Esta página enumera las nuevas funciones y mejoras de Panel de control.
 
-## Mejoras de junio de 2023 {#june-2023}
+## Septiembre de 2023 {#september-2023}
 
-* Ahora puede delegar los certificados SSL de subdominios ya delegados a Adobe directamente desde la lista de subdominios. [Más información](../subdomains-certificates/using/delegate-ssl.md)
+<table>
+<thead>
+<tr>
+<th><strong>Gestión de registros DMARC y BIMI</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><p>Ahora puede añadir registros DMARC y BIMI directamente desde el Panel de control de Campaign:
 
-* El remitente de los correos electrónicos de alerta ha cambiado a `"alert@notifications.campaign.adobe.com"`.
+<ul><li><strong>Registros DMARC</strong> proporciona una forma de autenticar el dominio del remitente y evitar el uso no autorizado del dominio con fines malintencionados. <a href="../subdomains-certificates/using/dmarc.md">Aprenda a añadir registros DMARC</a></li>
+<li><strong>Registros BIMI</strong> le permite mostrar un logotipo aprobado junto a los correos electrónicos en las bandejas de entrada de los proveedores de buzones de correo para mejorar el reconocimiento y la confianza de la marca. <a href="../subdomains-certificates/using/bimi.md">Aprenda a añadir registros BIMI</a></li></ul>
+</td>
+</tr>
+</tbody>
+</table>

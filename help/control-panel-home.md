@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: d0ba7f99eefd565ffa52dbe22771df0cd5438899
+source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: '240'
+ht-degree: 70%
 
 ---
 
@@ -26,13 +26,14 @@ El Panel de control de Campaign le ayuda a aumentar la eficiencia de su trabajo 
 
 ## Novedades
 
-**Eliminación de la delegación para subdominios delegados en Adobe**
+**Gestión de registros DMARC y BIMI**
 
-Ahora puede quitar la delegación de un subdominio que se haya delegado en Adobe, incluida la configuración CNAME. [Más información](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
+Ahora puede añadir registros DMARC y BIMI directamente desde el Panel de control de Campaign:
 
-**Calendario de servicios**
+* **Registros DMARC** proporciona una forma de autenticar el dominio del remitente y evitar el uso no autorizado del dominio con fines malintencionados. [Aprenda a añadir registros DMARC](subdomains-certificates/using/dmarc.md)
 
-El calendario de servicios ahora proporciona una vista de calendario para seguir los eventos importantes que se producen en las instancias. Además, se ha añadido información sobre las notificaciones enviadas a los usuarios suscritos a las alertas del Panel de control de Campaign. [Más información](../help/service-events/service-events.md)
+
+* **Registros BIMI** le permite mostrar un logotipo aprobado junto a los correos electrónicos en las bandejas de entrada de los proveedores de buzones de correo para mejorar el reconocimiento y la confianza de la marca. [Aprenda a añadir registros BIMI](subdomains-certificates/using/bimi.md)
 
 >[!CAUTION]
 >
