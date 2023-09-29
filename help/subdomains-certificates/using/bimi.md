@@ -6,9 +6,9 @@ description: Aprenda a añadir un registro BIMI para un subdominio.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 0ad4c1f12eb035c8d543777be2a8806d507be5be
+source-git-commit: dfb6f548c4d53df7eb807d9aa21065449927f945
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Para añadir un registro BIMI para un subdominio, siga estos pasos:
 
 1. En el **[!UICONTROL Company Logo URL]**, especifique la URL del archivo de SVG que contiene su logotipo.
 
-1. El campo **[!UICONTROL Certificate URL]** es opcional. Le permite agregar una URL de Certificado de marca verificada (VMC) para certificar que su organización es el propietario legal del logotipo, a fin de evitar que los remitentes de spam y otros usuarios maliciosos utilicen logotipos de marca que no son de su propiedad.
+1. Aunque **[!UICONTROL Certificate URL]** es opcional, es necesaria para algunos proveedores de buzones de correo como Gmail y Apple, que cubren el 80 % del mercado de buzones de correo. Por lo tanto, recomendamos obtener un Certificado de Marca Verificada (VMC) para aprovechar realmente BIMI.
 
    +++¿Cómo obtengo una VMC?
 
@@ -56,6 +56,8 @@ Para añadir un registro BIMI para un subdominio, siga estos pasos:
    1. Después de verificar que su logotipo es de marca comercial, póngase en contacto con DigiCert o con la autoridad de certificación (CA) de Entrust para solicitar un VMC.
 
    1. Cuando su VMC esté aprobada, recibirá un archivo de correo mejorado de privacidad (PEM) de certificado de entidad. Anexe cualquier otro certificado intermedio que obtenga de la CA a este archivo PEM. Cargue el archivo PEM (junto con los archivos adjuntos) en su servidor web público y tome nota de la URL del archivo PEM. Utilizará la dirección URL en su registro BIMI TXT.
+
+   1. Una vez que el registro BIMI esté visible en la página de detalles del subdominio para un subdominio en particular, puede utilizar el Inspector BIMI disponible [aquí](https://bimigroup.org/bimi-generator/) para comprobar si el registro BIMI funciona correctamente.
 
    Encontrará información detallada sobre la implementación de BIMI en la [Documentación estándar BIMI](https://bimigroup.org/implementation-guide/)
 +++

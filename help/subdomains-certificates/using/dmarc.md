@@ -6,9 +6,9 @@ description: Obtenga información sobre cómo agregar un registro DMARC para un 
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
+source-git-commit: f87a13c8553173e4303c9b95cfea5de05ff49cee
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 ## Acerca de los registros DMARC {#about}
 
 Autenticación de mensajes, creación de informes y conformidad basados en dominio (DMARC) es un estándar de protocolo de autenticación de correo electrónico que ayuda a las organizaciones a proteger sus dominios de correo electrónico de ataques de suplantación de identidad y suplantación de identidad. Permite decidir cómo debe gestionar un proveedor de buzones los correos electrónicos que no superan las comprobaciones SPF y DKIM, lo que proporciona una forma de autenticar el dominio del remitente y evitar el uso no autorizado del dominio con fines malintencionados.
+
+<!--Detailed information on DMARC implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)-->
 
 ## Limitaciones y requisitos previos {#limitations}
 
@@ -37,11 +39,17 @@ Para añadir un registro DMARC para un subdominio, siga estos pasos:
 
 1. Elija la **[!UICONTROL Policy Type]** que el servidor de destinatario debe seguir cuando falla uno de los correos electrónicos. Los tipos de directivas disponibles son:
 
-   * Ninguno,
-   * Cuarentena (ubicación de carpeta de correo no deseado),
-   * Rechazar (bloquear el correo electrónico).
+   * **[!UICONTROL None]**,
+   * **[!UICONTROL Quarantine]** (ubicación de la carpeta de correo no deseado),
+   * **[!UICONTROL Reject]** (bloquear el correo electrónico).
 
-   Si el subdominio acaba de configurarse, se recomienda configurar este valor en &quot;Ninguno&quot; hasta que el subdominio esté completamente configurado y los correos electrónicos se envíen correctamente. Una vez que todo esté configurado correctamente, puede cambiar el Tipo de directiva a &quot;Cuarentena&quot; o &quot;Rechazar&quot;.
+   Como práctica recomendada, se recomienda implementar lentamente la implementación de DMARC escalando la política de DMARC de p=none, p=quarantine, p=reject a medida que se obtiene la comprensión de DMARC del impacto potencial de DMARC.
+
+   * **Paso 1:** Analice los comentarios que recibe y utiliza (p=ninguno), lo que indica al destinatario que no realice ninguna acción contra los mensajes que no se autentican correctamente, pero que envíe informes de correo electrónico al remitente. Además, revise y corrija los problemas con SPF/DKIM si los mensajes legítimos fallan en la autenticación.
+
+   * **Paso 2:** Determine si SPF y DKIM están alineados y pasa la autenticación para todo el correo electrónico legítimo y, a continuación, mueva la directiva a (p=quarantine), que indica al servidor de correo electrónico receptor que ponga en cuarentena el correo electrónico que falla en la autenticación (esto generalmente significa colocar esos mensajes en la carpeta de correo no deseado). Si la directiva está configurada para poner en cuarentena, se recomienda que comience con un pequeño porcentaje de los correos electrónicos.
+
+   * **Paso 3:** Ajustar directiva a (p=reject). NOTA: Utilice esta directiva con precaución y determine si es apropiada para su organización. La directiva p= reject indica al destinatario que deniegue (devuelva) completamente cualquier correo electrónico del dominio que falle en la autenticación. Con esta directiva habilitada, solo los correos electrónicos verificados como 100 % autenticados por el dominio tendrán la oportunidad de colocar la bandeja de entrada.
 
    >[!NOTE]
    >
@@ -52,9 +60,9 @@ Para añadir un registro DMARC para un subdominio, siga estos pasos:
    * Los informes DMARC agregados proporcionan información de alto nivel como, por ejemplo, el número de correos electrónicos con errores durante un periodo determinado.
    * Los informes de errores de DMARC forenses proporcionan información detallada como, por ejemplo, la dirección IP desde la que se originan los mensajes de correo electrónico erróneos.
 
-1. De forma predeterminada, la política DMARC seleccionada se aplica a todos los correos electrónicos. Puede cambiar este parámetro para que se aplique únicamente a un porcentaje específico de correos electrónicos.
+1. Si la política DMARC está establecida en &quot;Ninguno&quot;, introduzca un porcentaje que se aplique al 100% de los correos electrónicos.
 
-   Cuando implemente gradualmente DMARC, es posible que comience con un pequeño porcentaje de los mensajes. A medida que más mensajes de su dominio pasen la autenticación con servidores de recepción, actualice el registro con un porcentaje mayor, hasta que alcance el 100 por ciento.
+   Si la directiva se establece en &quot;Rechazar&quot; o &quot;Cuarentena&quot;, se recomienda que comience con un pequeño porcentaje de los correos electrónicos. A medida que más correos electrónicos de su dominio pasen la autenticación con servidores de recepción, actualice su registro lentamente con un porcentaje más alto.
 
    >[!NOTE]
    >
