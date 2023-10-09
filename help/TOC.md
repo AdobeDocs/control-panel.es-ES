@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '181'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 87%
       + [Eliminación de la delegación de subdominios en Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
    + Trabajo con registros TXT (Google, BIMI, DMARC) {#txt-records}
       + [Introducción a los registros TXT](subdomains-certificates/using/gs-txt-records.md)
-      + [Añadir registros de verificación del sitio Google](subdomains-certificates/using/managing-txt-records.md)
-      + [Añadir registros DMARC](subdomains-certificates/using/dmarc.md)
-      + [Añadir registros BIMI](subdomains-certificates/using/bimi.md)
+      + [Adición de registros de verificación del sitio Google](subdomains-certificates/using/managing-txt-records.md)
+      + [Adición de registros DMARC](subdomains-certificates/using/dmarc.md)
+      + [Adición de registros BIMI](subdomains-certificates/using/bimi.md)
    + Administración de los certificados SSL de los subdominios {#manage-certificates}
       + [Monitorización de certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Delegación de certificados SSL en Adobe](subdomains-certificates/using/delegate-ssl.md)
