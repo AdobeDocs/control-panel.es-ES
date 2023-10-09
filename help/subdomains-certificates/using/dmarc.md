@@ -1,55 +1,55 @@
 ---
 product: campaign
 solution: Campaign
-title: Añadir registros DMARC
-description: Obtenga información sobre cómo agregar un registro DMARC para un subdominio.
+title: Adición de registros DMARC
+description: Obtenga información sobre cómo añadir un registro DMARC para un subdominio.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Añadir registros DMARC {#dmarc}
+# Adición de registros DMARC {#dmarc}
 
 ## Acerca de los registros DMARC {#about}
 
-Autenticación de mensajes, creación de informes y conformidad basados en dominio (DMARC) es un estándar de protocolo de autenticación de correo electrónico que ayuda a las organizaciones a proteger sus dominios de correo electrónico de ataques de suplantación de identidad y suplantación de identidad. Permite decidir cómo debe gestionar un proveedor de buzones los correos electrónicos que no superan las comprobaciones SPF y DKIM, lo que proporciona una forma de autenticar el dominio del remitente y evitar el uso no autorizado del dominio con fines malintencionados.
+Domain based Message Authentication, Reporting and Conformance (DMARC) es un estándar de protocolo de autenticación de correo electrónico que ayuda a las organizaciones a proteger sus dominios de correo electrónico frente a ataques de suplantación de identidad (phishing) y suplantación electrónica (spoofing). Permite decidir cómo debe gestionar un proveedor de buzones los correos electrónicos que no superan las comprobaciones SPF y DKIM, lo que proporciona una forma de autenticar el dominio del remitente y evitar el uso no autorizado del dominio con fines malintencionados.
 
-Encontrará información detallada sobre la implementación de DMARC en [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html)
+Encontrará información detallada sobre la implementación de DMARC en la [Guía de prácticas recomendadas de envío de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=es)
 
 ## Limitaciones y requisitos previos {#limitations}
 
-* Los registros SPF y DKIM son requisitos previos para crear un registro DMARC.
-* Los registros DMARC solo se pueden agregar para subdominios que utilizan delegación de subdominios completa. [Más información sobre los métodos de configuración de subdominios](subdomains-branding.md#subdomain-delegation-methods)
+* Los registros SPF y DKIM son un requisito previo para crear un registro DMARC.
+* Los registros DMARC solo se pueden añadir para subdominios utilizando la delegación de subdominios completa. [Obtenga más información sobre los métodos de configuración de subdominios](subdomains-branding.md#subdomain-delegation-methods)
 
-## Añadir un registro DMARC para un subdominio {#add}
+## Adición de un registro DMARC para un subdominio {#add}
 
 Para añadir un registro DMARC para un subdominio, siga estos pasos:
 
 1. En la lista de subdominios, haga clic en el botón de puntos suspensivos situado junto al subdominio deseado y seleccione **[!UICONTROL Subdomain details]**.
 
-1. Haga clic en **[!UICONTROL Add TXT record]** y luego elija **[!UICONTROL DMARC]** desde el **[!UICONTROL Record Type]** lista desplegable.
+1. Haga clic en **[!UICONTROL Add TXT record]** y luego elija **[!UICONTROL DMARC]** en la lista desplegable de **[!UICONTROL Record Type]**.
 
    ![](assets/dmarc-add.png)
 
 1. Elija la **[!UICONTROL Policy Type]** que el servidor de destinatario debe seguir cuando falla uno de los correos electrónicos. Los tipos de directivas disponibles son:
 
    * **[!UICONTROL None]**,
-   * **[!UICONTROL Quarantine]** (ubicación de la carpeta de correo no deseado),
+   * **[!UICONTROL Quarantine]** (ubicación en la carpeta de correo no deseado),
    * **[!UICONTROL Reject]** (bloquear el correo electrónico).
 
-   Como práctica recomendada, se recomienda implementar lentamente la implementación de DMARC escalando la política de DMARC de p=none, p=quarantine, p=reject a medida que se obtiene la comprensión de DMARC del impacto potencial de DMARC.
+   Como práctica recomendada, se recomienda implementar lentamente la implementación de DMARC escalando la directiva de DMARC de p=ninguno a p=cuarentena, a p=rechazar a medida que se obtiene la comprensión de DMARC del impacto potencial de DMARC.
 
-   * **Paso 1:** Analice los comentarios que recibe y utiliza (p=ninguno), lo que indica al destinatario que no realice ninguna acción contra los mensajes que no se autentican correctamente, pero que envíe informes de correo electrónico al remitente. Además, revise y corrija los problemas con SPF/DKIM si los mensajes legítimos fallan en la autenticación.
+   * **Paso 1:** analice los comentarios que recibe y utiliza (p=ninguno), lo que indica al destinatario que no realice ninguna acción contra los mensajes que no se autentican correctamente, pero que envíe informes de correo electrónico al remitente. Además, revise y corrija los problemas con SPF/DKIM si los mensajes legítimos fallan en la autenticación.
 
-   * **Paso 2:** Determine si SPF y DKIM están alineados y pasa la autenticación para todo el correo electrónico legítimo y, a continuación, mueva la directiva a (p=quarantine), que indica al servidor de correo electrónico receptor que ponga en cuarentena el correo electrónico que falla en la autenticación (esto generalmente significa colocar esos mensajes en la carpeta de correo no deseado). Si la directiva está configurada para poner en cuarentena, se recomienda que comience con un pequeño porcentaje de los correos electrónicos.
+   * **Paso 2:** determine si SPF y DKIM están alineados y pasan la autenticación para todo el correo electrónico legítimo y, a continuación, mueva la directiva a (p=cuarentena), que indica al servidor de correo electrónico receptor que ponga en cuarentena el correo electrónico que falla en la autenticación (esto generalmente significa colocar esos mensajes en la carpeta de correo no deseado). Si la directiva está configurada para poner en cuarentena, se recomienda que comience con un pequeño porcentaje de los correos electrónicos.
 
-   * **Paso 3:** Ajustar directiva a (p=reject). NOTA: Utilice esta directiva con precaución y determine si es apropiada para su organización. La directiva p= reject indica al destinatario que deniegue (devuelva) completamente cualquier correo electrónico del dominio que falle en la autenticación. Con esta directiva habilitada, solo los correos electrónicos verificados como 100 % autenticados por el dominio tendrán la oportunidad de colocar la bandeja de entrada.
+   * **Paso 3:** ajuste la directiva a (p=rechazar). NOTA: Utilice esta directiva con precaución y determine si es apropiada para su organización. La directiva p= rechazar indica al destinatario que deniegue (rechace) completamente cualquier correo electrónico del dominio que falle en la autenticación. Con esta directiva habilitada, solo el correo electrónico verificado como 100 % autenticado por el dominio tendrá la oportunidad de ser ubicado en la bandeja de entrada.
 
    >[!NOTE]
    >
@@ -60,25 +60,25 @@ Para añadir un registro DMARC para un subdominio, siga estos pasos:
    * Los informes DMARC agregados proporcionan información de alto nivel como, por ejemplo, el número de correos electrónicos con errores durante un periodo determinado.
    * Los informes de errores de DMARC forenses proporcionan información detallada como, por ejemplo, la dirección IP desde la que se originan los mensajes de correo electrónico erróneos.
 
-1. Si la política DMARC está establecida en &quot;Ninguno&quot;, introduzca un porcentaje que se aplique al 100% de los correos electrónicos.
+1. Si la directiva DMARC está establecida en &quot;Ninguno&quot;, introduzca un porcentaje que se aplique al 100 % de los correos electrónicos.
 
    Si la directiva se establece en &quot;Rechazar&quot; o &quot;Cuarentena&quot;, se recomienda que comience con un pequeño porcentaje de los correos electrónicos. A medida que más correos electrónicos de su dominio pasen la autenticación con servidores de recepción, actualice su registro lentamente con un porcentaje más alto.
 
    >[!NOTE]
    >
-   >Si su dominio utiliza BIMI, su política DMARC debe tener un valor porcentual del 100%. BIMI no admite directivas DMARC con este valor establecido en menos del 100%.
+   >Si su dominio utiliza BIMI, su directiva DMARC debe tener un valor porcentual del 100 %. BIMI no admite directivas DMARC con este valor establecido en menos del 100 %.
 
    ![](assets/dmarc-add2.png)
 
-1. Los informes DMARC se envían cada 24 horas. Puede cambiar la frecuencia de envío de los informes en la **[!UICONTROL Reporting Interval]** field. El intervalo mínimo autorizado es de 1 hora, mientras que el valor máximo autorizado es de 2190 horas (es decir, 3 meses).
+1. Los informes DMARC se envían cada 24 horas. Puede cambiar la frecuencia de envío de los informes en el campo **[!UICONTROL Reporting Interval]**. El intervalo mínimo autorizado es de 1 hora, mientras que el valor máximo autorizado es de 2190 horas (es decir, 3 meses).
 
-1. En el **SPF** y **[!UICONTROL DKIM Identifier Alignment]** , especifique lo estrictos que deben ser los servidores de destinatarios al comprobar las autenticaciones SPF y DKIM de un correo electrónico.
+1. En los campos **SPF** y **[!UICONTROL DKIM Identifier Alignment]**, especifique lo estrictos que deben ser los servidores de destinatarios al comprobar las autenticaciones SPF y DKIM de un correo electrónico.
 
-   * **[!UICONTROL Relaxed]** mode: el servidor acepta la autenticación incluso si el correo electrónico se envía desde un subdominio,
-   * **[!UICONTROL Strict]** El modo de solo acepta autenticación cuando el dominio del remitente coincide exactamente con un dominio SPF y DKIM.
+   * Modalidad **[!UICONTROL Relaxed]**: el servidor acepta la autenticación incluso si el correo electrónico se envía desde un subdominio,
+   * El modo **[!UICONTROL Strict]** solo acepta la autenticación cuando el dominio del remitente coincide exactamente con un dominio SPF y DKIM.
 
-   Digamos que estamos trabajando con el `http://www.luma.com` dominio. En el modo &quot;Relajado&quot;, los correos electrónicos procedentes del `marketing.luma.com` El servidor autorizará el subdominio, mientras que se rechazarán en el modo &quot;Estricto&quot;.
+   Supongamos que estamos trabajando con el dominio `http://www.luma.com`. En el modo &quot;Relajado&quot;, el servidor autorizará los correos electrónicos procedentes del subdominio `marketing.luma.com`, mientras que se rechazarán en el modo &quot;Estricto&quot;.
 
-1. Clic **[!UICONTROL Add]** para confirmar la creación del registro DMARC.
+1. Haga clic en **[!UICONTROL Add]** para confirmar la creación del registro DMARC.
 
 Una vez procesada la creación del registro DMARC (aproximadamente 5 minutos), este se muestra en la pantalla de detalles de los subdominios. [Obtenga información sobre cómo supervisar registros TXT para los subdominios](gs-txt-records.md#monitor)
