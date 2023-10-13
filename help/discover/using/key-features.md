@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: f41b5ac04c3bb82599337a0dc2679c6ea406923e
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 79%
@@ -50,12 +50,12 @@ Ventajas principales:
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="condiciones" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>Administración de la configuración de la instancia</strong></a></div>
-        <br/><em>Obtenga información sobre cómo administrar la configuración de instancias (solo Campaign v7/v8).</em>
+        <em>Obtenga información sobre cómo administrar la configuración de instancias (solo Campaign v7/v8).</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="condiciones" src="assets/do-not-localize/monitoring-performance.png"/></a>
         <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Monitorización del rendimiento</strong></a></div>
-        <br/><em>Obtenga información sobre cómo monitorizar la utilización de recursos clave en las instancias.</em>
+        <em>Obtenga información sobre cómo monitorizar la utilización de recursos clave en las instancias.</em>
     </td>
 </tr>
 </table>
