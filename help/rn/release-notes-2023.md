@@ -3,7 +3,7 @@ title: Notas de la versión de 2023
 description: Esta página enumera todas las versiones de Panel de control de Campaign de 2023.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
 source-git-commit: a8e2fb9789e9755aa6b9c55019816d7e748606ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 100%
 
