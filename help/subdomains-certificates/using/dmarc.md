@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: 14c873011782eef0413fe5fdb3b1a0eb357fa3bd
+workflow-type: tm+mt
+source-wordcount: '774'
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,9 @@ Encontrará información detallada sobre la implementación de DMARC en la [Gu
 
 * Los registros SPF y DKIM son un requisito previo para crear un registro DMARC.
 * Los registros DMARC solo se pueden añadir para subdominios utilizando la delegación de subdominios completa. [Obtenga más información sobre los métodos de configuración de subdominios](subdomains-branding.md#subdomain-delegation-methods)
+* Si existen registros DMARC y BIMI para un subdominio:
+   * Los registros DMARC no se pueden eliminar. Si desea eliminar un registro DMARC, elimine primero el registro BIMI.
+   * Los registros DMARC se pueden editar, pero no se permite reducir a &quot;Ninguno&quot; la directiva DMARC y el valor porcentual debe establecerse a &quot;100&quot;.
 
 ## Adición de un registro DMARC para un subdominio {#add}
 
@@ -55,7 +58,7 @@ Para añadir un registro DMARC para un subdominio, siga estos pasos:
    >
    > La creación de registros BIMI no está disponible con un tipo de directiva de registro DMARC establecido en &quot;Ninguno&quot;.
 
-1. Rellene las direcciones de correo electrónico que deben recibir los informes DMARC. Cuando uno de los correos electrónicos falla, los informes DMARC se envían automáticamente a la dirección de correo electrónico que elija:
+1. Rellene las direcciones de correo electrónico que deben recibir los informes DMARC. Puede agregar varias direcciones de correo electrónico, separadas por comas. Cuando uno de los correos electrónicos falla, los informes DMARC se envían automáticamente a la dirección de correo electrónico que elija:
 
    * Los informes DMARC agregados proporcionan información de alto nivel como, por ejemplo, el número de correos electrónicos con errores durante un periodo determinado.
    * Los informes de errores de DMARC forenses proporcionan información detallada como, por ejemplo, la dirección IP desde la que se originan los mensajes de correo electrónico erróneos.

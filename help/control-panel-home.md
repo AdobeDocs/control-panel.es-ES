@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
-workflow-type: ht
-source-wordcount: '240'
-ht-degree: 100%
+source-git-commit: 6a4db9712d3a92d8057758eb134b0178213f5ff8
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 62%
 
 ---
 
@@ -26,14 +26,21 @@ El Panel de control de Campaign le ayuda a aumentar la eficiencia de su trabajo 
 
 ## Novedades
 
-**Gestión de registros DMARC y BIMI**
+**Interfaz de usuario**
 
-Ahora puede añadir registros DMARC y BIMI directamente desde el Panel de control:
+* El Panel de control de Campaign ya está disponible en otros idiomas. [Más información](discover/using/discovering-the-interface.md#supported-languages-languages)
 
-* Los **registros DMARC** proporcionan una forma de autenticar el dominio del remitente y evitar el uso no autorizado del dominio con fines malintencionados. [Obtenga información sobre cómo añadir registros DMARC](subdomains-certificates/using/dmarc.md)
+**Supervisión de perfiles activos**
 
+* Ahora puede monitorizar el número de perfiles activos a los que tiene derecho para su organización y el recuento total de perfiles utilizados en su organización en todas las instancias, si utiliza varias instancias. [Más información](performance-monitoring/using/active-profiles-monitoring.md)
 
-* Los **registros BIMI** le permiten mostrar un logotipo aprobado junto a sus correos electrónicos en las bandejas de entrada de los proveedores de buzones de correo para mejorar el reconocimiento y la confianza de la marca. [Obtenga información sobre cómo añadir registros BIMI](subdomains-certificates/using/bimi.md)
+**Registros DMARC**
+
+* Ahora, varias direcciones de correo electrónico pueden recibir correos electrónicos de informes acumulados e informes de errores. [Más información](subdomains-certificates/using/dmarc.md)
+* Se han realizado cambios si existen registros DMARC y BIMI para un subdominio:
+
+   * Los registros DMARC no se pueden eliminar. Si desea eliminar uno, primero debe eliminar el registro BIMI.
+   * Los registros DMARC se pueden editar, pero no se permite reducir la categoría de la directiva a &quot;Ninguno&quot; y su valor porcentual debe ser 100.
 
 >[!CAUTION]
 >

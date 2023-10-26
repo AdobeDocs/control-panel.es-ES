@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: ebebff05669160b97de7e0d58d898ba0e3a30df1
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 87%
+source-wordcount: '433'
+ht-degree: 41%
 
 ---
 
@@ -34,33 +34,30 @@ Los perfiles se consideran activos si se han segmentado o si se ha comunicado co
 
 Para obtener más información sobre perfiles activos, consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) y [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documentaciones.
 
-## Supervisión de perfiles activos {#monitoring-active-profiles}
+## Monitorización del uso de perfiles activos {#monitoring-active-profiles}
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
 >title="Acerca de la monitorización de perfiles activos"
->abstract="En esta pestaña, puede obtener información en tiempo real sobre el uso y la evolución más recientes e históricos de los perfiles activos para cada una de las instancias de Campaign."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es" text="Acerca de la monitorización del rendimiento"
+>abstract="En esta pestaña, puede obtener información en tiempo real sobre el uso y la evolución más recientes e históricos de los perfiles activos para cada una de las instancias de Campaign y de su organización."
 
-El Panel de control permite supervisar el uso de perfiles activos para cada una de las instancias de Campaign.
+La información relacionada con el uso de perfiles activos se actualiza en Panel de control de Campaign en función de las [!DNL Campaign] Flujos de trabajo técnicos que se ejecutan todos los días en las instancias:
+* Flujo de trabajo [&quot;Facturación&quot;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=es) para Campaign Standard.
+* El [&quot;Número de perfiles de facturación activos&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=es) flujo de trabajo para Campaign v7/v8.
 
-Para ello, siga estos pasos:
 
-1. Abra la tarjeta **[!UICONTROL Performance Monitoring]** y seleccione la pestaña **[!UICONTROL Active Profiles]**.
+Para supervisar el uso de perfiles activos en el Panel de control de Campaign, vaya a **[!UICONTROL Performance Monitoring]** tarjeta > **[!UICONTROL Active Profiles]** y seleccione la instancia que desee en la pestaña **[!UICONTROL Instance List]**.
 
-1. Seleccione la instancia que desee en **[!UICONTROL Instance List]**.
-
-1. Se muestra el número de perfiles activos que usa la instancia, así como la última vez que se ejecutó el flujo de trabajo de facturación en la instancia.
+Se muestra información sobre el uso de perfiles activos.
 
 ![](assets/active-profiles-graph.png)
 
->[!NOTE]
->
->Los perfiles activos se cuentan en función de los flujos de trabajo técnicos dedicados que se ejecutan todos los días en las instancias:
->
->* Flujo de trabajo [&quot;Facturación&quot;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=es) para Campaign Standard.
->* El [&quot;Número de perfiles de facturación activos&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=es) flujo de trabajo para Campaign v7/v8.
+La sección superior muestra la siguiente información:
 
-El área inferior proporciona una representación gráfica del uso de perfiles activos durante los últimos 30 días. Puede cambiar el período de tiempo mostrado a 1 año utilizando los filtros disponibles en la esquina superior derecha.
+* El recuento de perfiles activos que se utilizan actualmente en la instancia seleccionada, junto con la marca de tiempo de la ejecución del flujo de trabajo de facturación más reciente para su instancia.
 
-Al pasar el ratón por encima de una de las barras de gráficos, podrá obtener la cantidad exacta de perfiles activos utilizados en el período seleccionado.
+* Recuento total de perfiles activos utilizados en su organización en todas las instancias. Esta sección solo está visible si tiene varias instancias asociadas a su organización.
+
+* Recuento total de perfiles activos asignados a su organización.
+
+La sección inferior proporciona una representación visual del uso del perfil activo durante los últimos 30 días. Puede cambiar este lapso de tiempo a 1 año utilizando el filtro situado en la esquina superior derecha. Al pasar el ratón por encima del gráfico, podrá obtener la cantidad exacta de perfiles activos utilizados en el periodo seleccionado.
