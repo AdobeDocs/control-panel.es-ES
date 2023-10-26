@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: ebebff05669160b97de7e0d58d898ba0e3a30df1
+source-git-commit: cb18dbcbb3a575d88d3c13fe3f22a657caea1e7e
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 41%
@@ -56,7 +56,11 @@ La sección superior muestra la siguiente información:
 
 * El recuento de perfiles activos que se utilizan actualmente en la instancia seleccionada, junto con la marca de tiempo de la ejecución del flujo de trabajo de facturación más reciente para su instancia.
 
-* Recuento total de perfiles activos utilizados en su organización en todas las instancias. Esta sección solo está visible si tiene varias instancias asociadas a su organización.
+* Recuento total de perfiles activos utilizados en su organización en todas las instancias.
+
+  >[!NOTE]
+  >
+  >Esta sección solo está visible si tiene varias instancias asociadas a su organización.
 
 * Recuento total de perfiles activos asignados a su organización.
 
