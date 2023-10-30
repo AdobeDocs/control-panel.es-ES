@@ -6,9 +6,9 @@ feature-set: Campaign
 git-repo: https://github.com/AdobeDocs/control-panel.es-ES
 index: true
 feature: Control Panel
-role: Architect
-level: Beginner
-source-git-commit: 63491701dd099b12d22bf9a1eab3c8a290a2e6af
+role: Admin
+level: Experienced
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '8'
 ht-degree: 100%
@@ -16,4 +16,4 @@ ht-degree: 100%
 ---
 
 
-# Metadatos del Panel de control de Campaign
+# Metadatos del Panel de control
