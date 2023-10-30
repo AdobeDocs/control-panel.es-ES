@@ -6,9 +6,9 @@ role: Admin
 level: Experienced
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ El Panel de control de Campaign le ayuda a aumentar la eficiencia de su trabajo 
 
 **Interfaz de usuario**
 
-* El Panel de control de Campaign ya está disponible en otros idiomas. [Más información](discover/using/discovering-the-interface.md#supported-languages-languages)
+* El Panel de control ya está disponible en otros idiomas. [Más información](discover/using/discovering-the-interface.md#supported-languages-languages)
 
-**Supervisión de perfiles activos**
+**Monitorización de perfiles activos**
 
 * Ahora puede monitorizar el número de perfiles activos a los que tiene derecho para su organización y el recuento total de perfiles utilizados en su organización en todas las instancias, si utiliza varias instancias. [Más información](performance-monitoring/using/active-profiles-monitoring.md)
 
@@ -38,7 +38,7 @@ El Panel de control de Campaign le ayuda a aumentar la eficiencia de su trabajo 
 * Se han realizado cambios si existen registros DMARC y BIMI para un subdominio:
 
    * Los registros DMARC no se pueden eliminar. Si desea eliminar uno, primero debe eliminar el registro BIMI.
-   * Los registros DMARC se pueden editar, pero no se permite reducir la categoría de la directiva a &quot;Ninguno&quot; y su valor porcentual debe ser 100.
+   * Los registros DMARC se pueden editar, pero no se permite bajar la categoría de la directiva a &quot;Ninguno&quot; y su valor porcentual debe ser 100.
 
 >[!CAUTION]
 >
