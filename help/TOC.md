@@ -6,10 +6,10 @@ user-guide-title: Guía del Panel de control
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
-workflow-type: ht
-source-wordcount: '181'
-ht-degree: 100%
+source-git-commit: 9ce224c2d7c9f7c3f7691f000b5e1a43cef0853d
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 98%
 
 ---
 
@@ -30,8 +30,9 @@ ht-degree: 100%
    + [Panel de control de acceso](discover/using/accessing-control-panel.md)
    + [Administración de permisos del Panel de control](discover/using/managing-permissions.md)
    + [Descubrimiento de la interfaz del Panel de control](discover/using/discovering-the-interface.md)
-+ [Monitorización de los contactos y eventos clave](service-events/service-events.md)
-+ [Alertas por correo electrónico](performance-monitoring/using/email-alerting.md)
++ Eventos y alertas por correo electrónico {#alerts-events}
+   + [Monitorización de los contactos y eventos clave](service-events/service-events.md)
+   + [Alertas por correo electrónico](performance-monitoring/using/email-alerting.md)
 + Administración SFTP {#sftp-management}
    + [Acerca de la administración SFTP](sftp/using/about-sftp-management.md)
    + [Administración del almacenamiento SFTP](sftp/using/sftp-storage-management.md)
