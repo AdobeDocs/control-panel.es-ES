@@ -6,7 +6,7 @@ user-guide-title: Guía del Panel de control
 feature: Control Panel
 role: Admin
 level: Experienced
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a892d5ff82fd0160faca2dbe76d3cd1b71073cff
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 98%
@@ -30,6 +30,7 @@ ht-degree: 98%
    + [Panel de control de acceso](discover/using/accessing-control-panel.md)
    + [Administración de permisos del Panel de control](discover/using/managing-permissions.md)
    + [Descubrimiento de la interfaz del Panel de control](discover/using/discovering-the-interface.md)
+   + [Preguntas frecuentes](faq.md)
 + Eventos y alertas por correo electrónico {#alerts-events}
    + [Monitorización de los contactos y eventos clave](service-events/service-events.md)
    + [Alertas por correo electrónico](performance-monitoring/using/email-alerting.md)
@@ -73,4 +74,3 @@ ht-degree: 98%
    + [Detalles de instancias](instances-settings/using/instance-details.md)
    + [Administración de claves GPG](instances-settings/using/gpg-keys-management.md)
    + [Adición de instancias MID/RT (modelo híbrido)](instances-settings/using/external-accounts.md)
-+ [Preguntas frecuentes](faq.md)
