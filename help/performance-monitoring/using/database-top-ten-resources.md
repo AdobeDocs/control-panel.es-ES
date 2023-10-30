@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Los 10 recursos temporales principales
 description: Obtenga información sobre cómo monitorizar en el Panel de control de Campaign los 10 recursos temporales más grandes generados por flujos de trabajo y envíos en la base de datos de Campaign.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
-source-git-commit: b17abddf6bad7e58cb7bd825cd97322427a0b21f
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 69%

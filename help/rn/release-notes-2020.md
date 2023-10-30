@@ -1,8 +1,11 @@
 ---
 title: Notas de la versión 2020
 description: Esta página enumera todas las versiones de Panel de control de 2020.
+feature: Control Panel, Release Notes
+role: Admin
+level: Experienced
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
-source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 100%

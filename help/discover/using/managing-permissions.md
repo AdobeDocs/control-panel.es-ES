@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Administración de permisos en el Panel de control
 description: Obtenga información sobre cómo administrar permisos en el Panel de control de Campaign
-feature: Control Panel
-role: Architect
+feature: Control Panel, Permissions
+role: Admin
 level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
-source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 7%

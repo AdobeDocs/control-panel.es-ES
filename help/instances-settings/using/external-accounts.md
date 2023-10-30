@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Adición de instancias MID/RT (modelo híbrido)
 description: Aprenda a añadir instancias MID/RT al Panel de control con el modelo de alojamiento híbrido.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Access Management
+role: Admin
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 100%
