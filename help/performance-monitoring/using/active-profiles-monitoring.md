@@ -9,8 +9,8 @@ level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '439'
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ La información relacionada con el uso de perfiles activos se actualiza en el Pa
 * Flujo de trabajo [&quot;Número de perfiles de facturación activos&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=es) para Campaign v7/v8.
 
 
-Para supervisar el uso de perfiles activos en el Panel de control de Campaign, vaya a la pestaña tarjeta de **[!UICONTROL Performance Monitoring]** > **[!UICONTROL Active Profiles]** y seleccione la instancia que desee en **[!UICONTROL Instance List]**.
+Para supervisar el uso de perfiles activos en el Panel de control de Campaign, vaya a **[!UICONTROL Monitorización del rendimiento]** tarjeta > **[!UICONTROL Perfiles activos]** y seleccione la instancia que desee en la pestaña **[!UICONTROL Lista de instancias]**.
 
 Se muestra información sobre el uso de perfiles activos.
 

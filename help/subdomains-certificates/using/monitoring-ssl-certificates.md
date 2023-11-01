@@ -9,8 +9,8 @@ level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 65%
+source-wordcount: '573'
+ht-degree: 57%
 
 ---
 
@@ -51,7 +51,7 @@ A continuación, encontrará una lista completa de los impactos asociados con la
 >title="Detalles del subdominio"
 >abstract="Recupere información sobre los certificados SSL de los subdominios."
 
-El estado de los certificados SSL de los subdominios está disponible directamente desde la lista de subdominios al seleccionar la tarjeta **[!UICONTROL Subdomains & Certificates]**.
+El estado de los certificados SSL de los subdominios está disponible directamente desde la lista de subdominios al seleccionar la variable **[!UICONTROL Subdominios y certificados]** Tarjeta de.
 
 Los subdominios se organizan según la fecha de caducidad más próxima del certificado SSL, con información visual sobre la caducidad, en días:
 
@@ -62,10 +62,10 @@ Los subdominios se organizan según la fecha de caducidad más próxima del cert
 
 ![](assets/subdomains_list.png)
 
-Para obtener más información sobre un subdominio, haga clic en el botón **[!UICONTROL Subdomain Details]**.
+Para obtener más información sobre un subdominio, haga clic en **[!UICONTROL Detalles del subdominio]** botón.
 Se muestra la lista de todos los subdominios relacionados. Por lo general, incluye subdominios de páginas de aterrizaje, páginas de recursos, etc.
 
-La pestaña **[!UICONTROL Sender info]** proporciona información sobre las bandejas de entrada configuradas (Remitente, Responder a, Correo electrónico de error).
+El **[!UICONTROL Información del remitente]** proporciona información sobre las bandejas de entrada configuradas (remitente, responder a, correo electrónico de error).
 
 ![](assets/subdomain_details.png)
 

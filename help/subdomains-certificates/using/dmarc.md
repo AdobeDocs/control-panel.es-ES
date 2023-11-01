@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 100%
+source-wordcount: '795'
+ht-degree: 83%
 
 ---
 
@@ -34,17 +34,17 @@ Encontrará información detallada sobre la implementación de DMARC en la [Gu
 
 Para añadir un registro DMARC para un subdominio, siga estos pasos:
 
-1. En la lista de subdominios, haga clic en el botón de puntos suspensivos situado junto al subdominio deseado y seleccione **[!UICONTROL Subdomain details]**.
+1. En la lista de subdominios, haga clic en el botón de puntos suspensivos situado junto al subdominio deseado y seleccione **[!UICONTROL Detalles del subdominio]**.
 
-1. Haga clic en **[!UICONTROL Add TXT record]** y luego elija **[!UICONTROL DMARC]** en la lista desplegable de **[!UICONTROL Record Type]**.
+1. Haga clic en **[!UICONTROL Agregar registro TXT]** y luego elija **[!UICONTROL DMARC]** desde el **[!UICONTROL Tipo de registro]** lista desplegable.
 
    ![](assets/dmarc-add.png)
 
-1. Elija la **[!UICONTROL Policy Type]** que el servidor de destinatario debe seguir cuando falla uno de los correos electrónicos. Los tipos de directivas disponibles son:
+1. Elija la **[!UICONTROL Tipo de política]** que el servidor de destinatario debe seguir cuando falla uno de los correos electrónicos. Los tipos de directivas disponibles son:
 
-   * **[!UICONTROL None]**,
-   * **[!UICONTROL Quarantine]** (ubicación en la carpeta de correo no deseado),
-   * **[!UICONTROL Reject]** (bloquear el correo electrónico).
+   * **[!UICONTROL Ninguno]**,
+   * **[!UICONTROL Cuarentena]** (ubicación de la carpeta de correo no deseado),
+   * **[!UICONTROL Rechazar]** (bloquear el correo electrónico).
 
    Como práctica recomendada, se recomienda implementar lentamente la implementación de DMARC escalando la directiva de DMARC de p=ninguno a p=cuarentena, a p=rechazar a medida que se obtiene la comprensión de DMARC del impacto potencial de DMARC.
 
@@ -73,15 +73,15 @@ Para añadir un registro DMARC para un subdominio, siga estos pasos:
 
    ![](assets/dmarc-add2.png)
 
-1. Los informes DMARC se envían cada 24 horas. Puede cambiar la frecuencia de envío de los informes en el campo **[!UICONTROL Reporting Interval]**. El intervalo mínimo autorizado es de 1 hora, mientras que el valor máximo autorizado es de 2190 horas (es decir, 3 meses).
+1. Los informes DMARC se envían cada 24 horas. Puede cambiar la frecuencia de envío de los informes en la **[!UICONTROL Intervalo de informes]** field. El intervalo mínimo autorizado es de 1 hora, mientras que el valor máximo autorizado es de 2190 horas (es decir, 3 meses).
 
-1. En los campos **SPF** y **[!UICONTROL DKIM Identifier Alignment]**, especifique lo estrictos que deben ser los servidores de destinatarios al comprobar las autenticaciones SPF y DKIM de un correo electrónico.
+1. En el **SPF** y **[!UICONTROL Alineación del identificador DKIM]** , especifique lo estrictos que deben ser los servidores de destinatarios al comprobar las autenticaciones SPF y DKIM de un correo electrónico.
 
-   * Modalidad **[!UICONTROL Relaxed]**: el servidor acepta la autenticación incluso si el correo electrónico se envía desde un subdominio,
-   * El modo **[!UICONTROL Strict]** solo acepta la autenticación cuando el dominio del remitente coincide exactamente con un dominio SPF y DKIM.
+   * **[!UICONTROL Relajado]** mode: el servidor acepta la autenticación incluso si el correo electrónico se envía desde un subdominio,
+   * **[!UICONTROL Estricto]** El modo de solo acepta autenticación cuando el dominio del remitente coincide exactamente con un dominio SPF y DKIM.
 
    Supongamos que estamos trabajando con el dominio `http://www.luma.com`. En el modo &quot;Relajado&quot;, el servidor autorizará los correos electrónicos procedentes del subdominio `marketing.luma.com`, mientras que se rechazarán en el modo &quot;Estricto&quot;.
 
-1. Haga clic en **[!UICONTROL Add]** para confirmar la creación del registro DMARC.
+1. Clic **[!UICONTROL Añadir]** para confirmar la creación del registro DMARC.
 
 Una vez procesada la creación del registro DMARC (aproximadamente 5 minutos), este se muestra en la pantalla de detalles de los subdominios. [Obtenga información sobre cómo supervisar registros TXT para los subdominios](gs-txt-records.md#monitor)

@@ -9,14 +9,14 @@ level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 69%
+source-wordcount: '182'
+ht-degree: 59%
 
 ---
 
 # Los 10 recursos temporales principales {#top-10}
 
-El área **[!UICONTROL Top 10 temporary resources]** enumera los 10 recursos temporales más grandes generados por flujos de trabajo y envíos.
+El **[!UICONTROL Los 10 recursos temporales principales]** Esta área enumera los 10 recursos temporales más grandes generados por flujos de trabajo y envíos.
 
 La monitorización de flujos de trabajo y envíos que crean grandes recursos temporales es un paso clave para monitorizar la base de datos. Si algún recurso temporal consume demasiado espacio en la base de datos, asegúrese de que es necesario tener este flujo de trabajo o envío y, finalmente, vaya a la instancia para pararlo.
 
@@ -28,4 +28,4 @@ La monitorización de flujos de trabajo y envíos que crean grandes recursos tem
 
 ![](assets/database-top10.png)
 
-El **[!UICONTROL View all]** permite acceder a la **[!UICONTROL Storage overview]** detalles para obtener información detallada sobre estos recursos temporales. Para obtener más información, consulte [esta página](database-storage-overview.md).
+El **[!UICONTROL Ver todo]** permite acceder a la **[!UICONTROL Información general de almacenamiento]** detalles para obtener información detallada sobre estos recursos temporales. Para obtener más información, consulte [esta página](database-storage-overview.md).

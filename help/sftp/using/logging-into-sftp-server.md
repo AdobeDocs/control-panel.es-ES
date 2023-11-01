@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 6%
 
 ---
@@ -30,7 +30,7 @@ Antes de iniciar sesión en el servidor, asegúrese de que:
 
 Para conectarse al servidor SFTP, siga estos pasos:
 
-1. Inicie el Panel de control de Campaign y seleccione la opción **[!UICONTROL Key Management]** de la pestaña **[!UICONTROL SFTP]** Tarjeta de.
+1. Inicie el Panel de control de Campaign y seleccione la opción **[!UICONTROL Administración de claves]** de la pestaña **[!UICONTROL SFTP]** Tarjeta de.
 
    ![](assets/sftp_card.png)
 
@@ -38,11 +38,11 @@ Para conectarse al servidor SFTP, siga estos pasos:
 
    ![](assets/do-not-localize/connect1.png)
 
-1. En el **[!UICONTROL SSH Private Key]** , seleccione el archivo de clave privada almacenado en el equipo. Corresponde a un archivo de texto que tiene el mismo nombre que la clave pública, sin la extensión &quot;.pub&quot; (por ejemplo, &quot;enable&quot;).
+1. En el **[!UICONTROL Clave privada SSH]** , seleccione el archivo de clave privada almacenado en el equipo. Corresponde a un archivo de texto que tiene el mismo nombre que la clave pública, sin la extensión &quot;.pub&quot; (por ejemplo, &quot;enable&quot;).
 
    ![](assets/do-not-localize/connect2.png)
 
-   El **[!UICONTROL Password]** El campo se rellena automáticamente con la clave privada del archivo.
+   El **[!UICONTROL Contraseña]** El campo se rellena automáticamente con la clave privada del archivo.
 
    ![](assets/do-not-localize/connect3.png)
 

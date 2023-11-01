@@ -9,8 +9,8 @@ level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 59%
+source-wordcount: '175'
+ht-degree: 30%
 
 ---
 
@@ -21,19 +21,19 @@ ht-degree: 59%
 >title="Información general acerca del almacenamiento"
 >abstract="En esta pestaña, puede obtener información detallada sobre los distintos recursos de Campaign que consumen espacio en la base de datos."
 
-El área **[!UICONTROL Storage overview]** proporciona una representación gráfica del espacio ocupado por:
+El **[!UICONTROL Información general de almacenamiento]** proporciona una representación gráfica del espacio ocupado por:
 
-* **[!UICONTROL System resources]**
+* **[!UICONTROL Recursos del sistema]**
 
   Tenga en cuenta que, si los recursos del sistema consumen una gran parte del espacio de la base de datos, le recomendamos que se ponga en contacto con el Servicio de atención al cliente.
 
-* **[!UICONTROL Out-of-the-box tables]** proporcionadas de forma predeterminada con las instancias de Campaign,
-* **[!UICONTROL Temporary tables]** creadas por flujos de trabajo y envíos,
-* **[!UICONTROL Non-out of the box tables]** generadas después de crear recursos personalizados.
+* **[!UICONTROL Tablas listas para usar.]** proporcionadas de forma predeterminada con las instancias de Campaign,
+* **[!UICONTROL Tablas temporales]** creadas por flujos de trabajo y envíos,
+* **[!UICONTROL Tablas que no están listas para usarse]** generadas después de crear recursos personalizados.
 
 ![](assets/database-storage-overview.png)
 
-Haga clic en el botón **[!UICONTROL View details]** para obtener más información sobre los distintos recursos que consumen espacio en la base de datos.
+Haga clic en **[!UICONTROL Ver detalles]** para obtener más información sobre los distintos recursos que consumen espacio en la base de datos.
 
 Puede utilizar la lista desplegable para restringir la búsqueda y mostrar solo las tablas de un tipo de recurso específico (flujos de trabajo, envíos, destinatarios).
 

@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 85%
+source-wordcount: '612'
+ht-degree: 80%
 
 ---
 
@@ -56,7 +56,7 @@ Una vez añadida una URL, se hace referencia a ella en el archivo de configuraci
 
 Para añadir una dirección URL a la que se pueda conectar su instancia, siga estos pasos:
 
-1. Abra la tarjeta **[!UICONTROL Instances Settings]** para acceder a la pestaña **[!UICONTROL URL Permissions]**.
+1. Abra la tarjeta **[!UICONTROL Configuración de instancias]** para acceder a la pestaña **[!UICONTROL Permisos de URL]**.
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ Para añadir una dirección URL a la que se pueda conectar su instancia, siga es
    >
    >La pestaña <b><span class="uicontrol">Permisos de URL</span></b> lista todas las direcciones URL externas a las que se puede conectar la instancia. Esta lista no incluye las direcciones URL que son necesarias para que funcione Campaign (por ejemplo, conexiones entre elementos de infraestructura).
 
-1. Seleccione en el panel izquierdo la instancia que desee y haga clic en el botón **[!UICONTROL Add new URL]**.
+1. Seleccione en el panel izquierdo la instancia que desee y haga clic en **[!UICONTROL Añadir nueva URL]** botón.
 
    ![](assets/add_url1.png)
 
@@ -90,7 +90,7 @@ Para añadir una dirección URL a la que se pueda conectar su instancia, siga es
 
    ![](assets/add_url_listnew.png)
 
-Puede eliminar una dirección URL en cualquier momento seleccionándola y haciendo clic en el botón **[!UICONTROL Delete URL]**.
+Puede eliminar una dirección URL en cualquier momento seleccionándola y haciendo clic en **[!UICONTROL Eliminar URL]** botón.
 
 Tenga en cuenta que, si elimina una dirección URL, su instancia no podrá volver a llamarla.
 

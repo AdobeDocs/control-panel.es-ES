@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 100%
+source-wordcount: '226'
+ht-degree: 91%
 
 ---
 
@@ -26,19 +26,19 @@ Se representan con tarjetas organizadas en temas, por ejemplo **Monitorización 
 
 ## Registros de trabajos {#job-logs}
 
-El botón **[!UICONTROL Job Logs]** en la esquina superior derecha permite auditar todos los cambios realizados por los usuarios de la organización.
+El botón **[!UICONTROL Registros de trabajos]** en la esquina superior derecha permite auditar todos los cambios realizados por los usuarios de la organización.
 
 ![](assets/control_panel_interface2.png)
 
 Haga clic en un elemento de la lista para obtener más detalles.
 
-El botón **[!UICONTROL Open]** permite acceder directamente a la pestaña Panel de control donde se realizó el cambio.
+El botón **[!UICONTROL Abrir]** permite acceder directamente a la pestaña Panel de control donde se realizó el cambio.
 
 ![](assets/control_panel_logdetails.png)
 
 ## Recursos de ayuda {#help-resources}
 
-La sección **[!UICONTROL Help Resources]** proporciona documentación útil para ayudarle en el uso de los productos del Panel de control y de Campaign. No dude en explorarlos.
+El **[!UICONTROL Recursos de ayuda]** Esta sección proporciona documentación útil para ayudarle en el uso de los productos de Panel de control de Campaign y Campaign. No dude en explorarlos.
 
 ![](assets/helpresources.png)
 

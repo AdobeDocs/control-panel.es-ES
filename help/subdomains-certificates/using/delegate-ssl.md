@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '325'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 81%
 
 ---
 
@@ -34,18 +34,18 @@ La delegación de certificados SSL a Adobe se puede realizar al configurar un nu
 
 ## Delegación de nuevos certificados SSL de subdominios {#new}
 
-Para delegar certificados SSL al configurar un nuevo subdominio, habilite la opción **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** del asistente de configuración de subdominios. Los registros de certificados que se copiarán en la solución de alojamiento se proporcionarán más adelante en el asistente de configuración. Los pasos detallados se documentan en [esta sección](setting-up-new-subdomain.md).
+Para delegar certificados SSL al configurar un nuevo subdominio, habilite la variable **[!UICONTROL Optar por SSL administrado por el Adobe para subdominios]** del asistente de configuración de subdominios. Los registros de certificados que se copiarán en la solución de alojamiento se proporcionarán más adelante en el asistente de configuración. Los pasos detallados se documentan en [esta sección](setting-up-new-subdomain.md).
 
 ![](assets/cname-adobe-managed.png){width="70%" align="left"}
 
 ## Delegación de certificados SSL para subdominios ya delegados {#delegated}
 
-Para delegar certificados SSL para un subdominio ya delegado, haga clic en el botón de puntos suspensivos situado junto al subdominio deseado y seleccione **[!UICONTROL Switch to Managed SSL]**.
+Para delegar certificados SSL para un subdominio ya delegado, haga clic en el botón de puntos suspensivos situado junto al subdominio deseado y seleccione **[!UICONTROL Cambiar a SSL administrado]**.
 
 ![](assets/delegate-ssl-list.png){width="70%" align="left"}
 
 Aparece un cuadro de diálogo con los registros de certificado que Adobe ha generado automáticamente. Copie estos registros, uno por uno o descargando un archivo CSV, y luego vaya a la solución de alojamiento de dominios para generar los certificados coincidentes.
 
-Asegúrese de que todos los registros de certificados se hayan generado en la solución de alojamiento de dominios. Si todo está configurado correctamente, confirme la creación de los registros y haga clic en **[!UICONTROL Submit]**.
+Asegúrese de que todos los registros de certificados se hayan generado en la solución de alojamiento de dominios. Si todo está configurado correctamente, confirme la creación de los registros y haga clic en **[!UICONTROL Enviar]**.
 
 ![](assets/delegate-ssl.png){width="70%" align="left"}

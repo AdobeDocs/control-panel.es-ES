@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 41%
+source-wordcount: '1082'
+ht-degree: 38%
 
 ---
 
@@ -55,7 +55,7 @@ En casos muy excepcionales, la autenticación basada en contraseña está habili
 >
 >Siempre debe seguir las directrices de su organización con respecto a las claves SSH. Los pasos siguientes son solo un ejemplo de cómo se puede crear claves SSH y pueden servir como punto de referencia útil para comunicar los requisitos a su equipo o grupo de red interno.
 
-1. Vaya a la pestaña **[!UICONTROL Key Management]** y, a continuación, haga clic en el botón **[!UICONTROL Add new public key]**.
+1. Vaya a **[!UICONTROL Administración de claves]** y, a continuación, haga clic en **[!UICONTROL Añadir nueva clave pública]** botón.
 
    ![](assets/key0.png)
 
@@ -69,17 +69,17 @@ En casos muy excepcionales, la autenticación basada en contraseña está habili
    >
    >Se pueden añadir una o más claves SSH públicas por cada usuario.
 
-1. Para administrar mejor las claves públicas, puede establecer una duración para la disponibilidad de cada clave. Para ello, seleccione una unidad en la **[!UICONTROL Type]** y defina una duración en el campo correspondiente. Para obtener más información sobre la caducidad de la clave pública, consulte [esta sección](#expiry).
+1. Para administrar mejor las claves públicas, puede establecer una duración para la disponibilidad de cada clave. Para ello, seleccione una unidad en la **[!UICONTROL Tipo]** y defina una duración en el campo correspondiente. Para obtener más información sobre la caducidad de la clave pública, consulte [esta sección](#expiry).
 
    ![](assets/key_expiry.png)
 
    >[!NOTE]
    >
-   >De forma predeterminada, la variable **[!UICONTROL Type]** el campo está configurado como **[!UICONTROL Unlimited]**, lo que significa que la clave pública nunca caduca.
+   >De forma predeterminada, la variable **[!UICONTROL Tipo]** el campo está configurado como **[!UICONTROL Ilimitado]**, lo que significa que la clave pública nunca caduca.
 
-1. En el **[!UICONTROL Comment]** , puede indicar un motivo para añadir esta clave pública (por qué, para quién, etc.).
+1. En el **[!UICONTROL Comentario]** , puede indicar un motivo para añadir esta clave pública (por qué, para quién, etc.).
 
-1. Para poder rellenar el **[!UICONTROL Public Key]** , debe generar una clave SSH pública. Siga los pasos a continuación según su sistema operativo.
+1. Para poder rellenar el **[!UICONTROL Clave pública]** , debe generar una clave SSH pública. Siga los pasos a continuación según su sistema operativo.
 
    **Linux y Mac:**
 
@@ -99,9 +99,9 @@ En casos muy excepcionales, la autenticación basada en contraseña está habili
 
    >[!NOTE]
    >
-   >El **[!UICONTROL Public Key]** Este campo solo acepta el formato OpenSSH. El tamaño de la clave SSH pública debe ser de **2048 bits**.
+   >El **[!UICONTROL Clave pública]** Este campo solo acepta el formato OpenSSH. El tamaño de la clave SSH pública debe ser de **2048 bits**.
 
-1. Haga clic en el botón **[!UICONTROL Save]** para crear la clave. El Panel de control de Campaign guarda la clave pública y su huella digital asociada cifrada con el formato SHA256.
+1. Haga clic en **[!UICONTROL Guardar]** para crear la clave. El Panel de control de Campaign guarda la clave pública y su huella digital asociada cifrada con el formato SHA256.
 
 >[!IMPORTANT]
 >
@@ -117,7 +117,7 @@ El botón **...** permite eliminar una clave existente o copiar su huella digita
 
 ## Administración de claves públicas {#managing-public-keys}
 
-Las claves públicas que cree se mostrarán en **[!UICONTROL Key Management]** pestaña.
+Las claves públicas que cree se mostrarán en **[!UICONTROL Administración de claves]** pestaña.
 
 Puede ordenar los elementos en función de la fecha de creación o de edición, del usuario que lo creó o editó y de la caducidad del intervalo de IP.
 
@@ -127,17 +127,17 @@ También puede buscar una clave pública empezando a escribir un nombre o un com
 
 Para editar uno o más rangos de IP, consulte [esta sección](#editing-public-keys).
 
-Para eliminar una o más claves públicas de la lista, selecciónelas y, a continuación, haga clic en **[!UICONTROL Delete public key]** botón.
+Para eliminar una o más claves públicas de la lista, selecciónelas y, a continuación, haga clic en **[!UICONTROL Eliminar clave pública]** botón.
 
 ![](assets/control_panel_delete_key.png)
 
 ### Vencimiento {#expiry}
 
-El **[!UICONTROL Expires]** Esta columna muestra cuántos días quedan hasta que la clave pública caduque.
+El **[!UICONTROL Caduca]** Esta columna muestra cuántos días quedan hasta que la clave pública caduque.
 
 Si se ha suscrito a [alertas por correo electrónico](../../performance-monitoring/using/email-alerting.md)Además, recibirá notificaciones por correo electrónico 10 días y 5 días antes de que la clave pública caduque y el día en que caduque. Una vez recibida la alerta, puede [editar la clave pública](#editing-public-keys) para ampliar su periodo de validez si es necesario.
 
-Una clave pública caducada se eliminará automáticamente pasados 7 días. Se muestra como **[!UICONTROL Expired]** en el **[!UICONTROL Expires]** columna. Dentro de este periodo de 7 días:
+Una clave pública caducada se eliminará automáticamente pasados 7 días. Se muestra como **[!UICONTROL Caducado]** en el **[!UICONTROL Caduca]** columna. Dentro de este periodo de 7 días:
 
 * Ya no se puede utilizar una clave pública caducada para conectarse al servidor SFTP.
 
@@ -158,8 +158,8 @@ Para editar las claves públicas, siga los pasos a continuación.
 >
 >Solo puede editar las claves públicas que se hayan creado desde la versión de Panel de control de Campaign de octubre de 2021.
 
-1. Seleccione uno o varios elementos de la **[!UICONTROL Key Management]** lista.
-1. Haga clic en el botón **[!UICONTROL Update public key]**.
+1. Seleccione uno o varios elementos de la **[!UICONTROL Administración de claves]** lista.
+1. Haga clic en **[!UICONTROL Actualizar clave pública]** botón.
 
    ![](assets/control_panel_edit_key.png)
 

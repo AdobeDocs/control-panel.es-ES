@@ -9,8 +9,8 @@ level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 10%
+source-wordcount: '154'
+ht-degree: 9%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 10%
 
 Es esencial monitorizar los subdominios para asegurarse de que están correctamente configurados para trabajar con Adobe Campaign.
 
-Se puede acceder directamente a la lista de subdominios para cada una de las instancias de producción al seleccionar el **[!UICONTROL Subdomains & Certificates]** Tarjeta de.
+Se puede acceder directamente a la lista de subdominios para cada una de las instancias de producción al seleccionar el **[!UICONTROL Subdominios y certificados]** Tarjeta de.
 
-El **[!UICONTROL Last verification]** indica cuándo se verificó un subdominio por última vez. Puede iniciar una verificación en cualquier momento haciendo clic en el icono **...** / **[!UICONTROL Verify subdomain]** botón.
+El **[!UICONTROL Última verificación]** indica cuándo se verificó un subdominio por última vez. Puede iniciar una verificación en cualquier momento haciendo clic en el icono **...** / **[!UICONTROL Verificar subdominio]** botón.
 
 ![](assets/subdomain_verification.png)
 

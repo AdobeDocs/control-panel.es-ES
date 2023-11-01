@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 79%
+source-wordcount: '397'
+ht-degree: 70%
 
 ---
 
@@ -34,9 +34,9 @@ Si se ha suscrito a [alertas por correo electrónico](../../performance-monitori
 >abstract="En esta pestaña, puede obtener información en tiempo real sobre el uso y la evolución más recientes e históricos de la base de datos para cada una de las instancias de Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es" text="Acerca de la monitorización del rendimiento"
 
-El Panel de control le permite monitorizar el uso de la base de datos para cada una de las instancias de Campaign. Para ello, abra la tarjeta **[!UICONTROL Performance Monitoring]** y seleccione la pestaña **[!UICONTROL Databases]**.
+El Panel de control le permite monitorizar el uso de la base de datos para cada una de las instancias de Campaign. Para ello, abra el **[!UICONTROL Monitorización del rendimiento]** , luego seleccione la **[!UICONTROL Bases de datos]** pestaña.
 
-Seleccione la instancia que desee en **[!UICONTROL Instance List]** para mostrar información acerca de la capacidad de la base de datos de la instancia y el espacio utilizado.
+Seleccione la instancia que desee en **[!UICONTROL Lista de instancias]** para mostrar información sobre la capacidad de la base de datos de la instancia y el espacio utilizado.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Seleccione la instancia que desee en **[!UICONTROL Instance List]** para mostrar
 
 ![](assets/databases_dashboard.png)
 
-Los datos de este tablero se actualizan en función de la variable **[!UICONTROL Database cleanup technical workflow]** que se ejecuta en la instancia de Campaign (consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=es#list-of-technical-workflows) y [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=es) documentación). Puede comprobar la última vez que el flujo de trabajo se ejecutó por debajo de **[!UICONTROL Used Space]** y **[!UICONTROL Provided Space]** métricas. Tenga en cuenta que, si el flujo de trabajo no se ha ejecutado desde hace más de 3 días, le recomendamos que se ponga en contacto con el Servicio de atención al cliente de Adobe para que investigue por qué no se está ejecutando.
+Los datos de este tablero se actualizan en función de la variable **[!UICONTROL Flujo de trabajo técnico Database cleanup]** que se ejecuta en la instancia de Campaign (consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=es#list-of-technical-workflows) y [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=es) documentación). Puede comprobar la última vez que el flujo de trabajo se ejecutó por debajo de **[!UICONTROL Espacio utilizado]** y **[!UICONTROL Espacio proporcionado]** métricas. Tenga en cuenta que, si el flujo de trabajo no se ha ejecutado desde hace más de 3 días, le recomendamos que se ponga en contacto con el Servicio de atención al cliente de Adobe para que investigue por qué no se está ejecutando.
 
 En este tablero hay disponibles métricas adicionales para ayudarle a analizar el uso de la base de datos de la instancia. Se detallan en estas secciones:
 

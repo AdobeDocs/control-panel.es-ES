@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 40%
+source-wordcount: '1080'
+ht-degree: 36%
 
 ---
 
@@ -52,8 +52,8 @@ Asegúrese de seguir las recomendaciones y limitaciones que se indican a continu
 
 Para agregar un rango de IP a la lista de permitidos, siga estos pasos:
 
-1. Abra la tarjeta **[!UICONTROL SFTP]** y seleccione la pestaña **[!UICONTROL IP Allow Listing]**.
-1. La lista de las direcciones IP en la lista de permitidos se muestra para cada instancia. Seleccione la instancia que desee en la lista del lado izquierdo y haga clic en el botón **[!UICONTROL Add new IP range]**.
+1. Abra el **[!UICONTROL SFTP]** , luego seleccione la **[!UICONTROL Listado de IP permitidas]** pestaña.
+1. La lista de las direcciones IP en la lista de permitidos se muestra para cada instancia. Seleccione la instancia que desee en la lista del lado izquierdo y haga clic en **[!UICONTROL Agregar nuevo intervalo de IP]** botón.
 
    ![](assets/control_panel_add_range.png)
 
@@ -75,20 +75,20 @@ Para agregar un rango de IP a la lista de permitidos, siga estos pasos:
 
    >[!NOTE]
    >
-   >Se permiten los siguientes caracteres especiales en la variable **[!UICONTROL Label]** campo:
+   >Se permiten los siguientes caracteres especiales en la variable **[!UICONTROL Etiqueta]** campo:
    > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
-1. Para administrar mejor la lista de permitidos de IP, puede establecer una duración para la disponibilidad de cada intervalo de IP. Para ello, seleccione una unidad en la **[!UICONTROL Type]** y defina una duración en el campo correspondiente. Para obtener más información sobre la caducidad del intervalo IP, consulte [esta sección](#expiry).
+1. Para administrar mejor la lista de permitidos de IP, puede establecer una duración para la disponibilidad de cada intervalo de IP. Para ello, seleccione una unidad en la **[!UICONTROL Tipo]** y defina una duración en el campo correspondiente. Para obtener más información sobre la caducidad del intervalo IP, consulte [esta sección](#expiry).
 
    ![](assets/control_panel_add_range5.png)
 
    >[!NOTE]
    >
-   >De forma predeterminada, la variable **[!UICONTROL Type]** el campo está configurado como **[!UICONTROL Unlimited]**, lo que significa que el rango de IP nunca caduca.
+   >De forma predeterminada, la variable **[!UICONTROL Tipo]** el campo está configurado como **[!UICONTROL Ilimitado]**, lo que significa que el rango de IP nunca caduca.
 
-1. En el **[!UICONTROL Comment]** , puede indicar un motivo para permitir este intervalo de IP (por qué, para quién, etc.).
+1. En el **[!UICONTROL Comentario]** , puede indicar un motivo para permitir este intervalo de IP (por qué, para quién, etc.).
 
-1. Haga clic en el botón **[!UICONTROL Save]**. El intervalo IP que se suma a la lista de permitidos se mostrará como **[!UICONTROL Pending]** hasta que la solicitud se procese por completo, lo que solo debería tardar unos segundos.
+1. Haga clic en el botón **[!UICONTROL Save.]** El intervalo IP que se suma a la lista de permitidos se mostrará como **[!UICONTROL Pendiente]** hasta que la solicitud se procese por completo, lo que solo debería tardar unos segundos.
 
    ![](assets/control_panel_add_range6.png)
 
@@ -98,7 +98,7 @@ Para agregar un rango de IP a la lista de permitidos, siga estos pasos:
 
 ## Administración de intervalos de IP {#managing-ip-ranges}
 
-Los rangos de IP que cree se mostrarán en **[!UICONTROL IP Allow Listing]** pestaña.
+Los rangos de IP que cree se mostrarán en **[!UICONTROL Listado de IP permitidas]** pestaña.
 
 Puede ordenar los elementos en función de la fecha de creación o de edición, del usuario que lo creó o editó y de la caducidad del intervalo de IP.
 
@@ -108,17 +108,17 @@ También puede buscar un rango de IP empezando a escribir una etiqueta, un inter
 
 Para editar uno o más rangos de IP, consulte [esta sección](#editing-ip-ranges).
 
-Para eliminar uno o más rangos de IP de la lista de permitidos, selecciónelos y haga clic en **[!UICONTROL Delete IP range]** botón.
+Para eliminar uno o más rangos de IP de la lista de permitidos, selecciónelos y haga clic en **[!UICONTROL Eliminar intervalo de IP]** botón.
 
 ![](assets/control_panel_delete_range.png)
 
 ### Vencimiento {#expiry}
 
-El **[!UICONTROL Expires]** Esta columna muestra cuántos días quedan hasta que caduque el rango de IP.
+El **[!UICONTROL Caduca]** Esta columna muestra cuántos días quedan hasta que caduque el rango de IP.
 
 Si se ha suscrito a [alertas por correo electrónico](../../performance-monitoring/using/email-alerting.md), recibirá notificaciones por correo electrónico 10 días y 5 días antes de que caduque un intervalo de IP y el día en que caduque. Una vez recibida la alerta, puede [editar el rango de IP](#editing-ip-ranges) para ampliar su periodo de validez si es necesario.
 
-Un intervalo de IP caducado se eliminará automáticamente pasados 7 días. Se muestra como **[!UICONTROL Expired]** en el **[!UICONTROL Expires]** columna. Dentro de este periodo de 7 días:
+Un intervalo de IP caducado se eliminará automáticamente pasados 7 días. Se muestra como **[!UICONTROL Caducado]** en el **[!UICONTROL Caduca]** columna. Dentro de este periodo de 7 días:
 
 * Ya no se puede utilizar un intervalo IP caducado para acceder a los servidores SFTP.
 
@@ -143,9 +143,9 @@ Para editar rangos de IP, siga los pasos a continuación.
 
 <!--Edition is not available for IP ranges that have been created before the Control Panel October 2021 release.-->
 
-1. Seleccione uno o varios rangos de IP en la lista **[!UICONTROL IP Allow Listing]** lista.
+1. Seleccione uno o varios rangos de IP en la lista **[!UICONTROL Listado de IP permitidas]** lista.
 
-1. Haga clic en el botón **[!UICONTROL Update IP range]**.
+1. Haga clic en **[!UICONTROL Actualizar intervalo de IP]** botón.
 
    ![](assets/control_panel_edit_range.png)
 
@@ -161,7 +161,7 @@ Para editar rangos de IP, siga los pasos a continuación.
 
 ## Control de cambios {#monitoring-changes}
 
-El **[!UICONTROL Job Logs]** en la página de inicio de Panel de control de Campaign, puede realizar un seguimiento y monitorizar todos los cambios realizados en las direcciones IP de la lista de permitidos.
+El **[!UICONTROL Registros de trabajo]** en la página de inicio de Panel de control de Campaign, puede realizar un seguimiento y monitorizar todos los cambios realizados en las direcciones IP de la lista de permitidos.
 
 Para obtener más información sobre la interfaz del Panel de control, consulte [esta sección](../../discover/using/discovering-the-interface.md).
 

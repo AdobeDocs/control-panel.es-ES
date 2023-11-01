@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 16%
+source-wordcount: '1232'
+ht-degree: 15%
 
 ---
 
@@ -77,9 +77,9 @@ Para ello, debe generar un par de claves GPG a partir de una herramienta de cifr
 
    `gpg -a --export <fingerprint>`
 
-1. Para instalar la clave pública en el Panel de control de Campaign, abra el **[!UICONTROL Instance settings]** , luego seleccione la **[!UICONTROL GPG keys]** y la instancia que desee.
+1. Para instalar la clave pública en el Panel de control de Campaign, abra el **[!UICONTROL Configuración de instancia]** , luego seleccione la **[!UICONTROL Claves GPG]** y la instancia que desee.
 
-1. Haga clic en el botón **[!UICONTROL Install Key]**.
+1. Haga clic en **[!UICONTROL Clave de instalación]** botón.
 
    ![](assets/gpg_install_button.png)
 
@@ -91,7 +91,7 @@ Para ello, debe generar un par de claves GPG a partir de una herramienta de cifr
 
    ![](assets/gpg_install_paste.png)
 
-1. Haga clic en el botón **[!UICONTROL Install Key]**.
+1. Haga clic en **[!UICONTROL Clave de instalación]** botón.
 
 Una vez instalada la clave pública, se muestra en la lista. Puede usar el complemento **...** para descargarlo o copiar su huella digital.
 
@@ -126,13 +126,13 @@ Para ello, debe generar un par de claves GPG directamente desde la Panel de cont
 
 Para generar un par de claves en Panel de control de Campaign, siga estos pasos:
 
-1. Abra el **[!UICONTROL Instance settings]** , luego seleccione la **[!UICONTROL GPG keys]** y la instancia de Adobe Campaign que desee.
+1. Abra el **[!UICONTROL Configuración de instancia]** , luego seleccione la **[!UICONTROL Claves GPG]** y la instancia de Adobe Campaign que desee.
 
-1. Haga clic en el botón **[!UICONTROL Generate Key]**.
+1. Haga clic en **[!UICONTROL Generar clave]** botón.
 
    ![](assets/gpg_generate.png)
 
-1. Especifique el nombre de la clave y haga clic en **[!UICONTROL Generate Key]**. Este nombre le ayudará a identificar la clave que debe utilizar para el descifrado en los flujos de trabajo de Campaign
+1. Especifique el nombre de la clave y haga clic en **[!UICONTROL Generar clave]**. Este nombre le ayudará a identificar la clave que debe utilizar para el descifrado en los flujos de trabajo de Campaign
 
    ![](assets/gpg_generate_name.png)
 
@@ -158,21 +158,21 @@ Para obtener más información, consulte la documentación de Adobe Campaign:
 
 ## Monitorización de claves GPG
 
-Para acceder a las claves GPG instaladas y generadas para las instancias, abra el **[!UICONTROL Instance settings]** , luego seleccione la **[!UICONTROL GPG keys]** pestaña.
+Para acceder a las claves GPG instaladas y generadas para las instancias, abra el **[!UICONTROL Configuración de instancia]** , luego seleccione la **[!UICONTROL Claves GPG]** pestaña.
 
 ![](assets/gpg_list.png)
 
 La lista muestra todas las claves GPG de cifrado y descifrado que se han instalado y generado para las instancias con información detallada sobre cada clave:
 
-* **[!UICONTROL Name]**: Nombre que se ha definido al instalar o generar la clave.
-* **[!UICONTROL Use case]**: Esta columna especifica el caso de uso de la clave:
+* **[!UICONTROL Nombre]**: Nombre que se ha definido al instalar o generar la clave.
+* **[!UICONTROL Caso de uso]**: Esta columna especifica el caso de uso de la clave:
 
   ![](assets/gpg_icon_encrypt.png): la clave se ha instalado para el cifrado de datos.
 
   ![](assets/gpg_icon_decrypt.png): la clave se ha generado para permitir el descifrado de datos.
 
-* **[!UICONTROL Fingerprint]**: la huella digital de la clave.
-* **[!UICONTROL Expires]**: la fecha de caducidad de la clave. Tenga en cuenta que el Panel de control de Campaign proporcionará indicaciones visuales a medida que la clave se aproxime a su fecha de caducidad:
+* **[!UICONTROL Huella digital]**: la huella digital de la clave.
+* **[!UICONTROL Caduca]**: la fecha de caducidad de la clave. Tenga en cuenta que el Panel de control de Campaign proporcionará indicaciones visuales a medida que la clave se aproxime a su fecha de caducidad:
 
    * Urgente (rojo) se muestra 30 días antes.
    * El aviso (amarillo) se muestra 60 días antes.
@@ -182,7 +182,7 @@ La lista muestra todas las claves GPG de cifrado y descifrado que se han instala
   >
   >Tenga en cuenta que no se enviará ninguna notificación por correo electrónico por Panel de control de Campaign.
 
-Como práctica recomendada, le recomendamos que elimine todas las claves que ya no necesite. Para ello, haga clic en el **...** y luego seleccione **[!UICONTROL Delete Key].**.
+Como práctica recomendada, le recomendamos que elimine todas las claves que ya no necesite. Para ello, haga clic en el **...** y luego seleccione **[!UICONTROL Eliminar clave].**.
 
 ![](assets/gpg_delete.png)
 

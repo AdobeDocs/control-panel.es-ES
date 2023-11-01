@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '285'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,7 @@ La lista de alertas es la siguiente:
 
 Para suscribirse a estas alertas, siga estos pasos:
 
-1. Haga clic en **[!UICONTROL Alerting notifications]** disponible desde cualquier ubicación del Panel de control de Campaign y, a continuación, haga clic en **[!UICONTROL Subscribe]**.
+1. Haga clic en **[!UICONTROL Notificaciones de alerta]** disponible desde cualquier ubicación del Panel de control de Campaign y, a continuación, haga clic en **[!UICONTROL Suscribirse]**.
 
    ![](assets/subscribing.png)
 

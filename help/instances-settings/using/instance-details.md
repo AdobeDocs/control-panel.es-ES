@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 75%
+source-wordcount: '536'
+ht-degree: 71%
 
 ---
 
@@ -44,7 +44,7 @@ La funcionalidad Detalles de instancias permite ver la arquitectura plana de la 
 
 Para obtener información sobre los servidores conectados a las instancias, siga estos pasos:
 
-1. Abra la tarjeta **[!UICONTROL Instances Settings]** para acceder a la pestaña **[!UICONTROL Instance Details]**.
+1. Abra la tarjeta **[!UICONTROL Configuración de instancias]** para acceder a la pestaña **[!UICONTROL Detalles de la instancia]**.
 
    >[!NOTE]
    >
@@ -62,10 +62,10 @@ Para obtener información sobre los servidores conectados a las instancias, siga
 
 La información disponible es:
 
-* **[!UICONTROL Type]**: tipo del servidor. Los valores posibles son MKT (Marketing), MID (fuentes intermedias) y RT (mensajes del centro de mensajes/mensajería en tiempo real).
-* **[!UICONTROL Name]**: nombre del servidor.
-* **[!UICONTROL Build:]**: versión instalada en el servidor.
-* **[!UICONTROL Upgrade info]**: esta columna le informa si se requiere alguna actualización para el servidor.
+* **[!UICONTROL Tipo]**: el tipo de servidor. Los valores posibles son MKT (Marketing), MID (fuentes intermedias) y RT (mensajes del centro de mensajes/mensajería en tiempo real).
+* **[!UICONTROL Nombre]**: nombre del servidor.
+* **[!UICONTROL Versión:]** La versión de compilación instalada en el servidor.
+* **[!UICONTROL Información de actualización]**: esta columna le informa si se requiere alguna actualización para el servidor.
    * Verde: su servidor está actualizado y no se requiere ninguna actualización.
    * Amarillo: debe considerar la posibilidad de actualizar. Le faltan las funciones y correcciones más recientes.
    * Rojo: actualice lo antes posible. Faltan nuevas funciones y es posible que el rendimiento del servidor no sea óptimo.
