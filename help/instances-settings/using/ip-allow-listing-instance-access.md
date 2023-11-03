@@ -10,7 +10,7 @@ exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -46,7 +46,7 @@ Asegúrese de seguir las recomendaciones y limitaciones que se indican a continu
 * **Si ha habilitado temporalmente el acceso a su instancia para una dirección IP**, asegúrese de eliminar las direcciones IP de la lista de permitidos una vez que ya no necesite conectarse a su instancia.
 * **No recomendamos añadir direcciones IP de lugares públicos a la lista de permitidos** (aeropuertos, hoteles, etc.). Utilice su dirección VPN de la compañía para mantener la seguridad de su instancia en todo momento.
 
-## Añadir direcciones IP a la lista de permitidos para acceder a instancias {#adding-ip-addresses-allow-list}
+## Añadir direcciones IP a la lista de permitidos para acceso a instancias {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
