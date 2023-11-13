@@ -210,7 +210,7 @@ Los clientes con un modelo de alojamiento híbrido ya pueden configurar nuevos s
 <tbody>
 <tr>
 <td>
-<p>Ahora puede monitorizar cómo el rendimiento y la latencia de la entrega son tendencias a lo largo del tiempo en las instancias.</p><p>Para obtener más información, consulte la <a href="../performance-monitoring/using/throughputs-latencies.md">documentación detallada</a>.</p>
+<p>Ahora puede monitorizar cómo el rendimiento y la latencia del envío son tendencias a lo largo del tiempo en las instancias.</p><p>Para obtener más información, consulte la <a href="../performance-monitoring/using/throughputs-latencies.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
