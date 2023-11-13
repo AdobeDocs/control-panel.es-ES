@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Si se ha suscrito a las [alertas por correo electrónico](../../performance-moni
 
 ## Acceso a la información de la capacidad de almacenamiento {#accessing-storage-capacity-information}
 
-La información sobre el espacio utilizado por todas las instancias a las que tiene acceso está disponible en la **[!UICONTROL Almacenamiento]** de la tarjeta SFTP. Se actualiza en cada actualización de página.
+La información sobre el espacio utilizado por todas las instancias a las que tiene acceso está disponible en la pestaña **[!UICONTROL Almacenamiento]** de la tarjeta SFTP. Se actualiza en cada actualización de página.
 
 ![](assets/control_panel_space.png)
 
