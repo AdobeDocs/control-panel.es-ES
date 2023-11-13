@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 71%
 
 >[!IMPORTANT]
 >
->Esta función solo está disponible para instancias de las versiones 7 y 8 de Campaign.
+>Esta funcionalidad solo está disponible para las instancias de las versiones 7 y 8 de Campaign.
 
 La arquitectura de las instancias de Adobe Campaign puede contener varios servidores para permitir la flexibilidad de las actividades de marketing. Por ejemplo, puede tener servidores de fuentes de marketing, tiempo real (o centro de mensajes) y medios que admitan su instancia.
 
@@ -33,12 +33,12 @@ La funcionalidad Detalles de instancias permite ver la arquitectura plana de la 
 
 >[!NOTE]
 >
->Recomendamos que las instancias se actualicen al menos una vez al año para evitar la degradación del rendimiento y poder aprovechar las nuevas funciones y correcciones que Adobe Campaign v7/v8 tiene para ofrecer.
+>Recomendamos que las instancias se actualicen al menos una vez al año para evitar la disminución del rendimiento y poder aprovechar las nuevas funciones y correcciones que ofrece las versiones 7 y 8 de Adobe Campaign.
 
 **Temas relacionados:**
 
-* [Realización de una actualización de versión](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)
-* [Actualización de Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html)
+* [Realización de una actualización de versión](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=es)
+* [Actualización de Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html?lang=es)
 
 ## Recuperación de información sobre las instancias {#retrieving-information-about-instances}
 
@@ -48,13 +48,13 @@ Para obtener información sobre los servidores conectados a las instancias, siga
 
    >[!NOTE]
    >
-   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control de Campaign, el ID de organización no está asociado a ninguna instancia de Adobe Campaign v7/v8
+   >Si la tarjeta de configuración de instancias no está visible en la página de inicio del panel de control, significa que el ID de la organización no está asociado a ninguna instancia de Adobe Campaign v7/v8. 
 
 1. Seleccione en el panel izquierdo la instancia de Campaign que desee.
 
    >[!NOTE]
    >
-   >Todas las instancias de Campaign se muestran en la lista del panel izquierdo. Como la función Detalles de instancia está dedicada únicamente a instancias de Campaign v7/v8, se muestra el mensaje Instancia no aplicable si selecciona una instancia de Campaign Standard.
+   >Todas las instancias de Campaign se muestran en la lista del panel izquierdo. Como la funcionalidad Detalles de instancia está dedicada únicamente a las instancias de Campaign v7/v8, aparecerá el mensaje “Instancia no aplicable” si selecciona una instancia de Campaign Standard. 
 
 1. Se muestran los servidores conectados a la instancia.
 
@@ -62,15 +62,15 @@ Para obtener información sobre los servidores conectados a las instancias, siga
 
 La información disponible es:
 
-* **[!UICONTROL Tipo]**: el tipo de servidor. Los valores posibles son MKT (Marketing), MID (fuentes intermedias) y RT (mensajes del centro de mensajes/mensajería en tiempo real).
+* **[!UICONTROL Tipo]**: tipo del servidor. Los valores posibles son MKT (Marketing), MID (fuentes intermedias) y RT (mensajes del centro de mensajes/mensajería en tiempo real).
 * **[!UICONTROL Nombre]**: nombre del servidor.
-* **[!UICONTROL Versión:]** La versión de compilación instalada en el servidor.
-* **[!UICONTROL Información de actualización]**: esta columna le informa si se requiere alguna actualización para el servidor.
+* **[!UICONTROL Versión:]** la versión de compilación instalada en el servidor.
+* **[!UICONTROL Actualizar información]**: esta columna informa si se requiere alguna actualización para el servidor.
    * Verde: su servidor está actualizado y no se requiere ninguna actualización.
    * Amarillo: debe considerar la posibilidad de actualizar. Le faltan las funciones y correcciones más recientes.
    * Rojo: actualice lo antes posible. Faltan nuevas funciones y es posible que el rendimiento del servidor no sea óptimo.
 
-Si es necesario actualizar uno de los servidores, consulte [esta documentación](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html) para obtener más información sobre cómo proceder.
+Si es necesario actualizar uno de los servidores, consulte [esta documentación](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=es) para obtener más información sobre cómo proceder.
 
 ## Preguntas frecuentes {#common-questions}
 
