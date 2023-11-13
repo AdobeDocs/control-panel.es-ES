@@ -1,16 +1,16 @@
 ---
 product: campaign
 solution: Campaign
-title: El Panel de control de Campaign le ayuda a aumentar la eficacia de su trabajo como administrador de productos de Adobe Campaign Standard o Classic.
+title: El Panel de control le ayuda a aumentar la eficacia en su trabajo como administrador de productos de Adobe Campaign Standard y Classic.
 description: Obtenga información sobre cómo acceder al Panel de control
 feature: Control Panel, Overview
 role: Admin
 level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Ventajas principales:
 >
 >El acceso al Panel de control está restringido a los usuarios administradores. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](managing-permissions.md).
 >
->Para las versiones 7 y 8 de Campaign, tenga en cuenta que la instancia debe estar alojada en Amazon Web Service (AWS) y actualizarse a la última versión [Compilación estable de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses) o para la versión 9032 o superior. Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](../../faq.md#hosted-aws).
+>Para la versión 7/8 de Campaign, tenga en cuenta que la instancia debe estar alojada en Amazon Web Services (AWS) y actualizada a la última [versión estable de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses) o a la versión 9032 o superior. Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](../../faq.md#hosted-aws).
 
 <table style="table-layout:fixed">
 <tr>
@@ -50,7 +50,7 @@ Ventajas principales:
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="condiciones" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>Administración de la configuración de la instancia</strong></a></div>
-        <em>Obtenga información sobre cómo administrar la configuración de instancias (solo Campaign v7/v8).</em>
+        <em>Descubra cómo gestionar la configuración de las instancias (solo Campaign v7/v8).</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="condiciones" src="assets/do-not-localize/monitoring-performance.png"/></a>
