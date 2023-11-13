@@ -7,9 +7,9 @@ feature: Control Panel
 role: Admin
 level: Experienced
 source-git-commit: a892d5ff82fd0160faca2dbe76d3cd1b71073cff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
    + [Descubrimiento de la interfaz del Panel de control](discover/using/discovering-the-interface.md)
    + [Preguntas frecuentes](faq.md)
 + Eventos y alertas por correo electrónico {#alerts-events}
-   + [Monitorización de los contactos y eventos clave](service-events/service-events.md)
+   + [Supervisión de los contactos y eventos clave](service-events/service-events.md)
    + [Alertas por correo electrónico](performance-monitoring/using/email-alerting.md)
 + Administración SFTP {#sftp-management}
    + [Acerca de la administración SFTP](sftp/using/about-sftp-management.md)
@@ -42,7 +42,7 @@ ht-degree: 98%
    + [Inicio de sesión en el servidor SFTP](sftp/using/logging-into-sftp-server.md)
    + [Preguntas frecuentes](sftp/using/common-questions.md)
 + Subdominios y certificados {#subdomains-and-certificates}
-   + [Promoción de la marca de subdominios](subdomains-certificates/using/subdomains-branding.md)
+   + [Promoción de subdominios](subdomains-certificates/using/subdomains-branding.md)
    + [Supervisión de los subdominios](subdomains-certificates/using/monitoring-subdomains.md)
    + Delegar subdominios {#delegate-subdomains}
       + [Configuración de un nuevo subdominio](subdomains-certificates/using/setting-up-new-subdomain.md)
@@ -66,7 +66,7 @@ ht-degree: 98%
       + [Consultas activas](performance-monitoring/using/database-active-queries.md)
       + [Monitorización de flujos de trabajo](performance-monitoring/using/workflow-monitoring.md)
       + [Impedimento de la sobrecarga de la base de datos](performance-monitoring/using/database-preventing-overload.md)
-   + [Monitorización de perfiles activos](performance-monitoring/using/active-profiles-monitoring.md)
+   + [Supervisión de perfiles activos](performance-monitoring/using/active-profiles-monitoring.md)
    + [Monitorización de rendimiento y latencia](performance-monitoring/using/throughputs-latencies.md)
 + Configuración de instancias {#instances-settings}
    + [Listado de IP permitidas para acceso a instancias](instances-settings/using/ip-allow-listing-instance-access.md)
