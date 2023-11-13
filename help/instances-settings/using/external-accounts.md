@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -53,11 +53,11 @@ Los clientes híbridos deben conectarse al Panel de control a través de Experie
 >
 >En caso de que encuentre algún problema para acceder al Panel de control, lo más probable es que la instancia de marketing aún no esté asignada a su [ID de organización](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es). Póngase en contacto con el Servicio de atención al cliente para completar esta configuración y continuar. Si la conexión se establece correctamente, verá la página de inicio del Panel de control.
 
-Para poder acceder a las funciones del Panel de control de Campaign, debe proporcionar la información de la instancia MID/RT en la **[!UICONTROL Configuración de instancias]** Tarjeta de. Para realizar esto, siga los pasos a continuación.
+Para poder acceder a las funcionalidades del Panel de control, tendrá que proporcionar la información de la instancia MID/RT en la tarjeta **[!UICONTROL Configuración de instancias]**. Para realizar esto, siga los pasos a continuación.
 
-1. En el **[!UICONTROL Configuración de instancias]** , seleccione la **[!UICONTROL Cuentas externas]** pestaña.
+1. En la tarjeta **[!UICONTROL Configuración de instancias]**, seleccione la pestaña **[!UICONTROL Cuentas externas]**.
 
-1. Seleccione la instancia de marketing que desee en la lista desplegable y haga clic en **[!UICONTROL Añadir nueva URL]**.
+1. Seleccione la instancia de marketing deseada de la lista desplegable y, a continuación, haga clic en **[!UICONTROL Añadir nueva URL]**.
 
    ![](assets/external-account-addbutton.png)
 
@@ -65,7 +65,7 @@ Para poder acceder a las funciones del Panel de control de Campaign, debe propor
 
    ![](assets/external-account-add.png)
 
-   * **[!UICONTROL URL]**: URL de la instancia, que se puede encontrar en la consola del cliente de Campaign en la **[!UICONTROL Administration]** > **[!UICONTROL Plataforma]** > **[!UICONTROL Cuentas externas]** menú.
+   * **[!UICONTROL URL]**: dirección URL de la instancia, que se puede encontrar en la Consola del cliente de Campaign, en el menú **[!UICONTROL Administración]** > **[!UICONTROL Plataforma]** > **[!UICONTROL Cuentas externas]**.
 
      ![](assets/external-account-url.png)
 
@@ -85,7 +85,7 @@ Puede quitar o desactivar una URL de instancia MID/RT en cualquier momento selec
 
 ![](assets/external-account-edit.png)
 
-Tenga en cuenta que puede monitorizar cualquier acción realizada en **[!UICONTROL Cuentas externas]** en una URL de instancia MID/RT desde el **[!UICONTROL Registros de trabajo]**:
+Tenga en cuenta que puede monitorizar cualquier acción efectuada en la pestaña **[!UICONTROL Cuentas externas]** de una URL de instancia MID/RT desde **[!UICONTROL Registros de trabajos]**:
 
 ![](assets/external-account-logs.png)
 
@@ -93,7 +93,7 @@ Tenga en cuenta que puede monitorizar cualquier acción realizada en **[!UICONTR
 
 Una vez añadida la instancia de MID/RT, debe añadir su dirección IP a la lista de permitidos para que la instancia de marketing pueda conectarse a ella.
 
-Esto se puede realizar desde el **[!UICONTROL Listado de IP permitidas]** en la pestaña **[!UICONTROL Configuración de instancias]** Tarjeta de. [Obtenga información sobre cómo añadir direcciones IP a la lista de permitidos](ip-allow-listing-instance-access.md)
+Esto se puede realizar desde la pestaña **[!UICONTROL Lista de IP permitidas]** de la tarjeta **[!UICONTROL Configuración de instancias]**. [Obtenga información sobre cómo añadir direcciones IP a la lista de permitidos](ip-allow-listing-instance-access.md)
 
 Una vez que haya finalizado, podrá utilizar las funcionalidades de Panel de control de Campaign con su instancia de MID/RT.
 
