@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 71%
 
 Para monitorizar de forma eficaz las instancias de Campaign, es crucial seguir los eventos importantes que pueden afectar potencialmente a su(s) instancia(s). El Panel de control de Campaign le permite identificar eventos como nuevas versiones, actualizaciones, parches, correcciones rápidas, etc. y proporciona una lista de contactos de Adobe clave para cualquier solicitud o problema.
 
-Esta información es accesible desde el **[!UICONTROL Calendario de servicios]** en la página de inicio del Panel de control de Campaign.
+Se puede acceder a esta información desde la tarjeta **[!UICONTROL Calendario de servicios]** de la página de inicio del Panel de control.
 
 ## Contactos clave {#key-contacts}
 
-El **[!UICONTROL Contactos clave]** Esta sección enumera las personas en Adobe con las que puede ponerse en contacto para cualquier solicitud o problema de las instancias.
+La sección **[!UICONTROL Contactos clave]** lista las personas en Adobe con las que puede ponerse en contacto para cualquier solicitud o problema sobre las instancias.
 
 >[!NOTE]
 >
@@ -43,15 +43,15 @@ Los contactos clave incluyen las siguientes funciones:
 
 * **[!UICONTROL TAM]**: administrador de cuentas técnico,
 * **[!UICONTROL CSM]**: Customer Success Manager,
-* **[!UICONTROL Entrega]**: punto de contacto para operaciones de envío,
-* **[!UICONTROL Administrador de transición]**: Managed Services Transition Manager (solo para la cuenta de Managed Services),
-* **[!UICONTROL Especialista en incorporación]**: especialista asignado a la cuenta para ayudarle en la incorporación al Campaign Classic (solo para la cuenta de Managed Services).
+* **[!UICONTROL Entregabilidad]**: punto de contacto para las operaciones de entregabilidad,
+* **[!UICONTROL Gestor de transición]**: gestor de transición de Managed Services (solo para la cuenta de Managed Services),
+* **[!UICONTROL Especialista en incorporación]**: especialista asignado a la cuenta para ayudarle en la incorporación a Campaign Classic (solo para la cuenta de Managed Services).
 
 ## Seguimiento de los eventos importantes {#events}
 
-El **[!UICONTROL Calendario de eventos de servicio]** Esta sección muestra todas las versiones anteriores y futuras, así como las alertas a las que se suscriben los usuarios en las alertas de correo electrónico de Panel de control de Campaign. Además, el Panel de control de Campaign permite a los usuarios establecer recordatorios y marcar eventos relevantes para la instancia seleccionada a fin de que estén mejor organizados y sean más eficientes.
+La sección **[!UICONTROL Calendario de eventos de servicio]** muestra todas las versiones anteriores y futuras, así como las alertas a las que se suscribieron los usuarios en las alertas de correo electrónico del Panel de control. Además, el Panel de control de Campaign permite a los usuarios establecer recordatorios y marcar eventos relevantes para la instancia seleccionada a fin de que estén mejor organizados y sean más eficientes.
 
-Los eventos se muestran en un calendario o en una lista. Puede alternar entre las dos vistas mediante el **[!UICONTROL Calendario]** y **[!UICONTROL Lista]** botones en la esquina superior derecha de la sección.
+Los eventos se muestran en un calendario o en una lista. Puede alternar entre las dos vistas mediante los botones **[!UICONTROL Calendario]** y **[!UICONTROL Lista]** situados en la esquina superior derecha de la sección.
 
 ![](assets/service-events-calendar.png)
 
@@ -67,8 +67,8 @@ Se muestran tres tipos de eventos:
 
 * Las **Versiones** indican las implementaciones pasadas y próximas a la instancia, que se muestran respectivamente en gris y azul en la vista calendario. Los detalles del evento especifican el tipo de versión asociada a cada implementación:
 
-   * **[!UICONTROL Disponibilidad general]**: última compilación estable disponible.
-   * **[!UICONTROL Disponibilidad limitada]**: solo implementación bajo demanda.
+   * **[!UICONTROL Disponibilidad general]**: última versión estable disponible.
+   * **[!UICONTROL Disponibilidad limitada]**: solo implementación a petición.
    * **[!UICONTROL Liberar candidato]**: validado por ingeniería. Esperando pruebas de producción.
    * **[!UICONTROL Versión preliminar]**: disponibilidad anticipada para necesidades específicas del cliente.
    * **[!UICONTROL Ya no está disponible]**: la versión no presenta ningún problema importante, pero hay una nueva disponible con correcciones de errores adicionales. Se requiere una actualización.
@@ -88,7 +88,7 @@ Con el Calendario de servicios, puede configurar recordatorios para recibir noti
 
 Para establecer una alerta para un evento, siga estos pasos:
 
-1. Pase el ratón sobre el evento que quiera que se le recuerde o haga clic en el botón de los tres puntos de la vista de lista y seleccione **[!UICONTROL Definir recordatorio]**.
+1. Pase el ratón por encima del evento que desea que se le recuerde o haga clic en el botón de los tres puntos en la vista de lista y seleccione **[!UICONTROL Definición de recordatorio]**.
 
 1. Asigne un título al recordatorio y seleccione la fecha en la que desea que se le notifique antes de que se produzca el evento.
 
@@ -106,4 +106,4 @@ Para establecer una alerta para un evento, siga estos pasos:
    >
    >Se pueden configurar hasta dos recordatorios para el mismo evento.
 
-1. En la fecha especificada en el recordatorio, se enviará un correo electrónico para notificarle el próximo evento y el recordatorio se eliminará automáticamente del **[!UICONTROL Recordatorios]** en el menú Calendario de servicios.
+1. En la fecha especificada en el recordatorio, se enviará un correo electrónico para notificarle el próximo evento, y el recordatorio se eliminará automáticamente del recuento de **[!UICONTROL Recordatorios]** en el menú Calendario de servicios.
