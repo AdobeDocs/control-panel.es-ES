@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1027'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -44,8 +44,8 @@ El proceso de renovación de certificados SSL incluye 3 pasos:
 **Temas relacionados:**
 
 * [Guía de prácticas recomendadas de capacidad de entrega: Proceso de solicitud de certificado SSL para Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=es)
-* [Promoción de la marca de subdominios](../../subdomains-certificates/using/subdomains-branding.md)
-* [Monitorización de subdominios](../../subdomains-certificates/using/monitoring-subdomains.md)
+* [Promoción de subdominios](../../subdomains-certificates/using/subdomains-branding.md)
+* [Supervisión de subdominios](../../subdomains-certificates/using/monitoring-subdomains.md)
 
 ## Generación de la CSR {#generate}
 
@@ -61,40 +61,40 @@ El proceso de renovación de certificados SSL incluye 3 pasos:
 
 Para generar una solicitud de firma de certificado (CSR), siga estos pasos:
 
-1. En el **[!UICONTROL Subdominios y certificados]** , seleccione la instancia que desee y haga clic en **[!UICONTROL Administrar certificado]** botón.
+1. En la tarjeta **[!UICONTROL Subdominios y certificados]**, seleccione la instancia que desee y, a continuación, haga clic en el botón **[!UICONTROL Administrar certificado]**.
 
    ![](assets/renewal1.png)
 
-1. Seleccionar **[!UICONTROL 1 - Generar una CSR]**, luego haga clic en **[!UICONTROL Siguiente]** para iniciar el asistente que le guiará a través del proceso de generación de CSR.
+1. Seleccione **[!UICONTROL 1 - Generar una CSR]** y, a continuación, haga clic en **[!UICONTROL Siguiente]** para iniciar el asistente que le guiará por el proceso de generación de la CSR.
 
    ![](assets/renewal2.png)
 
 1. Verá un formulario con todos los detalles necesarios para generar su CSR.
 
-   Asegúrese de completar la información solicitada de forma completa y precisa; de lo contrario, es posible que el certificado no se renueve (póngase en contacto con el equipo interno, los equipos de seguridad y TI si es necesario) y haga clic en **[!UICONTROL Siguiente]**.
+   Asegúrese de rellenar la información solicitada de forma completa y precisa, ya que de lo contrario es posible que el certificado no se renueve (póngase en contacto con el equipo interno, los equipos de seguridad y TI si es necesario) y, a continuación, haga clic en **[!UICONTROL Siguiente]**.
 
    * **[!UICONTROL Organización]**: nombre oficial de la organización.
-   * **[!UICONTROL Unidad de organización]**: unidad vinculada al subdominio (ejemplo: Marketing, TI).
-   * **[!UICONTROL Instancia]** (precargada): URL de la instancia de Campaign asociada al subdominio.
-   * **[!UICONTROL Nombre común]**: el nombre común está seleccionado de forma predeterminada, puede seleccionar uno de los subdominios si es necesario.
+   * **[!UICONTROL Unidad organizativa]**: unidad vinculada al subdominio (ejemplo: Marketing, TI).
+   * **[!UICONTROL Instancia]** (precargada): dirección URL de la instancia de Campaign asociada al subdominio.
+   * **[!UICONTROL Nombre común]**: el nombre común se selecciona de forma predeterminada, puede seleccionar uno de los subdominios si es necesario.
 
    ![](assets/renewal3.png)
 
-1. Seleccione los subdominios que desea incluir en la CSR y haga clic en **[!UICONTROL OK]**.
+1. Seleccione los subdominios que desea incluir en la CSR y haga clic en **[!UICONTROL Aceptar]**.
 
    ![](assets/renewal4.png)
 
-1. Los subdominios seleccionados se muestran en la lista. Para cada uno de ellos, seleccione los subdominios que desea incluir y haga clic en **[!UICONTROL Siguiente]**.
+1. Los subdominios seleccionados se muestran en la lista. Para cada uno de ellos, seleccione los subdominios que desea incluir y, a continuación, haga clic en **[!UICONTROL Siguiente]**.
 
    ![](assets/renewal5.png)
 
-1. Se muestra un resumen de los subdominios que se incluirán en la CSR. Clic **[!UICONTROL Enviar]** para confirmar su solicitud.
+1. Se muestra un resumen de los subdominios que se incluirán en la CSR. Haga clic en **[!UICONTROL Enviar]** para confirmar la solicitud.
 
    ![](assets/renewal6.png)
 
    >[!NOTE]
    >
-   >El **[!UICONTROL Copiar contenido de CSR]** permite copiar toda la información relacionada con la CSR (ID de organización, instancia, nombre de organización, nombre común, subdominios incluidos, etc.)
+   >El botón **[!UICONTROL Copiar contenido CSR]** permite copiar toda la información relacionada con la CSR (ID de organización, instancia, nombre de la organización, nombre común, subdominios incluidos, etc.).
 
 1. El archivo .csr correspondiente a su selección se genera y descarga automáticamente. Ahora puede utilizarlo para adquirir el certificado SSL de la entidad emisora de certificados que apruebe su compañía. Si necesita volver a descargar CSR, siga los pasos que se detallan en [esta sección](#download).
 
@@ -106,11 +106,11 @@ Una vez adquirido el certificado SSL, podrá instalarlo en su instancia para pro
 
 Para adquirir un certificado SSL, primero debe descargar la solicitud de firma de certificado. La CSR se descarga automáticamente después de generarse. También puede descargarla de nuevo en cualquier momento desde los Registros de trabajos:
 
-1. En el **[!UICONTROL Registros de trabajo]**, seleccione la **[!UICONTROL Finalizado]** y, a continuación, filtre la lista para mostrar los trabajos relacionados con la administración de subdominios.
+1. En **[!UICONTROL Registros de trabajos]**, seleccione la pestaña **[!UICONTROL Finalizado]** y, a continuación, filtre la lista para mostrar los trabajos relacionados con la administración de subdominios.
 
    ![](assets/renewal-download.png)
 
-1. Abra el trabajo correspondiente a la generación de la CSR y haga clic en **[!UICONTROL Descargar]** para obtener el archivo .csr.
+1. Abra el trabajo correspondiente a la generación de la CSR y, a continuación, haga clic en el vínculo **[!UICONTROL Descargar]** para obtener el archivo .csr.
 
    ![](assets/renewal-download-button.png)
 
@@ -139,15 +139,15 @@ Una vez adquirido un certificado SSL, puede instalarlo en su instancia. Antes de
 
 Para instalar el certificado, siga estos pasos:
 
-1. En el **[!UICONTROL Subdominios y certificados]** , seleccione la instancia que desee y haga clic en **[!UICONTROL Administrar certificado]** botón.
+1. En la tarjeta **[!UICONTROL Subdominios y certificados]**, seleccione la instancia deseada y, a continuación, haga clic en el botón **[!UICONTROL Administrar certificado]**.
 
    ![](assets/renewal1.png)
 
-1. Seleccionar **[!UICONTROL 3 - Instalar paquete de certificados]**, luego haga clic en **[!UICONTROL Siguiente]** para iniciar el asistente que le guiará a través del proceso de instalación del certificado.
+1. Seleccione **[!UICONTROL 3 - Instalar paquete de certificados]** y, a continuación, haga clic en **[!UICONTROL Siguiente]** para iniciar el asistente que le guiará por el proceso de instalación del certificado.
 
    ![](assets/install1.png)
 
-1. Seleccione el archivo .zip que contiene el certificado que desea instalar y haga clic en **[!UICONTROL Enviar]**.
+1. Seleccione el archivo .zip que contiene el certificado a instalar y haga clic en **[!UICONTROL Enviar]**.
 
    ![](assets/install2.png)
 
