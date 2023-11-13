@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ El Panel de control permite monitorizar el rendimiento de envío y la latencia d
 
 Monitorizar las tendencias del rendimiento y la latencia de envío a lo largo de un período es esencial para comprender el uso de las instancias y garantizar que tengan un buen rendimiento.
 
-Esta información está disponible en Panel de control de Campaign para cada una de las instancias de Campaign en la **[!UICONTROL Monitorización del rendimiento]** tarjeta, **[!UICONTROL Rendimiento y latencia]** (tenga en cuenta que el Panel de control de Campaign puede tardar hasta 1 hora en mostrar las cifras).
+Esta información está disponible en el Panel de control para cada una de las instancias de Campaign en la tarjeta **[!UICONTROL Monitorización del rendimiento]**, pestaña **[!UICONTROL Rendimiento y latencia]** (tenga en cuenta que el Panel de control puede tardar hasta 1 hora en mostrar los valores).
 
 >[!NOTE]
 >
@@ -37,18 +37,18 @@ Esta información está disponible en Panel de control de Campaign para cada una
 
 ![](assets/throughput-latencies-overview.png)
 
-De forma predeterminada, los datos se muestran para el día actual. Puede cambiar el período de tiempo mostrado mediante las opciones **[!UICONTROL 6 meses]**, **[!UICONTROL 30 días]** y **[!UICONTROL 7 días]** botones. Se presentarán los siguientes datos:
+De forma predeterminada, los datos se muestran para el día actual. Puede cambiar el periodo de tiempo mostrado utilizando los botones **[!UICONTROL 6 meses]**, **[!UICONTROL 30 días]** y **[!UICONTROL 7 días]**. Se presentarán los siguientes datos:
 * de cada hora para la vista de uno día y siete días,
 * de cada seis horas para la vista de 30 días,
 * diarios para la vista de seis meses.
 
-También puede visualizar la información en formato tabular con columnas que se pueden ordenar en lugar de un gráfico. Para ello, haga clic en el **[!UICONTROL Configuración de visualización]** y luego seleccione **[!UICONTROL Tabla]**.
+También puede visualizar la información en formato tabular con columnas que se pueden ordenar en lugar de un gráfico. Para ello, haga clic en el botón **[!UICONTROL Configuración de visualización]** y, a continuación, seleccione **[!UICONTROL Tabla]**.
 
 ![](assets/throughput-latencies-table.png)
 
 ## Monitorización del rendimiento {#throughput}
 
-El **[!UICONTROL Rendimiento]** proporciona información sobre el número de mensajes enviados por hora desde la instancia de Campaign seleccionada para todos los canales de comunicación a los que está autorizado.
+El área **[!UICONTROL Rendimiento]** proporciona información sobre el número de mensajes enviados por hora desde la instancia de Campaign seleccionada para todos los canales de comunicación a los que está autorizado.
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Además, el Panel de control permite identificar los ID de los cinco envíos pri
 
 ## Monitorización de la latencia {#latency}
 
-El **[!UICONTROL Latencia]** proporciona información sobre la latencia encontrada en la instancia seleccionada al enviar comunicaciones transaccionales en tiempo real.
+El área **[!UICONTROL Latencia]** proporciona información sobre la latencia encontrada en la instancia seleccionada al enviar comunicaciones transaccionales en tiempo real.
 
 >[!NOTE]
 >
