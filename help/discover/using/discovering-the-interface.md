@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ El botón **[!UICONTROL Abrir]** permite acceder directamente a la pestaña Pane
 
 ## Recursos de ayuda {#help-resources}
 
-El **[!UICONTROL Recursos de ayuda]** Esta sección proporciona documentación útil para ayudarle en el uso de los productos de Panel de control de Campaign y Campaign. No dude en explorarlos.
+La sección **[!UICONTROL Recursos de ayuda]** proporciona documentación útil para ayudarle en el uso de los productos del Panel de control y de Campaign. No dude en explorarlos.
 
 ![](assets/helpresources.png)
 
