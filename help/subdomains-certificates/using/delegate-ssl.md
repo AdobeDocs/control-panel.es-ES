@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -34,13 +34,13 @@ La delegación de certificados SSL a Adobe se puede realizar al configurar un nu
 
 ## Delegación de nuevos certificados SSL de subdominios {#new}
 
-Para delegar certificados SSL al configurar un nuevo subdominio, habilite la variable **[!UICONTROL Optar por SSL administrado por el Adobe para subdominios]** del asistente de configuración de subdominios. Los registros de certificados que se copiarán en la solución de alojamiento se proporcionarán más adelante en el asistente de configuración. Los pasos detallados se documentan en [esta sección](setting-up-new-subdomain.md).
+Para delegar certificados SSL al configurar un subdominio nuevo, habilite la opción **[!UICONTROL Optar por SSL administrado por Adobe para subdominios]** del asistente de configuración de subdominios. Los registros de certificados que se copiarán en la solución de alojamiento se proporcionarán más adelante en el asistente de configuración. Los pasos detallados se documentan en [esta sección](setting-up-new-subdomain.md).
 
 ![](assets/cname-adobe-managed.png){width="70%" align="left"}
 
 ## Delegación de certificados SSL para subdominios ya delegados {#delegated}
 
-Para delegar certificados SSL para un subdominio ya delegado, haga clic en el botón de puntos suspensivos situado junto al subdominio deseado y seleccione **[!UICONTROL Cambiar a SSL administrado]**.
+Para delegar certificados SSL para un subdominio ya delegado, pulse el botón de los tres puntos situado junto al subdominio deseado y haga clic en **[!UICONTROL Cambiar a SSL administrado]**.
 
 ![](assets/delegate-ssl-list.png){width="70%" align="left"}
 
