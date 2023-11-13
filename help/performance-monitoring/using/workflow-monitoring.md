@@ -6,9 +6,9 @@ role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ To clean paused and completed workflows, follow these steps:
 
 Monitor workflow parameters -->
 
-En Adobe Campaign, algunos parámetros de flujo de trabajo pueden requerir una atención específica para evitar problemas en las instancias. El Panel de control de Campaign **[!UICONTROL Información general de almacenamiento]** Los detalles le permiten comprobar si alguna de estas opciones está habilitada para sus flujos de trabajo.
+En Adobe Campaign, algunos parámetros de flujo de trabajo pueden requerir una atención específica para evitar problemas en las instancias. Los detalles de **[!UICONTROL Información general de almacenamiento]** del Panel de control le permiten comprobar si alguna de estas opciones está habilitada para sus flujos de trabajo.
 
 ![](assets/wkf-monitoring-parameters.png)
 
