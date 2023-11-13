@@ -8,13 +8,13 @@ role: Admin
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '729'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
-# Promoción de la marca de subdominios {#subdomains-branding}
+# Promoción de subdominios {#subdomains-branding}
 
 >[!CONTEXTUALHELP]
 >id="cp_certificate_management"
@@ -35,11 +35,11 @@ Al hacerlo, ayudará a preservar la reputación de su dominio y otros subdominio
 
 ## Métodos de configuración de subdominios {#subdomain-delegation-methods}
 
-La configuración de subdominios le permite configurar una subsección de su dominio (técnicamente, una &quot;zona DNS&quot;) para utilizarla con Adobe Campaign. Los métodos de configuración disponibles son estos:
+La configuración de subdominios le permite configurar una subsección del dominio (técnicamente una “zona DNS”) para utilizarla con Adobe Campaign. Los métodos de configuración disponibles son estos:
 
 * **Delegación de subdominios completa en Adobe Campaign** (recomendado): el subdominio se delega completamente a Adobe. Adobe puede ofrecer Campaign como servicio administrado controlando y manteniendo todos los aspectos de DNS necesarios para la entrega, el procesamiento y el seguimiento de campañas de correo electrónico.
 
-* **Uso de CNAME**: Cree un subdominio y utilice CNAME para señalar registros específicos del Adobe. Con esta configuración, tanto Adobe como el cliente comparten la responsabilidad de mantener DNS.
+* **Uso de CNAME**: cree un subdominio y utilice CNAME para señalar registros específicos de Adobe. Con esta configuración, tanto Adobe como el cliente comparten la responsabilidad de mantener DNS.
 
 En el cuadro que figura a continuación se ofrece un resumen del funcionamiento de estos métodos, así como el nivel de esfuerzo que suponen:
 
@@ -48,9 +48,9 @@ En el cuadro que figura a continuación se ofrece un resumen del funcionamiento 
 | **Delegación completa** | Cree el subdominio y el registro de área de nombres. A continuación, Adobe configurará todos los registros DNS necesarios para Adobe Campaign.<br/><br/>En esta configuración, Adobe es totalmente responsable de administrar el subdominio y todos los registros DNS. | Bajo |
 | **CNAME, método personalizado** | Cree el subdominio y el registro de área de nombres. A continuación, Adobe proporcionará los registros que se van a colocar en los servidores DNS y configurará los valores correspondientes en los servidores DNS de Adobe Campaign.<br/><br/>En esta configuración, tanto usted como Adobe comparten la responsabilidad de mantener DNS. | Alto |
 
-Encontrará información adicional sobre la configuración de dominios en [esta documentación](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
+Encontrará más información sobre la configuración de dominios en [esta documentación](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=es).
 
-Si tiene alguna pregunta acerca de los métodos de configuración de subdominios, póngase en contacto con el equipo de entrega de Adobe o póngase en contacto con el Servicio de atención al cliente para solicitar consultoría de entrega.
+Si tiene alguna pregunta acerca de los métodos de configuración de subdominios, póngase en contacto con el equipo de entregabilidad de Adobe o, si lo prefiere, póngase en contacto con el servicio de atención al cliente para solicitar consultoría de entregabilidad.
 
 ## Casos de uso de subdominios (Campaign v7/v8){#subdomains-use-cases}
 
@@ -59,11 +59,11 @@ Si tiene alguna pregunta acerca de los métodos de configuración de subdominios
 >title="Seleccione el caso de uso del subdominio"
 >abstract="El desglose de los subdominios según los casos de uso es una práctica recomendada para la entregabilidad. Al hacerlo, la reputación de cada subdominio está aislada y protegida."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es" text="Configuración de un nuevo subdominio"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es" text="Promoción de la marca de subdominios"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es" text="Promoción de subdominios"
 
-Al configurar subdominios para instancias de las versiones 7 y 8 de Campaign, es necesario seleccionar el caso de uso para el que se utilizará el subdominio (consulte [Configuración de un nuevo subdominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Al configurar subdominios para instancias de Campaign v7/v8, es necesario seleccionar el caso de uso para el que se utilizará el subdominio (consulte [ Configuración de un nuevo subdominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
-Los casos de uso posibles son:
+Los posibles casos de uso son:
 
 * **Comunicaciones de marketing**: comunicaciones con fines comerciales. Ejemplo: campañas de correo electrónico de ventas.
 
@@ -78,9 +78,9 @@ Los casos de uso posibles son:
 
 >[!NOTE]
 >
->Si utiliza las versiones 7 y 8 de Campaign, el Panel de control de Campaign le permite ver qué instancias de RT/MID están conectadas a la instancia de Marketing con la que está trabajando. Para obtener más información, consulte la sección [Detalles de instancias](../../instances-settings/using/instance-details.md).
+>Si está utilizando Campaign v7/v8, el Panel de control le permite ver qué instancias de RT/MID están conectadas a la instancia de Marketing con la que está trabajando. Para obtener más información, consulte la sección [Detalles de instancias](../../instances-settings/using/instance-details.md).
 
 **Temas relacionados:**
 
-* [ Configuración de un nuevo subdominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)
-* [Monitorización de subdominios](../../subdomains-certificates/using/monitoring-subdomains.md)
+* [Configuración de un nuevo subdominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)
+* [Supervisión de subdominios](../../subdomains-certificates/using/monitoring-subdomains.md)
