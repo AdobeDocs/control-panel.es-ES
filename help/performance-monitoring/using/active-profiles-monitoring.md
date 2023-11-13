@@ -10,7 +10,7 @@ exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: 9d0686cd3bb0a037ae66b1a090c3f77d215ff61c
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 85%
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ Para obtener más información sobre los perfiles activos, consulte las document
 >title="Acerca de la monitorización de perfiles activos"
 >abstract="En esta pestaña, puede obtener información en tiempo real sobre el uso y la evolución más recientes e históricos de los perfiles activos para cada una de las instancias de Campaign."
 
-Para supervisar el uso de perfiles activos en el Panel de control de Campaign, vaya a **[!UICONTROL Monitorización del rendimiento]** tarjeta > **[!UICONTROL Perfiles activos]** y seleccione la instancia que desee en la pestaña **[!UICONTROL Lista de instancias]**.
+Para monitorizar el uso del perfil activo en el Panel de control, vaya a la tarjeta **[!UICONTROL Monitorización del rendimiento]** > pestaña **[!UICONTROL Perfiles activos]** y seleccione la instancia que desee de la **[!UICONTROL Lista de instancias]**.
 
 Se muestra información sobre el uso de perfiles activos.
 

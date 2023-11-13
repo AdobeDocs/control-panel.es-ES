@@ -10,7 +10,7 @@ exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 70%
 
 >[!IMPORTANT]
 >
->Esta función solo está disponible para instancias de las versiones 7 y 8 de Campaign.
+>Esta funcionalidad solo está disponible para las instancias de las versiones 7 y 8 de Campaign.
 
 De forma predeterminada, la instancia de Adobe Campaign no es accesible desde varias direcciones IP.
 
@@ -36,7 +36,7 @@ El Panel de control le permite configurar nuevas conexiones a las instancias añ
 
 Una vez que las direcciones IP estén en la lista de permitidos, puede crear y vincular operadores de Campaign a ellas para que los usuarios puedan acceder a la instancia.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=es#instance-settings)
 
 ## Prácticas recomendadas {#best-practices}
 
@@ -46,7 +46,7 @@ Asegúrese de seguir las recomendaciones y limitaciones que se indican a continu
 * **Si ha habilitado temporalmente el acceso a su instancia para una dirección IP**, asegúrese de eliminar las direcciones IP de la lista de permitidos una vez que ya no necesite conectarse a su instancia.
 * **No recomendamos añadir direcciones IP de lugares públicos a la lista de permitidos** (aeropuertos, hoteles, etc.). Utilice su dirección VPN de la compañía para mantener la seguridad de su instancia en todo momento.
 
-## Añadir direcciones IP a la lista de permitidos para acceso a instancias {#adding-ip-addresses-allow-list}
+## Añadir direcciones IP a la lista de permitidos para el acceso a instancias {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
@@ -55,11 +55,11 @@ Asegúrese de seguir las recomendaciones y limitaciones que se indican a continu
 
 >[!NOTE]
 >
->Si la variable **[!UICONTROL Configuración de instancia]** no es visible en la página de inicio del Panel de control de Campaign, lo que significa que su [ID de organización](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es) no está asociado a ninguna instancia de las versiones 7 y 8 de Adobe Campaign.
+>Si la tarjeta **[!UICONTROL Configuración de instancias]** no está visible en la página de inicio del Panel de control, significa que su [ID de la organización](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es) no está asociada a ninguna instancia de Adobe Campaign v7/v8.
 
-Para agregar direcciones IP a la lista de permitidos, siga estos pasos:
+Para añadir direcciones IP a la lista de permitidos, siga estos pasos:
 
-1. Abra el **[!UICONTROL Tarjeta Configuración de instancias]** para acceder a la pestaña Lista de IP permitidas, haga clic en **[!UICONTROL Agregar nuevo intervalo de IP]**.
+1. Abra la **[!UICONTROL tarjeta de configuración de instancias]** para acceder a la pestaña con el listado de IP permitidas y, a continuación, haga clic en **[!UICONTROL Añadir nuevo rango de IP]**.
 
 
 
@@ -69,27 +69,27 @@ Para agregar direcciones IP a la lista de permitidos, siga estos pasos:
 
    ![](assets/ip_whitelist_add1.png)
 
-   * **[!UICONTROL Instancia(s)]**: instancias en las que las direcciones IP podrán conectarse. Se pueden manipular varias instancias al mismo tiempo. Por ejemplo, la adición de IP a lista de permitidos se puede realizar en las instancias Production y Stage siguiendo el mismo paso.
-   * **[!UICONTROL Intervalo IP]**: rango de IP que desea agregar a la lista de permitidos en formato CIDR. Tenga en cuenta que un rango de IP no puede superponerse a un intervalo existente en la lista de permitidos. En ese caso, primero elimine el rango que contiene la IP superpuesta.
+   * **[!UICONTROL Instancia(s)]**: instancias a las que podrán conectarse las direcciones IP. Se pueden manipular varias instancias al mismo tiempo. Por ejemplo, la adición de IP a lista de permitidos se puede realizar en las instancias Production y Stage siguiendo el mismo paso.
+   * **[!UICONTROL Rango de IP]**: el rango de IP que desea agregar a la lista de permitidos, en formato CIDR. Tenga en cuenta que un rango de IP no puede superponerse a un intervalo existente en la lista de permitidos. En ese caso, primero elimine el rango que contiene la IP superpuesta.
 
    >[!NOTE]
    >
    >CIDR (enrutamiento entre dominios sin clase) es el formato admitido al agregar intervalos de IP con la interfaz del Panel de control. La sintaxis consiste en una dirección IP, seguida de / y un número decimal. El formato y su sintaxis se detallan en [este artículo](https://whatismyipaddress.com/cidr).
    >
-   >Puede buscar en Internet herramientas gratuitas en línea que le ayudarán a convertir la gama de IP al formato CIDR.
+   >Puede buscar en Internet herramientas gratuitas en línea que le ayudarán a convertir el rango IP del que dispone al formato CIDR.
 
    * **[!UICONTROL Etiqueta]**: etiqueta que se mostrará en la lista de permitidos.
    * **[!UICONTROL Nombre]**: el nombre debe ser único para el tipo de acceso, la instancia (en caso de conexión API externa) y la dirección IP.
 
 1. Especifique el tipo de acceso que desea conceder a las direcciones IP:
 
-   * **[!UICONTROL Acceso a la consola de Campaign]**: se permitirá que las direcciones IP se conecten a la consola del cliente de Campaign. Tenga en cuenta que el acceso a la consola solo está habilitado para instancias de Marketing. No se permite el acceso a las instancias de MID y RT y, por tanto, no se habilita.
-   * **[!UICONTROL AEM conexión de la]** AEM : se permitirá que las direcciones IP especificadas se conecten a la instancia de Marketing.
-   * **[!UICONTROL Conexión de API externa]**: se permitirá que las API externas con las direcciones IP especificadas se conecten a la instancia de Marketing o Centro de mensajes (RT). Tenga en cuenta que la conexión a la consola de instancias de RT no está habilitada.
+   * **[!UICONTROL Acceso a Campaign Console]**: las direcciones IP que se podrán conectar a la consola de cliente de Campaign. Tenga en cuenta que el acceso a la consola solo está habilitado para instancias de Marketing. No se permite el acceso a las instancias de MID y RT y, por tanto, no se habilita.
+   * **[!UICONTROL Conexión de AEM]**: se permitirá que las direcciones IP de AEM especificadas se conecten a la instancia de Marketing.
+   * **[!UICONTROL Conexión de API externa]**: se permitirá que las API externas con las direcciones IP especificadas se conecten a la instancia de Marketing y/o Centro de mensajes (RT). Tenga en cuenta que la conexión a la consola de instancias de RT no está habilitada.
 
    >[!NOTE]
    >
-   >Si utiliza una instancia con un modelo de alojamiento híbrido, solo podrá añadir direcciones IP en &quot;Conexión de API externa&quot; para instancias de MID y RT.
+   >Si está utilizando una instancia con un modelo de alojamiento híbrido, solo podrá añadir direcciones IP en “Conexión de API externa” para las instancias de MID y RT. 
 
    ![](assets/ip_whitelist_acesstype.png)
 
@@ -99,10 +99,10 @@ Para agregar direcciones IP a la lista de permitidos, siga estos pasos:
 
 De forma predeterminada, la instancia de Adobe Campaign no es accesible desde varias direcciones IP.
 
-Para eliminar uno o más rangos de IP de la lista de permitidos, selecciónelos y haga clic en **[!UICONTROL Eliminar intervalo de IP]** botón.
+Para eliminar uno o varios rangos de IP de la lista de permitidos, selecciónelos y, a continuación, haga clic en el botón **[!UICONTROL Eliminar rango de IP]**.
 
 ![](assets/ip_whitelist_delete.png)
 
 **Temas relacionados:**
 
-* [Vinculación de una zona de seguridad a un operador](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html#linking-a-security-zone-to-an-operator)
+* [Vinculación de una zona de seguridad a un operador](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html?lang=es#linking-a-security-zone-to-an-operator)
