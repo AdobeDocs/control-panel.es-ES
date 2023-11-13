@@ -81,7 +81,7 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>Monitorización de perfiles activos</strong><br/></th>
+<th><strong>Supervisión de perfiles activos</strong><br/></th>
 </tr>
 </thead>
 <tbody>
