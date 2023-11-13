@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->Esta función solo está disponible para instancias de las versiones 7 y 8 de Campaign, desde la versión 8850. Si está utilizando una versión anterior, debe actualizarla para usar esta función.
+>Esta funcionalidad solo está disponible para las instancias de Campaign v7/v8, a partir de la versión 8850. Si está utilizando una versión anterior, debe actualizarla para usar esta funcionalidad.
 
 La lista predeterminada de direcciones URL a las que pueden llamar los códigos JavaScript (flujos de trabajo, etc.) a través de instancias de Campaign es limitada. Son direcciones URL que permiten que las instancias funcionen correctamente.
 
@@ -34,12 +34,12 @@ De forma predeterminada, las instancias no pueden conectarse a direcciones URL e
 
 Una vez añadida una URL, se hace referencia a ella en el archivo de configuración de la instancia (serverConf.xml).
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=es#instance-settings)
 
 **Temas relacionados:**
 
-* [Configuración del servidor de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html)
-* [Protección de conexión saliente](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
+* [Configuración del servidor de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=es)
+* [Protección de conexión saliente](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html?lang=es#outgoing-connection-protection)
 
 ## Prácticas recomendadas {#best-practices}
 
@@ -60,11 +60,11 @@ Para añadir una dirección URL a la que se pueda conectar su instancia, siga es
 
    >[!NOTE]
    >
-   >Si la tarjeta Configuración de instancia no está visible en la página de inicio del Panel de control de Campaign, significa que su [ID de organización](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es) no está asociado a ninguna instancia de Adobe Campaign
+   >Si la tarjeta Configuración de instancias no está visible en la página de inicio del Panel de control, significa que el [ID de la organización](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es) no está asociado a ninguna instancia de Adobe Campaign
    >
    >La pestaña <b><span class="uicontrol">Permisos de URL</span></b> lista todas las direcciones URL externas a las que se puede conectar la instancia. Esta lista no incluye las direcciones URL que son necesarias para que funcione Campaign (por ejemplo, conexiones entre elementos de infraestructura).
 
-1. Seleccione en el panel izquierdo la instancia que desee y haga clic en **[!UICONTROL Añadir nueva URL]** botón.
+1. Seleccione en el panel izquierdo la instancia deseada y, a continuación, haga clic en el botón **[!UICONTROL Añadir nueva URL]**.
 
    ![](assets/add_url1.png)
 
@@ -72,7 +72,7 @@ Para añadir una dirección URL a la que se pueda conectar su instancia, siga es
    >
    >Todas las instancias de Campaign se muestran en la lista del panel izquierdo.
    >
-   >Como la administración de permisos de URL está dedicada únicamente a instancias de Campaign v7/v8, se muestra el mensaje Instancia no aplicable si selecciona una instancia de Campaign Standard.
+   >Como la administración de permisos de URL está dedicada únicamente a las instancias de Campaign v7/v8, aparecerá el mensaje “Instancia no aplicable” si selecciona una instancia de Campaign Standard.
 
 1. Escriba la dirección URL para autorizar, con su protocolo asociado (http, https o sftp).
 
@@ -90,7 +90,7 @@ Para añadir una dirección URL a la que se pueda conectar su instancia, siga es
 
    ![](assets/add_url_listnew.png)
 
-Puede eliminar una dirección URL en cualquier momento seleccionándola y haciendo clic en **[!UICONTROL Eliminar URL]** botón.
+Puede eliminar una URL en cualquier momento seleccionándola y pulsando el botón **[!UICONTROL Eliminar URL]**.
 
 Tenga en cuenta que, si elimina una dirección URL, su instancia no podrá volver a llamarla.
 
