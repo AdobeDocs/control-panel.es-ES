@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: a9b150a4f24447d22d5c1ecff5d456ca39cb65e2
-workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 89%
+workflow-type: ht
+source-wordcount: '418'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Los perfiles se consideran activos si se han segmentado o si se ha comunicado co
 
 >[!NOTE]
 >
->No se tienen en cuenta los canales facebook y X (anteriormente conocidos como Twitter).
+>No se tienen en cuenta los canales de Facebook y X (anteriormente conocido como Twitter).
 
 Para obtener más información sobre los perfiles activos, consulte las documentaciones de [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=es) y [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=es#active-profiles).
 
@@ -61,9 +61,9 @@ La sección superior muestra la siguiente información:
 
 La sección inferior proporciona una representación visual del uso del perfil activo durante los últimos 30 días. Puede cambiar este lapso de tiempo a 1 año utilizando el filtro situado en la esquina superior derecha. Al pasar el ratón por encima de una de las barras de gráficos, podrá obtener la cantidad exacta de perfiles activos utilizados en el período seleccionado.
 
-La información relacionada con el uso de perfiles activos se actualiza en Panel de control de Campaign en función de las [!DNL Campaign] Flujos de trabajo técnicos de &quot;facturación&quot; que se ejecutan a intervalos regulares en las instancias.
+La información relacionada con el uso de perfiles activos se actualiza en el Panel de control en función de los flujos de trabajo técnicos &quot;Facturación&quot; de [!DNL Campaign] dedicados que se ejecutan todos los días en las instancias:
 
 | Versión de la campaña | Flujo de trabajo técnico | Ejecuciones |
 |  ---  |  ---  |  ---  |
 | Campaign Standard | [Facturación](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=es) | Diaria |
-| Campaign v7/v8 | [Facturación](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html) | Mensual |
+| Campaign v7/v8 | [Facturación](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html?lang=es) | Mensual |
