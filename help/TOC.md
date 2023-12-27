@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 source-git-commit: a892d5ff82fd0160faca2dbe76d3cd1b71073cff
 workflow-type: ht
-source-wordcount: '184'
+source-wordcount: '190'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 # Guía del Panel de control {#using}
 
 + [Documentación del producto](control-panel-home.md)
-+ Notas de la versión  {#release-notes}
++ Notas de la versión {#release-notes}
    + [Última versión](rn/release-notes.md)
    + Versiones anteriores {#previous-releases}
       + [Notas de la versión de 2023](rn/release-notes-2023.md)
