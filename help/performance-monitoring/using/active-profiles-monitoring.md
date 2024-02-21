@@ -7,7 +7,7 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: a9b150a4f24447d22d5c1ecff5d456ca39cb65e2
+source-git-commit: 73cf3102c0926728595e975ee4c85bf110f2a23d
 workflow-type: ht
 source-wordcount: '418'
 ht-degree: 100%
@@ -66,4 +66,5 @@ La información relacionada con el uso de perfiles activos se actualiza en el Pa
 | Versión de la campaña | Flujo de trabajo técnico | Ejecuciones |
 |  ---  |  ---  |  ---  |
 | Campaign Standard | [Facturación](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=es) | Diaria |
-| Campaign v7/v8 | [Facturación](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html?lang=es) | Mensual |
+| Campaign v7/v8 | [Facturación](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=es) | Mensual |
+
