@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: aacaec4e6ed7b997c0d879c4a9d4bf85ddd18cf7
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+source-git-commit: 80b9f62feb9f00758cf175762b1cf4dc26912ed8
+workflow-type: tm+mt
+source-wordcount: '885'
+ht-degree: 94%
 
 ---
 
@@ -65,6 +65,10 @@ Para añadir un registro DMARC para un subdominio, siga estos pasos:
 
    * Los informes DMARC agregados proporcionan información de alto nivel como, por ejemplo, el número de correos electrónicos con errores durante un periodo determinado.
    * Los informes de errores de DMARC forenses proporcionan información detallada como, por ejemplo, la dirección IP desde la que se originan los mensajes de correo electrónico erróneos.
+
+   >[!CAUTION]
+   >
+   >Si las direcciones de correo electrónico que está agregando para recibir informes están fuera del dominio para el que se crea el registro DMARC, debe autorizar su dominio externo para especificar al DNS que posee este dominio. Para ello, siga los pasos detallados en la sección [Documentación de dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
 
 1. Si la directiva DMARC está establecida en &quot;Ninguno&quot;, introduzca un porcentaje que se aplique al 100 % de los correos electrónicos.
 
