@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: 80b9f62feb9f00758cf175762b1cf4dc26912ed8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Para añadir un registro DMARC para un subdominio, siga estos pasos:
 
    >[!CAUTION]
    >
-   >Si las direcciones de correo electrónico que está agregando para recibir informes están fuera del dominio para el que se crea el registro DMARC, debe autorizar su dominio externo para especificar al DNS que posee este dominio. Para ello, siga los pasos detallados en la sección [Documentación de dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
+   >Si las direcciones de correo electrónico que está añadiendo para recibir informes se encuentran fuera del dominio para el que se ha creado el registro DMARC, debe autorizar al dominio externo para especificar al DNS que es propietario de este dominio. Para ello, siga los pasos que se detallan en la sección [Documentación de dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
 
 1. Si la directiva DMARC está establecida en &quot;Ninguno&quot;, introduzca un porcentaje que se aplique al 100 % de los correos electrónicos.
 
