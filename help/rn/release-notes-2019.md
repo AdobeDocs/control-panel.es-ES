@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: bb796bef-1a2b-4f2e-848e-ad682c6c7ea0
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '156'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 73%
 
 ## Septiembre de 2019 {#september-2019}
 
-Se han añadido nuevas funciones para que los usuarios administradores agreguen direcciones IP a la lista de permitidos para conectarse a instancias de Campaign v7/v8.
+Hemos añadido nuevas funciones para que los usuarios administradores añadan direcciones IP a la lista de permitidos para conectarse a instancias de Campaign v7/v8.
 Además, los usuarios administradores ahora pueden ver la lista de instancias de Campaign v7/v8 y los requisitos para las actualizaciones de versiones.
 
 Para obtener más información, consulte la [documentación especializada](../instances-settings/using/ip-allow-listing-instance-access.md).
 
 ## Agosto de 2019 {#august-2019}
 
-Se han agregado nuevas funciones para que los usuarios administradores reciban notificaciones antes de que expiren los certificados SSL para sus dominios. Para obtener más información, consulte la [documentación detallada](../subdomains-certificates/using/monitoring-ssl-certificates.md).
+Hemos añadido nuevas funciones para que los usuarios administradores reciban notificaciones antes de que caduquen los certificados SSL de sus dominios. Para obtener más información, consulte la [documentación detallada](../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
 Además, los administradores ahora pueden borrar las claves SSH que se añadieron para acceder a los servidores SFTP.
 

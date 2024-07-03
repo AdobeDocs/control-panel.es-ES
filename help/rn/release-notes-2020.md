@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -165,7 +165,7 @@ ht-degree: 96%
 
 ## Enero de 2020 {#january-2020}
 
-Se han añadido nuevas funciones para que los usuarios administradores configuren subdominios y renueven los certificados SSL desde el Panel de control de Campaign.
+Hemos añadido nuevas funciones para que los usuarios administradores configuren subdominios y renueven los certificados SSL desde el Panel de control.
 
 Para obtener más información, consulte estas páginas:
 * [ Configuración de un nuevo subdominio](../subdomains-certificates/using/setting-up-new-subdomain.md)
