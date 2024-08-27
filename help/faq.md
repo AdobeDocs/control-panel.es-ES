@@ -7,10 +7,10 @@ feature: Control Panel
 role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: 98cf425548884c3a5e503c35ce5ea5b7ceaee67f
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 100%
+source-wordcount: '719'
+ht-degree: 92%
 
 ---
 
@@ -78,19 +78,19 @@ Para administrar la configuración de su instancia, queremos asegurarnos de que 
 
 ### ¿Qué sucede si tengo varios ID de organización?
 
-Puede disponer de más de un ID de organización si tiene acceso a varias soluciones de Adobe. En este caso, el ID de organización correcto que debe usar es el que ve debajo de la instancia de Adobe Campaign.
+Tener un ID de organización para Analytics y Campaign es un requisito si tiene pensado integrar las soluciones con el fin de aprovechar los casos de uso complejos, como el abandono del carro de compras (para Adobe Analytics + Adobe Campaign). Puede disponer de más de un ID de organización si tiene acceso a varias soluciones de Adobe. En este caso, el ID de organización correcto que debe usar es el que ve debajo de la instancia de Adobe Campaign.
 
+<!--
 >[!NOTE]
 >
->Si tiene el mismo ID de organización para Adobe Campaign y Adobe Analytics, no hay problema. Tener un ID de organización para Analytics y Campaign es un requisito si tiene pensado integrar las soluciones con el fin de aprovechar los casos de uso complejos, como el abandono del carro de compras (AA + AC).
->
->Si tiene diferentes ID de organización para Adobe Campaign y Adobe Analytics, póngase en contacto con el Servicio de atención al cliente para alinearlos.
+>If you have different organization IDs for Adobe Campaign and Adobe Analytics, please reach out to Customer Care to get them aligned.
+-->
 
 ### ¿Cómo puedo saber si mi instancia de Adobe Campaign está alojada en AWS o no?{#hosted-aws}
 
 Para comprobar si la instancia está alojada en AWS, siga estos pasos:
 
-1. Recupere la dirección URL de inicio de sesión. Es la dirección URL que utiliza para iniciar sesión en la instancia de Campaign y termina principalmente con “.campaign.adobe.com” o “.neolane.net”.
+1. Recupere la dirección URL de inicio de sesión. Es la dirección URL que utiliza para iniciar sesión en la instancia de Campaign y termina principalmente con &quot;.campaign.adobe.com&quot; o&quot;.neolane.net&quot;.
 1. Abra el terminal y, a continuación, ejecute una operación **[!DNL nslookup]** en la dirección URL de inicio de sesión.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
