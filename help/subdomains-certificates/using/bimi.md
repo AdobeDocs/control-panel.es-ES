@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: c555a91ee0772fd615d38ebbb3964392649af907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '523'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 80%
 
 ## Acerca de los registros BIMI {#about}
 
-Indicadores de marca para la identificación de mensajes (BIMI) es un estándar del sector que permite que aparezca un logotipo aprobado junto al correo electrónico de un remitente en las bandejas de entrada de los proveedores de buzones de correo para mejorar el reconocimiento y la confianza de la marca.
+Los indicadores de marca para la identificación de mensajes (BIMI-Brand Indicators for Message Identification) son un estándar en la industria que permite que aparezca un logotipo aprobado junto al correo electrónico de un remitente en las bandejas de entrada de los proveedores de buzones de correo para mejorar el reconocimiento de la marca y la confianza en ella.
 
 Encontrará información detallada sobre la implementación de BIMI en [Guía de prácticas recomendadas de envío de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=es)
 
@@ -32,7 +32,7 @@ Encontrará información detallada sobre la implementación de BIMI en [Guía de
 
 * Requisitos previos del registro DMARC:
 
-   * El tipo de directiva de registro del dominio de organización debe establecerse en &quot;Cuarentena&quot; o &quot;Rechazar&quot;. La creación de registros BIMI no está disponible con un tipo de directiva DMARC establecido en &quot;Ninguno&quot;.
+   * El tipo de directiva de registro del dominio de la organización debe establecerse en “Cuarentena” o “Rechazar”. La creación de registros BIMI no está disponible con un tipo de directiva DMARC establecido en &quot;Ninguno&quot;.
    * El porcentaje de correos electrónicos a los que se aplica la directiva DMARC debe ser del 100 %. BIMI no es compatible con las directivas DMARC con este porcentaje establecido en menos del 100 %.
 
 [Obtenga información sobre cómo configurar registros DMARC](dmarc.md)
@@ -47,11 +47,11 @@ Para añadir un registro BIMI para un subdominio, siga estos pasos:
 
    ![](assets/bimi-add.png)
 
-1. El campo **[!UICONTROL Selector]** permite especificar un selector BIMI para el registro. Un selector BIMI es un identificador único que se puede asignar a un registro BIMI. Esto le permite definir varios logotipos para un subdominio determinado. Los proveedores de buzones de correo no lo admiten en este momento.
+1. El campo **[!UICONTROL Selector]** permite especificar un selector BIMI para el registro. Un selector BIMI es un identificador único que se puede asignar a un registro BIMI. Esto le permite definir varios logotipos para un subdominio determinado. Los proveedores de buzones de correo no lo admiten en estos momentos.
 
 1. En **[!UICONTROL URL del logotipo de la compañía]**, especifique la URL del archivo SVG que contiene el logotipo.
 
-1. Aunque **[!UICONTROL la dirección URL del certificado]** es opcional, es necesaria para algunos proveedores de buzones de correo como Gmail y Apple. Por lo tanto, recomendamos obtener un Certificado de marca verificada (VMC) para aprovechar realmente BIMI.
+1. Aunque la **[!UICONTROL URL del certificado]** es opcional, es necesario con algunos proveedores de buzones de correo como Gmail y Apple. Por lo tanto, recomendamos obtener un Certificado de marca verificada (VMC) para aprovechar realmente BIMI.
 
    +++¿Cómo obtengo un VMC?
 
