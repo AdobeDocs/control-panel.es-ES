@@ -64,4 +64,4 @@ El Panel de control está disponible para todos los usuarios administradores de 
 
 ## Tutorial en vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34797?quality=12&captions=spa)

@@ -196,4 +196,4 @@ El siguiente vídeo muestra cómo generar e instalar claves GPG para el cifrado 
 
 Encontrará vídeos instructivos adicionales relacionados con la administración de claves GPG en las páginas de tutoriales de [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=es#instance-settings) y [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=es#instance-settings).
 
->[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/327883?quality=12&captions=spa)

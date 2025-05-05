@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Los siguientes pasos explican cómo conectar el servidor SFTP mediante la aplicación cliente SFTP.
 
-![](assets/do-not-localize/how-to-video.png) Descubra esta funcionalidad en [vídeo](https://video.tv.adobe.com/v/27263?quality=12)
+![](assets/do-not-localize/how-to-video.png) Descubra esta funcionalidad en [vídeo](https://video.tv.adobe.com/v/34795?quality=12&captions=spa)
 
 Antes de iniciar sesión en el servidor, compruebe que:
 
