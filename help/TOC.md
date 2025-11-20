@@ -9,7 +9,7 @@ level: Experienced
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 100%
 # Guía del Panel de control {#using}
 
 + [Documentación del producto](control-panel-home.md)
-+ Notas de la versión {#release-notes}
-   + [Última versión](rn/release-notes.md)
++ Notas de la versión  {#release-notes}
+   + [Último lanzamiento](rn/release-notes.md)
    + Versiones anteriores {#previous-releases}
       + [2023](rn/release-notes-2023.md)
       + [2022](rn/release-notes-2022.md)
       + [2021](rn/release-notes-2021.md)
       + [2020](rn/release-notes-2020.md)
       + [2019](rn/release-notes-2019.md)
-+ Descubra el Panel de control{#discover-control-panel}
++ Descubrir el Panel de control {#discover-control-panel}
    + [Funciones principales](discover/using/key-features.md)
    + [Panel de control de acceso](discover/using/accessing-control-panel.md)
    + [Administración de permisos del Panel de control](discover/using/managing-permissions.md)
@@ -34,7 +34,7 @@ ht-degree: 100%
 + Eventos y alertas por correo electrónico {#alerts-events}
    + [Supervisión de los contactos y eventos clave](service-events/service-events.md)
    + [Alertas por correo electrónico](performance-monitoring/using/email-alerting.md)
-+ Administración SFTP {#sftp-management}
++ Administración de SFTP {#sftp-management}
    + [Acerca de la administración SFTP](sftp/using/about-sftp-management.md)
    + [Administración del almacenamiento SFTP](sftp/using/sftp-storage-management.md)
    + [Adición de rangos de IP a la lista de permitidos](sftp/using/ip-range-allow-listing.md)
@@ -52,13 +52,13 @@ ht-degree: 100%
       + [Adición de registros de verificación del sitio Google](subdomains-certificates/using/managing-txt-records.md)
       + [Adición de registros DMARC](subdomains-certificates/using/dmarc.md)
       + [Adición de registros BIMI](subdomains-certificates/using/bimi.md)
-   + Administración de los certificados SSL de los subdominios {#manage-certificates}
+   + Administrar certificados SSL de los subdominios {#manage-certificates}
       + [Monitorización de certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Delegación de certificados SSL en Adobe](subdomains-certificates/using/delegate-ssl.md)
       + [Renovación de certificados SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
 + Monitorización del rendimiento {#performance-monitoring}
    + [Acerca de la monitorización del rendimiento](performance-monitoring/using/about-performance-monitoring.md)
-   + Monitorización de bases de datos {#database-monitoring}
+   + Supervisión de bases de datos {#database-monitoring}
       + [Acerca de la monitorización de bases de datos](performance-monitoring/using/database-monitoring.md)
       + [Utilización de la base de datos](performance-monitoring/using/database-utilization.md)
       + [Resumen de almacenamiento](performance-monitoring/using/database-storage-overview.md)
