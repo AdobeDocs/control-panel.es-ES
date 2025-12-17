@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 0b7cb860592508f7323bcd30345d1853e4a4ac94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1526'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Para delegar completamente un subdominio a Adobe Campaign, siga los pasos a cont
 
    ![](assets/subdomain3.png)
 
-1. Cree los subdominios y servidores de nombres deseados en la solución de hospedaje que use su organización. Para ello, copie y pegue la información del servidor de nombres de Adobe que se muestra en el asistente. Para obtener más información sobre cómo crear un subdominio en una solución de alojamiento, consulte el [tutorial en vídeo](https://video.tv.adobe.com/v/34038?captions=spa).
+1. Cree los subdominios y servidores de nombres deseados en la solución de hospedaje que use su organización. Para ello, copie y pegue la información del servidor de nombres de Adobe que se muestra en el asistente. Para obtener más información sobre cómo crear un subdominio en una solución de alojamiento, consulte el [tutorial en vídeo](https://video.tv.adobe.com/v/30175).
 
    >[!NOTE]
    >
@@ -102,7 +102,7 @@ Para delegar completamente un subdominio a Adobe Campaign, siga los pasos a cont
 
 1. Escriba el subdominio que ha creado en la solución de alojamiento y, a continuación, haga clic en **[!UICONTROL Enviar]**.
 
-   Asegúrese de añadir el **nombre completo** del subdominio que desea delegar. Por ejemplo, para delegar el subdominio &quot;email.weretail.com&quot;, escriba &quot;email.weretail.com&quot;.
+   Asegúrese de añadir el **nombre completo** del subdominio que desea delegar. Por ejemplo, para delegar el subdominio “email.weretail.com”, escriba “email.weretail.com”.
 
 
 1. Para delegar la generación del certificado SSL del subdominio a Adobe, habilite la opción **[!UICONTROL Optar por SSL administrado por Adobe para subdominios]**. [Más información acerca de la delegación de certificados SSL](delegate-ssl.md)
