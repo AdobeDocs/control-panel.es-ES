@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Los siguientes pasos explican cómo conectar el servidor SFTP mediante la aplicación cliente SFTP.
 
-![](assets/do-not-localize/how-to-video.png) Descubra esta funcionalidad en [vídeo](https://video.tv.adobe.com/v/34795?quality=12&captions=spa)
+![](assets/do-not-localize/how-to-video.png) Descubra esta funcionalidad en [vídeo](https://video.tv.adobe.com/v/27263?quality=12)
 
 Antes de iniciar sesión en el servidor, compruebe que:
 
@@ -46,16 +46,16 @@ Para conectarse a su servidor SFTP, siga estos pasos:
 
    ![](assets/do-not-localize/connect3.png)
 
-   Puede comprobar que la clave que intenta utilizar está guardada en el Panel de control comparando la huella de la clave privada o pública con la huella de las claves que aparecen en la pestaña Administración de claves de la tarjeta SFTP.
+   Puede comprobar que la clave que intenta utilizar está guardada en el Panel de control comparando la huella digital de la clave privada o pública con la huella digital de las claves que aparecen en la pestaña Administración de claves de la tarjeta SFTP.
 
    ![](assets/fingerprint_compare.png)
 
    >[!NOTE]
    >
-   >Si está utilizando un equipo Mac, puede ver la huella de la clave privada almacenada en el equipo ejecutando este comando:
+   >Si está utilizando un equipo Mac, puede ver la huella digital de la clave privada almacenada en el equipo ejecutando este comando:
    >
    >`ssh-keygen -lf <path of the privatekey>`
 
-1. Una vez rellenada toda la información, pulse **[!UICONTROL Connect]** para iniciar sesión en el servidor SFTP.
+1. Una vez rellenada toda la información, haga clic en **[!UICONTROL Connect]** para iniciar sesión en el servidor SFTP.
 
    ![](assets/do-not-localize/sftpconnected.png)
