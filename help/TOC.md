@@ -7,9 +7,9 @@ feature: Control Panel
 role: Admin
 level: Experienced
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 88%
 + [Documentación del producto](control-panel-home.md)
 + Notas de la versión  {#release-notes}
    + [Último lanzamiento](rn/release-notes.md)
-   + Versiones anteriores {#previous-releases}
+   + Versiones anteriores  {#previous-releases}
       + [2023](rn/release-notes-2023.md)
       + [2022](rn/release-notes-2022.md)
       + [2021](rn/release-notes-2021.md)
@@ -31,7 +31,7 @@ ht-degree: 88%
    + [Administración de permisos del Panel de control](discover/using/managing-permissions.md)
    + [Descubrimiento de la interfaz del Panel de control](discover/using/discovering-the-interface.md)
    + [Preguntas frecuentes](faq.md)
-+ Eventos y alertas por correo electrónico {#alerts-events}
++ Eventos y alertas por correo electrónico  {#alerts-events}
    + [Supervisión de los contactos y eventos clave](service-events/service-events.md)
    + [Alertas por correo electrónico](performance-monitoring/using/email-alerting.md)
 + Administración de SFTP {#sftp-management}
@@ -44,15 +44,15 @@ ht-degree: 88%
 + Subdominios y certificados {#subdomains-and-certificates}
    + [Promoción de subdominios](subdomains-certificates/using/subdomains-branding.md)
    + [Supervisión de los subdominios](subdomains-certificates/using/monitoring-subdomains.md)
-   + Delegar subdominios {#delegate-subdomains}
+   + Delegación de subdominios  {#delegate-subdomains}
       + [Configuración de un nuevo subdominio](subdomains-certificates/using/setting-up-new-subdomain.md)
       + [Eliminación de la delegación de subdominios en Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
-   + Trabajo con registros TXT (Google, BIMI, DMARC) {#txt-records}
+   + Trabajo con registros TXT (Google, BIMI, DMARC)  {#txt-records}
       + [Introducción a los registros TXT](subdomains-certificates/using/gs-txt-records.md)
       + [Adición de registros de verificación del sitio Google](subdomains-certificates/using/managing-txt-records.md)
       + [Adición de registros DMARC](subdomains-certificates/using/dmarc.md)
       + [Adición de registros BIMI](subdomains-certificates/using/bimi.md)
-   + Administrar certificados SSL de los subdominios {#manage-certificates}
+   + Administración de los certificados SSL de los subdominios  {#manage-certificates}
       + [Monitorización de certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Delegación de certificados SSL en Adobe](subdomains-certificates/using/delegate-ssl.md)
       + [Renovación de certificados SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
@@ -67,7 +67,7 @@ ht-degree: 88%
       + [Monitorización de flujos de trabajo](performance-monitoring/using/workflow-monitoring.md)
       + [Impedimento de la sobrecarga de la base de datos](performance-monitoring/using/database-preventing-overload.md)
    + [Supervisión de perfiles activos](performance-monitoring/using/active-profiles-monitoring.md)
-   + [Monitorización de rendimiento y latencia](performance-monitoring/using/throughputs-latencies.md)
+   + [Monitorización de rendimiento y latencia ](performance-monitoring/using/throughputs-latencies.md)
 + Configuración de instancias {#instances-settings}
    + [Listado de IP permitidas para acceso a instancias](instances-settings/using/ip-allow-listing-instance-access.md)
    + [Permisos de URL](instances-settings/using/url-permissions.md)

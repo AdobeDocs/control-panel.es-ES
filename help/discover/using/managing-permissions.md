@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ El Panel de control está disponible para todos los usuarios administradores de 
 
 ![](assets/do-not-localize/how-to-video.png) Descubra esta funcionalidad en [vídeo](../../discover/using/managing-permissions.md#video)
 
-1. Vaya a la [página principal de Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
+1. Vaya a la [página de inicio de Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. Inicie el **Admin Console** haciendo clic en el enlace disponible en la sección **Acceso rápido** o en el menú superior derecho.
 
@@ -52,7 +52,7 @@ El Panel de control está disponible para todos los usuarios administradores de 
 
    >[!IMPORTANT]
    >
-   >De forma predeterminada, el Panel de control de Campaign es accesible para los usuarios administradores que pertenecen al Perfil de producto &quot;Administradores&quot;. Según la configuración de la organización, el perfil de producto puede tener un nombre diferente (&quot;administrador&quot;, &quot;administradores&quot;, &quot;administrador de aprobación&quot;, etc.). **Cualquier perfil de producto que contenga la palabra &quot;admin&quot; en su nombre concederá automáticamente acceso al Panel de control de Campaign.**
+   >De forma predeterminada, el Panel de control de Campaign es accesible para los usuarios administradores que pertenecen al Perfil de producto “Administradores”. Dependiendo de la configuración de la organización, el Perfil de producto puede tener distintos nombres (“administrador”, “administradores”, “administrador de aprobación”, etc.). **Cualquier Perfil de producto que contenga la palabra “administrador” en su nombre concederá automáticamente acceso al Panel de control de Campaign.**
    >
    >Revise cuidadosamente las convenciones de nomenclatura de Perfil de producto en Admin Console para asegurarse de que solo los usuarios autorizados tengan acceso al Panel de control de Campaign, ya que permite realizar cambios significativos en las instancias de Campaign.
 
@@ -66,4 +66,4 @@ El Panel de control está disponible para todos los usuarios administradores de 
 
 ## Tutorial en vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/34797?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)

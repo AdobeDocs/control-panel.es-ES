@@ -66,7 +66,7 @@ Para añadir un registro BIMI para un subdominio, siga estos pasos:
    1. Una vez que el registro BIMI esté visible en la página de detalles del subdominio para un subdominio en particular, puede utilizar el Inspector BIMI disponible [aquí](https://bimigroup.org/bimi-generator/) para comprobar si el registro BIMI funciona correctamente.
 
    Encontrará información detallada sobre la implementación de BIMI en la [documentación estándar de BIMI](https://bimigroup.org/implementation-guide/)
-+++
+   +++
 
 1. Haga clic en **[!UICONTROL Añadir]** para confirmar la creación del registro BIMI.
 

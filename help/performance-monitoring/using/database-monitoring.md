@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
 ht-degree: 100%
 
@@ -44,9 +44,9 @@ Seleccione la instancia deseada de la **[!UICONTROL Lista de instancias]** para 
 
 ![](assets/databases_dashboard.png)
 
-Los datos de este panel se actualizan en función del **[!UICONTROL Flujo de trabajo técnico para limpieza de bases de datos]** que se ejecuta en la instancia de Campaign (consulte la documentación de [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=es#list-of-technical-workflows) y [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=es)). Puede comprobar la última vez que se ejecutó el flujo de trabajo debajo de las métricas **[!UICONTROL Espacio usado]** y **[!UICONTROL Espacio proporcionado]**. Tenga en cuenta que, si el flujo de trabajo no se ha ejecutado desde hace más de 3 días, le recomendamos que se ponga en contacto con el Servicio de atención al cliente de Adobe para que investigue por qué no se está ejecutando.
+Los datos de este panel de control se actualizan en función del **[!UICONTROL Flujo de trabajo técnico para limpieza de bases de datos]** que se ejecuta en la instancia de Campaign (consulte la documentación de [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=es#list-of-technical-workflows) y [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=es)). Puede comprobar la última vez que se ejecutó el flujo de trabajo debajo de las métricas **[!UICONTROL Espacio usado]** y **[!UICONTROL Espacio proporcionado]**. Tenga en cuenta que, si el flujo de trabajo no se ha ejecutado desde hace más de 3 días, le recomendamos que se ponga en contacto con el Servicio de atención al cliente de Adobe para que investigue por qué no se está ejecutando.
 
-Este panel dispone de métricas adicionales que le ayudarán a analizar el uso de la base de datos de la instancia. Se detallan en estas secciones:
+Este panel de control dispone de métricas adicionales que le ayudarán a analizar el uso de la base de datos de la instancia. Se detallan en estas secciones:
 
 * [Utilización de la base de datos](../../performance-monitoring/using/database-utilization.md)
 * [Resumen de almacenamiento](../../performance-monitoring/using/database-storage-overview.md)

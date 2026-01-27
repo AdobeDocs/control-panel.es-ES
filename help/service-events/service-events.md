@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '781'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Se muestran tres tipos de eventos:
 
    * **[!UICONTROL Disponibilidad general]**: última versión estable disponible.
    * **[!UICONTROL Disponibilidad limitada]**: solo implementación a petición.
-   * **[!UICONTROL Liberar candidato]**: validado por ingeniería. Esperando pruebas de producción.
+   * **[!UICONTROL Liberar candidato]**: validado por ingeniería. Esperando revisión de producción.
    * **[!UICONTROL Versión preliminar]**: disponibilidad anticipada para necesidades específicas del cliente.
    * **[!UICONTROL Ya no está disponible]**: la versión no presenta ningún problema importante, pero hay una nueva disponible con correcciones de errores adicionales. Se requiere una actualización.
    * **[!UICONTROL Obsoleto]**: regresiones conocidas de la incrustación de la versión. La versión ya no es compatible. Es obligatorio actualizar.
@@ -88,7 +88,7 @@ Con el Calendario de servicios, puede configurar recordatorios para recibir noti
 
 Para establecer una alerta para un evento, siga estos pasos:
 
-1. Pase el ratón por encima del evento que desea que se le recuerde o haga clic en el botón de los tres puntos en la vista de lista y seleccione **[!UICONTROL Definición de recordatorio]**.
+1. Pase el puntero por encima del evento que desea que se le recuerde o haga clic en el botón de los tres puntos en la vista de lista y seleccione **[!UICONTROL Definición de recordatorio]**.
 
 1. Asigne un título al recordatorio y seleccione la fecha en la que desea que se le notifique antes de que se produzca el evento.
 
@@ -98,7 +98,7 @@ Para establecer una alerta para un evento, siga estos pasos:
    >
    >Si no se ha suscrito a las alertas del Panel de control, se mostrará un mensaje que le permitirá suscribirse a las notificaciones por correo electrónico.
 
-1. El recordatorio ahora se establece para el evento seleccionado. Puede pasar el ratón sobre él en cualquier momento para mostrar su título.
+1. El recordatorio ahora se establece para el evento seleccionado. Puede pasar el puntero por encima de él en cualquier momento para mostrar su título.
 
    ![](assets/service-events-reminder.png)
 

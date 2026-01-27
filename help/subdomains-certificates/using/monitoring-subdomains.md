@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ La columna **[!UICONTROL Última verificación]** indica cuándo se verificó un
 >
 >Adobe no recomienda el uso de subdominios sin fecha de certificado, ya que podría significar que estos subdominios pueden estar teniendo algunos problemas de entregabilidad.
 
-Al iniciar una verificación, se realizan varias operaciones para comprobar que el subdominio está correctamente configurado (comprobación del inquilino de instancia, prueba de envío de correo electrónico, etc.) Si la verificación del subdominio falla, póngase en contacto con el servicio de atención al cliente de Adobe para una investigación más detallada.
+Al iniciar una verificación, se realizan varias operaciones para comprobar que el subdominio está configurado correctamente (comprobación del inquilino de la instancia, prueba de envío de correo electrónico, etc.) Si la verificación del subdominio falla, póngase en contacto con el Servicio de atención al cliente de Adobe para obtener más información.
 
 **Temas relacionados:**
 

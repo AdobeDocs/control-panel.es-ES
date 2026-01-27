@@ -1,5 +1,5 @@
 ---
-title: Notas de la versión 2021
+title: Notas de la versión de 2021
 description: Esta página enumera todas las versiones de Panel de control de 2021.
 feature: Control Panel, Release Notes
 role: Admin
@@ -8,13 +8,13 @@ hide: true
 hidefromtoc: true
 exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
 ht-degree: 100%
 
 ---
 
-# Notas de la versión 2021 {#rn-2021}
+# Notas de la versión de 2021 {#rn-2021}
 
 ## Octubre de 2021 {#october-2021}
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>El Panel de control ya está disponible para Adobe Campaign v8, excepto las funcionalidades de administración de <strong>Subdominios</strong> y <strong>Certificados</strong>, que aún no son compatibles.</p><p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=es" target="blank">Documentación de Campaign v8</a>.</p>
+<p>El Panel de control ya está disponible para Adobe Campaign v8, excepto las funcionalidades de administración de <strong>Subdominios</strong> y <strong>Certificados</strong>, que aún no son compatibles.</p><p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=es" target="blank">documentación de la versión 8 de Campaign</a>.</p>
 </td>
 </tr>
 </tbody>

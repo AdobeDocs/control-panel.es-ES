@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
 ht-degree: 100%
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 
 ## Acerca de los certificados SSL {#about-ssl-certificates}
 
-Adobe Campaign recomienda proteger los subdominios que albergan sus páginas de aterrizaje, especialmente aquellos que recopilan información confidencial de sus clientes.
+Adobe Campaign recomienda proteger los subdominios que albergan sus páginas de destino, especialmente aquellos que recopilan información confidencial de sus clientes.
 
-**El cifrado SSL (Secure Socket Layer)** garantiza que los subdominios que haya configurado para que funcionen con Adobe sean seguros. Cuando el cliente rellena un formulario web o visita una página de aterrizaje alojada en Adobe Campaign, la información se envía de forma predeterminada a través de un protocolo no seguro (HTTP). Para garantizar una seguridad adicional, proteja la información enviada con un protocolo HTTPS. Por ejemplo, su dirección de subdominio &quot;http://info.mywebsite.com/&quot; será ahora &quot;https://info.mywebsite.com/&quot;.
+**El cifrado SSL (Secure Socket Layer)** garantiza que los subdominios que haya configurado para que funcionen con Adobe sean seguros. Cuando el cliente rellena un formulario web o visita una página de destino alojada en Adobe Campaign, la información se envía de forma predeterminada a través de un protocolo no seguro (HTTP). Para garantizar una seguridad adicional, proteja la información enviada con un protocolo HTTPS. Por ejemplo, su dirección de subdominio &quot;http://info.mywebsite.com/&quot; será ahora &quot;https://info.mywebsite.com/&quot;.
 
-**Los certificados SSL no están instalados en los propios subdominios configurados**. Se instalan en subdominios asociados, principalmente los que hospedan páginas de aterrizaje, páginas de recursos y otros.
+**Los certificados SSL no están instalados en los propios subdominios configurados**. Se instalan en subdominios asociados, principalmente los que hospedan páginas de destino, páginas de recursos y otros.
 
-**Los certificados SSL se proporcionan para un período de tiempo** específico (1 año, 60 días, etc.). Una vez que caduca un certificado, puede experimentar problemas al acceder a las páginas de aterrizaje o al usar recursos del subdominio. Para evitarlo, el Panel de control le permite supervisar los certificados SSL de los subdominios, así como iniciar el proceso de renovación.
+**Los certificados SSL se proporcionan para un período de tiempo** específico (1 año, 60 días, etc.). Una vez que caduca un certificado, puede experimentar problemas al acceder a las páginas de destino o al usar recursos del subdominio. Para evitarlo, el Panel de control le permite supervisar los certificados SSL de los subdominios, así como iniciar el proceso de renovación.
 
 ![](assets/no_certificate.png)
 
@@ -62,8 +62,8 @@ Los subdominios se organizan según la fecha de caducidad más próxima del cert
 
 ![](assets/subdomains_list.png)
 
-Para obtener más detalles acerca de un subdominio, pulse el botón **[!UICONTROL Detalles del subdominio]**.
-Se muestra la lista de todos los subdominios relacionados. Por lo general, incluye subdominios de páginas de aterrizaje, páginas de recursos, etc.
+Para obtener más detalles acerca de un subdominio, haga clic en el botón **[!UICONTROL Detalles del subdominio]**.
+Se muestra la lista de todos los subdominios relacionados. Por lo general, incluye subdominios de páginas de destino, páginas de recursos, etc.
 
 La pestaña **[!UICONTROL Información del remitente]** proporciona información sobre las bandejas de entrada configuradas (Remitente, Responder a, Correo electrónico de error).
 

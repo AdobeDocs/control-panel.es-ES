@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '1059'
+workflow-type: ht
+source-wordcount: '1057'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 Los servidores SFTP están protegidos. Para poder acceder a ellos con el fin de ver archivos o escribir otros nuevos, es necesario añadir la dirección IP pública del sistema o cliente que accede a los servidores a la lista de permitidos.
 
-![](assets/do-not-localize/how-to-video.png) Descubra esta función en vídeo usando [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=es#sftp-management) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=es#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Descubra esta funcionalidad en vídeo usando [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=es#sftp-management) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=es#sftp-management)
 
 ## Acerca del formato CIDR {#about-cidr-format}
 
@@ -57,7 +57,7 @@ Para agregar un rango de IP a la lista de permitidos, siga estos pasos:
 
    ![](assets/control_panel_add_range.png)
 
-1. Defina el rango de direcciones IP que quiere añadir a la lista de permitidos. Este campo solo acepta rangos de direcciones IP en formato CIDR, como por ejemplo *192.150.5.0/24*.
+1. Defina el rango de direcciones IP que quiere añadir a la lista de permitidos. Este campo solo acepta rangos de direcciones IP en formato CIDR, como por ejemplo, *192.150.5.0/24*.
 
    ![](assets/control_panel_add_range4.png)
 

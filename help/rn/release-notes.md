@@ -1,18 +1,18 @@
 ---
-title: Última versión
+title: Último lanzamiento
 description: Esta página enumera todas las nuevas funciones y mejoras de Panel de control
 feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
 ht-degree: 100%
 
 ---
 
-# Última versión {#control-panel-releases}
+# Último lanzamiento {#control-panel-releases}
 
 Esta página enumera las nuevas funciones y mejoras de Panel de control.
 

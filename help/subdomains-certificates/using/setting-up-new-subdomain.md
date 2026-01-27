@@ -41,7 +41,7 @@ Si la instancia que selecciona en el asistente no tiene subdominios configurados
 
 Al configurar un nuevo subdominio, puede hacer que Adobe se encargue de administrar el certificado SSL. Esto es muy recomendable, ya que Adobe creará automáticamente el certificado y lo renovará cada año antes de que caduque.
 
-Si utiliza CNAME para configurar una delegación de subdominios, Adobe proporcionará registros de certificado para usarlos en la solución de alojamiento de dominios con el fin de generar su certificado.
+Si utiliza CNAME para configurar una delegación de subdominios, Adobe proporcionará registros de certificado para usarlos en la solución de alojamiento de dominios con el fin de generar tu certificado.
 
 >[!NOTE]
 >
@@ -86,7 +86,7 @@ Para delegar completamente un subdominio a Adobe Campaign, siga los pasos a cont
 
    ![](assets/subdomain3.png)
 
-1. Cree los subdominios y servidores de nombres deseados en la solución de hospedaje que use su organización. Para ello, copie y pegue la información del servidor de nombres de Adobe que se muestra en el asistente. Para obtener más información sobre cómo crear un subdominio en una solución de alojamiento, consulte el [tutorial en vídeo](https://video.tv.adobe.com/v/34038?captions=spa).
+1. Cree los subdominios y servidores de nombres deseados en la solución de hospedaje que use su organización. Para ello, copie y pegue la información del servidor de nombres de Adobe que se muestra en el asistente. Para obtener más información sobre cómo crear un subdominio en una solución de alojamiento, consulte el [tutorial en vídeo](https://video.tv.adobe.com/v/30175).
 
    >[!NOTE]
    >
@@ -133,7 +133,7 @@ Una vez enviado el subdominio, el Panel de control realizará varias comprobacio
 
 Para configurar un subdominio mediante CNAME, siga los pasos a continuación.
 
-![](assets/do-not-localize/how-to-video.png) Descubra esta función en vídeo usando [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=es#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=es)
+![](assets/do-not-localize/how-to-video.png) Descubra esta funcionalidad en vídeo usando [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=es#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=es)
 
 1. En la tarjeta **[!UICONTROL Subdominios y certificados]**, seleccione la instancia de producción deseada y, a continuación, haga clic en **[!UICONTROL Configurar nuevo subdominio]**.
 
@@ -221,8 +221,8 @@ Puede obtener más detalles acerca del subdominio haciendo clic en los botones *
 
 ![](assets/sender_info.png)
 
-## Resolución de problemas {#troubleshooting}
+## Solución de problemas {#troubleshooting}
 
-* En algunos casos, la configuración se completa, pero es posible que el subdominio no se haya verificado correctamente. El subdominio permanecerá en la lista **[!UICONTROL Configurado]** con un registro de trabajo que proporciona información sobre el error. Póngase en contacto con el Servicio de atención al cliente si tiene problemas.
+* En algunos casos, la configuración se completa, pero es posible que el subdominio no se haya verificado correctamente. El subdominio permanecerá en la lista **[!UICONTROL Configurado]** con un registro del trabajo que proporciona información sobre el error. Póngase en contacto con el Servicio de atención al cliente si tiene problemas.
 * En caso de que el subdominio se muestre como “No verificado” después de configurarlo, inicie una nueva verificación del subdominio (**...** / **[!UICONTROL Verificar subdominio]**). Si aún muestra el mismo estado, la razón podría ser que hay alguna personalización en el esquema de destinatarios, que no se puede comprobar mediante procesos estándar. Intente enviar una campaña con ese subdominio.
 * Si la configuración del subdominio está tardando demasiado (más de 10 días hábiles) en el paso de auditoría de la entrega, póngase en contacto con el Servicio de atención al cliente.
