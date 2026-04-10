@@ -5,11 +5,10 @@ feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
 hide: true
-hidefromtoc: true
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
-source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
+source-git-commit: 9f8b99be31e35da477bdd7e4a39e5634dbb4d3a0
 workflow-type: ht
-source-wordcount: '437'
+source-wordcount: '439'
 ht-degree: 100%
 
 ---
@@ -168,7 +167,7 @@ ht-degree: 100%
 Hemos añadido nuevas funciones para que los usuarios administradores configuren subdominios y renueven los certificados SSL desde el Panel de control.
 
 Para obtener más información, consulte estas páginas:
-* [ Configuración de un nuevo subdominio](../subdomains-certificates/using/setting-up-new-subdomain.md)
+* [Configuración de un nuevo subdominio](../subdomains-certificates/using/setting-up-new-subdomain.md)
 * [Renovación del certificado SSL de un subdominio](../subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 >[!IMPORTANT]
