@@ -1,8 +1,8 @@
 ---
 source-git-commit: 2dbc05024c2c60341425fe73adc31f6332679177
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '300'
+ht-degree: 34%
 
 ---
 # Contribución
@@ -14,7 +14,7 @@ A continuación se muestra un conjunto de directrices que se deben seguir al con
 ## Código de conducta
 
 Este proyecto se adhiere al [código de conducta](code-of-conduct.md) de Adobe. Al participar,
-se espera que mantenga este código. Puede informar sobre comportamientos inapropiados a
+se espera que respete este código. Informe de cualquier comportamiento inaceptable a
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Documentación de la Guía del colaborador
@@ -23,22 +23,23 @@ Consulte la [Guía del colaborador](https://experienceleague.adobe.com/docs/cont
 
 ## ¿Tiene alguna pregunta?
 
-Comience por enviar un problema. Los supervisores de este proyecto trabajan para llegar
-a un consenso sobre la dirección del proyecto y ofrecer soluciones en los subprocesos del problema 
-(cuando corresponde).
+Comience por enviar un problema. Los supervisores de este proyecto trabajan para llegar a
+consenso en torno a la dirección del proyecto y las soluciones de problemas dentro de los hilos de problemas
+(cuando proceda).
 
 ## Acuerdo de licencia del colaborador
 
-Todas las contribuciones de terceros a este proyecto deben ir acompañadas por
-una licencia de colaborador firmada. Esto otorga permiso a Adobe para redistribuir sus contribuciones
+Todas las contribuciones de terceros a este proyecto deben estar acompañadas por un colaborador firmado
+acuerdo de licencia. Esto otorga permiso a Adobe para redistribuir sus contribuciones
 como parte del proyecto. [Firmar nuestro Contrato de licencia de colaborador](http://opensource.adobe.com/cla.html). Usted
-solo debe mandar un Contrato de licencia de colaborador de Adobe, así que si ya mandó uno en el pasado,
-con ese es suficiente.
+solo necesita enviar un contrato de licencia de colaborador de Adobe, por lo que si ha enviado uno anteriormente,
+¡estás listo para irte!
 
 ## Revisiones de código
 
-Todas las solicitudes deben llegar en forma de solicitudes “pull” y el comité de proyectos deberá revisarlas. Consulte la [documentación de las solicitudes de extracción de GitHub](https://help.github.com/articles/about-pull-requests/)
-para obtener más información sobre cómo enviar solicitudes de extracción.
+Todos los envíos deben ser solicitudes de extracción y deben revisarse
+por los supervisores del proyecto. Leer la documentación de las solicitudes de extracción de [GitHub](https://help.github.com/articles/about-pull-requests/)
+para obtener más información sobre el envío de solicitudes de extracción.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -47,12 +48,12 @@ submitting a pull request!
 
 ## De colaborador a creador
 
-¡Nos encantan las contribuciones de nuestra comunidad! Si desea ir más allá del colaborador 
-y convertirse en un supervisor con acceso de escritura completo y tener voz en el proyecto, debe 
-ser invitado al proyecto. Los supervisores existentes emplean un proceso de nominación interna
-que debe alcanzar un consenso diferido (el silencio es aprobación) antes de
-que se emitan invitaciones. Si cree que está cualificado y desea implicarse más profundamente,
-no dude en ponerse en contacto con los supervisores existentes para hablar de ello.
+¡Nos encantan las contribuciones de nuestra comunidad! Si desea ir un paso más allá de colaborador
+y convertirse en un supervisor con acceso de escritura completo y voz en el proyecto, debe
+ser invitado al proyecto. Los supervisores existentes emplean una nominación interna
+proceso que debe alcanzar un consenso diferido (el silencio es aprobación) antes de las invitaciones
+se emitan. Si cree que está cualificado y desea implicarse más profundamente,
+no dude en ponerse en contacto con los supervisores existentes para hablar sobre ello.
 
 ## Problemas de seguridad
 
