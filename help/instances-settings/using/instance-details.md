@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '515'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 99%
 
 ---
 
@@ -48,13 +48,13 @@ Para obtener información sobre los servidores conectados a las instancias, siga
 
    >[!NOTE]
    >
-   >Si la tarjeta de configuración de instancias no está visible en la página de inicio del panel de control, significa que el ID de la organización no está asociado a ninguna instancia de Adobe Campaign v7/v8. 
+   >Si la tarjeta de configuración de instancias no está visible en la página de inicio del panel de control, significa que el ID de la organización no está asociado a ninguna instancia de Adobe Campaign v7/v8.
 
 1. Seleccione en el panel izquierdo la instancia de Campaign que desee.
 
    >[!NOTE]
    >
-   >Todas las instancias de Campaign se muestran en la lista del panel izquierdo. Como la funcionalidad Detalles de instancia está dedicada únicamente a las instancias de Campaign v7/v8, aparecerá el mensaje “Instancia no aplicable” si selecciona una instancia de Campaign Standard. 
+   >Todas las instancias de Campaign se muestran en la lista del panel izquierdo. Como la funcionalidad Detalles de instancia está dedicada únicamente a las instancias de Campaign v7/v8, aparecerá el mensaje “Instancia no aplicable” si selecciona una instancia de Campaign Standard.
 
 1. Se muestran los servidores conectados a la instancia.
 
