@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '794'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '846'
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ Para añadir direcciones IP a la lista de permitidos, siga estos pasos:
 
    >[!NOTE]
    >
-   >Si está utilizando una instancia con un modelo de alojamiento híbrido, solo podrá añadir direcciones IP en “Conexión de API externa” para las instancias de MID y RT. 
+   >Si está utilizando una instancia con un modelo de alojamiento híbrido, solo podrá añadir direcciones IP en “Conexión de API externa” para las instancias de MID y RT.
 
    ![](assets/ip_whitelist_acesstype.png)
 

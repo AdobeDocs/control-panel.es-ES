@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: de33a10a168358d0f38ca776fbcd88e0ccf63ce2
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1348'
+ht-degree: 95%
 
 ---
 
@@ -106,12 +106,12 @@ Para obtener más información sobre este tema, consulte la documentación de Ad
 **Campaign v7/v8:**
 
 * [Compresión o cifrado de un archivo](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=es)
-* [Caso de uso: cifrado y exportación de datos con una clave instalada en el Panel de control](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=es#use-case-gpg-encrypt)
+* [Caso de uso: cifrado y exportación de datos con una clave instalada en el Panel de control de Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=es#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
 * [Administración de datos cifrados](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=es)
-* [Caso de uso: cifrado y exportación de datos con una clave instalada en el Panel de control](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=es#use-case-gpg-encrypt)
+* [Caso de uso: cifrado y exportación de datos con una clave instalada en el Panel de control de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=es#use-case-gpg-encrypt)
 
 ## Descifrado de datos {#decrypting-data}
 
@@ -149,12 +149,12 @@ Para obtener más información, consulte la documentación de Adobe Campaign:
 **Campaign 7 y 8:**
 
 * [Descompresión o descifrado de un archivo antes de procesarlo](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=es)
-* [Caso de uso: importación de datos cifrados con una clave generada por el Panel de control](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=es#use-case-gpg-decrypt)
+* [Caso de uso: importación de datos cifrados con una clave generada por el Panel de control de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=es#use-case-gpg-decrypt)
 
 **Campaign Standard:**
 
 * [Administración de datos cifrados](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=es)
-* [Caso de uso: importación de datos cifrados con una clave generada por el Panel de control](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=es#use-case-gpg-decrypt)
+* [Caso de uso: importación de datos cifrados con una clave generada por el Panel de control de Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=es#use-case-gpg-decrypt)
 
 ## Monitorizar claves GPG
 
