@@ -61,7 +61,7 @@ Si tiene alguna pregunta acerca de los métodos de configuración de subdominios
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es" text="Configuración de un nuevo subdominio"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es" text="Promoción de subdominios"
 
-Al configurar subdominios para instancias de Campaign v7/v8, es necesario seleccionar el caso de uso para el que se utilizará el subdominio (consulte [ Configuración de un nuevo subdominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Al configurar subdominios para instancias de Campaign v7/v8, es necesario seleccionar el caso de uso para el que se utilizará el subdominio (consulte [&#x200B; Configuración de un nuevo subdominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Los posibles casos de uso son:
 
