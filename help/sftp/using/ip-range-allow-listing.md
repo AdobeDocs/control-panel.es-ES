@@ -7,10 +7,10 @@ feature: Control Panel, SFTP Management
 role: Admin
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 100%
+source-wordcount: '1136'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98" text="Ver vídeo de demostración"
 
 Los servidores SFTP están protegidos. Para poder acceder a ellos con el fin de ver archivos o escribir otros nuevos, es necesario añadir la dirección IP pública del sistema o cliente que accede a los servidores a la lista de permitidos.
+
+>[!NOTE]
+>
+>La lista de IP permitidas para servidores SFTP está disponible para instancias de Campaign v7/v8 alojadas en AWS, instancias de Campaign Standard e instancias de Campaign v8 alojadas en Microsoft Azure.
 
 ![](assets/do-not-localize/how-to-video.png) Descubra esta funcionalidad en vídeo usando [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=es#sftp-management) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=es#sftp-management)
 

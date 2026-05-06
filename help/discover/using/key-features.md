@@ -7,10 +7,10 @@ feature: Control Panel, Overview
 role: Admin
 level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 95%
 
 ---
 
@@ -26,9 +26,7 @@ Ventajas principales:
 
 >[!NOTE]
 >
->El acceso al Panel de control está restringido a los usuarios administradores. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](managing-permissions.md).
->
->Para la versión 7/8 de Campaign, tenga en cuenta que la instancia debe estar alojada en Amazon Web Services (AWS) y actualizada a la última [versión estable de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses) o a la versión 9032 o superior. Aprenda a comprobar su versión en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=es#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](../../faq.md#hosted-aws).
+>El acceso al Panel de control está restringido a los usuarios administradores. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](managing-permissions.md). Para conocer los requisitos previos sobre los requisitos de alojamiento de instancias, consulte [esta página](accessing-control-panel.md).
 
 <table style="table-layout:fixed">
 <tr>

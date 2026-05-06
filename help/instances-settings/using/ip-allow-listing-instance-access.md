@@ -7,10 +7,10 @@ feature: Control Panel, Access Management
 role: Admin
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 99%
+source-wordcount: '857'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->Esta funcionalidad solo está disponible para las instancias de las versiones 7 y 8 de Campaign.
+>Esta función está disponible para instancias de las versiones 7 y 8 de Campaign alojadas en AWS y para instancias de la versión 8 de Campaign alojadas en Microsoft Azure.
 
 De forma predeterminada, la instancia de Adobe Campaign no es accesible desde varias direcciones IP.
 

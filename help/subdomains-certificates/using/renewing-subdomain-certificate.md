@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 98%
+source-wordcount: '1084'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 98%
 >[!NOTE]
 >
 >La renovación de los certificados SSL de sus subdominios solo es necesaria si decide administrar los certificados usted mismo en lugar de delegar este proceso a Adobe. Se recomienda delegar la administración de los certificados SSL de los subdominios a Adobe, ya que Adobe creará automáticamente el certificado y lo renovará cada año antes de que caduque. [Obtenga más información sobre la administración de certificados SSL](monitoring-ssl-certificates.md#management)
+>
+>La administración de certificados SSL administrada por el cliente está disponible para instancias de Campaign v7/v8 alojadas en AWS y para instancias de Campaign v8 alojadas en Microsoft Azure.
 
 El proceso de renovación de certificados SSL incluye 3 pasos:
 
@@ -61,7 +63,7 @@ El proceso de renovación de certificados SSL incluye 3 pasos:
 
 Para generar una solicitud de firma de certificado (CSR), siga estos pasos:
 
-1. En la tarjeta **[!UICONTROL Subdominios y certificados]**, seleccione la instancia que desee y, a continuación, haga clic en el botón **[!UICONTROL Administrar certificado]**.
+1. En la tarjeta **[!UICONTROL Subdominios y certificados]**, seleccione la instancia deseada y, a continuación, haga clic en el botón **[!UICONTROL Administrar certificado]**.
 
    ![](assets/renewal1.png)
 
