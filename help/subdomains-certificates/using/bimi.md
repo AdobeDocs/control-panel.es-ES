@@ -7,9 +7,13 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
-source-git-commit: c555a91ee0772fd615d38ebbb3964392649af907
-workflow-type: ht
-source-wordcount: '523'
+TQID: https://experienceleague.adobe.com/gdmtHgMWI-8y3w6uzXdNxOatrjJMDdp6EWLuXz1mhhg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 543
 ht-degree: 100%
 
 ---
@@ -35,7 +39,7 @@ Encontrará información detallada sobre la implementación de BIMI en [Guía de
    * El tipo de directiva de registro del dominio de la organización debe establecerse en “Cuarentena” o “Rechazar”. La creación de registros BIMI no está disponible con un tipo de directiva DMARC establecido en &quot;Ninguno&quot;.
    * El porcentaje de correos electrónicos a los que se aplica la directiva DMARC debe ser del 100 %. BIMI no es compatible con las directivas DMARC con este porcentaje establecido en menos del 100 %.
 
-[Obtenga información sobre cómo configurar registros DMARC](dmarc.md)
+     [Obtenga información sobre cómo configurar registros DMARC](dmarc.md)
 
 ## Adición de un registro BIMI para un subdominio {#add}
 

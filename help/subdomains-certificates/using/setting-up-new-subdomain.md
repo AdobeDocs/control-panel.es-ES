@@ -7,13 +7,17 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 0b7cb860592508f7323bcd30345d1853e4a4ac94
+TQID: https://experienceleague.adobe.com/ghS8Qn4Zj8ST2IitfS79-oALE60jyzlxHqawExlBDAY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: 1686
 ht-degree: 100%
 
 ---
-
 
 # Configuración de un nuevo subdominio {#setting-up-subdomain}
 
@@ -86,7 +90,7 @@ Para delegar completamente un subdominio a Adobe Campaign, siga los pasos a cont
 
    ![](assets/subdomain3.png)
 
-1. Cree los subdominios y servidores de nombres deseados en la solución de hospedaje que use su organización. Para ello, copie y pegue la información del servidor de nombres de Adobe que se muestra en el asistente. Para obtener más información sobre cómo crear un subdominio en una solución de alojamiento, consulte el [tutorial en vídeo](https://video.tv.adobe.com/v/34038?captions=spa).
+1. Cree los subdominios y servidores de nombres deseados en la solución de hospedaje que use su organización. Para ello, copie y pegue la información del servidor de nombres de Adobe que se muestra en el asistente. Para obtener más información sobre cómo crear un subdominio en una solución de alojamiento, consulte el [tutorial en vídeo](https://video.tv.adobe.com/v/30175).
 
    >[!NOTE]
    >
@@ -105,7 +109,7 @@ Para delegar completamente un subdominio a Adobe Campaign, siga los pasos a cont
    Asegúrese de añadir el **nombre completo** del subdominio que desea delegar. Por ejemplo, para delegar el subdominio “email.weretail.com”, escriba “email.weretail.com”.
 
 
-1. Para delegar la generación del certificado SSL del subdominio a Adobe, habilite la opción **[!UICONTROL Optar por SSL administrado por Adobe para subdominios]**. [Más información sobre la delegación de certificados SSL](delegate-ssl.md)
+1. Para delegar la generación del certificado SSL del subdominio a Adobe, habilite la opción **[!UICONTROL Optar por SSL administrado por Adobe para subdominios]**. [Más información acerca de la delegación de certificados SSL](delegate-ssl.md)
 
    ![](assets/subdomain6.png)
 
