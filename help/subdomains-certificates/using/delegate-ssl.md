@@ -14,7 +14,7 @@ feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+source-git-commit: e0e2ccba4ec069124297a26da48d210599671b48
 workflow-type: tm+mt
 source-wordcount: 485
 ht-degree: 100%
@@ -47,13 +47,13 @@ Para delegar certificados SSL al configurar un subdominio nuevo, habilite la opc
 
 * **Delegación CNAME**: los registros de certificados que se copiarán en la solución de alojamiento se proporcionarán más adelante en el asistente de configuración. Debe generar estos registros de certificados en la solución de alojamiento de dominios antes de enviar la configuración del subdominio. [Más información sobre la delegación CNAME](setting-up-new-subdomain.md#use-cnames)
 
-![](assets/cname-adobe-managed.png){width="70%" align="left"}
+![](assets/cname-adobe-managed.png){width="70%"}
 
 ## Delegación de certificados SSL para subdominios ya delegados {#delegated}
 
 Para delegar certificados SSL para un subdominio ya delegado, pulse el botón de los tres puntos situado junto al subdominio deseado y haga clic en **[!UICONTROL Cambiar a SSL administrado]**.
 
-![](assets/delegate-ssl-list.png){width="70%" align="left"}
+![](assets/delegate-ssl-list.png){width="70%"}
 
 El proceso de generación de certificados depende de cómo se configuró originalmente el subdominio:
 
@@ -67,4 +67,4 @@ Para los subdominios configurados mediante delegación CNAME, se muestra un cuad
 
 Asegúrese de que todos los registros de certificados se hayan generado en la solución de alojamiento de dominios. Si todo está configurado correctamente, confirme la creación de los registros y haga clic en **[!UICONTROL Enviar]**.
 
-![](assets/delegate-ssl.png){width="70%" align="left"}
+![](assets/delegate-ssl.png){width="70%"}
