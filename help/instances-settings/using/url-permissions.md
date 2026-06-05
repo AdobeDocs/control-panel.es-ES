@@ -19,9 +19,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 632
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 91%
 >
 >Esta funcionalidad solo está disponible para las instancias de Campaign v7/v8, a partir de la versión 8850. Si está utilizando una versión anterior, debe actualizarla para usar esta funcionalidad.
 
-La lista predeterminada de direcciones URL a las que pueden llamar los códigos JavaScript (flujos de trabajo, etc.) de las instancias de Campaign es limitada. Son direcciones URL que permiten que las instancias funcionen correctamente.
+La lista predeterminada de direcciones URL a las que pueden llamar los códigos JavaScript (flujos de trabajo, etc.) mediante las instancias de Campaign es limitada.Son direcciones URL que permiten que las instancias funcionen correctamente.
 
 De forma predeterminada, las instancias no pueden conectarse a direcciones URL externas. El Panel de control permite añadir algunas direcciones URL externas a la lista de direcciones URL autorizadas para que la instancia pueda conectarse a ellas. Esto le permite conectar las instancias de Campaign a sistemas externos como, por ejemplo, servidores SFTP o sitios web para habilitar la transferencia de datos o archivos.
 
@@ -97,7 +97,7 @@ Para añadir una dirección URL a la que se pueda conectar su instancia, siga es
 
    >[!NOTE]
    >
-   >Los caracteres &quot;/.*&quot; se añaden automáticamente al final de la dirección URL que introduzca después de validarla para cubrir todas las subpáginas de la página introducida.
+   >Los caracteres “/.*” se añaden automáticamente al final de la dirección URL que introduzca después de validarla para cubrir todas las subpáginas de la página introducida.
 
    ![](assets/add_url_listnew.png)
 

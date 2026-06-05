@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 787
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 >
 >El Calendario de servicios estará disponible en la versión beta y sujeta a frecuentes actualizaciones y modificaciones sin previo aviso.
 
-Para monitorizar de forma eficaz las instancias de Campaign, es crucial seguir los eventos importantes que pueden afectar potencialmente a su(s) instancia(s). El Panel de control de Campaign le permite identificar eventos como nuevas versiones, actualizaciones, parches, correcciones rápidas, etc. y proporciona una lista de contactos clave de Adobe para cualquier solicitud o problema.
+Para monitorizar de forma eficaz las instancias de Campaign, es crucial seguir los eventos importantes que pueden afectar potencialmente a su(s) instancia(s). El Panel de control le permite identificar eventos como nuevas versiones, actualizaciones, parches, correcciones rápidas, etc. y proporciona una lista de contactos clave de Adobe para cualquier solicitud o problema.
 
 Se puede acceder a esta información desde la tarjeta **[!UICONTROL Calendario de servicios]** de la página de inicio del Panel de control.
 

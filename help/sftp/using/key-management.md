@@ -13,9 +13,9 @@ product_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1106
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ En casos muy excepcionales, la autenticación basada en contraseña está habili
 
    Es posible que necesite instalar una herramienta de terceros que le ayude a generar pares de claves privadas/públicas con el mismo formato “nombre.pub”.
 
-1. Abra el archivo .pub y copie y pegue toda la cadena empezando por &quot;ssh...&quot; en el Panel de control de Campaign.
+1. Abra el archivo .pub y, a continuación, copie y pegue toda la cadena que empieza por “ssh...” en el Panel de control.
 
    ![](assets/publickey.png)
 
@@ -116,7 +116,7 @@ Puede utilizar las huellas digitales para hacer coincidir las claves privadas gu
 
 ![](assets/fingerprint_compare.png)
 
-El &quot;**...**&quot; permite eliminar una clave existente o copiar su huella digital asociada en el portapapeles.
+El botón “**...**” permite eliminar una clave existente o copiar su huella digital asociada en el portapapeles.
 
 ![](assets/key_options.png)
 

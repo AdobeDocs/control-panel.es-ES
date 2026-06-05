@@ -17,9 +17,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 756
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ En la tabla que figura a continuación se ofrece un resumen del funcionamiento d
 
 | Método de configuración | Funcionamiento | Nivel de esfuerzo |
 |---|---|---|
-| **Delegación completa** | Cree el subdominio y el registro de espacio de nombres. Adobe configurará todos los registros DNS necesarios para Adobe Campaign.<br/><br/>En esta configuración, Adobe es totalmente responsable de administrar el subdominio y todos los registros DNS. | Bajo |
+| **Delegación completa** | Cree el subdominio y el registro de espacio de nombres. Adobe configurará entonces todos los registros DNS que requiera para Adobe Campaign.<br/><br/>En esta configuración, Adobe es totalmente responsable de administrar el subdominio y todos los registros DNS. | Bajo |
 | **CNAME, método personalizado** | Cree el subdominio y el registro de espacio de nombres. A continuación, Adobe proporcionará los registros que se van a colocar en los servidores DNS y configurará los valores correspondientes en los servidores DNS de Adobe Campaign.<br/><br/>En esta configuración, tanto usted como Adobe comparten la responsabilidad de mantener DNS. | Alto |
 
 Encontrará más información sobre la configuración de dominios en [esta documentación](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=es).
@@ -70,7 +70,7 @@ Si tiene alguna pregunta acerca de los métodos de configuración de subdominios
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es" text="Configuración de un nuevo subdominio"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es" text="Promoción de subdominios"
 
-Al configurar subdominios para instancias de Campaign v7/v8, es necesario seleccionar el caso de uso para el que se utilizará el subdominio (consulte [&#x200B; Configuración de un nuevo subdominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Al configurar subdominios para instancias de Campaign v7/v8, es necesario seleccionar el caso de uso para el que se utilizará el subdominio (consulte [ Configuración de un nuevo subdominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Los posibles casos de uso son:
 

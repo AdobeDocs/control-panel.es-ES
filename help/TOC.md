@@ -7,9 +7,9 @@ feature: Control Panel
 role: Admin
 level: Experienced
 source-git-commit: 17583a8f809394adc0eb53180308d6daf464e746
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '181'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
    + Versiones anteriores {#previous-releases}
       + [2023](rn/release-notes-2023.md)
       + [2022](rn/release-notes-2022.md)
-      + {hide-from-toc}[2021 - ocultar](rn/release-notes-2021.md)
+      + {hide-from-toc}[2021: Ocultar](rn/release-notes-2021.md)
       + {hide-from-toc}[2020](rn/release-notes-2020.md)
       + {hide-from-toc}[2019](rn/release-notes-2019.md)
 + Descubrir el Panel de control {#discover-control-panel}
