@@ -8,14 +8,12 @@ role: Admin
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 TQID: https://experienceleague.adobe.com/49fMBOZ2iN7xs7PpnYRLDHpQO5eXMTvn-veAxpjeH7w
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 154
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +31,7 @@ La columna **[!UICONTROL Última verificación]** indica cuándo se verificó un
 >
 >Adobe no recomienda el uso de subdominios sin fecha de certificado, ya que podría significar que estos subdominios pueden estar teniendo algunos problemas de entregabilidad.
 
-Al iniciar una verificación, se realizan varias operaciones para comprobar que el subdominio está configurado correctamente (comprobación del inquilino de la instancia, prueba de envío de correo electrónico, etc.) Si la verificación del subdominio falla, póngase en contacto con el Servicio de atención al cliente de Adobe para obtener más información.
+Al iniciar una verificación, se realizan varias operaciones para comprobar que el subdominio está configurado correctamente (comprobación del inquilino de la instancia, prueba de envío de correo electrónico, etc.).Si la verificación del subdominio falla, póngase en contacto con el Servicio de atención al cliente de Adobe para obtener más información.
 
 **Temas relacionados:**
 

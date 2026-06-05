@@ -8,16 +8,13 @@ role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 TQID: https://experienceleague.adobe.com/rTb49TVxUqe2IeONpjiEMmhu1vZ-o6sStCwHxcWcAms
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1084
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +49,7 @@ El proceso de renovación de certificados SSL incluye 3 pasos:
 
 **Temas relacionados:**
 
-* [Guía de prácticas recomendadas de entrega: proceso de solicitud de certificado SSL para Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=es)
+* [Guía de prácticas recomendadas sobre la entregabilidad: proceso de solicitud de certificado SSL para Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=es)
 * [Promoción de subdominios](../../subdomains-certificates/using/subdomains-branding.md)
 * [Supervisión de subdominios](../../subdomains-certificates/using/monitoring-subdomains.md)
 
@@ -70,7 +67,7 @@ El proceso de renovación de certificados SSL incluye 3 pasos:
 
 Para generar una solicitud de firma de certificado (CSR), siga estos pasos:
 
-1. En la tarjeta **[!UICONTROL Subdominios y certificados]**, seleccione la instancia deseada y, a continuación, haga clic en el botón **[!UICONTROL Administrar certificado]**.
+1. En la tarjeta **[!UICONTROL Subdominios y certificados]**, seleccione la instancia que desee y, a continuación, haga clic en el botón **[!UICONTROL Administrar certificado]**.
 
    ![](assets/renewal1.png)
 
