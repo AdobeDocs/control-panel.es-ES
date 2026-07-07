@@ -11,9 +11,9 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: ht
-source-wordcount: 176
+source-git-commit: 602d1039a9725ad68de0e0a2e558108b67d62e6c
+workflow-type: tm+mt
+source-wordcount: 192
 ht-degree: 100%
 
 ---
@@ -46,8 +46,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Ahora puede editar los <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">Rangos de IP</a> y las <a href="../sftp/using/key-management.md#editing-public-keys">claves públicas</a> que cree. Tenga en cuenta que esta función no está disponible para los elementos creados antes de la versión actual de Panel de control.
-</td>
+<p>Ahora puede editar los <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">rangos de IP</a> y las <a href="../sftp/using/key-management.md#editing-public-keys">claves públicas</a> que cree. Tenga en cuenta que esta función no está disponible para los elementos creados antes de la versión de Panel de control actual.</td>
 </tr>
 </tbody>
 </table>
@@ -98,5 +97,3 @@ ht-degree: 100%
 </tr>
 </tbody>
 </table>
-
-Fin.
