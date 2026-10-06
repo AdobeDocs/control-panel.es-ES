@@ -7,22 +7,32 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-TQID: https://experienceleague.adobe.com/qV--ZZUxv3WImUWYbWhboXoO-Hyo1geHtIVvrvwcfMQ
+TQID: 'https://experienceleague.adobe.com/qV--ZZUxv3WImUWYbWhboXoO-Hyo1geHtIVvrvwcfMQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: ht
-source-wordcount: 787
+    internal-label: Customer experience
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
+workflow-type: tm+mt
+source-wordcount: '787'
 ht-degree: 100%
-
 ---
-
 # Identificación de los contactos y eventos clave {#keycontacts-events}
 
 >[!CONTEXTUALHELP]
@@ -76,12 +86,12 @@ Se muestran tres tipos de eventos:
 
 * Las **Versiones** indican las implementaciones pasadas y próximas a la instancia, que se muestran respectivamente en gris y azul en la vista calendario. Los detalles del evento especifican el tipo de versión asociada a cada implementación:
 
-   * **[!UICONTROL Disponibilidad general]**: última versión estable disponible.
-   * **[!UICONTROL Disponibilidad limitada]**: solo implementación a petición.
-   * **[!UICONTROL Liberar candidato]**: validado por ingeniería. Esperando revisión de producción.
-   * **[!UICONTROL Versión preliminar]**: disponibilidad anticipada para necesidades específicas del cliente.
-   * **[!UICONTROL Ya no está disponible]**: la versión no presenta ningún problema importante, pero hay una nueva disponible con correcciones de errores adicionales. Se requiere una actualización.
-   * **[!UICONTROL Obsoleto]**: regresiones conocidas de la incrustación de la versión. La versión ya no es compatible. Es obligatorio actualizar.
+  * **[!UICONTROL Disponibilidad general]**: última versión estable disponible.
+  * **[!UICONTROL Disponibilidad limitada]**: solo implementación a petición.
+  * **[!UICONTROL Liberar candidato]**: validado por ingeniería. Esperando revisión de producción.
+  * **[!UICONTROL Versión preliminar]**: disponibilidad anticipada para necesidades específicas del cliente.
+  * **[!UICONTROL Ya no está disponible]**: la versión no presenta ningún problema importante, pero hay una nueva disponible con correcciones de errores adicionales. Se requiere una actualización.
+  * **[!UICONTROL Obsoleto]**: regresiones conocidas de la incrustación de la versión. La versión ya no es compatible. Es obligatorio actualizar.
 
 Puede asignar un indicador a uno o varios eventos próximos para realizar un seguimiento de ellos. Para ello, haga clic en el botón de los tres puntos situado junto al nombre del evento.
 

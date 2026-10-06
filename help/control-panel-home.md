@@ -5,18 +5,24 @@ feature: Control Panel
 role: Admin
 level: Experienced
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-TQID: https://experienceleague.adobe.com/f7M-mQ-WV3CSyDqwopeNfMPSlxdKAXnWOj42ar9c8rA
+TQID: 'https://experienceleague.adobe.com/f7M-mQ-WV3CSyDqwopeNfMPSlxdKAXnWOj42ar9c8rA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
 workflow-type: tm+mt
-source-wordcount: 324
+source-wordcount: '324'
 ht-degree: 100%
-
 ---
-
 # Centro de ayuda {#control-panel-documentation}
 
 >[!CONTEXTUALHELP]
@@ -42,8 +48,8 @@ El Panel de control de Campaign le ayuda a aumentar la eficiencia de su trabajo 
 * Ahora, varias direcciones de correo electrónico pueden recibir correos electrónicos de informes acumulados e informes de errores. [Más información](subdomains-certificates/using/dmarc.md)
 * Se han realizado cambios si existen registros DMARC y BIMI para un subdominio:
 
-   * Los registros DMARC no se pueden eliminar. Si desea eliminar uno, primero debe eliminar el registro BIMI.
-   * Los registros DMARC se pueden editar, pero no se permite bajar la categoría de la directiva a &quot;Ninguno&quot; y su valor porcentual debe ser 100.
+  * Los registros DMARC no se pueden eliminar. Si desea eliminar uno, primero debe eliminar el registro BIMI.
+  * Los registros DMARC se pueden editar, pero no se permite bajar la categoría de la directiva a &quot;Ninguno&quot; y su valor porcentual debe ser 100.
 
 >[!CAUTION]
 >

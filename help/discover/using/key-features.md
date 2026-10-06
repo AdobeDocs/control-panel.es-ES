@@ -7,13 +7,28 @@ feature: Control Panel, Overview
 role: Admin
 level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
-workflow-type: ht
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
+workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 100%
-
 ---
-
 # Funciones principales {#key-features}
 
 El Panel de control le ayuda a aumentar la eficacia de su trabajo como administrador de productos de Adobe Campaign Classic y/o Standard, lo que le permite administrar la configuración y rastrear los usos de cada una de sus instancias. Su intuitiva interfaz le permite supervisar fácilmente el uso de recursos clave, así como realizar tareas administrativas como adición direcciones IP a listas de permitidos, supervisión de almacenamiento SFTP, administración de claves, etc.
@@ -37,12 +52,12 @@ Ventajas principales:
     </td>
     <td>
         <a href="../../sftp/using/about-sftp-management.md"><img alt="condiciones" src="assets/do-not-localize/sftp.png"/></a>
-        <div><a href="../../sftp/using/about-sftp-management.md"><strong>Supervisión de los servidores SFTP</strong></a></div>
+        <div><a href="../../sftp/using/about-sftp-management.md"><strong>Monitorización de los servidores SFTP</strong></a></div>
         <em>Obtenga información sobre cómo administrar los servidores SFTP.</em>
     </td>
     <td>
         <a href="../../subdomains-certificates/using/subdomains-branding.md"><img alt="condiciones" src="assets/do-not-localize/subdomains.png"/></a>
-        <div><a href="../../subdomains-certificates/using/subdomains-branding.md"><strong>Supervisión de los subdominios</strong></a></div>
+        <div><a href="../../subdomains-certificates/using/subdomains-branding.md"><strong>Monitorización de los subdominios</strong></a></div>
         <em>Obtenga información sobre cómo supervisar los subdominios y sus certificados.</em>
     </td>
     <td>
