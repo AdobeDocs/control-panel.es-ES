@@ -6,23 +6,35 @@ role: Admin
 level: Experienced
 hide: true
 exl-id: bb796bef-1a2b-4f2e-848e-ad682c6c7ea0
-TQID: https://experienceleague.adobe.com/sZ7Aa1q9RMGlTbATRYM0AXlUe8vNwlM0Dl4E9LGuu8E
+TQID: 'https://experienceleague.adobe.com/sZ7Aa1q9RMGlTbATRYM0AXlUe8vNwlM0Dl4E9LGuu8E'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 602d1039a9725ad68de0e0a2e558108b67d62e6c
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
 workflow-type: tm+mt
-source-wordcount: 156
+source-wordcount: '156'
 ht-degree: 100%
-
 ---
-
 # Notas de la versión 2019 {#rn-2019}
 
 ## Septiembre de 2019 {#september-2019}
 
-Hemos añadido nuevas funciones para que los usuarios administradores añadan direcciones IP a la lista de permitidos para conectarse a instancias de Campaign v7/v8.Además, los usuarios administradores ahora pueden ver la lista de instancias de Campaign v7/v8 y los requisitos para las actualizaciones de versiones.
+Hemos añadido nuevas funciones para que los usuarios administradores añadan direcciones IP a la lista de permitidos para conectarse a instancias de Campaign v7/v8.
+Además, los usuarios administradores ahora pueden ver la lista de instancias de Campaign v7/v8 y los requisitos para las actualizaciones de versiones.
 
 Para obtener más información, consulte la [documentación especializada](../instances-settings/using/ip-allow-listing-instance-access.md).
 
